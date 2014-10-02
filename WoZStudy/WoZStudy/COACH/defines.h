@@ -1,6 +1,6 @@
 #pragma once
 
-#define NAO_PROMPT
+//#define NAO_PROMPT
 
 #define USER_NAME "Nora"
 

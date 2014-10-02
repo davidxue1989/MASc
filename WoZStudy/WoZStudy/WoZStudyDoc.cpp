@@ -203,10 +203,10 @@ void CWoZStudyDoc::cleanUp() {
 	m_VidCapOverhead.release();
 	m_VidCapScene.release();
 
-	//release the writers (this is needed for the video files to be written and closed)
-	m_VidWrtOverhead.release();
-	m_VidWrtOverheadAnnotated.release();
-	m_VidWrtScene.release();
+	////release the writers (this is needed for the video files to be written and closed) //dxnote: --> not anymore in the newer opencv versions
+	//m_VidWrtOverhead.release();
+	//m_VidWrtOverheadAnnotated.release();
+	//m_VidWrtScene.release();
 	
 	//stop prompting
 	promptDecisionMaker.end();
@@ -317,7 +317,7 @@ DWORD WINAPI CWoZStudyDoc::CameraGrabThread() {
 	}
 
 	vidCap.release();
-	vidWrt.release();
+	//vidWrt.release();
 
 	m_hCameraGrabThread = NULL;
 	return 0;

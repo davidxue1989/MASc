@@ -843,3 +843,27 @@
 
 14-06-16_13-51-25-9747687,	,	Session Start,15
 14-06-16_13-51-26-9748312,	,	current task: SystemPause
+
+
+
+14-10-02_11-36-34-1871437,	,	Session Start,15
+14-10-02_11-36-34-1871437,	,	Session End,15
+
+
+
+14-10-02_11-37-24-1921312,	,	Session Start,16
+14-10-02_11-37-24-1921312,	,	Session End,16
+
+
+
+14-10-02_11-44-36-2353312,	,	Session Start,17
+14-10-02_11-44-36-2353796,	,	current task: SystemPause
+14-10-02_11-44-53-2371046,	,	current task: Intro
+14-10-02_11-45-01-2378796,	,	current task: TurnOnWater
+14-10-02_11-45-04-2381921,	,	Wait2StartPrompt times up
+14-10-02_11-45-04-2382078,	,	task prompt started
+14-10-02_11-45-10-2387937,	,	task prompt ended
+14-10-02_11-45-13-2391062,	,	Wait4User2Start times up
+14-10-02_11-45-14-2391218,	,	AG started
+14-10-02_11-45-16-2393484,	,	current task: AllDone
+14-10-02_11-45-26-2403875,	,	Session End,17
