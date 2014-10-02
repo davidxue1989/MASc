@@ -1,0 +1,18 @@
+{head position x, y, z}
+0.0341
+0.0497
+0.2743
+{head rotation x, y, z, w}
+-1.#IND
+-1.#IND
+-1.#IND
+1.5708
+{eye regions left{ x, y, w, h }, right}
+140
+253
+64
+40
+294
+259
+87
+40
