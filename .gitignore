@@ -30,3 +30,4 @@
 # visual studio files
 *.opensdf
 *.sdf
+*.suo
