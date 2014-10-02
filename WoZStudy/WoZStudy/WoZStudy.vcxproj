@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{35CFDB07-6F65-4919-8B75-022FF3B7FF5B}</ProjectGuid>
+    <RootNamespace>WoZStudy</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(OPENCV_DIR)\build\include;$(KINECTSDK10_DIR)inc;$(FTSDK_DIR)inc;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;C:/SDKs/naoqi-sdk-1.14.5-win32-vs2010/include;C:/SDKs/naoqi-sdk-1.14.5-win32-vs2010/include/alsoap;C:/SDKs/naoqi-sdk-1.14.5-win32-vs2010/include/soap;</IncludePath>
+    <LibraryPath>C:\SDKs\opencv\build2\lib\Debug;$(FTSDK_DIR)Lib\x86;$(KINECTSDK10_DIR)Lib\x86;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib;C:\SDKs\naoqi-sdk-1.14.5-win32-vs2010\lib\</LibraryPath>
+    <SourcePath>$(OPENCV_DIR)\sources\modules\core\src;$(OPENCV_DIR)\sources\modules\imgproc\src;$(OPENCV_DIR)\sources\modules\highgui\src;$(VCInstallDir)atlmfc\src\mfc;$(VCInstallDir)atlmfc\src\mfcm;$(VCInstallDir)atlmfc\src\atl;$(VCInstallDir)crt\src;</SourcePath>
+    <CodeAnalysisRuleSet>NativeRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(OPENCV_DIR)\build\include;$(KINECTSDK10_DIR)inc;$(FTSDK_DIR)inc;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;C:/SDKs/naoqi-sdk-1.14.5-win32-vs2010/include;C:/SDKs/naoqi-sdk-1.14.5-win32-vs2010/include/alsoap;C:/SDKs/naoqi-sdk-1.14.5-win32-vs2010/include/soap;</IncludePath>
+    <LibraryPath>C:\SDKs\opencv\build2\lib\Release;$(FTSDK_DIR)Lib\x86;$(KINECTSDK10_DIR)Lib\x86;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib;C:\SDKs\naoqi-sdk-1.14.5-win32-vs2010\lib\</LibraryPath>
+    <SourcePath>$(OPENCV_DIR)\sources\modules\core\src;$(OPENCV_DIR)\sources\modules\imgproc\src;$(OPENCV_DIR)\sources\modules\highgui\src;$(VCInstallDir)atlmfc\src\mfc;$(VCInstallDir)atlmfc\src\mfcm;$(VCInstallDir)atlmfc\src\atl;$(VCInstallDir)crt\src;</SourcePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\FTwithOpenCV\COACH;..\FTwithOpenCV\NAO;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <EnablePREfast>false</EnablePREfast>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opencv_core$(OPENCV_VER)d.lib;opencv_imgproc$(OPENCV_VER)d.lib;opencv_highgui$(OPENCV_VER)d.lib;FaceTrackLib.lib;Kinect10.lib;alproxies_d.lib;alcommon_d.lib;alsoap_d.lib;rttools_d.lib;althread_d.lib;alvalue_d.lib;tinyxml_d.lib;qi_d.lib;pthreadVCE2.lib;alerror_d.lib;libboost_signals-vc100-mt-gd-1_47.lib;libboost_program_options-vc100-mt-gd-1_47.lib;libboost_filesystem-vc100-mt-gd-1_47.lib;libboost_thread-vc100-mt-gd-1_47.lib;libboost_system-vc100-mt-gd-1_47.lib;libboost_date_time-vc100-mt-gd-1_47.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\FTwithOpenCV\COACH;..\FTwithOpenCV\NAO;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>opencv_core$(OPENCV_VER).lib;opencv_imgproc$(OPENCV_VER).lib;opencv_highgui$(OPENCV_VER).lib;FaceTrackLib.lib;Kinect10.lib;alproxies.lib;alcommon.lib;alsoap.lib;rttools.lib;althread.lib;alvalue.lib;tinyxml.lib;qi.lib;pthreadVCE2.lib;alerror.lib;libboost_signals-vc100-mt-1_47.lib;libboost_program_options-vc100-mt-1_47.lib;libboost_filesystem-vc100-mt-1_47.lib;libboost_thread-vc100-mt-1_47.lib;libboost_system-vc100-mt-1_47.lib;libboost_date_time-vc100-mt-1_47.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\WoZStudy.ico" />
+    <None Include="res\WoZStudy.rc2" />
+    <None Include="res\WoZStudyDoc.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="COACH\defines.h" />
+    <ClInclude Include="COACH\Prompts.h" />
+    <ClInclude Include="COACH\PromptDecisionMaker.h" />
+    <ClInclude Include="COACH\Video_prompts.h" />
+    <ClInclude Include="Detector.h" />
+    <ClInclude Include="Logging.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="NAO\NAO_motion.h" />
+    <ClInclude Include="NAO\NAO_prompts.h" />
+    <ClInclude Include="PromptStateSwitcher.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="ShowImageDlg.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TaskProgress.h" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="WideCharMultiByteConverter.h" />
+    <ClInclude Include="WoZStudy.h" />
+    <ClInclude Include="WoZStudyDoc.h" />
+    <ClInclude Include="WoZStudyView.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="COACH\PromptDecisionMaker.cpp" />
+    <ClCompile Include="COACH\Video_prompts.cpp" />
+    <ClCompile Include="Detector.cpp" />
+    <ClCompile Include="Logging.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="NAO\NAO_prompts.cpp" />
+    <ClCompile Include="PromptStateSwitcher.cpp" />
+    <ClCompile Include="ShowImageDlg.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TaskProgress.cpp" />
+    <ClCompile Include="WoZStudy.cpp" />
+    <ClCompile Include="WoZStudyDoc.cpp" />
+    <ClCompile Include="WoZStudyView.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WoZStudy.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="WoZStudy.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

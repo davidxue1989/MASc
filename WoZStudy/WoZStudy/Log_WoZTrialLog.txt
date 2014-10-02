@@ -1,0 +1,845 @@
+
+
+
+14-05-27_00-06-28-4698453,	,	Session Start,1
+14-05-27_00-06-29-4699109,	,	current task: SystemPause
+14-05-27_00-06-31-4701843,	,	current task: WetYourHands
+14-05-27_00-06-32-4703015,	,	task prompt started
+14-05-27_00-06-37-4707781,	,	current task: SystemPause
+14-05-27_00-06-38-4708406,	,	current task: ImmediatePause
+14-05-27_00-06-40-4711062,	,	current task: ImmediatePause
+14-05-27_00-06-41-4711609,	,	current task: SystemPause
+14-05-27_00-06-49-4719281,	,	current task: RinseYourHands
+14-05-27_00-06-50-4720750,	,	task prompt started
+14-05-27_00-06-54-4724656,	,	task prompt ended
+14-05-27_00-06-57-4727468,	,	task prompt started
+14-05-27_00-07-01-4731453,	,	task prompt ended
+14-05-27_00-07-04-4734531,	,	Wait4User2Start times up
+14-05-27_00-07-04-4734593,	,	CG intervention task started
+14-05-27_00-07-04-4734968,	,	reward started
+14-05-27_00-07-10-4740281,	,	current task: AllDone
+14-05-27_00-07-20-4750906,	,	Session End,1
+
+
+
+14-05-27_00-14-38-5188421,	,	Session Start,2
+14-05-27_00-14-39-5189140,	,	current task: SystemPause
+14-05-27_00-14-59-5209578,	,	current task: Intro
+14-05-27_00-15-04-5214906,	,	current task: TurnOnWater
+14-05-27_00-15-07-5218046,	,	Wait2StartPrompt times up
+14-05-27_00-15-08-5218171,	,	task prompt started
+14-05-27_00-15-12-5222156,	,	task prompt ended
+14-05-27_00-15-15-5225281,	,	Wait4User2Start times up
+14-05-27_00-15-15-5225437,	,	AG started
+14-05-27_00-15-18-5228500,	,	attention detected
+14-05-27_00-15-18-5228718,	,	task prompt started
+14-05-27_00-15-22-5232312,	,	task prompt ended
+14-05-27_00-15-25-5235437,	,	Wait4User2Start times up
+14-05-27_00-15-25-5235515,	,	CG intervention task started
+14-05-27_00-15-28-5238562,	,	CG intervention task end detected
+14-05-27_00-15-28-5238640,	,	Let us continue started
+14-05-27_00-15-31-5242078,	,	Let us continue ended
+14-05-27_00-15-32-5242234,	,	current task: WetYourHands
+14-05-27_00-15-35-5245359,	,	Wait2StartPrompt times up
+14-05-27_00-15-35-5245515,	,	task prompt started
+14-05-27_00-15-39-5249187,	,	task prompt ended
+14-05-27_00-15-42-5252328,	,	Wait4User2Start times up
+14-05-27_00-15-42-5252484,	,	AG started
+14-05-27_00-15-42-5252703,	,	attention detected
+14-05-27_00-15-43-5253562,	,	task prompt started
+14-05-27_00-15-44-5255046,	,	user task start detected
+14-05-27_00-15-47-5258015,	,	user task end detected
+14-05-27_00-15-48-5258093,	,	reward started
+14-05-27_00-15-50-5260593,	,	reward ended
+14-05-27_00-15-50-5260765,	,	current task: GetSomeSoap
+14-05-27_00-15-53-5263890,	,	Wait2StartPrompt times up
+14-05-27_00-15-53-5264062,	,	task prompt started
+14-05-27_00-15-57-5267796,	,	task prompt ended
+14-05-27_00-15-58-5268484,	,	user task start detected
+14-05-27_00-16-00-5270750,	,	user task end detected
+14-05-27_00-16-00-5270828,	,	reward started
+14-05-27_00-16-03-5274031,	,	reward ended
+14-05-27_00-16-04-5274187,	,	current task: ScrubYourHands
+14-05-27_00-16-06-5277015,	,	user task start detected
+14-05-27_00-16-09-5279968,	,	user task end detected
+14-05-27_00-16-09-5280046,	,	reward started
+14-05-27_00-16-12-5282718,	,	reward ended
+14-05-27_00-16-12-5282875,	,	current task: RinseYourHands
+14-05-27_00-16-15-5285984,	,	Wait2StartPrompt times up
+14-05-27_00-16-16-5286187,	,	task prompt started
+14-05-27_00-16-20-5290515,	,	task prompt ended
+14-05-27_00-16-23-5293656,	,	Wait4User2Start times up
+14-05-27_00-16-23-5293828,	,	AG started
+14-05-27_00-16-26-5296546,	,	AG ended
+14-05-27_00-16-26-5297078,	,	attention detected
+14-05-27_00-16-27-5297890,	,	task prompt started
+14-05-27_00-16-31-5301718,	,	task prompt ended
+14-05-27_00-16-33-5303421,	,	user task start detected
+14-05-27_00-16-36-5306609,	,	user task end detected
+14-05-27_00-16-36-5306703,	,	reward started
+14-05-27_00-16-39-5309343,	,	reward ended
+14-05-27_00-16-39-5309500,	,	current task: TurnOffWater
+14-05-27_00-16-42-5312625,	,	Wait2StartPrompt times up
+14-05-27_00-16-42-5312843,	,	task prompt started
+14-05-27_00-16-46-5316687,	,	task prompt ended
+14-05-27_00-16-49-5319812,	,	Wait4User2Start times up
+14-05-27_00-16-49-5320031,	,	AG started
+14-05-27_00-16-52-5322781,	,	AG ended
+14-05-27_00-16-54-5324734,	,	attention detected
+14-05-27_00-16-54-5324828,	,	task prompt started
+14-05-27_00-16-58-5328562,	,	task prompt ended
+14-05-27_00-17-01-5331640,	,	user task start detected
+14-05-27_00-17-02-5332156,	,	user task end detected
+14-05-27_00-17-02-5332265,	,	reward started
+14-05-27_00-17-04-5334906,	,	reward ended
+14-05-27_00-17-04-5335046,	,	current task: DryYourHands
+14-05-27_00-17-08-5338265,	,	Wait2StartPrompt times up
+14-05-27_00-17-08-5338531,	,	task prompt started
+14-05-27_00-17-13-5343250,	,	task prompt ended
+14-05-27_00-17-16-5346375,	,	Wait4User2Start times up
+14-05-27_00-17-16-5346640,	,	AG started
+14-05-27_00-17-19-5349890,	,	AG ended
+14-05-27_00-17-20-5350359,	,	attention detected
+14-05-27_00-17-21-5351687,	,	task prompt started
+14-05-27_00-17-24-5355046,	,	user task start detected
+14-05-27_00-17-28-5359093,	,	Let us continue started
+14-05-27_00-17-32-5362625,	,	Let us continue ended
+14-05-27_00-17-32-5362796,	,	current task: AllDone
+14-05-27_00-17-44-5374656,	,	Session End,2
+
+
+
+14-05-27_15-58-44-5949562,	,	Session Start,3
+14-05-27_15-58-46-5951390,	,	current task: SystemPause
+14-05-27_15-59-04-5969406,	,	current task: Intro
+14-05-27_15-59-12-5977453,	,	current task: TurnOnWater
+14-05-27_15-59-14-5980046,	,	current task: Intro
+14-05-27_15-59-18-5983390,	,	current task: ImmediatePause
+14-05-27_15-59-22-5987375,	,	current task: Intro
+14-05-27_15-59-24-5989265,	,	current task: ImmediatePause
+14-05-27_15-59-24-5990031,	,	current task: TurnOnWater
+14-05-27_15-59-28-5993156,	,	Wait2StartPrompt times up
+14-05-27_15-59-28-5993312,	,	task prompt started
+14-05-27_15-59-30-5995265,	,	current task: ImmediatePause
+14-05-27_16-01-01-6086828,	,	current task: Intro
+14-05-27_16-01-04-6089515,	,	current task: TurnOnWater
+14-05-27_16-01-07-6092687,	,	Wait2StartPrompt times up
+14-05-27_16-01-09-6094968,	,	task prompt started
+
+
+
+14-05-27_16-02-01-6146125,	,	Session Start,3
+14-05-27_16-02-01-6146843,	,	current task: SystemPause
+14-05-27_16-02-03-6149078,	,	current task: Intro
+14-05-27_16-02-11-6156937,	,	current task: TurnOnWater
+14-05-27_16-02-14-6160062,	,	Wait2StartPrompt times up
+14-05-27_16-02-15-6160218,	,	task prompt started
+14-05-27_16-02-21-6166171,	,	task prompt ended
+14-05-27_16-02-24-6169281,	,	Wait4User2Start times up
+14-05-27_16-02-24-6169437,	,	AG started
+14-05-27_16-02-29-6174593,	,	AG ended
+14-05-27_16-02-32-6177718,	,	Wait4User2Look times up
+14-05-27_16-02-32-6177796,	,	AG started
+14-05-27_16-02-37-6182968,	,	AG ended
+14-05-27_16-02-38-6183265,	,	attention detected
+14-05-27_16-02-38-6183343,	,	task prompt started
+14-05-27_16-02-43-6188453,	,	user task start detected
+14-05-27_16-02-49-6194515,	,	user task end detected
+14-05-27_16-02-49-6194625,	,	reward started
+14-05-27_16-02-50-6195546,	,	reward ended
+14-05-27_16-02-50-6195687,	,	current task: WetYourHands
+14-05-27_16-02-53-6198828,	,	Wait2StartPrompt times up
+14-05-27_16-02-53-6198968,	,	task prompt started
+14-05-27_16-03-00-6206078,	,	task prompt ended
+14-05-27_16-03-04-6209203,	,	Wait4User2Start times up
+14-05-27_16-03-04-6209359,	,	AG started
+14-05-27_16-03-06-6212031,	,	attention detected
+14-05-27_16-03-07-6212250,	,	task prompt started
+14-05-27_16-03-14-6219546,	,	task prompt ended
+14-05-27_16-03-16-6221640,	,	user task start detected
+14-05-27_16-03-17-6222640,	,	user task end detected
+14-05-27_16-03-17-6222718,	,	reward started
+14-05-27_16-03-18-6223609,	,	reward ended
+14-05-27_16-03-18-6223750,	,	current task: GetSomeSoap
+14-05-27_16-03-21-6226875,	,	Wait2StartPrompt times up
+14-05-27_16-03-21-6227031,	,	task prompt started
+14-05-27_16-03-29-6234453,	,	task prompt ended
+14-05-27_16-03-32-6237562,	,	Wait4User2Start times up
+14-05-27_16-03-32-6237718,	,	AG started
+14-05-27_16-03-34-6240062,	,	attention detected
+14-05-27_16-03-35-6240296,	,	task prompt started
+14-05-27_16-03-42-6247406,	,	task prompt ended
+14-05-27_16-03-45-6250531,	,	Wait4User2Start times up
+14-05-27_16-03-45-6250609,	,	CG intervention task started
+14-05-27_16-03-47-6252250,	,	CG intervention task end detected
+14-05-27_16-03-47-6252328,	,	Let us continue started
+14-05-27_16-03-52-6258000,	,	Let us continue ended
+14-05-27_16-03-53-6258109,	,	current task: ScrubYourHands
+14-05-27_16-03-56-6261250,	,	Wait2StartPrompt times up
+14-05-27_16-03-56-6261390,	,	task prompt started
+14-05-27_16-04-04-6269953,	,	task prompt ended
+14-05-27_16-04-07-6273031,	,	Wait4User2Start times up
+14-05-27_16-04-08-6273187,	,	AG started
+14-05-27_16-04-13-6278796,	,	AG ended
+14-05-27_16-04-16-6281859,	,	Wait4User2Look times up
+14-05-27_16-04-16-6281937,	,	AG started
+14-05-27_16-04-21-6286312,	,	attention detected
+14-05-27_16-04-21-6286546,	,	task prompt started
+14-05-27_16-04-29-6295031,	,	task prompt ended
+14-05-27_16-04-33-6298109,	,	Wait4User2Start times up
+14-05-27_16-04-33-6298187,	,	CG intervention task started
+14-05-27_16-04-33-6298578,	,	CG intervention task end detected
+14-05-27_16-04-33-6298656,	,	Let us continue started
+14-05-27_16-04-39-6304484,	,	Let us continue ended
+14-05-27_16-04-39-6304625,	,	current task: RinseYourHands
+14-05-27_16-04-42-6307718,	,	Wait2StartPrompt times up
+14-05-27_16-04-42-6307875,	,	task prompt started
+14-05-27_16-04-50-6315281,	,	task prompt ended
+14-05-27_16-04-53-6318343,	,	Wait4User2Start times up
+14-05-27_16-04-53-6318515,	,	AG started
+14-05-27_16-04-53-6318640,	,	current task: ImmediatePause
+14-05-27_16-04-58-6323734,	,	AG started
+14-05-27_16-05-02-6327671,	,	attention detected
+14-05-27_16-05-02-6327984,	,	task prompt started
+14-05-27_16-05-10-6335390,	,	task prompt ended
+14-05-27_16-05-10-6335703,	,	user task start detected
+14-05-27_16-05-15-6340781,	,	user task end detected
+14-05-27_16-05-15-6340859,	,	reward started
+14-05-27_16-05-16-6341828,	,	reward ended
+14-05-27_16-05-16-6341968,	,	current task: TurnOffWater
+14-05-27_16-05-19-6345078,	,	Wait2StartPrompt times up
+14-05-27_16-05-20-6345234,	,	task prompt started
+14-05-27_16-05-26-6351343,	,	user task start detected
+14-05-27_16-05-28-6353671,	,	user task end detected
+14-05-27_16-05-28-6353750,	,	reward started
+14-05-27_16-05-29-6354703,	,	reward ended
+14-05-27_16-05-29-6354859,	,	current task: DryYourHands
+14-05-27_16-05-32-6357968,	,	Wait2StartPrompt times up
+14-05-27_16-05-33-6358140,	,	task prompt started
+14-05-27_16-05-45-6370593,	,	task prompt ended
+14-05-27_16-05-48-6373687,	,	Wait4User2Start times up
+14-05-27_16-05-48-6373859,	,	AG started
+14-05-27_16-05-51-6376640,	,	attention detected
+14-05-27_16-05-51-6376921,	,	task prompt started
+14-05-27_16-06-04-6389218,	,	task prompt ended
+14-05-27_16-06-07-6392296,	,	Wait4User2Start times up
+14-05-27_16-06-07-6392375,	,	CG intervention task started
+
+
+
+14-05-27_16-10-50-6675812,	,	Session Start,3
+14-05-27_16-10-51-6676500,	,	current task: SystemPause
+14-05-27_16-13-04-6809171,	,	current task: Intro
+14-05-27_16-13-12-6817375,	,	current task: TurnOnWater
+14-05-27_16-13-13-6818234,	,	current task: ImmediatePause
+14-05-27_16-13-15-6820609,	,	reward started
+14-05-27_16-13-16-6821531,	,	reward ended
+14-05-27_16-13-16-6821687,	,	current task: WetYourHands
+14-05-27_16-13-19-6824734,	,	task prompt started
+14-05-27_16-13-20-6825984,	,	user task start detected
+14-05-27_16-13-24-6829562,	,	current task: ImmediatePause
+14-05-27_16-13-51-6856375,	,	current task: DryYourHands
+14-05-27_16-13-53-6858296,	,	task prompt started
+14-05-27_16-14-01-6866203,	,	current task: DryYourHands
+14-05-27_16-14-01-6866765,	,	current task: AllDone
+14-05-27_16-14-13-6878875,	,	Session End,3
+
+
+
+14-05-27_16-14-25-6890500,	,	Session Start,4
+14-05-27_16-14-26-6891187,	,	current task: SystemPause
+14-05-27_16-14-30-6895484,	,	current task: Intro
+14-05-27_16-14-33-6898921,	,	current task: ImmediatePause
+14-05-27_16-14-43-6908375,	,	current task: ScrubYourHands
+14-05-27_16-14-44-6909312,	,	task prompt started
+14-05-27_16-14-49-6914625,	,	current task: ImmediatePause
+14-05-27_16-14-51-6916500,	,	current task: RinseYourHands
+14-05-27_16-14-51-6917046,	,	current task: WetYourHands
+14-05-27_16-14-52-6917593,	,	current task: TurnOnWater
+14-05-27_16-14-53-6918531,	,	current task: ImmediatePause
+14-05-27_16-14-54-6919796,	,	task prompt started
+14-05-27_16-15-00-6925875,	,	task prompt ended
+14-05-27_16-15-03-6929000,	,	Wait4User2Start times up
+14-05-27_16-15-04-6929156,	,	AG started
+14-05-27_16-15-06-6931578,	,	current task: ImmediatePause
+14-05-27_16-15-08-6933375,	,	current task: TurnOffWater
+14-05-27_16-15-09-6934718,	,	task prompt started
+14-05-27_16-15-15-6940796,	,	AG started
+14-05-27_16-15-18-6944078,	,	attention detected
+14-05-27_16-15-19-6944390,	,	task prompt started
+14-05-27_16-15-24-6949625,	,	user task start detected
+14-05-27_16-15-25-6950890,	,	user task end detected
+14-05-27_16-15-25-6950953,	,	reward started
+14-05-27_16-15-26-6951890,	,	reward ended
+14-05-27_16-15-26-6952046,	,	current task: DryYourHands
+14-05-27_16-15-28-6953843,	,	current task: ImmediatePause
+14-05-27_16-15-31-6956109,	,	current task: DryYourHands
+14-05-27_16-15-31-6956812,	,	current task: AllDone
+14-05-27_16-15-39-6964625,	,	Session End,4
+
+
+
+14-06-02_16-14-05-7981781,	,	Session Start,5
+14-06-02_16-14-07-7983875,	,	current task: SystemPause
+14-06-02_16-14-11-7987125,	,	current task: EmergencyStop
+14-06-02_16-14-11-7987750,	,	current task: ImmediatePause
+
+
+
+14-06-02_16-16-28-8124265,	,	Session Start,5
+14-06-02_16-16-29-8125203,	,	current task: SystemPause
+14-06-02_16-16-30-8126890,	,	current task: EmergencyStop
+14-06-02_16-16-31-8127656,	,	current task: ImmediatePause
+14-06-02_16-16-40-8136203,	,	current task: TurnOnWater
+14-06-02_16-16-41-8137843,	,	AG started
+14-06-02_16-16-44-8140546,	,	AG ended
+14-06-02_16-16-44-8140671,	,	current task: ImmediatePause
+14-06-02_16-17-03-8159656,	,	current task: SystemPause
+14-06-02_16-17-05-8161734,	,	current task: EmergencyStop
+14-06-02_16-17-18-8174468,	,	current task: TurnOnWater
+14-06-02_16-17-20-8176406,	,	task prompt started
+14-06-02_16-17-23-8179171,	,	current task: SystemPause
+14-06-02_16-17-23-8179968,	,	current task: SystemPause
+14-06-02_16-17-24-8180453,	,	current task: ImmediatePause
+14-06-02_16-17-26-8182156,	,	AG started
+14-06-02_16-17-28-8184453,	,	current task: ImmediatePause
+14-06-02_16-17-32-8188359,	,	AG started
+14-06-02_16-17-34-8190890,	,	current task: EmergencyStop
+
+
+
+14-06-02_22-00-46-8782656,	,	Session Start,5
+14-06-02_22-00-48-8784734,	,	current task: SystemPause
+14-06-02_22-00-49-8785203,	,	current task: EmergencyStop
+14-06-02_22-00-49-8786093,	,	current task: ImmediatePause
+14-06-02_22-00-54-8790531,	,	current task: Intro
+14-06-02_22-01-00-8796250,	,	current task: TurnOnWater
+14-06-02_22-01-03-8799343,	,	Wait2StartPrompt times up
+14-06-02_22-01-03-8799515,	,	task prompt started
+14-06-02_22-01-07-8803093,	,	task prompt ended
+14-06-02_22-01-10-8806250,	,	Wait4User2Start times up
+14-06-02_22-01-10-8806406,	,	AG started
+14-06-02_22-01-13-8809156,	,	AG ended
+14-06-02_22-01-16-8812250,	,	Wait4User2Look times up
+14-06-02_22-01-16-8812328,	,	AG started
+14-06-02_22-01-19-8815203,	,	attention detected
+14-06-02_22-01-24-8820140,	,	task prompt started
+14-06-02_22-01-27-8823875,	,	task prompt ended
+14-06-02_22-01-30-8827000,	,	Wait4User2Start times up
+14-06-02_22-01-30-8827078,	,	CG intervention task started
+14-06-02_22-01-32-8828125,	,	CG intervention task end detected
+14-06-02_22-01-32-8828218,	,	Let us continue started
+14-06-02_22-01-35-8831687,	,	Let us continue ended
+14-06-02_22-01-35-8831890,	,	current task: WetYourHands
+14-06-02_22-01-38-8835031,	,	Wait2StartPrompt times up
+14-06-02_22-01-39-8835203,	,	task prompt started
+14-06-02_22-01-42-8838750,	,	task prompt ended
+14-06-02_22-01-45-8841828,	,	Wait4User2Start times up
+14-06-02_22-01-46-8842812,	,	AG started
+14-06-02_22-01-49-8845453,	,	attention detected
+14-06-02_22-01-52-8848218,	,	task prompt started
+14-06-02_22-01-55-8851656,	,	task prompt ended
+14-06-02_22-01-58-8854531,	,	AG started
+14-06-02_22-02-00-8856171,	,	attention detected
+14-06-02_22-02-01-8857296,	,	task prompt started
+14-06-02_22-02-04-8861078,	,	task prompt ended
+14-06-02_22-02-08-8864218,	,	Wait4User2Start times up
+14-06-02_22-02-08-8864281,	,	CG intervention task started
+14-06-02_22-02-10-8867031,	,	reward started
+14-06-02_22-02-13-8870000,	,	reward ended
+14-06-02_22-02-14-8870156,	,	current task: GetSomeSoap
+14-06-02_22-02-17-8873328,	,	Wait2StartPrompt times up
+14-06-02_22-02-17-8873468,	,	task prompt started
+14-06-02_22-02-21-8877843,	,	task prompt ended
+14-06-02_22-02-24-8880953,	,	Wait4User2Start times up
+14-06-02_22-02-25-8881140,	,	AG started
+14-06-02_22-02-27-8883765,	,	AG ended
+14-06-02_22-02-28-8884718,	,	attention detected
+14-06-02_22-02-28-8884921,	,	task prompt started
+14-06-02_22-02-33-8889250,	,	task prompt ended
+14-06-02_22-02-36-8892359,	,	Wait4User2Start times up
+14-06-02_22-02-36-8892437,	,	CG intervention task started
+14-06-02_22-02-39-8895234,	,	current task: AllDone
+14-06-02_22-02-45-8901531,	,	Session End,5
+
+
+
+14-06-02_23-30-15-4151593,	,	Session Start,6
+14-06-02_23-30-17-4154046,	,	current task: SystemPause
+14-06-02_23-30-17-4154078,	,	current task: EmergencyStop
+14-06-02_23-30-19-4155156,	,	current task: ImmediatePause
+14-06-02_23-30-23-4159140,	,	current task: Intro
+14-06-02_23-30-28-4164515,	,	current task: TurnOnWater
+14-06-02_23-30-31-4167640,	,	Wait2StartPrompt times up
+14-06-02_23-30-31-4167796,	,	task prompt started
+14-06-02_23-30-35-4171546,	,	task prompt ended
+14-06-02_23-30-36-4172406,	,	current task: WetYourHands
+14-06-02_23-30-37-4173421,	,	task prompt started
+14-06-02_23-30-37-4173750,	,	task prompt ended
+14-06-02_23-30-40-4176859,	,	Wait4User2Start times up
+14-06-02_23-30-40-4177015,	,	AG started
+14-06-02_23-30-42-4179062,	,	AG ended
+14-06-02_23-30-45-4181234,	,	task prompt started
+14-06-02_23-30-48-4184828,	,	task prompt ended
+14-06-02_23-30-51-4187953,	,	Wait4User2Start times up
+14-06-02_23-30-52-4188109,	,	AG started
+14-06-02_23-30-54-4190296,	,	current task: GetSomeSoap
+14-06-02_23-30-55-4191781,	,	task prompt started
+14-06-02_23-30-55-4191937,	,	task prompt ended
+14-06-02_23-30-58-4195062,	,	Wait4User2Start times up
+14-06-02_23-30-59-4195218,	,	AG started
+14-06-02_23-31-01-4197250,	,	AG ended
+14-06-02_23-31-02-4198109,	,	current task: ScrubYourHands
+14-06-02_23-31-02-4199062,	,	task prompt started
+14-06-02_23-31-04-4200859,	,	task prompt started
+14-06-02_23-31-09-4205218,	,	current task: GetSomeSoap
+14-06-02_23-31-12-4208343,	,	Wait2StartPrompt times up
+14-06-02_23-31-14-4210703,	,	task prompt started
+14-06-02_23-31-14-4211000,	,	task prompt ended
+14-06-02_23-31-18-4214203,	,	Wait4User2Start times up
+14-06-02_23-31-19-4215375,	,	AG started
+14-06-02_23-31-22-4218500,	,	AG ended
+
+
+
+14-06-02_23-31-27-4223796,	,	Session Start,6
+14-06-02_23-31-28-4224421,	,	current task: SystemPause
+14-06-02_23-31-30-4227062,	,	current task: TurnOnWater
+14-06-02_23-31-31-4228093,	,	task prompt started
+14-06-02_23-31-35-4231750,	,	task prompt ended
+14-06-02_23-31-37-4233765,	,	current task: WetYourHands
+14-06-02_23-31-38-4235015,	,	task prompt started
+14-06-02_23-31-42-4238921,	,	task prompt ended
+14-06-02_23-31-45-4241343,	,	current task: GetSomeSoap
+14-06-02_23-31-46-4242203,	,	task prompt started
+14-06-02_23-31-50-4246125,	,	task prompt ended
+14-06-02_23-31-52-4248843,	,	current task: ScrubYourHands
+14-06-02_23-31-53-4249718,	,	task prompt started
+14-06-02_23-31-59-4255500,	,	task prompt ended
+14-06-02_23-32-02-4258640,	,	Wait4User2Start times up
+14-06-02_23-32-02-4258781,	,	AG started
+14-06-02_23-32-18-4274468,	,	current task: ImmediatePause
+14-06-02_23-32-19-4275812,	,	current task: SystemPause
+14-06-02_23-32-22-4278296,	,	current task: WetYourHands
+14-06-02_23-32-23-4279937,	,	task prompt started
+14-06-02_23-32-25-4281906,	,	attention detected
+14-06-02_23-32-26-4282687,	,	task prompt started
+14-06-02_23-32-29-4285953,	,	task prompt ended
+14-06-02_23-32-31-4287828,	,	task prompt started
+14-06-02_23-32-35-4291421,	,	AG started
+14-06-02_23-32-36-4292828,	,	attention detected
+14-06-02_23-32-37-4293531,	,	task prompt started
+14-06-02_23-32-40-4297046,	,	task prompt ended
+14-06-02_23-32-43-4299875,	,	current task: ImmediatePause
+14-06-02_23-32-44-4300875,	,	current task: EmergencyStop
+14-06-02_23-32-45-4301343,	,	current task: ImmediatePause
+14-06-02_23-32-48-4304781,	,	task prompt started
+14-06-02_23-32-52-4308765,	,	reward started
+14-06-02_23-32-55-4311515,	,	reward ended
+14-06-02_23-32-55-4311656,	,	current task: GetSomeSoap
+14-06-02_23-32-57-4313859,	,	task prompt started
+14-06-02_23-33-01-4317671,	,	task prompt ended
+14-06-02_23-33-03-4319390,	,	user task start detected
+14-06-02_23-33-06-4322375,	,	user task end detected
+14-06-02_23-33-06-4322453,	,	reward started
+14-06-02_23-33-10-4326812,	,	reward ended
+14-06-02_23-33-10-4326968,	,	current task: ScrubYourHands
+14-06-02_23-33-14-4330109,	,	Wait2StartPrompt times up
+14-06-02_23-33-14-4330250,	,	task prompt started
+14-06-02_23-33-16-4332203,	,	current task: RinseYourHands
+14-06-02_23-33-20-4336812,	,	task prompt started
+14-06-02_23-33-21-4337218,	,	task prompt ended
+14-06-02_23-33-24-4340328,	,	Wait4User2Start times up
+14-06-02_23-33-24-4340515,	,	AG started
+14-06-02_23-33-24-4340734,	,	AG ended
+14-06-02_23-33-27-4343843,	,	Wait4User2Look times up
+14-06-02_23-33-27-4343921,	,	AG started
+14-06-02_23-33-27-4344078,	,	AG ended
+14-06-02_23-33-28-4344390,	,	current task: SystemPause
+14-06-02_23-33-30-4346578,	,	current task: ImmediatePause
+14-06-02_23-33-35-4351531,	,	current task: EmergencyStop
+14-06-02_23-33-35-4351968,	,	current task: ImmediatePause
+14-06-02_23-33-37-4353796,	,	AG started
+14-06-02_23-33-39-4355640,	,	attention detected
+14-06-02_23-33-39-4356031,	,	task prompt started
+14-06-02_23-33-43-4359406,	,	task prompt ended
+14-06-02_23-33-45-4361671,	,	current task: TurnOffWater
+14-06-02_23-33-46-4362921,	,	task prompt started
+14-06-02_23-33-50-4366828,	,	task prompt started
+14-06-02_23-33-51-4367515,	,	user task start detected
+14-06-02_23-33-53-4369421,	,	current task: DryYourHands
+14-06-02_23-33-55-4371375,	,	task prompt started
+14-06-02_23-33-59-4376031,	,	task prompt ended
+14-06-02_23-34-00-4376359,	,	current task: SystemPause
+14-06-02_23-34-03-4379250,	,	current task: EmergencyStop
+14-06-02_23-34-03-4379546,	,	current task: ImmediatePause
+14-06-02_23-34-05-4381687,	,	reward started
+14-06-02_23-34-08-4384406,	,	reward ended
+14-06-02_23-34-08-4384546,	,	current task: AllDone
+14-06-02_23-34-15-4391187,	,	Session End,6
+
+
+
+14-06-02_23-38-18-4634625,	,	Session Start,7
+14-06-02_23-38-19-4635265,	,	current task: SystemPause
+14-06-02_23-38-19-4636015,	,	current task: Intro
+14-06-02_23-38-25-4641718,	,	current task: TurnOnWater
+14-06-02_23-38-28-4644859,	,	Wait2StartPrompt times up
+14-06-02_23-38-28-4645000,	,	task prompt started
+14-06-02_23-38-32-4648765,	,	task prompt ended
+14-06-02_23-38-35-4651875,	,	Wait4User2Start times up
+14-06-02_23-38-35-4652031,	,	AG started
+14-06-02_23-38-38-4654765,	,	AG ended
+14-06-02_23-38-41-4657921,	,	Wait4User2Look times up
+14-06-02_23-38-41-4657984,	,	AG started
+14-06-02_23-38-45-4661093,	,	AG ended
+14-06-02_23-38-48-4664218,	,	Wait4User2Look times up
+14-06-02_23-38-48-4664296,	,	CG intervention attention started
+14-06-02_23-38-48-4664609,	,	CG intervention attention end detected
+14-06-02_23-38-48-4664687,	,	task prompt started
+14-06-02_23-38-51-4667578,	,	user task start detected
+14-06-02_23-38-54-4670953,	,	user task end detected
+14-06-02_23-38-54-4671015,	,	reward started
+14-06-02_23-38-57-4673906,	,	reward ended
+14-06-02_23-38-57-4674062,	,	current task: WetYourHands
+14-06-02_23-39-01-4677203,	,	Wait2StartPrompt times up
+14-06-02_23-39-01-4677343,	,	task prompt started
+14-06-02_23-39-03-4679843,	,	user task start detected
+14-06-02_23-39-07-4683750,	,	current task: WetYourHands
+14-06-02_23-39-08-4684453,	,	current task: WetYourHands
+14-06-02_23-39-08-4684921,	,	current task: GetSomeSoap
+14-06-02_23-39-10-4686109,	,	task prompt started
+14-06-02_23-39-14-4690109,	,	task prompt ended
+14-06-02_23-39-16-4692984,	,	current task: ScrubYourHands
+14-06-02_23-39-17-4693906,	,	task prompt started
+14-06-02_23-39-23-4699609,	,	task prompt ended
+14-06-02_23-39-26-4702734,	,	Wait4User2Start times up
+14-06-02_23-39-26-4702890,	,	AG started
+14-06-02_23-39-30-4706250,	,	AG ended
+14-06-02_23-39-30-4706890,	,	current task: RinseYourHands
+14-06-02_23-39-31-4708000,	,	task prompt started
+14-06-02_23-39-33-4709312,	,	task prompt started
+14-06-02_23-39-37-4713843,	,	current task: TurnOffWater
+14-06-02_23-39-40-4716890,	,	task prompt started
+14-06-02_23-39-44-4720625,	,	task prompt ended
+14-06-02_23-39-47-4723750,	,	Wait4User2Start times up
+14-06-02_23-39-47-4723921,	,	AG started
+14-06-02_23-39-48-4724765,	,	current task: EmergencyStop
+14-06-02_23-39-49-4725312,	,	current task: ImmediatePause
+14-06-02_23-39-54-4730234,	,	current task: DryYourHands
+14-06-02_23-39-55-4731343,	,	task prompt started
+14-06-02_23-40-00-4736406,	,	task prompt ended
+14-06-02_23-40-03-4739546,	,	Wait4User2Start times up
+14-06-02_23-40-03-4739703,	,	AG started
+14-06-02_23-40-06-4742437,	,	AG ended
+14-06-02_23-40-09-4745546,	,	Wait4User2Look times up
+14-06-02_23-40-09-4745625,	,	AG started
+14-06-02_23-40-12-4748296,	,	AG ended
+14-06-02_23-40-14-4750093,	,	current task: AllDone
+14-06-02_23-40-20-4756171,	,	Session End,7
+
+
+
+14-06-02_23-49-59-5335484,	,	Session Start,8
+14-06-02_23-50-00-5336203,	,	current task: SystemPause
+14-06-02_23-50-06-5342281,	,	current task: EmergencyStop
+14-06-02_23-50-08-5344156,	,	current task: ImmediatePause
+14-06-02_23-50-11-5347750,	,	current task: Intro
+14-06-02_23-50-16-5353062,	,	current task: TurnOnWater
+14-06-02_23-50-20-5356187,	,	Wait2StartPrompt times up
+14-06-02_23-50-20-5356343,	,	task prompt started
+14-06-02_23-50-24-5360328,	,	task prompt ended
+14-06-02_23-50-26-5362984,	,	current task: WetYourHands
+14-06-02_23-50-27-5364078,	,	AG started
+14-06-02_23-50-30-5366656,	,	task prompt started
+14-06-02_23-50-34-5370328,	,	task prompt ended
+14-06-02_23-50-35-5371578,	,	AG started
+14-06-02_23-50-38-5374250,	,	AG ended
+14-06-02_23-50-41-5377359,	,	Wait4User2Look times up
+14-06-02_23-50-41-5377437,	,	AG started
+14-06-02_23-50-44-5380171,	,	AG ended
+14-06-02_23-50-47-5383312,	,	Wait4User2Look times up
+14-06-02_23-50-47-5383390,	,	CG intervention attention started
+14-06-02_23-53-14-5530343,	,	current task: GetSomeSoap
+14-06-02_23-53-15-5531406,	,	task prompt started
+14-06-02_23-53-19-5535843,	,	task prompt ended
+14-06-02_23-53-22-5538937,	,	Wait4User2Start times up
+14-06-02_23-53-23-5539125,	,	AG started
+14-06-02_23-53-25-5541781,	,	AG ended
+14-06-02_23-53-28-5544875,	,	Wait4User2Look times up
+14-06-02_23-53-28-5544953,	,	AG started
+14-06-02_23-53-31-5547703,	,	AG ended
+14-06-02_23-53-33-5549953,	,	current task: SystemPause
+14-06-03_00-09-32-6508718,	,	current task: SystemPause
+14-06-03_00-09-34-6510203,	,	current task: Intro
+14-06-03_00-09-35-6511281,	,	current task: Intro
+14-06-03_00-09-35-6511828,	,	current task: Intro
+14-06-03_00-09-36-6512375,	,	current task: Intro
+14-06-03_00-09-36-6512937,	,	current task: Intro
+14-06-03_00-09-36-6513093,	,	current task: Intro
+14-06-03_00-09-47-6523625,	,	current task: TurnOnWater
+14-06-03_00-09-50-6526890,	,	Wait2StartPrompt times up
+14-06-03_00-09-51-6527171,	,	task prompt started
+14-06-03_00-09-51-6527562,	,	current task: TurnOnWater
+14-06-03_00-09-54-6530859,	,	Wait2StartPrompt times up
+14-06-03_00-09-55-6531156,	,	task prompt started
+14-06-03_00-09-57-6533968,	,	task prompt ended
+14-06-03_00-09-58-6534921,	,	current task: EmergencyStop
+
+
+
+14-06-03_00-10-05-6541281,	,	Session Start,8
+14-06-03_00-10-05-6541921,	,	current task: SystemPause
+14-06-03_00-10-07-6543296,	,	current task: Intro
+14-06-03_00-10-12-6549078,	,	current task: TurnOnWater
+14-06-03_00-10-16-6552203,	,	Wait2StartPrompt times up
+14-06-03_00-10-16-6552359,	,	task prompt started
+14-06-03_00-10-19-6555953,	,	task prompt ended
+14-06-03_00-10-22-6559078,	,	Wait4User2Start times up
+14-06-03_00-10-23-6559234,	,	AG started
+14-06-03_00-10-25-6561890,	,	AG ended
+14-06-03_00-10-28-6564312,	,	attention detected
+14-06-03_00-10-28-6564406,	,	task prompt started
+14-06-03_00-10-31-6568062,	,	task prompt ended
+14-06-03_00-10-32-6568687,	,	user task start detected
+14-06-03_00-10-34-6570265,	,	user task end detected
+14-06-03_00-10-34-6570343,	,	reward started
+14-06-03_00-10-36-6573062,	,	reward ended
+14-06-03_00-10-37-6573218,	,	current task: WetYourHands
+14-06-03_00-10-40-6576343,	,	Wait2StartPrompt times up
+14-06-03_00-10-40-6576500,	,	task prompt started
+14-06-03_00-10-43-6580093,	,	task prompt ended
+14-06-03_00-10-47-6583218,	,	Wait4User2Start times up
+14-06-03_00-10-47-6583390,	,	AG started
+14-06-03_00-10-50-6586109,	,	AG ended
+14-06-03_00-10-53-6589250,	,	Wait4User2Look times up
+14-06-03_00-10-53-6589328,	,	AG started
+14-06-03_00-10-55-6592046,	,	AG ended
+14-06-03_00-10-58-6594312,	,	attention detected
+14-06-03_00-10-58-6594390,	,	task prompt started
+14-06-03_00-11-00-6596968,	,	user task start detected
+14-06-03_00-11-02-6598687,	,	user task end detected
+14-06-03_00-11-02-6598765,	,	reward started
+14-06-03_00-11-05-6601437,	,	reward ended
+14-06-03_00-11-05-6601578,	,	current task: GetSomeSoap
+14-06-03_00-11-08-6604656,	,	Wait2StartPrompt times up
+14-06-03_00-11-08-6604796,	,	task prompt started
+14-06-03_00-11-12-6608609,	,	task prompt ended
+14-06-03_00-11-14-6610656,	,	user task start detected
+14-06-03_00-11-15-6611343,	,	user task end detected
+14-06-03_00-11-15-6611421,	,	reward started
+14-06-03_00-11-17-6614015,	,	reward ended
+14-06-03_00-11-18-6614171,	,	current task: ScrubYourHands
+14-06-03_00-11-21-6617281,	,	Wait2StartPrompt times up
+14-06-03_00-11-21-6617437,	,	task prompt started
+14-06-03_00-11-27-6623250,	,	task prompt ended
+14-06-03_00-11-30-6626343,	,	Wait4User2Start times up
+14-06-03_00-11-30-6626500,	,	AG started
+14-06-03_00-11-32-6628843,	,	attention detected
+14-06-03_00-11-33-6629156,	,	task prompt started
+14-06-03_00-11-38-6634859,	,	task prompt ended
+14-06-03_00-11-41-6637984,	,	current task: RinseYourHands
+14-06-03_00-11-43-6639234,	,	task prompt started
+14-06-03_00-11-46-6642984,	,	current task: DryYourHands
+14-06-03_00-11-48-6644234,	,	user task start detected
+14-06-03_00-11-49-6645718,	,	task prompt started
+14-06-03_00-11-54-6650500,	,	task prompt ended
+14-06-03_00-11-57-6653609,	,	Wait4User2Start times up
+14-06-03_00-12-04-6661031,	,	reward started
+14-06-03_00-12-07-6663687,	,	reward ended
+14-06-03_00-12-07-6663843,	,	current task: AllDone
+14-06-03_00-12-08-6664625,	,	Session End,8
+
+
+
+14-06-16_12-50-56-6118859,	,	Session Start,9
+14-06-16_12-51-01-6124015,	,	current task: SystemPause
+14-06-16_12-51-01-6124062,	,	current task: Intro
+14-06-16_12-51-07-6129875,	,	current task: TurnOnWater
+14-06-16_12-51-10-6132984,	,	Wait2StartPrompt times up
+14-06-16_12-51-11-6133156,	,	task prompt started
+14-06-16_12-51-14-6137078,	,	task prompt ended
+14-06-16_12-51-18-6140171,	,	user task start detected
+14-06-16_12-51-18-6141046,	,	user task end detected
+14-06-16_12-51-19-6141125,	,	reward started
+14-06-16_12-51-21-6143687,	,	reward ended
+14-06-16_12-51-21-6143859,	,	current task: WetYourHands
+14-06-16_12-51-24-6146984,	,	Wait2StartPrompt times up
+14-06-16_12-51-25-6147140,	,	task prompt started
+14-06-16_12-51-30-6152125,	,	task prompt ended
+14-06-16_12-51-33-6155250,	,	Wait4User2Start times up
+14-06-16_12-51-33-6155406,	,	AG started
+14-06-16_12-51-35-6158062,	,	attention detected
+14-06-16_12-51-36-6158218,	,	task prompt started
+14-06-16_12-51-39-6161671,	,	task prompt ended
+14-06-16_12-51-42-6164781,	,	Wait4User2Start times up
+14-06-16_12-51-42-6164859,	,	CG intervention task started
+14-06-16_12-51-44-6167062,	,	CG intervention task end detected
+14-06-16_12-51-45-6167125,	,	Let us continue started
+14-06-16_12-51-48-6170718,	,	Let us continue ended
+14-06-16_12-51-48-6170890,	,	current task: GetSomeSoap
+14-06-16_12-51-50-6172531,	,	current task: AllDone
+14-06-16_12-51-57-6179187,	,	Session End,9
+
+
+
+14-06-16_12-52-17-6199312,	,	Session Start,10
+14-06-16_12-52-17-6199984,	,	current task: SystemPause
+14-06-16_12-52-18-6200687,	,	current task: Intro
+14-06-16_12-52-20-6203078,	,	current task: SystemPause
+14-06-16_12-52-21-6204015,	,	current task: ImmediatePause
+14-06-16_12-52-24-6206515,	,	current task: EmergencyStop
+14-06-16_12-52-36-6218390,	,	Session End,10
+
+
+
+14-06-16_13-08-43-7185890,	,	Session Start,11
+14-06-16_13-08-44-7186546,	,	current task: SystemPause
+14-06-16_13-11-22-7344328,	,	current task: Intro
+14-06-16_13-11-27-7349640,	,	current task: TurnOnWater
+14-06-16_13-11-29-7351828,	,	current task: ImmediatePause
+
+
+
+14-06-16_13-12-01-7383281,	,	Session Start,11
+14-06-16_13-12-01-7383937,	,	current task: SystemPause
+14-06-16_13-12-31-7413359,	,	current task: Intro
+14-06-16_13-12-32-7414281,	,	current task: TurnOnWater
+14-06-16_13-12-32-7415000,	,	current task: ImmediatePause
+14-06-16_13-12-36-7418500,	,	current task: SystemPause
+14-06-16_13-12-37-7419984,	,	current task: ImmediatePause
+14-06-16_13-12-38-7421015,	,	current task: Intro
+14-06-16_13-12-44-7426406,	,	current task: TurnOnWater
+14-06-16_13-12-45-7427796,	,	task prompt started
+14-06-16_13-12-49-7431796,	,	task prompt ended
+14-06-16_13-12-49-7431859,	,	current task: ImmediatePause
+14-06-16_13-12-52-7434437,	,	current task: SystemPause
+14-06-16_13-15-12-7575000,	,	current task: SystemPause
+14-06-16_13-15-13-7575843,	,	current task: EmergencyStop
+14-06-16_13-15-15-7577343,	,	Session End,11
+
+
+
+14-06-16_13-24-00-8102875,	,	Session Start,12
+
+
+
+14-06-16_13-25-10-8172156,	,	Session Start,12
+
+
+
+14-06-16_13-25-54-8216937,	,	Session Start,12
+14-06-16_13-25-55-8217562,	,	current task: SystemPause
+
+
+
+14-06-16_13-30-27-8489484,	,	Session Start,12
+
+
+
+14-06-16_13-32-18-8600593,	,	Session Start,12
+
+
+
+14-06-16_13-33-38-8680171,	,	Session Start,12
+14-06-16_13-33-40-8682296,	,	current task: SystemPause
+14-06-16_13-33-58-8700484,	,	current task: Intro
+14-06-16_13-34-02-8704625,	,	current task: ImmediatePause
+14-06-16_13-34-02-8704765,	,	current task: ImmediatePause
+14-06-16_13-34-30-8732187,	,	current task: Intro
+14-06-16_13-34-35-8738046,	,	current task: TurnOnWater
+14-06-16_13-34-39-8742031,	,	task prompt started
+14-06-16_13-34-43-8745781,	,	task prompt ended
+14-06-16_13-34-44-8746484,	,	user task start detected
+14-06-16_13-34-45-8747343,	,	user task end detected
+14-06-16_13-34-45-8747421,	,	reward started
+14-06-16_13-34-48-8750406,	,	reward ended
+14-06-16_13-34-48-8750546,	,	current task: WetYourHands
+14-06-16_13-34-49-8751640,	,	task prompt started
+14-06-16_13-34-53-8755625,	,	user task start detected
+14-06-16_13-34-55-8758046,	,	user task end detected
+14-06-16_13-34-56-8758156,	,	reward started
+14-06-16_13-34-58-8760937,	,	reward ended
+14-06-16_13-34-59-8761125,	,	current task: GetSomeSoap
+14-06-16_13-35-01-8763531,	,	current task: ImmediatePause
+14-06-16_13-35-03-8765312,	,	task prompt started
+14-06-16_13-35-07-8769531,	,	user task start detected
+14-06-16_13-35-08-8770781,	,	reward started
+14-06-16_13-35-10-8772906,	,	current task: ScrubYourHands
+14-06-16_13-35-11-8773906,	,	task prompt started
+14-06-16_13-35-19-8781718,	,	current task: ImmediatePause
+14-06-16_13-35-20-8782343,	,	current task: SystemPause
+14-06-16_13-35-20-8782968,	,	current task: ImmediatePause
+14-06-16_13-35-22-8784453,	,	current task: RinseYourHands
+14-06-16_13-35-23-8786015,	,	current task: TurnOffWater
+14-06-16_13-35-24-8786875,	,	task prompt started
+14-06-16_13-35-28-8790390,	,	task prompt ended
+14-06-16_13-35-28-8791015,	,	user task start detected
+14-06-16_13-35-29-8791875,	,	user task end detected
+14-06-16_13-35-29-8791953,	,	reward started
+14-06-16_13-35-31-8793906,	,	current task: DryYourHands
+14-06-16_13-35-32-8794703,	,	user task start detected
+14-06-16_13-35-33-8795937,	,	user task end detected
+14-06-16_13-35-33-8796015,	,	reward started
+14-06-16_13-35-36-8799015,	,	task prompt started
+14-06-16_13-35-37-8799609,	,	current task: DryYourHands
+14-06-16_13-35-40-8802750,	,	Wait2StartPrompt times up
+14-06-16_13-35-41-8803593,	,	current task: AllDone
+14-06-16_13-35-46-8808515,	,	Session End,12
+
+
+
+14-06-16_13-36-25-8847906,	,	Session Start,13
+14-06-16_13-36-26-8848531,	,	current task: SystemPause
+14-06-16_13-36-29-8851390,	,	current task: WetYourHands
+14-06-16_13-36-31-8853984,	,	task prompt started
+14-06-16_13-36-33-8856000,	,	current task: ImmediatePause
+14-06-16_13-36-38-8860843,	,	task prompt started
+14-06-16_13-36-42-8864515,	,	task prompt ended
+14-06-16_13-36-42-8864671,	,	user task start detected
+14-06-16_13-36-43-8865218,	,	user task end detected
+14-06-16_13-36-43-8865843,	,	reward started
+14-06-16_13-36-46-8868812,	,	reward ended
+14-06-16_13-36-46-8868984,	,	current task: GetSomeSoap
+14-06-16_13-36-47-8869937,	,	task prompt started
+14-06-16_13-36-52-8874750,	,	reward started
+14-06-16_13-36-55-8877562,	,	reward ended
+14-06-16_13-36-55-8877718,	,	current task: ScrubYourHands
+14-06-16_13-36-57-8879515,	,	task prompt started
+14-06-16_13-37-03-8885140,	,	reward started
+14-06-16_13-37-05-8887890,	,	reward ended
+14-06-16_13-37-05-8888046,	,	current task: RinseYourHands
+14-06-16_13-37-06-8888593,	,	task prompt started
+14-06-16_13-37-09-8892015,	,	user task start detected
+14-06-16_13-37-10-8892875,	,	user task end detected
+14-06-16_13-37-10-8892953,	,	reward started
+14-06-16_13-37-13-8895921,	,	reward ended
+14-06-16_13-37-13-8896078,	,	current task: TurnOffWater
+14-06-16_13-37-14-8896781,	,	task prompt started
+14-06-16_13-37-18-8900375,	,	task prompt ended
+14-06-16_13-37-19-8901718,	,	current task: DryYourHands
+14-06-16_13-37-20-8902640,	,	user task start detected
+14-06-16_13-37-22-8904140,	,	task prompt started
+14-06-16_13-37-26-8908843,	,	task prompt ended
+14-06-16_13-37-27-8910000,	,	current task: AllDone
+14-06-16_13-37-33-8916000,	,	Session End,13
+
+
+
+14-06-16_13-50-07-9669500,	,	Session Start,14
+14-06-16_13-50-09-9671765,	,	current task: SystemPause
+14-06-16_13-50-14-9676765,	,	current task: AllDone
+14-06-16_13-50-18-9680593,	,	current task: SystemPause
+14-06-16_13-50-28-9690515,	,	current task: AllDone
+14-06-16_13-50-31-9693390,	,	current task: EmergencyStop
+14-06-16_13-50-37-9699562,	,	current task: ImmediatePause
+14-06-16_13-50-40-9702765,	,	current task: AllDone
+14-06-16_13-50-43-9705828,	,	current task: EmergencyStop
+14-06-16_13-50-46-9709031,	,	current task: ImmediatePause
+14-06-16_13-51-11-9733468,	,	current task: AllDone
+14-06-16_13-51-18-9740656,	,	Session End,14
+
+
+
+14-06-16_13-51-25-9747687,	,	Session Start,15
+14-06-16_13-51-26-9748312,	,	current task: SystemPause

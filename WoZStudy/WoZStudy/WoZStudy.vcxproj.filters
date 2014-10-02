@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="COACH">
+      <UniqueIdentifier>{cd2c4e18-6888-40ee-ba2d-eab77f024b7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Detectors">
+      <UniqueIdentifier>{90404396-4d92-48b8-a592-5a2287a05e3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NAO">
+      <UniqueIdentifier>{66223906-7ca4-47c6-974f-8b88e5ed2551}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\WoZStudy.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\WoZStudyDoc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\WoZStudy.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WoZStudy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WoZStudyDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WoZStudyView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Logging.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="COACH\PromptDecisionMaker.h">
+      <Filter>COACH</Filter>
+    </ClInclude>
+    <ClInclude Include="Detector.h">
+      <Filter>Detectors</Filter>
+    </ClInclude>
+    <ClInclude Include="NAO\NAO_motion.h">
+      <Filter>NAO</Filter>
+    </ClInclude>
+    <ClInclude Include="NAO\NAO_prompts.h">
+      <Filter>NAO</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskProgress.h">
+      <Filter>Detectors</Filter>
+    </ClInclude>
+    <ClInclude Include="COACH\Video_prompts.h">
+      <Filter>COACH</Filter>
+    </ClInclude>
+    <ClInclude Include="COACH\Prompts.h">
+      <Filter>COACH</Filter>
+    </ClInclude>
+    <ClInclude Include="ShowImageDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WideCharMultiByteConverter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PromptStateSwitcher.h">
+      <Filter>Detectors</Filter>
+    </ClInclude>
+    <ClInclude Include="COACH\defines.h">
+      <Filter>COACH</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WoZStudy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WoZStudyDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WoZStudyView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Logging.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="COACH\PromptDecisionMaker.cpp">
+      <Filter>COACH</Filter>
+    </ClCompile>
+    <ClCompile Include="Detector.cpp">
+      <Filter>Detectors</Filter>
+    </ClCompile>
+    <ClCompile Include="NAO\NAO_prompts.cpp">
+      <Filter>NAO</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskProgress.cpp">
+      <Filter>Detectors</Filter>
+    </ClCompile>
+    <ClCompile Include="COACH\Video_prompts.cpp">
+      <Filter>COACH</Filter>
+    </ClCompile>
+    <ClCompile Include="ShowImageDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PromptStateSwitcher.cpp">
+      <Filter>Detectors</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WoZStudy.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
