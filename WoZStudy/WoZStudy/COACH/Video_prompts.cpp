@@ -116,35 +116,40 @@ bool Video_prompts::playVerbal(std::wstring filename) {
 }
 
 bool Video_prompts::playVideo(std::wstring filename) {
-	MCIERROR rs;
-	//open
-	rs = mciSendString((L"open \"..\\avatar_prompts\\" + filename + L".avi\" type MPEGVideo alias myVideo style popup").c_str(), NULL, 0, 0);
-	if (rs != 0) {
-		wchar_t bf[128];
-		mciGetErrorString(rs, bf, 128);
-		ASSERT(FALSE);
-		return false;
-	}
 
-	//fits
-	CString str;
-	str.Format(L"put %s window at %d 0 %d %d", videoAlias, FIRSTMONITORWIDTH, SECONDMONITORWIDTH, SECONDMONITORHEIGHT);
-	rs = mciSendString(str.GetString(), NULL, 0, 0);
-	if (rs != 0) {
-		wchar_t bf[128];
-		mciGetErrorString(rs, bf, 128);
-		ASSERT(FALSE);
-		return false;
-	}
+	PlaybackDlg playDlg;
+	playDlg.Play(L"..\\avatar_prompts\\" + filename + L".avi");
 
-	//play
-	rs = mciSendString(L"play myVideo", NULL, 0, 0);
-	if (rs != 0) {
-		wchar_t bf[128];
-		mciGetErrorString(rs, bf, 128);
-		ASSERT(FALSE);
-		return false;
-	}
+
+	//MCIERROR rs;
+	////open
+	//rs = mciSendString((L"open \"..\\avatar_prompts\\" + filename + L".avi\" type MPEGVideo alias myVideo style popup").c_str(), NULL, 0, 0);
+	//if (rs != 0) {
+	//	wchar_t bf[128];
+	//	mciGetErrorString(rs, bf, 128);
+	//	ASSERT(FALSE);
+	//	return false;
+	//}
+
+	////fits
+	//CString str;
+	//str.Format(L"put %s window at %d 0 %d %d", videoAlias, FIRSTMONITORWIDTH, SECONDMONITORWIDTH, SECONDMONITORHEIGHT);
+	//rs = mciSendString(str.GetString(), NULL, 0, 0);
+	//if (rs != 0) {
+	//	wchar_t bf[128];
+	//	mciGetErrorString(rs, bf, 128);
+	//	ASSERT(FALSE);
+	//	return false;
+	//}
+
+	////play
+	//rs = mciSendString(L"play myVideo", NULL, 0, 0);
+	//if (rs != 0) {
+	//	wchar_t bf[128];
+	//	mciGetErrorString(rs, bf, 128);
+	//	ASSERT(FALSE);
+	//	return false;
+	//}
 
 	return true;
 }

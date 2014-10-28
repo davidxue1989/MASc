@@ -12,6 +12,7 @@
 #include "WoZStudyView.h"
 #include "COACH\defines.h"
 
+
 #ifdef _DEBUG
 #define new DEBUG_NEW
 #endif
@@ -24,6 +25,25 @@ BEGIN_MESSAGE_MAP(CWoZStudyApp, CWinApp)
 	// Standard file based document commands
 	ON_COMMAND(ID_FILE_NEW, &CWinApp::OnFileNew)
 	ON_COMMAND(ID_FILE_OPEN, &CWinApp::OnFileOpen)
+
+
+	ON_COMMAND(ID_COACH_TASK0, &OnBnClickedButtonIntro)
+	ON_COMMAND(ID_COACH_TASK1, &OnBnClickedButtonTurnonwater)
+	ON_COMMAND(ID_COACH_TASK2, &OnBnClickedButtonWethands)
+	ON_COMMAND(ID_COACH_TASK3, &OnBnClickedButtonSqueezeoutsoap)
+	ON_COMMAND(ID_COACH_TASK4, &OnBnClickedButtonScrubhands)
+	ON_COMMAND(ID_COACH_TASK5, &OnBnClickedButtonRinsehands)
+	ON_COMMAND(ID_COACH_TASK6, &OnBnClickedButtonTurnoffwater)
+	ON_COMMAND(ID_COACH_TASK7, &OnBnClickedButtonDryhands)
+	ON_COMMAND(ID_COACH_TASK8, &OnBnClickedButtonAlldone)
+
+	ON_COMMAND(ID_COACH_ACTION1, &OnBnClickedButtonFirstag)
+	ON_COMMAND(ID_COACH_ACTION2, &OnBnClickedButtonReward)
+	ON_COMMAND(ID_COACH_ACTION3, &OnBnClickedButtonLetuscontinue)
+
+	ON_COMMAND(ID_COACH_TASK_DELETE, &OnBnClickedButtonDelete)
+	ON_COMMAND(ID_COACH_STOP, &OnBnClickedButtonStop)
+
 END_MESSAGE_MAP()
 
 
@@ -49,6 +69,8 @@ CWoZStudyApp theApp;
 BOOL CWoZStudyApp::InitInstance()
 {
 	CWinApp::InitInstance();
+
+	m_haccel = LoadAccelerators(AfxGetInstanceHandle(), MAKEINTRESOURCE(IDR_MAINFRAME));
 
 
 	EnableTaskbarInteraction(FALSE);
@@ -99,8 +121,158 @@ BOOL CWoZStudyApp::InitInstance()
 	m_pMainWnd->UpdateWindow();
 	// call DragAcceptFiles only if there's a suffix
 	//  In an SDI app, this should occur after ProcessShellCommand
+
+
+	//m_haccel = LoadAccelerators(AfxGetResourceHandle(), MAKEINTRESOURCE(IDR_ACCELERATOR_COACH));
+	
+
 	return TRUE;
 }
+
+BOOL CWoZStudyApp::ProcessMessageFilter(int code, LPMSG lpMsg)
+{
+	if (m_haccel)
+	{
+		if (::TranslateAccelerator(m_pMainWnd->m_hWnd, m_haccel, lpMsg))
+			return(TRUE);
+	}
+
+	return CWinApp::ProcessMessageFilter(code, lpMsg);
+}
+
+CDocument * CWoZStudyApp::getDoc() {
+	CDocument* pDoc = NULL;
+
+	CWnd* pWndMain = AfxGetMainWnd();
+	ASSERT(pWndMain);
+	ASSERT(pWndMain->IsKindOf(RUNTIME_CLASS(CFrameWnd)) &&
+		!pWndMain->IsKindOf(RUNTIME_CLASS(CMDIFrameWnd))); // Not an SDI app.
+
+	pDoc = ((CFrameWnd*) pWndMain)->GetActiveDocument();
+	return pDoc;
+}
+
+void CWoZStudyApp::OnBnClickedButtonIntro()
+{
+	//((CWoZStudyDoc *)getDoc())->promptDecisionMaker.taskProgress->OnBnClickedButtonIntro();
+	((CWoZStudyDoc *) getDoc())->promptDecisionMaker.promptQueue.push_back(PromptDecisionMaker::PROMPTS::Intro1);
+	((CWoZStudyDoc *) getDoc())->prompt_queue_dlg.updateDisplay(((CWoZStudyDoc *) getDoc())->promptDecisionMaker.getPromptQueueString());
+}
+
+
+void CWoZStudyApp::OnBnClickedButtonTurnonwater()
+{
+	//((CWoZStudyDoc *) getDoc())->promptDecisionMaker.taskProgress->OnBnClickedButtonTurnonwater();
+	((CWoZStudyDoc *) getDoc())->promptDecisionMaker.promptQueue.push_back(PromptDecisionMaker::PROMPTS::TurnOnWater1);
+	((CWoZStudyDoc *) getDoc())->prompt_queue_dlg.updateDisplay(((CWoZStudyDoc *) getDoc())->promptDecisionMaker.getPromptQueueString());
+}
+
+
+void CWoZStudyApp::OnBnClickedButtonWethands()
+{
+	//((CWoZStudyDoc *) getDoc())->promptDecisionMaker.taskProgress->OnBnClickedButtonWethands();
+	((CWoZStudyDoc *) getDoc())->promptDecisionMaker.promptQueue.push_back(PromptDecisionMaker::PROMPTS::WetYourHands1);
+	((CWoZStudyDoc *) getDoc())->prompt_queue_dlg.updateDisplay(((CWoZStudyDoc *) getDoc())->promptDecisionMaker.getPromptQueueString());
+}
+
+
+void CWoZStudyApp::OnBnClickedButtonSqueezeoutsoap()
+{
+	//((CWoZStudyDoc *) getDoc())->promptDecisionMaker.taskProgress->OnBnClickedButtonSqueezeoutsoap();
+	((CWoZStudyDoc *) getDoc())->promptDecisionMaker.promptQueue.push_back(PromptDecisionMaker::PROMPTS::GetSomeSoap1);
+	((CWoZStudyDoc *) getDoc())->prompt_queue_dlg.updateDisplay(((CWoZStudyDoc *) getDoc())->promptDecisionMaker.getPromptQueueString());
+}
+
+
+void CWoZStudyApp::OnBnClickedButtonScrubhands()
+{
+	//((CWoZStudyDoc *) getDoc())->promptDecisionMaker.taskProgress->OnBnClickedButtonScrubhands();
+	((CWoZStudyDoc *) getDoc())->promptDecisionMaker.promptQueue.push_back(PromptDecisionMaker::PROMPTS::ScrubYourHands1);
+	((CWoZStudyDoc *) getDoc())->prompt_queue_dlg.updateDisplay(((CWoZStudyDoc *) getDoc())->promptDecisionMaker.getPromptQueueString());
+}
+
+
+void CWoZStudyApp::OnBnClickedButtonRinsehands()
+{
+	//((CWoZStudyDoc *) getDoc())->promptDecisionMaker.taskProgress->OnBnClickedButtonRinsehands();
+	((CWoZStudyDoc *) getDoc())->promptDecisionMaker.promptQueue.push_back(PromptDecisionMaker::PROMPTS::RinseYourHands1);
+	((CWoZStudyDoc *) getDoc())->prompt_queue_dlg.updateDisplay(((CWoZStudyDoc *) getDoc())->promptDecisionMaker.getPromptQueueString());
+}
+
+
+void CWoZStudyApp::OnBnClickedButtonTurnoffwater()
+{
+	//((CWoZStudyDoc *) getDoc())->promptDecisionMaker.taskProgress->OnBnClickedButtonTurnoffwater();
+	((CWoZStudyDoc *) getDoc())->promptDecisionMaker.promptQueue.push_back(PromptDecisionMaker::PROMPTS::TurnOffWater1);
+	((CWoZStudyDoc *) getDoc())->prompt_queue_dlg.updateDisplay(((CWoZStudyDoc *) getDoc())->promptDecisionMaker.getPromptQueueString());
+}
+
+
+void CWoZStudyApp::OnBnClickedButtonDryhands()
+{
+	//((CWoZStudyDoc *) getDoc())->promptDecisionMaker.taskProgress->OnBnClickedButtonDryhands();
+	((CWoZStudyDoc *) getDoc())->promptDecisionMaker.promptQueue.push_back(PromptDecisionMaker::PROMPTS::DryYourHands1);
+	((CWoZStudyDoc *) getDoc())->prompt_queue_dlg.updateDisplay(((CWoZStudyDoc *) getDoc())->promptDecisionMaker.getPromptQueueString());
+}
+
+
+void CWoZStudyApp::OnBnClickedButtonAlldone()
+{
+	//((CWoZStudyDoc *) getDoc())->promptDecisionMaker.taskProgress->OnBnClickedButtonAlldone();
+	((CWoZStudyDoc *) getDoc())->promptDecisionMaker.promptQueue.push_back(PromptDecisionMaker::PROMPTS::AllDone1);
+	((CWoZStudyDoc *) getDoc())->prompt_queue_dlg.updateDisplay(((CWoZStudyDoc *) getDoc())->promptDecisionMaker.getPromptQueueString());
+}
+
+
+void CWoZStudyApp::OnBnClickedButtonFirstag()
+{
+	//((CWoZStudyDoc *) getDoc())->promptDecisionMaker.promptStateSwitcher->OnBnClickedButtonFirstag();
+	((CWoZStudyDoc *) getDoc())->promptDecisionMaker.promptQueue.push_back(PromptDecisionMaker::PROMPTS::AttentionGrabber1);
+	((CWoZStudyDoc *) getDoc())->prompt_queue_dlg.updateDisplay(((CWoZStudyDoc *) getDoc())->promptDecisionMaker.getPromptQueueString());
+}
+
+
+void CWoZStudyApp::OnBnClickedButtonReward()
+{
+	//((CWoZStudyDoc *) getDoc())->promptDecisionMaker.promptStateSwitcher->OnBnClickedButtonReward();
+	((CWoZStudyDoc *) getDoc())->promptDecisionMaker.promptQueue.push_back(PromptDecisionMaker::PROMPTS::Reward1);
+	((CWoZStudyDoc *) getDoc())->prompt_queue_dlg.updateDisplay(((CWoZStudyDoc *) getDoc())->promptDecisionMaker.getPromptQueueString());
+}
+
+
+void CWoZStudyApp::OnBnClickedButtonLetuscontinue()
+{
+	//((CWoZStudyDoc *) getDoc())->promptDecisionMaker.promptStateSwitcher->OnBnClickedButtonLetuscontinue();
+	((CWoZStudyDoc *) getDoc())->promptDecisionMaker.promptQueue.push_back(PromptDecisionMaker::PROMPTS::LetUsContinue1);
+	((CWoZStudyDoc *) getDoc())->prompt_queue_dlg.updateDisplay(((CWoZStudyDoc *) getDoc())->promptDecisionMaker.getPromptQueueString());
+}
+
+void CWoZStudyApp::OnBnClickedButtonDelete() {
+	CWoZStudyDoc *pDoc = (CWoZStudyDoc *) getDoc();
+	if (!pDoc->promptDecisionMaker.promptQueue.empty()) {
+		pDoc->promptDecisionMaker.promptQueue.pop_back();
+		pDoc->prompt_queue_dlg.updateDisplay(pDoc->promptDecisionMaker.getPromptQueueString());
+	}
+	else if (pDoc->promptDecisionMaker.pPrompts->isPrompting()) {
+		pDoc->promptDecisionMaker.pPrompts->takeRest();
+		pDoc->promptDecisionMaker.rested = true;
+	}
+}
+
+void CWoZStudyApp::OnBnClickedButtonStop() {
+
+}
+
+//BOOL CWoZStudyApp::PreTranslateMessage(MSG* pMsg) {
+//	if (m_haccel) {
+//		if (::TranslateAccelerator(*AfxGetMainWnd(), m_haccel, pMsg)) {
+//			return(TRUE);
+//		}
+//	}
+//	return  __super::PreTranslateMessage(pMsg);
+//
+//}
+
 
 // CWoZStudyApp message handlers
 

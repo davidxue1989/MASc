@@ -45,8 +45,6 @@ END_MESSAGE_MAP()
 
 // TaskProgress message handlers
 
-
-
 void TaskProgress::start() {
 	CButton* pButton = (CButton*) GetDlgItem(IDC_BUTTON_SYSTEMPAUSE);
 	pButton->SetCheck(true);

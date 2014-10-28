@@ -10,6 +10,8 @@
 #include <opencv2/highgui/highgui.hpp>
 using namespace cv;
 
+#include "../PlaybackDlg.h"
+
 class Video_prompts :
 	public Prompts
 {

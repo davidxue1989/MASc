@@ -119,11 +119,11 @@ void CWoZStudyView::grabFrames() {
 
 void CWoZStudyView::saveVideos() {
 
-	pDoc->m_VidWrtOverhead.write(m_OverheadImage);
+	//pDoc->m_VidWrtOverhead.write(m_OverheadImage);
 
-	pDoc->m_VidWrtOverheadAnnotated.write(m_OverheadImageAnnotated);
+	//pDoc->m_VidWrtOverheadAnnotated.write(m_OverheadImageAnnotated);
 
-	pDoc->m_VidWrtScene.write(m_SceneImage);
+	//pDoc->m_VidWrtScene.write(m_SceneImage);
 }
 
 void CWoZStudyView::ShowImg(Mat &img, RECT *pRect)
@@ -200,7 +200,8 @@ void CWoZStudyView::OnTimer(UINT_PTR nIDEvent)
 	}
 	
 	//pDoc->m_LogFrameTimeStamp.tick();
-	pDoc->promptDecisionMaker.tick();
+	//pDoc->promptDecisionMaker.tick();
+	pDoc->promptDecisionMaker.tick2();
 
 	//annotate timestamp on overheadImageAnnotated
 	putText(m_OverheadImageAnnotated, pDoc->promptDecisionMaker.log.getTimeStamp_msec(), Point(10, 30), FONT_HERSHEY_PLAIN, 2, Scalar(0, 255, 0));

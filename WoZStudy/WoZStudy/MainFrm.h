@@ -29,7 +29,6 @@ public:
 	virtual void Dump(CDumpContext& dc) const;
 #endif
 
-
 // Generated message map functions
 protected:
 	DECLARE_MESSAGE_MAP()

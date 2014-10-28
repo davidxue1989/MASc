@@ -105,6 +105,8 @@ BOOL CWoZStudyDoc::OnNewDocument()
 	
 	taskProgress.Create(TaskProgress::IDD, view);
 	promptStateSwitcher.Create(PromptStateSwitcher::IDD, view);
+	prompt_queue_dlg.Create(PROMPT_QUEUE_DLG::IDD, view);
+	prompt_queue_dlg.start();
 
 	////frametimestamp log
 	//m_LogFrameTimeStamp.openLog(L".\\Log_FrameTimeStamp.txt", L"");
@@ -144,18 +146,21 @@ BOOL CWoZStudyDoc::OnNewDocument()
 	Size sz1(m_VidCapOverhead.get(CV_CAP_PROP_FRAME_WIDTH), m_VidCapOverhead.get(CV_CAP_PROP_FRAME_HEIGHT));
 	oss.str(L"");
 	oss << L".\\vidOverhead_session_" << sessionN << L"_" << timeStamp.GetString() << L".avi";
+	//oss << L"E:\\asd trial\\vidOverhead_session_" << sessionN << L"_" << timeStamp.GetString() << L".avi";
 	str = WideCharMultiByteConverter::WideChar2MultiByte(oss.str().c_str());
 	m_VidWrtOverhead.open(str, CV_FOURCC('M', 'J', 'P', 'G'), 15, sz1);
 
 	Size sz3(m_VidCapOverhead.get(CV_CAP_PROP_FRAME_WIDTH), m_VidCapOverhead.get(CV_CAP_PROP_FRAME_HEIGHT));
 	oss.str(L"");
 	oss << L".\\vidOverheadAnnotated_session_" << sessionN << L"_" << timeStamp.GetString() << L".avi";
+	//oss << L"E:\\asd trial\\vidOverheadAnnotated_session_" << sessionN << L"_" << timeStamp.GetString() << L".avi";
 	str = WideCharMultiByteConverter::WideChar2MultiByte(oss.str().c_str());
 	m_VidWrtOverheadAnnotated.open(str, CV_FOURCC('M', 'J', 'P', 'G'), 15, sz3);
 
 	Size sz2(m_VidCapScene.get(CV_CAP_PROP_FRAME_WIDTH), m_VidCapScene.get(CV_CAP_PROP_FRAME_HEIGHT));
 	oss.str(L"");
 	oss << L".\\vidScene_session_" << sessionN << L"_" << timeStamp.GetString() << L".avi";
+	//oss << L"E:\\asd trial\\vidScene_session_" << sessionN << L"_" << timeStamp.GetString() << L".avi";
 	str = WideCharMultiByteConverter::WideChar2MultiByte(oss.str().c_str());
 	m_VidWrtScene.open(str, CV_FOURCC('M', 'J', 'P', 'G'), 15, sz1);
 
@@ -287,6 +292,7 @@ DWORD WINAPI CWoZStudyDoc::CameraGrabThread() {
 	Size sz1(vidCap.get(CV_CAP_PROP_FRAME_WIDTH), vidCap.get(CV_CAP_PROP_FRAME_HEIGHT));
 	oss.str(L"");
 	oss << L".\\vid2ndThread_session_" << sessionN << L"_" << timeStamp.GetString() << L".avi";
+	//oss << L"E:\\asd trial\\vid2ndThread_session_" << sessionN << L"_" << timeStamp.GetString() << L".avi";
 	str = WideCharMultiByteConverter::WideChar2MultiByte(oss.str().c_str());
 	VideoWriter vidWrt(str, CV_FOURCC('M', 'J', 'P', 'G'), 15, sz1);
 
@@ -313,7 +319,7 @@ DWORD WINAPI CWoZStudyDoc::CameraGrabThread() {
 			catchUp = catchUp - left;
 
 		start = GetTickCount();
-		vidWrt << frame;
+		//vidWrt << frame;
 	}
 
 	vidCap.release();

@@ -2,14 +2,14 @@
 
 //#define NAO_PROMPT
 
-#define USER_NAME "Nora"
+#define USER_NAME "MJ"
 
-#define TIME_WAIT_PROMPT	3
-#define TIME_WAIT_TASK_FIN	10
+#define TIME_WAIT_PROMPT    1
+#define TIME_WAIT_TASK_FIN	30
 
 
 //#define  robotIP "127.0.0.1"
-#define  robotIP "192.168.1.125"
+#define  robotIP "192.168.1.3"
 //#define  robotIP "192.168.0.1"
 #define robotPort 9559
 
@@ -20,7 +20,7 @@
 //#define	SECONDMONITORWIDTH	1920
 //#define	SECONDMONITORHEIGHT	1080
 
-#define ADULT
+//#define ADULT
 #ifdef ADULT
 	#define	DefaultHeadAngle1	0.322098047f
 	#define	DefaultHeadAngle2	-0.503193974f

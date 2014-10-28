@@ -7,6 +7,9 @@
 
 #include "MainFrm.h"
 
+#include "WoZStudyDoc.h"
+#include "COACH/PromptDecisionMaker.h"
+
 #ifdef _DEBUG
 #define new DEBUG_NEW
 #endif

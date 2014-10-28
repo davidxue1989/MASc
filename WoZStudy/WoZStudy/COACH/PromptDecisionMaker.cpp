@@ -2,6 +2,7 @@
 #include "stdafx.h"
 
 #include "PromptDecisionMaker.h"
+#include "../WoZStudyDoc.h"
 
 PromptDecisionMaker::PromptDecisionMaker() {
 	gazeDetector = NULL;
@@ -11,6 +12,7 @@ PromptDecisionMaker::PromptDecisionMaker() {
 	CGTaskDetector = NULL;
 	taskProgress = NULL;
 	pPrompts = NULL;
+	rested = true;
 }
 PromptDecisionMaker::~PromptDecisionMaker() {}
 
@@ -180,6 +182,87 @@ void PromptDecisionMaker::tickPromptStateSwitcher() {
 			}
 		}
 	}
+}
+
+void PromptDecisionMaker::tick2() {
+	log.tick();
+
+	if (!pPrompts->isPrompting()) {
+		if (promptQueue.empty()) {
+			if (!rested) {
+				pPrompts->takeRest();
+				rested = true;
+			}
+		}
+		else {
+			PROMPTS p = promptQueue.front();
+			promptQueue.pop_front();
+			pPrompts->prompt(getTaskString(p));
+			rested = false;
+			CWoZStudyDoc* pDoc = (CWoZStudyDoc*) ((CFrameWnd*) AfxGetMainWnd())->GetActiveDocument();
+			pDoc->prompt_queue_dlg.updateDisplay(getPromptQueueString());
+		}
+	}
+}
+
+std::wstring PromptDecisionMaker::getTaskString(PROMPTS prompt) {
+	std::wstring taskStr = L"";
+	switch (prompt)
+	{
+	case Intro1:
+		taskStr = L"Intro";
+		break;
+	case TurnOnWater1:
+		taskStr = L"TurnOnWater";
+		break;
+	case WetYourHands1:
+		taskStr = L"WetYourHands";
+		break;
+	case GetSomeSoap1:
+		taskStr = L"GetSomeSoap";
+		break;
+	case ScrubYourHands1:
+		taskStr = L"ScrubYourHands";
+		break;
+	case RinseYourHands1:
+		taskStr = L"RinseYourHands";
+		break;
+	case TurnOffWater1:
+		taskStr = L"TurnOffWater";
+		break;
+	case DryYourHands1:
+		taskStr = L"DryYourHands";
+		break;
+	case AllDone1:
+		taskStr = L"AllDone";
+		break;
+	case AttentionGrabber1:
+		taskStr = L"AttentionGrabber";
+		break;
+	case Reward1:
+		taskStr = L"Reward";
+		break;
+	case LetUsContinue1:
+		taskStr = L"LetUsContinue";
+		break;
+	default:
+		ASSERT(FALSE);
+		return taskStr;
+		break;
+	}
+	return taskStr;
+}
+
+std::wstring PromptDecisionMaker::getPromptQueueString() {
+	std::wstring task = L"";
+	std::deque<PROMPTS> queue = promptQueue;
+	while (!queue.empty()) {
+		PROMPTS p = queue.front();
+		queue.pop_front();
+		task += getTaskString(p) + L", ";
+	}
+	//task += std::to_wstring((long double)(promptQueue.size()));
+	return task;
 }
 
 void PromptDecisionMaker::tick() {//is ticked every OnTimer in view

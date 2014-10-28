@@ -16,6 +16,7 @@ using namespace cv;
 #include "TaskProgress.h"
 #include "PromptStateSwitcher.h"
 #include "COACH\Prompts.h"
+#include "PROMPT_QUEUE_DLG.h"
 
 class CWoZStudyDoc : public CDocument
 {
@@ -46,6 +47,7 @@ public:
 	Detector					*CGTaskDetector;
 	TaskProgress taskProgress;
 	PromptStateSwitcher promptStateSwitcher;
+	PROMPT_QUEUE_DLG prompt_queue_dlg;
 
 	static void PromptDecisionMakerCallingBack(PVOID pVoid, CString msg);
 

@@ -1,27 +1,24 @@
-﻿Build started 10/2/2014 11:36:12 AM.
+﻿Build started 10/27/2014 8:54:18 PM.
      1>Project "C:\Users\David-PC\Documents\GitHub\MASc\WoZStudy\WoZStudy\WoZStudy.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\FTwithOpenCV\COACH /I..\FTwithOpenCV\NAO /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\WoZStudy.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt COACH\PromptDecisionMaker.cpp COACH\Video_prompts.cpp NAO\NAO_prompts.cpp WoZStudy.cpp WoZStudyDoc.cpp WoZStudyView.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\FTwithOpenCV\COACH /I..\FTwithOpenCV\NAO /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\WoZStudy.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt COACH\PromptDecisionMaker.cpp COACH\Video_prompts.cpp TaskProgress.cpp WoZStudy.cpp WoZStudyDoc.cpp WoZStudyView.cpp
          PromptDecisionMaker.cpp
          Video_prompts.cpp
-         NAO_prompts.cpp
-     1>NAO\NAO_prompts.cpp(45): warning C4305: 'argument' : truncation from 'double' to 'const float'
-     1>NAO\NAO_prompts.cpp(93): warning C4305: 'argument' : truncation from 'double' to 'const float'
-     1>NAO\NAO_prompts.cpp(160): warning C4018: '<' : signed/unsigned mismatch
-     1>NAO\NAO_prompts.cpp(162): warning C4018: '<' : signed/unsigned mismatch
-     1>NAO\NAO_prompts.cpp(173): warning C4018: '<' : signed/unsigned mismatch
-     1>NAO\NAO_prompts.cpp(175): warning C4018: '<' : signed/unsigned mismatch
+         TaskProgress.cpp
+     1>TaskProgress.cpp(79): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>TaskProgress.cpp(79): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>TaskProgress.cpp(79): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
          WoZStudy.cpp
          WoZStudyDoc.cpp
      1>WoZStudyDoc.cpp(144): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
      1>WoZStudyDoc.cpp(144): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
-     1>WoZStudyDoc.cpp(150): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
-     1>WoZStudyDoc.cpp(150): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
-     1>WoZStudyDoc.cpp(156): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
-     1>WoZStudyDoc.cpp(156): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
-     1>WoZStudyDoc.cpp(287): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
-     1>WoZStudyDoc.cpp(287): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
-     1>WoZStudyDoc.cpp(309): warning C4244: 'argument' : conversion from 'double' to 'DWORD', possible loss of data
+     1>WoZStudyDoc.cpp(151): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>WoZStudyDoc.cpp(151): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>WoZStudyDoc.cpp(158): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>WoZStudyDoc.cpp(158): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>WoZStudyDoc.cpp(290): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>WoZStudyDoc.cpp(290): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>WoZStudyDoc.cpp(313): warning C4244: 'argument' : conversion from 'double' to 'DWORD', possible loss of data
          WoZStudyView.cpp
      1>WoZStudyView.cpp(101): warning C4244: 'initializing' : conversion from 'double' to 'LONG', possible loss of data
      1>WoZStudyView.cpp(101): warning C4244: 'initializing' : conversion from 'double' to 'LONG', possible loss of data
@@ -32,7 +29,7 @@
      1>WoZStudyView.cpp(102): warning C4244: 'initializing' : conversion from 'double' to 'LONG', possible loss of data
      1>WoZStudyView.cpp(102): warning C4244: 'initializing' : conversion from 'double' to 'LONG', possible loss of data
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\David-PC\Documents\GitHub\MASc\WoZStudy\Release\WoZStudy.exe" /INCREMENTAL:NO /NOLOGO opencv_core249.lib opencv_imgproc249.lib opencv_highgui249.lib alproxies.lib alcommon.lib alsoap.lib rttools.lib althread.lib alvalue.lib tinyxml.lib qi.lib pthreadVCE2.lib alerror.lib "libboost_signals-vc100-mt-1_47.lib" "libboost_program_options-vc100-mt-1_47.lib" "libboost_filesystem-vc100-mt-1_47.lib" "libboost_thread-vc100-mt-1_47.lib" "libboost_system-vc100-mt-1_47.lib" "libboost_date_time-vc100-mt-1_47.lib" /MANIFEST /ManifestFile:"Release\WoZStudy.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\David-PC\Documents\GitHub\MASc\WoZStudy\Release\WoZStudy.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\David-PC\Documents\GitHub\MASc\WoZStudy\Release\WoZStudy.lib" /MACHINE:X86 Release\WoZStudy.res
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\David-PC\Documents\GitHub\MASc\WoZStudy\Release\WoZStudy.exe" /INCREMENTAL:NO /NOLOGO opencv_core249.lib opencv_imgproc249.lib opencv_highgui249.lib alproxies.lib alcommon.lib alsoap.lib rttools.lib althread.lib alvalue.lib tinyxml.lib qi.lib pthreadVCE2.lib alerror.lib "libboost_signals-vc100-mt-1_47.lib" "libboost_program_options-vc100-mt-1_47.lib" "libboost_filesystem-vc100-mt-1_47.lib" "libboost_thread-vc100-mt-1_47.lib" "libboost_system-vc100-mt-1_47.lib" "libboost_date_time-vc100-mt-1_47.lib" /MANIFEST /ManifestFile:"Release\WoZStudy.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\David-PC\Documents\GitHub\MASc\WoZStudy\Release\WoZStudy.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\David-PC\Documents\GitHub\MASc\WoZStudy\Release\WoZStudy.lib" /MACHINE:X86 Release\WoZStudy.res
          Release\PromptDecisionMaker.obj
          Release\Video_prompts.obj
          Release\Detector.obj
@@ -50,9 +47,9 @@
          Finished generating code
          WoZStudy.vcxproj -> C:\Users\David-PC\Documents\GitHub\MASc\WoZStudy\Release\WoZStudy.exe
        Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\David-PC\Documents\GitHub\MASc\WoZStudy\Release\WoZStudy.exe;#1" /manifest Release\WoZStudy.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\David-PC\Documents\GitHub\MASc\WoZStudy\Release\WoZStudy.exe;#1" /manifest Release\WoZStudy.exe.intermediate.manifest "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
      1>Done Building Project "C:\Users\David-PC\Documents\GitHub\MASc\WoZStudy\WoZStudy\WoZStudy.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:18.79
+Time Elapsed 00:00:15.91

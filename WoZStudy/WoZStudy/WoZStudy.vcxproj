@@ -122,7 +122,9 @@
     <ClInclude Include="MainFrm.h" />
     <ClInclude Include="NAO\NAO_motion.h" />
     <ClInclude Include="NAO\NAO_prompts.h" />
+    <ClInclude Include="PlaybackDlg.h" />
     <ClInclude Include="PromptStateSwitcher.h" />
+    <ClInclude Include="PROMPT_QUEUE_DLG.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="ShowImageDlg.h" />
     <ClInclude Include="stdafx.h" />
@@ -141,7 +143,9 @@
     <ClCompile Include="Logging.cpp" />
     <ClCompile Include="MainFrm.cpp" />
     <ClCompile Include="NAO\NAO_prompts.cpp" />
+    <ClCompile Include="PlaybackDlg.cpp" />
     <ClCompile Include="PromptStateSwitcher.cpp" />
+    <ClCompile Include="PROMPT_QUEUE_DLG.cpp" />
     <ClCompile Include="ShowImageDlg.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
