@@ -31,6 +31,10 @@ protected:
 	//afx_msg void OnPaint();
 public:
 	void Play(std::wstring filename);
+	void Stop();
+	bool stopNow;
+	bool isPlaying;
+
 	IGraphBuilder *pGraph;
 	IMediaControl *pControl;
 	IMediaEventEx   *pEvent;

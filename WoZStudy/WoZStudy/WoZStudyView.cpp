@@ -119,11 +119,11 @@ void CWoZStudyView::grabFrames() {
 
 void CWoZStudyView::saveVideos() {
 
-	//pDoc->m_VidWrtOverhead.write(m_OverheadImage);
+	pDoc->m_VidWrtOverhead.write(m_OverheadImage);
 
-	//pDoc->m_VidWrtOverheadAnnotated.write(m_OverheadImageAnnotated);
+	pDoc->m_VidWrtOverheadAnnotated.write(m_OverheadImageAnnotated);
 
-	//pDoc->m_VidWrtScene.write(m_SceneImage);
+	pDoc->m_VidWrtScene.write(m_SceneImage);
 }
 
 void CWoZStudyView::ShowImg(Mat &img, RECT *pRect)

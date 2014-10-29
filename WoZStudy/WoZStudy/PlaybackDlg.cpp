@@ -1,4 +1,6 @@
 //http://www.codeproject.com/Questions/516017/Howplustoplusdiaplayplustheplusvideopluswithinplus
+//also good: http://www.flipcode.com/archives/DirectShow_For_Media_Playback_In_Windows-Part_II_DirectShow_In_C.shtml
+
 // PlaybackDlg.cpp : implementation file
 //
 
@@ -15,7 +17,6 @@ IMPLEMENT_DYNAMIC(PlaybackDlg, CDialogEx)
 PlaybackDlg::PlaybackDlg(CWnd* pParent /*=NULL*/)
 	: CDialogEx(PlaybackDlg::IDD, pParent)
 {
-
 }
 
 PlaybackDlg::~PlaybackDlg()
@@ -37,6 +38,8 @@ END_MESSAGE_MAP()
 
 void PlaybackDlg::Play(std::wstring filename)
 {
+	stopNow = false;
+	isPlaying = true;
 	HRESULT hr = CoInitialize(NULL);
 	if (FAILED(hr))
 	{
@@ -56,11 +59,7 @@ void PlaybackDlg::Play(std::wstring filename)
 	hr = pGraph->QueryInterface(IID_IMediaControl, (void **) &pControl);
 	hr = pGraph->QueryInterface(IID_IMediaEvent, (void **) &pEvent);
 
-	//CWnd * c = AfxGetMainWnd();
-	//HWND h = c->m_hWnd;
-	CWinApp *a = AfxGetApp();
-	CWnd *c = a->GetMainWnd();
-	hr = InitWindowlessVMR(c->m_hWnd, pGraph, &pWc);
+	hr = InitWindowlessVMR(AfxGetApp()->GetMainWnd()->m_hWnd, pGraph, &pWc);
 	hr = pGraph->RenderFile(filename.c_str(), NULL);
 	long lWidth, lHeight;
 	hr = pWc->GetNativeVideoSize(&lWidth, &lHeight, NULL, NULL);
@@ -75,7 +74,7 @@ void PlaybackDlg::Play(std::wstring filename)
 		//c->GetClientRect(&rcDest);
 		rcDest = rcSrc;
 		// Set the destination rectangle.
-		SetRect(&rcDest, 0, 0, rcDest.right, rcDest.bottom - 40);
+		SetRect(&rcDest, 0, 1300, rcDest.right, 1300 + rcDest.bottom);
 
 		// Set the video position.
 		hr = pWc->SetVideoPosition(&rcSrc, &rcDest);
@@ -87,16 +86,24 @@ void PlaybackDlg::Play(std::wstring filename)
 		// Run the graph.
 		hr = pControl->Run();
 
-		if (SUCCEEDED(hr))
-		{
-			// Wait for completion.
-			long evCode;
-			pEvent->WaitForCompletion(11000, &evCode);
 
+		//use wait for multiple objects: 1. handle to media event 2. handle to stop video command
 
-			// Note: Do not use INFINITE in a real application, because it
-			// can block indefinitely.
-		}
+		//if (SUCCEEDED(hr))
+		//{
+		//	// Wait for completion.
+		//	long evCode = -1;
+		//	while (evCode != 1) {
+		//		if (stopNow) {
+		//			pControl->Stop();
+		//			break;
+		//		}
+		//		pEvent->WaitForCompletion(200, &evCode);
+		//	}
+
+		//	// Note: Do not use INFINITE in a real application, because it
+		//	// can block indefinitely.
+		//}
 	}
 
 	pWc->Release();
@@ -104,6 +111,12 @@ void PlaybackDlg::Play(std::wstring filename)
 	pGraph->Release();
 	pEvent->Release();
 	CoUninitialize();
+
+	isPlaying = false;
+}
+
+void PlaybackDlg::Stop() {
+	stopNow = true;
 }
 
 HRESULT PlaybackDlg::InitWindowlessVMR(

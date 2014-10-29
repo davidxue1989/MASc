@@ -319,7 +319,7 @@ DWORD WINAPI CWoZStudyDoc::CameraGrabThread() {
 			catchUp = catchUp - left;
 
 		start = GetTickCount();
-		//vidWrt << frame;
+		vidWrt << frame;
 	}
 
 	vidCap.release();
