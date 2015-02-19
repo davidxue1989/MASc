@@ -1,0 +1,968 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\AutismCOACH.ico"
+IDR_AutismCOACHTYPE     ICON                    "res\\AutismCOACHDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR 139, 126
+BEGIN
+    BUTTON      ID_FILE_STARTPROMPTINGSESSION
+    BUTTON      ID_FILE_PAUSESYSTEM
+    BUTTON      ID_FILE_STOPPROMPTINGSESSION
+    BUTTON      ID_FILE_ENTERUSERSETTINGS
+    BUTTON      ID_VIEW_PROMPTVIEW
+    BUTTON      ID_VIEW_DEVELOPERVIEW
+    BUTTON      ID_VIEW_CAREGIVERVIEW
+    BUTTON      ID_FILE_STARTTRACKER
+    BUTTON      ID_FILE_CALIBRATE
+    BUTTON      ID_FILE_STARTDATACOLLECTION
+    BUTTON      ID_FILE_SWITCHIMAGE
+    BUTTON      ID_TRAINSCRUBBING
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME_MENU MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "Start Prompting Session",     ID_FILE_STARTPROMPTINGSESSION
+        MENUITEM "Pause System",                ID_FILE_PAUSESYSTEM
+        MENUITEM "Stop Prompting Session",      ID_FILE_STOPPROMPTINGSESSION
+        MENUITEM "Enter User Settings",         ID_FILE_ENTERUSERSETTINGS
+        MENUITEM SEPARATOR
+        MENUITEM "Calibrate",                   ID_FILE_CALIBRATE
+        MENUITEM "Start Tracker",               ID_FILE_STARTTRACKER
+        MENUITEM "Switch Image",                ID_FILE_SWITCHIMAGE
+        MENUITEM "Start Data Collection",       ID_FILE_STARTDATACOLLECTION
+        MENUITEM "E&xit",                       ID_APP_EXIT
+        MENUITEM SEPARATOR
+        MENUITEM "Manually Increment State",    ID_FILE_MANUALLYINCREMENTSTATE
+        MENUITEM "Toggle Water Status",         ID_FILE_TOGGLEWATERSTATUS
+        MENUITEM "Skip Scrub and Rinse Detection", ID_FILE_SKIPSCRUBRINSEDETECTION
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM "Care Giver View",             ID_VIEW_CAREGIVERVIEW
+        MENUITEM "Prompt View",                 ID_VIEW_PROMPTVIEW
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About AutismCOACH...",       ID_APP_ABOUT
+    END
+END
+
+IDR_MAINFRAME_MENU_USER MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "Start Prompting Session",     ID_FILE_STARTPROMPTINGSESSION
+        MENUITEM "Pause System",                ID_FILE_PAUSESYSTEM
+        MENUITEM "Stop Prompting Session",      ID_FILE_STOPPROMPTINGSESSION
+        MENUITEM "Enter User Settings",         ID_FILE_ENTERUSERSETTINGS
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "Developer View",              ID_VIEW_DEVELOPERVIEW
+        MENUITEM "Prompt View",                 ID_VIEW_PROMPTVIEW
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About AutismCOACH...",       ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS
+BEGIN
+    VK_ACCEPT,      ID_ACCELERATOR32806,    VIRTKEY, NOINVERT
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+    "U",            ID_FILE_ENTERUSERSETTINGS, ASCII, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_STARTPROMPTINGSESSION, ASCII, NOINVERT
+    "T",            ID_FILE_STARTTRACKER,   VIRTKEY, NOINVERT
+    "1",            ID_FILE_SWITCHIMAGE,    VIRTKEY, CONTROL, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    "S",            ID_FILE_SAVETAPIMAGES,  VIRTKEY, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About AutismCOACH"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
+    LTEXT           "AutismCOACH, Version 1.0",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2010",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "OK",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_STARTUPMENU DIALOGEX 0, 0, 300, 155
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Startup Menu"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Enter User Settings",IDOK,72,67,73,19
+    PUSHBUTTON      "Start Prompting",IDCANCEL,154,66,73,20
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "TODO: <Company name>"
+            VALUE "FileDescription", "TODO: <File description>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "AutismCOACH.exe"
+            VALUE "LegalCopyright", "TODO: (c) <Company name>.  All rights reserved."
+            VALUE "OriginalFilename", "AutismCOACH.exe"
+            VALUE "ProductName", "TODO: <Product name>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_STARTUPMENU, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 293
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 148
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDP_OLE_INIT_FAILED     "OLE initialization failed.  Make sure that the OLE libraries are the correct version."
+END
+
+STRINGTABLE
+BEGIN
+    IDR_MAINFRAME           "AutismCOACH\n\nAutismCOACH\n\n\nAutismCOACH.Document\nAutismCOACH.Document"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_APP_TITLE       "AutismCOACH"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+END
+
+STRINGTABLE
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_STARTPROMPTINGSESSION "\nStart Prompting"
+    ID_FILE_CALIBRATE       "\nCalibrate"
+    ID_FILE_ENTERUSERSETTINGS "\nEdit User Settings"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_HALTSYSTEM      "\nPause System"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_SKIPSCRUBRINSEDETECTION "\nSkip Scrub and Rinse Detection"
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (Canada) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENC)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_CAN
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_CALIB_MAIN_MENU MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Open\tCtrl+O",               ID_CALIB_FILE_OPEN
+        MENUITEM "&Save\tCtrl+S",               ID_CALIB_FILE_SAVE
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "Re&gions\tCtrl+G",            ID_CALIB_VIEW_REGIONS
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_SHOWIMAGE_DIALOG DIALOGEX 0, 0, 316, 182
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_HANDPOSITIONS_DIALOG DIALOGEX 0, 0, 365, 345
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Hand Positions Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT1,20,87,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,89,87,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "away/paused",IDC_BUTTON1,15,156,50,14
+    PUSHBUTTON      "away/paused",IDC_BUTTON2,86,156,50,14
+    PUSHBUTTON      "sink",IDC_BUTTON3,15,179,50,14
+    PUSHBUTTON      "sink",IDC_BUTTON4,86,179,50,14
+    PUSHBUTTON      "water",IDC_BUTTON5,16,201,50,14
+    PUSHBUTTON      "water",IDC_BUTTON6,86,201,50,14
+    PUSHBUTTON      "tap",IDC_BUTTON7,16,223,50,14
+    PUSHBUTTON      "tap",IDC_BUTTON8,86,223,50,14
+    PUSHBUTTON      "soap",IDC_BUTTON9,16,246,50,14
+    PUSHBUTTON      "soap",IDC_BUTTON10,86,246,50,14
+    PUSHBUTTON      "towel",IDC_BUTTON11,16,268,50,14
+    PUSHBUTTON      "towel",IDC_BUTTON12,86,268,50,14
+    LTEXT           "Entered/Observed Hand Positions:",IDC_STATIC,18,54,112,8
+    LTEXT           "Left Hand",IDC_STATIC,24,123,32,8
+    LTEXT           "Right Hand",IDC_STATIC,92,123,36,8
+    LTEXT           "Left Hand",IDC_STATIC,23,72,32,8
+    LTEXT           "Right Hand",IDC_STATIC,93,72,36,8
+    LTEXT           "For Manual Entry of Hand Positions:",IDC_STATIC,19,109,116,8
+    LTEXT           "Button Input",IDC_STATIC,152,11,42,8
+    PUSHBUTTON      "Button1/Mars",IDC_BUTTON13,35,26,63,14
+    PUSHBUTTON      "Button2",IDC_BUTTON14,98,26,50,14
+    PUSHBUTTON      "Button3/iPOD",IDC_BUTTON15,148,26,50,14
+    PUSHBUTTON      "Button4",IDC_BUTTON16,198,26,50,14
+    PUSHBUTTON      "Button5/k.Kong",IDC_BUTTON17,248,26,65,14
+    EDITTEXT        IDC_EDIT3,199,138,85,16,ES_AUTOHSCROLL
+    LTEXT           "Caregiver Status",IDC_STATIC,220,126,55,8
+    LTEXT           "Intervention Completed",IDC_STATIC,230,170,77,8
+    PUSHBUTTON      "Hands Wet",IDC_BUTTON18,243,185,60,14
+    PUSHBUTTON      "Got Soap",IDC_BUTTON19,243,204,60,14
+    PUSHBUTTON      "Done Scrubbing",IDC_BUTTON20,243,224,61,14
+    PUSHBUTTON      "Done Rinsing",IDC_BUTTON21,243,243,61,14
+    PUSHBUTTON      "Hands Dried",IDC_BUTTON22,243,264,61,14
+    LTEXT           "Updated to State...",IDC_STATIC,287,126,64,8
+    EDITTEXT        IDC_EDIT4,296,139,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Stop",IDC_BUTTON23,195,71,31,28
+    PUSHBUTTON      "Pause",IDC_BUTTON24,231,71,30,28
+    PUSHBUTTON      "Resume",IDC_BUTTON25,265,71,31,28
+    PUSHBUTTON      "Restart",IDC_BUTTON26,301,71,31,28
+    LTEXT           "Music Control Buttons",IDC_STATIC,230,57,70,8
+    PUSHBUTTON      "ON",IDC_BUTTON27,26,301,32,14
+    PUSHBUTTON      "OFF",IDC_BUTTON28,96,301,31,14
+    LTEXT           "Water Status",IDC_STATIC,56,291,44,8
+    EDITTEXT        IDC_EDIT5,146,300,51,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "off task",IDC_BUTTON29,15,134,50,14
+    PUSHBUTTON      "off task",IDC_BUTTON30,86,134,50,14
+    PUSHBUTTON      "Playing with Water",IDC_BUTTON31,26,321,101,17
+    EDITTEXT        IDC_EDIT6,146,324,52,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT7,181,179,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT8,181,199,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT9,181,221,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT10,181,244,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT11,181,265,40,14,ES_AUTOHSCROLL
+    LTEXT           "towel",IDC_STATIC,160,182,18,8
+    LTEXT           "soap",IDC_STATIC,162,203,16,8
+    LTEXT           "tap",IDC_STATIC,166,224,12,8
+    LTEXT           "water",IDC_STATIC,160,247,20,8
+    LTEXT           "sink",IDC_STATIC,165,268,13,8
+END
+
+IDD_PAUSESYSTEM_DIALOG DIALOGEX 0, 0, 250, 164
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION
+CAPTION "Pause System"
+FONT 20, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    PUSHBUTTON      "Beginning",IDC_BUTTON2,156,9,66,14
+    PUSHBUTTON      "Hands Wet",IDC_BUTTON3,156,29,66,14
+    PUSHBUTTON      "Got Soap",IDC_BUTTON4,156,49,66,14
+    PUSHBUTTON      "Done Scrubbing",IDC_BUTTON5,156,69,66,14
+    PUSHBUTTON      "Done Rinsing",IDC_BUTTON6,156,89,66,14
+    PUSHBUTTON      "Hands Dried",IDC_BUTTON7,156,109,66,14
+    LTEXT           "Your child needs your help!",IDC_STATIC,12,19,83,8
+    LTEXT           "We were stuck on ",IDC_STATIC_stuckOn,12,58,57,8
+    LTEXT           "Could you help and then resume the system",IDC_STATIC,12,94,133,8
+    LTEXT           "by selecting which step has been done?",IDC_STATIC,13,107,121,8
+    PUSHBUTTON      "All done, left sink",IDC_BUTTON8,156,128,66,14
+END
+
+IDD_CALIBRATE_DIALOG DIALOGEX 0, 0, 650, 244
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Color Calibration"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,323,195,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,375,195,50,14
+    CONTROL         "",IDC_CALIBIMAGE_STATIC,"Static",SS_GRAYFRAME | SS_REALSIZEIMAGE,7,2,223,157
+    CONTROL         "",IDC_MEAN_H_SLIDER,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,463,14,129,15
+    GROUPBOX        "Mean",IDC_STATIC,450,2,193,72
+    LTEXT           "H",IDC_STATIC,458,18,8,8
+    EDITTEXT        IDC_MEAN_H_EDIT,594,14,47,14,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_MEAN_S_SLIDER,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,463,34,129,15
+    LTEXT           "S",IDC_STATIC,458,38,8,8
+    EDITTEXT        IDC_MEAN_S_EDIT,594,34,47,14,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_MEAN_V_SLIDER,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,463,53,129,15
+    LTEXT           "V",IDC_STATIC,458,57,8,8
+    EDITTEXT        IDC_MEAN_V_EDIT,594,53,47,14,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_VARIANCE_H_SLIDER,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,463,91,129,15
+    GROUPBOX        "Variance",IDC_STATIC,450,79,193,72
+    LTEXT           "H",IDC_STATIC,458,95,8,8
+    EDITTEXT        IDC_VARIANCE_H_EDIT,594,91,47,14,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_VARIANCE_S_SLIDER,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,463,111,129,15
+    LTEXT           "S",IDC_STATIC,458,115,8,8
+    EDITTEXT        IDC_VARIANCE_S_EDIT,594,111,47,14,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_VARIANCE_V_SLIDER,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,463,130,129,15
+    LTEXT           "V",IDC_STATIC,458,134,8,8
+    EDITTEXT        IDC_VARIANCE_V_EDIT,594,130,47,14,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_HIGH_H_SLIDER,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,463,169,129,15
+    GROUPBOX        "High",IDC_STATIC,450,157,193,72
+    LTEXT           "H",IDC_STATIC,458,173,8,8
+    EDITTEXT        IDC_HIGH_H_EDIT,594,169,47,14,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_HIGH_S_SLIDER,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,463,189,129,15
+    LTEXT           "S",IDC_STATIC,458,193,8,8
+    EDITTEXT        IDC_HIGH_S_EDIT,594,189,47,14,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_HIGH_V_SLIDER,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,463,208,129,15
+    LTEXT           "V",IDC_STATIC,458,212,8,8
+    EDITTEXT        IDC_HIGH_V_EDIT,594,208,47,14,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_LOW_H_SLIDER,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,253,14,129,15
+    GROUPBOX        "Low",IDC_STATIC,240,2,193,72
+    LTEXT           "H",IDC_STATIC,248,18,8,8
+    EDITTEXT        IDC_LOW_H_EDIT,384,14,47,14,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_LOW_S_SLIDER,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,253,34,129,15
+    LTEXT           "S",IDC_STATIC,248,38,8,8
+    EDITTEXT        IDC_LOW_S_EDIT,384,34,47,14,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_LOW_V_SLIDER,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,253,53,129,15
+    LTEXT           "V",IDC_STATIC,248,58,8,8
+    EDITTEXT        IDC_LOW_V_EDIT,384,53,47,14,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SIZE_MIN_SLIDER,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,253,92,129,15
+    GROUPBOX        "Size",IDC_STATIC,240,80,193,72
+    LTEXT           "min",IDC_STATIC,244,96,13,8
+    EDITTEXT        IDC_SIZE_MIN_EDIT,384,92,47,14,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SIZE_MED_SLIDER,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,253,112,129,15
+    LTEXT           "Med",IDC_STATIC,244,116,13,8
+    EDITTEXT        IDC_SIZE_MED_EDIT,384,112,47,14,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SIZE_MAX_SLIDER,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,253,131,129,15
+    LTEXT           "max",IDC_STATIC,244,136,13,8
+    EDITTEXT        IDC_SIZE_MAX_EDIT,384,131,47,14,ES_AUTOHSCROLL | WS_DISABLED
+    GROUPBOX        "Region",IDC_STATIC,7,163,167,75
+    GROUPBOX        "Object",IDC_STATIC,188,163,115,53
+    CONTROL         "Towel",IDC_OBJECT_TOWEL_RADIO,"Button",BS_AUTORADIOBUTTON,226,176,32,10
+    CONTROL         "Hand",IDC_OBJECT_HAND_RADIO,"Button",BS_AUTORADIOBUTTON,192,176,33,10
+    PUSHBUTTON      "Calibrate",IDC_CALIBRATE_BUTTON,192,195,50,14
+    PUSHBUTTON      "Update",IDC_CALIB_UPDATE_BUTTON,246,195,50,14
+    PUSHBUTTON      "Soap",IDC_REGION_SOAP_BUTTON,16,176,50,14
+    PUSHBUTTON      "Left Tap",IDC_REGION_LEFT_TAP_BUTTON,68,176,50,14
+    PUSHBUTTON      "Right Tap",IDC_REGION_RIGHT_TAP_BUTTON,120,176,50,14
+    PUSHBUTTON      "Water",IDC_REGION_WATER_BUTTON,120,195,50,14
+    PUSHBUTTON      "Sink",IDC_REGION_SINK_BUTTON,16,195,50,14
+    PUSHBUTTON      "Towel",IDC_REGION_TOWEL_BUTTON,68,195,50,14
+    PUSHBUTTON      "Load",IDC_LOAD_CALIB_BUTTON,323,176,50,14
+    PUSHBUTTON      "Save",IDC_SAVE_CALIB_BUTTON,375,176,50,14
+    PUSHBUTTON      "Faucet",IDC_BUTTON1,16,215,50,14
+    PUSHBUTTON      "Soap Spout",IDC_BUTTON2,68,215,50,14
+    CONTROL         "Soap",IDC_RADIO9,"Button",BS_AUTORADIOBUTTON,261,176,32,10
+END
+
+IDD_USERDATADIALOG DIALOGEX 0, 0, 378, 267
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "User Data"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK (Proceed and Log Trial Data)",IDOK,55,246,145,14
+    PUSHBUTTON      "Proceed Without Logging Trial Data",IDCANCEL,225,246,146,14
+    LTEXT           "Enter Participant's Name Below:",IDC_STATIC,29,37,102,8
+    LTEXT           "(Please Use all Capitals)",IDC_STATIC,36,50,77,8
+    EDITTEXT        IDC_EDIT1,25,65,97,17,ES_AUTOHSCROLL
+    LTEXT           "Enter the Trial Number Below:",IDC_STATIC,175,36,96,8
+    EDITTEXT        IDC_EDIT2,192,63,45,17,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,25,126,100,18,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,191,125,46,18,ES_AUTOHSCROLL
+    LTEXT           "Enter the Date Below:",IDC_STATIC,41,100,72,8
+    LTEXT           "( dd/mm/yy )",IDC_STATIC,54,112,42,8
+    LTEXT           "Enter the Start Time Below:",IDC_STATIC,175,100,89,8
+    LTEXT           "Example: 13:10",IDC_STATIC,190,111,51,8
+    LTEXT           "Run System with Tracking?",IDC_STATIC,29,163,86,8
+    CONTROL         "Yes",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,39,177,27,10
+    CONTROL         "No",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,71,177,25,10
+    EDITTEXT        IDC_EDIT5,21,206,286,19,ES_AUTOHSCROLL
+    PUSHBUTTON      "BROWSE",IDC_BUTTON1,311,209,50,14
+    LTEXT           "Load the Proper Calibration File for the Participant's Skin Tone and the Towel being Used",IDC_STATIC,20,194,283,8
+END
+
+IDD_TRAINWATERDETECTOR DIALOGEX 0, 0, 316, 180
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Train Water Detector"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,205,159,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,259,159,50,14
+    LTEXT           "The background of the tap regions has been saved.",IDC_STATIC,74,25,169,12
+    LTEXT           "Please indicate when you are ready to continue with training the water detector.",IDC_STATIC,36,135,260,8
+    LTEXT           "",IDC_STATIC,106,81,8,8
+    LTEXT           "Select the class for which you would like to train the classifier.",IDC_STATIC,69,67,198,8
+    CONTROL         "Water OFF",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,115,91,51,10
+    CONTROL         "Water ON",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,178,91,48,10
+    GROUPBOX        "",IDC_STATIC,108,81,118,28
+END
+
+IDD_DIALOG_DEVLOPER_PW DIALOGEX 0, 0, 143, 51
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Developer Password"
+FONT 12, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,7,30,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,80,30,50,14
+    EDITTEXT        IDC_EDIT_PW,27,6,91,14,ES_PASSWORD | ES_AUTOHSCROLL
+END
+
+IDD_USERSETTINGS_DIALOG DIALOGEX 0, 0, 309, 178
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,198,157,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,252,157,50,14
+END
+
+IDD_PREMATURESTOP_DIALOG DIALOGEX 0, 0, 250, 164
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION
+CAPTION "Reason for premature session stop"
+FONT 20, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    LTEXT           "The reason for premature stop of the session is:",IDC_STATIC,14,14,145,8
+    PUSHBUTTON      "System malfunctioning",IDC_BUTTON3,43,31,73,14
+    PUSHBUTTON      "Child needs assistance",IDC_BUTTON4,43,61,73,14
+    PUSHBUTTON      "Child in distress",IDC_BUTTON5,43,91,73,14
+    PUSHBUTTON      "Child not responding",IDC_BUTTON6,43,122,73,14
+    PUSHBUTTON      "Emergency",IDC_BUTTON7,157,44,73,14
+    PUSHBUTTON      "Others (important)",IDC_BUTTON8,157,75,73,14
+    PUSHBUTTON      "Others (not important)",IDC_BUTTON9,157,107,73,14
+END
+
+IDD_USERSETTINGS1 DIALOGEX 0, 0, 309, 163
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "User Settings page 2"
+FONT 20, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    CONTROL         "Verbal",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON | WS_GROUP,27,28,36,10
+    CONTROL         "Picture Only",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,69,28,53,10
+    CONTROL         "Verbal+Picture",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,130,28,61,10
+    CONTROL         "Video",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON,199,28,33,10
+    CONTROL         "Verbal+Video",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON,238,28,57,10
+    CONTROL         "Verbal",IDC_RADIO7,"Button",BS_AUTORADIOBUTTON | WS_GROUP,28,51,36,10
+    CONTROL         "Picture Only",IDC_RADIO8,"Button",BS_AUTORADIOBUTTON,70,51,53,10
+    CONTROL         "Verbal+Picture",IDC_RADIO13,"Button",BS_AUTORADIOBUTTON,131,51,61,10
+    CONTROL         "Video",IDC_RADIO14,"Button",BS_AUTORADIOBUTTON,200,51,33,10
+    CONTROL         "Verbal+Video",IDC_RADIO15,"Button",BS_AUTORADIOBUTTON,239,51,57,10
+    CONTROL         "Verbal",IDC_RADIO16,"Button",BS_AUTORADIOBUTTON | WS_GROUP,29,74,36,10
+    CONTROL         "Picture Only",IDC_RADIO17,"Button",BS_AUTORADIOBUTTON,71,74,53,10
+    CONTROL         "Verbal+Picture",IDC_RADIO18,"Button",BS_AUTORADIOBUTTON,132,74,61,10
+    CONTROL         "Video",IDC_RADIO50,"Button",BS_AUTORADIOBUTTON,201,74,33,10
+    CONTROL         "Verbal+Video",IDC_RADIO51,"Button",BS_AUTORADIOBUTTON,240,74,57,10
+    CONTROL         "Verbal",IDC_RADIO52,"Button",BS_AUTORADIOBUTTON | WS_GROUP,30,99,36,10
+    CONTROL         "Picture Only",IDC_RADIO53,"Button",BS_AUTORADIOBUTTON,72,99,53,10
+    CONTROL         "Verbal+Picture",IDC_RADIO54,"Button",BS_AUTORADIOBUTTON,133,99,61,10
+    CONTROL         "Video",IDC_RADIO55,"Button",BS_AUTORADIOBUTTON,202,99,33,10
+    CONTROL         "Verbal+Video",IDC_RADIO56,"Button",BS_AUTORADIOBUTTON,241,99,57,10
+    CONTROL         "Verbal",IDC_RADIO57,"Button",BS_AUTORADIOBUTTON | WS_GROUP,30,124,36,10
+    CONTROL         "Picture Only",IDC_RADIO58,"Button",BS_AUTORADIOBUTTON,72,124,53,10
+    CONTROL         "Verbal+Picture",IDC_RADIO59,"Button",BS_AUTORADIOBUTTON,133,124,61,10
+    CONTROL         "Video",IDC_RADIO60,"Button",BS_AUTORADIOBUTTON,202,124,33,10
+    CONTROL         "Verbal+Video",IDC_RADIO61,"Button",BS_AUTORADIOBUTTON,241,124,57,10
+    DEFPUSHBUTTON   "Save+Exit",IDOK,180,144,50,14
+    LTEXT           "Which kind of prompt should the system display first?",IDC_STATIC,19,17,161,8
+    LTEXT           "Which kind ",IDC_STATIC2,19,41,36,8
+    LTEXT           "Which kind",IDC_STATIC3,19,63,34,8
+    LTEXT           "Which kind",IDC_STATIC4,19,88,34,8
+    LTEXT           "Which kind",IDC_STATIC5,19,113,34,8
+    GROUPBOX        "Prompts Settings",IDC_STATIC,4,7,298,132
+    PUSHBUTTON      "Exit(no saving)",IDCANCEL,240,144,50,14
+    PUSHBUTTON      "Next Page",IDC_BUTTON_NEXT,114,144,50,14
+    PUSHBUTTON      "Back",IDC_BUTTON_PREV,28,144,50,14
+    LTEXT           "2/3 pages",IDC_STATIC,81,146,31,8
+    LTEXT           "second?",IDC_STATIC6,54,41,27,8
+    LTEXT           "third?",IDC_STATIC7,54,63,18,8
+    LTEXT           "fourth?",IDC_STATIC8,54,88,22,8
+    LTEXT           "fifth and further?",IDC_STATIC9,54,113,51,8
+END
+
+IDD_USERSETTINGS2 DIALOGEX 0, 0, 309, 163
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "User Settings page 1"
+FONT 20, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Save+Exit",IDOK,180,144,50,14
+    PUSHBUTTON      "Exit(no saving)",IDCANCEL,240,144,50,14
+    PUSHBUTTON      "Next Page",IDC_BUTTON_NEXT,114,144,50,14
+    PUSHBUTTON      "Back",IDC_BUTTON_PREV,28,144,50,14
+    LTEXT           "# of prompts before calling caregiver:",IDC_STATIC10,182,68,112,8
+    LTEXT           "Waiting time between prompts:",IDC_STATIC8,182,43,94,8
+    LTEXT           "Waiting time until first prompt:",IDC_STATIC6,182,18,90,8
+    PUSHBUTTON      "+",IDC_BUTTON1,238,27,29,12
+    PUSHBUTTON      "-",IDC_BUTTON32,190,27,29,12
+    PUSHBUTTON      "+",IDC_BUTTON33,238,52,29,12
+    PUSHBUTTON      "-",IDC_BUTTON34,190,52,29,12
+    PUSHBUTTON      "+",IDC_BUTTON35,238,78,29,12
+    PUSHBUTTON      "-",IDC_BUTTON36,190,78,29,12
+    LTEXT           "1/3 pages",IDC_STATIC,81,146,31,8
+    GROUPBOX        "Prompt Settings",IDC_STATIC,169,8,133,87
+    LTEXT           "Should the system verbally reward for each step completed?",IDC_STATIC15,28,114,182,8
+    GROUPBOX        "Reward",IDC_STATIC,8,103,294,35
+    CONTROL         "Yes",IDC_RADIO11,"Button",BS_AUTORADIOBUTTON | WS_GROUP,75,125,28,10
+    CONTROL         "No",IDC_RADIO12,"Button",BS_AUTORADIOBUTTON,129,125,25,10
+    CONTROL         "Yes",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,40,38,28,10
+    CONTROL         "No",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,82,38,25,10
+    CONTROL         "Sound",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON | WS_GROUP,13,80,27,10
+    CONTROL         "Image",IDC_RADIO7,"Button",BS_AUTORADIOBUTTON,44,80,26,10
+    CONTROL         "Sound and Image",IDC_RADIO8,"Button",BS_AUTORADIOBUTTON,72,80,61,10
+    CONTROL         "None",IDC_RADIO62,"Button",BS_AUTORADIOBUTTON,135,80,27,10
+    LTEXT           "Would you like to use priming?",IDC_STATIC12,18,19,93,8
+    LTEXT           "Would you like to use ""attention grabbers""?",IDC_STATIC13,19,67,130,8
+    GROUPBOX        "Priming",IDC_STATIC,8,8,155,43
+    LTEXT           "(show numbers (3,2,1) before prompting)",IDC_STATIC14,18,28,124,8
+    GROUPBOX        "Attention Grabber",IDC_STATIC,8,55,155,40
+    LTEXT           "?sec",IDC_STATIC_firstPrompt,219,29,19,8
+    LTEXT           "?sec",IDC_STATIC_nextPromptTime,219,54,19,8
+    LTEXT           "?",IDC_STATIC_nPrompts,219,80,19,8
+END
+
+IDD_USERSETTINGS3 DIALOGEX 0, 0, 309, 163
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "User Settings page 3"
+FONT 20, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Save+Exit",IDOK,180,144,50,14
+    PUSHBUTTON      "Exit(no saving)",IDCANCEL,240,144,50,14
+    PUSHBUTTON      "Next Page",IDC_BUTTON_NEXT,114,144,50,14
+    PUSHBUTTON      "Back",IDC_BUTTON_PREV,28,144,50,14
+    LTEXT           "Should the system display a count",IDC_STATIC15,110,97,104,8
+    GROUPBOX        "Scrub / Rinse options",IDC_STATIC,105,8,112,130
+    CONTROL         "Yes",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON | WS_GROUP,123,116,28,10
+    CONTROL         "No",IDC_RADIO7,"Button",BS_AUTORADIOBUTTON,172,116,25,10
+    PUSHBUTTON      "+",IDC_BUTTON37,65,36,30,12
+    PUSHBUTTON      "-",IDC_BUTTON38,16,36,30,12
+    CONTROL         "",IDC_SLIDER1,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,222,32,78,6
+    LTEXT           "Volume:",IDC_STATIC_VOLUME,223,23,26,8
+    LTEXT           "3/3 pages",IDC_STATIC,81,146,31,8
+    GROUPBOX        "Wet / Soap / Dry options",IDC_STATIC,8,8,95,130
+    LTEXT           "Time spent rinsing:",IDC_STATIC18,121,63,58,8
+    LTEXT           "Time spent scrubbing:",IDC_STATIC16,121,26,68,8
+    PUSHBUTTON      "+",IDC_BUTTON33,169,36,29,12
+    PUSHBUTTON      "-",IDC_BUTTON34,121,36,29,12
+    PUSHBUTTON      "+",IDC_BUTTON35,169,73,29,12
+    PUSHBUTTON      "-",IDC_BUTTON36,121,73,29,12
+    PUSHBUTTON      "+",IDC_BUTTON39,65,73,30,12
+    PUSHBUTTON      "-",IDC_BUTTON40,16,73,30,12
+    PUSHBUTTON      "+",IDC_BUTTON41,65,107,30,12
+    PUSHBUTTON      "-",IDC_BUTTON42,16,107,30,12
+    LTEXT           "down timer for scrubbing / rinsing?",IDC_STATIC17,110,106,106,8
+    LTEXT           "Dry time:",IDC_STATIC19,16,97,28,8
+    LTEXT           "Soap time:",IDC_STATIC20,16,63,33,8
+    LTEXT           "Wet time:",IDC_STATIC21,16,26,30,8
+    GROUPBOX        "Other options",IDC_STATIC,219,8,83,130
+    LTEXT           "?sec",IDC_STATIC_scrubTime,150,38,18,10
+    LTEXT           "?sec",IDC_STATIC_rinseTime,150,75,18,10
+    LTEXT           "?sec",IDC_STATIC_wetTime,46,38,18,10
+    LTEXT           "?sec",IDC_STATIC_soapTime,46,74,18,10
+    LTEXT           "?sec",IDC_STATIC_dryTime,46,108,18,10
+    PUSHBUTTON      "Reset Settings",IDC_BUTTON1,236,72,50,14
+    LTEXT           "Revert to default settings:",IDC_STATIC_VOLUME2,223,60,79,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_SHOWIMAGE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 175
+    END
+
+    IDD_HANDPOSITIONS_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 358
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 338
+    END
+
+    IDD_PAUSESYSTEM_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        TOPMARGIN, 7
+    END
+
+    IDD_CALIBRATE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 643
+        TOPMARGIN, 2
+    END
+
+    IDD_USERDATADIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 371
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 260
+    END
+
+    IDD_TRAINWATERDETECTOR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 173
+    END
+
+    IDD_DIALOG_DEVLOPER_PW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 136
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 44
+    END
+
+    IDD_USERSETTINGS_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 302
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 171
+    END
+
+    IDD_PREMATURESTOP_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        TOPMARGIN, 7
+    END
+
+    IDD_USERSETTINGS1, DIALOG
+    BEGIN
+        LEFTMARGIN, 4
+        RIGHTMARGIN, 302
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 157
+    END
+
+    IDD_USERSETTINGS2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 302
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 158
+    END
+
+    IDD_USERSETTINGS3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 302
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 157
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\AutismCOACH.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (Canada) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\AutismCOACH.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,46 @@
+uiopen('C:\dxFiles\COACH4ASDresourceFiles\scrub_training_scrubNAngleBinsActivated.csv',1)
+uiopen('C:\dxFiles\COACH4ASDresourceFiles\scrub_training_nonScrubNAngleBinsActivated.csv',1)
+
+scatter3(scrub_training_scrubNAngleBinsActivated(:,1), scrub_training_scrubNAngleBinsActivated(:,2), scrub_training_scrubNAngleBinsActivated(:,3))
+hold on
+scatter3(scrub_training_nonScrubNAngleBinsActivated(:,1), scrub_training_nonScrubNAngleBinsActivated(:,2), scrub_training_nonScrubNAngleBinsActivated(:,3))
+					
+x = [scrub_training_scrubNAngleBinsActivated; scrub_training_nonScrubNAngleBinsActivated];					
+y = [ones(size(scrub_training_scrubNAngleBinsActivated, 1), 1); zeros(size(scrub_training_nonScrubNAngleBinsActivated,1), 1)];
+b = glmfit(x, [y ones(size(y, 1), 1)], 'binomial', 'link', 'logit')
+z = 1./(1+exp(-(b(1)+x*(b(2:size(b,1))))));
+Erms = norm(z-y, 2)/size(y,1)
+misClassificationRate = (sum(z(1:cast(size(y,1)/2, 'uint16'))<0.5) + sum(z(cast(size(y,1)/2+1, 'uint16'):size(y,1))>=0.5))/size(y,1)
+
+%plot the decision boundary
+%# create x,y
+[xx,yy]=ndgrid(0:40,0:40);
+%# calculate corresponding z
+z = (-b(2)*xx - b(3)*yy - b(1)+0.5)/b(4);
+%# plot the surface
+surf(xx,yy,z)
+
+
+%%%%%%%%%%%%% test out if the code for displaying the boundary plot is accurate using synthetic data %%%
+p = [1 2 3]';
+n = [4 5 2]';
+
+mu1 = p + 0.5*n;
+mu2 = p - 0.5*n;
+sig = diag([3 5 2]);
+x1 = mvnrnd(mu1, sig, 100);
+x2 = mvnrnd(mu2, sig, 100);
+
+scatter3(x1(:,1), x1(:,2), x1(:,3))
+x2 = mvnrnd(mu2, sig, 100);
+hold on
+scatter3(x2(:,1), x2(:,2), x2(:,3))
+scrubNAngleBinsActivated = x1;
+nonScrubNAngleBinsActivated = x2;
+
+hold off
+
+%%  -82.0393
+%%   14.3170
+%%   13.2578
+%%   10.7062
