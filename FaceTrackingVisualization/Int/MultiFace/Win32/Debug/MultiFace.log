@@ -1,0 +1,26 @@
+﻿Build started 2013-08-24 11:15:14 AM.
+     1>Project "C:\Users\dx\Downloads\FaceTrackingVisualization\MultiFace\MultiFace.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"C:\Users\dx\Downloads\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\MultiFace.pch" /Fo"C:\Users\dx\Downloads\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\\" /Fd"C:\Users\dx\Downloads\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\SingleFace\Visualize.cpp
+         Visualize.cpp
+     1>c:\users\dx\downloads\facetrackingvisualization\singleface\visualize.cpp(106): warning C4700: uninitialized local variable 'hr' used
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\dx\Downloads\FaceTrackingVisualization\Out\MultiFace\Win32\Debug\MultiFace.exe" /INCREMENTAL /NOLOGO FaceTrackLib.lib Kinect10.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\dx\Downloads\FaceTrackingVisualization\Out\MultiFace\Win32\Debug\MultiFace.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\dx\Downloads\FaceTrackingVisualization\Out\MultiFace\Win32\Debug\MultiFace.lib" /MACHINE:X86 C:\Users\dx\Downloads\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\MultiFace.res
+         C:\Users\dx\Downloads\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\eggavatar.obj
+         C:\Users\dx\Downloads\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\KinectSensor.obj
+         C:\Users\dx\Downloads\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\Visualize.obj
+         C:\Users\dx\Downloads\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\FTHelper2.obj
+         C:\Users\dx\Downloads\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\MultiFace.obj
+         C:\Users\dx\Downloads\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\stdafx.obj
+         MultiFace.vcxproj -> C:\Users\dx\Downloads\FaceTrackingVisualization\Out\MultiFace\Win32\Debug\MultiFace.exe
+       PostBuildEvent:
+         xcopy "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.7.0\Redist\x86\FaceTrackLib.dll" "C:\Users\dx\Downloads\FaceTrackingVisualization\Out\MultiFace\Win32\Debug\" /eiycq
+         xcopy "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.7.0\Redist\x86\FaceTrackData.dll" "C:\Users\dx\Downloads\FaceTrackingVisualization\Out\MultiFace\Win32\Debug\" /eiycq
+         :VCEnd
+         1 File(s) copied
+         1 File(s) copied
+     1>Done Building Project "C:\Users\dx\Downloads\FaceTrackingVisualization\MultiFace\MultiFace.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.57

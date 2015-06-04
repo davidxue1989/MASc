@@ -1,3 +1,5 @@
+clear
+uiopen('C:\Users\David\Downloads\HDFaceBasics-D2D\pose.csv',1)
 %%
 x = VarName1;
 y = VarName2;
@@ -5,14 +7,42 @@ z = VarName3;
 u = VarName4;
 v = VarName5;
 w = VarName6;
-%%
+
+%from angles to radian
+u = u/180*pi
+v = v/180*pi
+w = w/180*pi
+% change u, v, w (i.e. pitch, roll, yaw) angles to a unit vector dv
+% in other words, transform [0, 0, -1] by u, then v, then w
+%http://mathworld.wolfram.com/EulerAngles.html
+for i = 1:length(x)
+    the = u(i);
+    psi = v(i);
+    phi = w(i);
+    D = [cos(phi), sin(phi), 0;
+        -sin(phi), cos(phi), 0;
+        0, 0, 1];
+    C = [cos(the), 0, -sin(the);
+        0, 1, 0;
+        sin(the), 0, cos(the)];
+    B = [1, 0 ,0;
+        0, cos(psi), sin(psi);
+        0, -sin(psi), cos(psi)];
+    dv = B*C*D*[0; -1; 0];
+    u(i) = dv(1);
+    v(i) = dv(2);
+    w(i) = dv(3);
+end
+
 
 for i = 1:length(x)
 %     hold off;
 %     scatter3(x(i),y(i),z(i),6);
-    s = 1;
-    line([x(i), x(i)+s*u(i)], [y(i), y(i)+s*v(i)], [z(i), z(i)+s*w(i)]);
-    axis equal;
+
+    sc = 0.5;
+    line([x(i), x(i)+sc*u(i)], [y(i), y(i)+sc*v(i)], [z(i), z(i)+sc*w(i)]);
+%     line([x(i), x(i)+s*dv(1)], [y(i), y(i)+s*dv(2)], [z(i), z(i)+s*dv(3)]);
+
 %     view(-306, 1.0145e+03)
 %     view(0, 90);
     hold on;
@@ -21,6 +51,7 @@ for i = 1:length(x)
 %     pause(0.1)
 %     waitforbuttonpress;
 end
+axis equal;
 
 % scatter3(x,y,z, 6)
 % axis equal
@@ -28,17 +59,25 @@ end
 % quiver3(x,y,z,u,v,w, 0.8)
 
 %%
+% 
+% dx: calculating the center as the closest point to all lines.
+% for line given by Po + sU, P the center to be calculated,
+% closest point on line to P is when s = (P-P0)'*U
+% thus, problem is min_p sum_i { norm_2(P0 + [(P-P0)'*U]*U - P)^2 }
+% solution is P = [sum_i (I - U*U')]^-1 * [sum_i (I - U*U')*P0]
+
 C = zeros(3);
 CP0 = zeros(3,1);
 for i = 1:length(x)
     P0 = [x(i), y(i), z(i)].';
     U = [u(i), v(i), w(i)].';    
-    Temp = (U*U.'-eye(3))^2;
+%     Temp = (U*U.'-eye(3))^2;
+    Temp = (eye(3)-U*U.');
     C = C + Temp;
     CP0 = CP0 + Temp*P0;
 end
 P = inv(C)*CP0;
-scatter3(P(1),P(2),P(3),100, 'red');
+scatter3(P(1),P(2),P(3),100, 'FaceColor','r');
 hold on
 axis equal
 scatterpts = zeros(3, length(x));
@@ -48,7 +87,7 @@ for i = 1:length(x)
     s = (P-P0).'*U;
     X = P0+s*U;
     scatterpts(:,i) = X;
-    scatter3(X(1), X(2), X(3), 50, 'green');
+    scatter3(X(1), X(2), X(3), 16, 'FaceColor','g');
 end
 P
 % note: P = mean(scatterpts.')

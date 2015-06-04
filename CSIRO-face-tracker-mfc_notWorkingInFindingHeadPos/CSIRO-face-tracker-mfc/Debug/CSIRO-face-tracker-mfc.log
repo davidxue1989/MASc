@@ -1,0 +1,47 @@
+﻿Build started 6/3/2015 3:29:34 PM.
+     1>Project "C:\Users\David\Documents\GitHub\MASc\CSIRO-face-tracker-mfc\CSIRO-face-tracker-mfc\CSIRO-face-tracker-mfc.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\David\Downloads\opencv2\opencv\build\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\CSIRO-face-tracker-mfc.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "CSIRO-face-tracker-mfcDoc.cpp"
+         CSIRO-face-tracker-mfcDoc.cpp
+     1>c:\users\david\downloads\opencv2\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\david\documents\github\masc\csiro-face-tracker-mfc\csiro-face-tracker-mfc\csiro-face-tracker\facetracker.hpp(57): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\david\documents\github\masc\csiro-face-tracker-mfc\csiro-face-tracker-mfc\csiro-face-tracker-mfcdoc.cpp(169): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\david\documents\github\masc\csiro-face-tracker-mfc\csiro-face-tracker-mfc\csiro-face-tracker-mfcdoc.cpp(171): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\david\documents\github\masc\csiro-face-tracker-mfc\csiro-face-tracker-mfc\csiro-face-tracker-mfcdoc.cpp(173): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\david\documents\github\masc\csiro-face-tracker-mfc\csiro-face-tracker-mfc\csiro-face-tracker-mfcdoc.cpp(223): warning C4244: 'argument' : conversion from 'const double' to 'int', possible loss of data
+     1>c:\users\david\documents\github\masc\csiro-face-tracker-mfc\csiro-face-tracker-mfc\csiro-face-tracker-mfcdoc.cpp(270): warning C4244: '*=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\david\documents\github\masc\csiro-face-tracker-mfc\csiro-face-tracker-mfc\csiro-face-tracker-mfcdoc.cpp(271): warning C4244: '*=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\david\documents\github\masc\csiro-face-tracker-mfc\csiro-face-tracker-mfc\csiro-face-tracker-mfcdoc.cpp(326): warning C4244: '*=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\david\documents\github\masc\csiro-face-tracker-mfc\csiro-face-tracker-mfc\csiro-face-tracker-mfcdoc.cpp(327): warning C4244: '*=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\david\documents\github\masc\csiro-face-tracker-mfc\csiro-face-tracker-mfc\csiro-face-tracker-mfcdoc.cpp(415): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\David\Documents\GitHub\MASc\CSIRO-face-tracker-mfc\Debug\CSIRO-face-tracker-mfc.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\David\Downloads\opencv2\opencv\build\x86\vc12\lib\ opencv_highgui2411d.lib opencv_imgproc2411d.lib opencv_core2411d.lib opencv_objdetect2411d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\David\Documents\GitHub\MASc\CSIRO-face-tracker-mfc\Debug\CSIRO-face-tracker-mfc.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\David\Documents\GitHub\MASc\CSIRO-face-tracker-mfc\Debug\CSIRO-face-tracker-mfc.lib" /MACHINE:X86 "Debug\CSIRO-face-tracker-mfc.res"
+         "Debug\CSIRO-face-tracker-mfc.obj"
+         "Debug\CSIRO-face-tracker-mfcDoc.obj"
+         "Debug\CSIRO-face-tracker-mfcView.obj"
+         Debug\ATM.obj
+         Debug\CLM.obj
+         "Debug\command-line-arguments.obj"
+         Debug\Detector.obj
+         Debug\FaceTracker.obj
+         Debug\FCheck.obj
+         Debug\FDet.obj
+         Debug\helpers.obj
+         Debug\IO.obj
+         Debug\myFaceTracker.obj
+         Debug\Patch.obj
+         Debug\points.obj
+         Debug\RegistrationCheck.obj
+         Debug\ShapeModel.obj
+         Debug\ShapePredictor.obj
+         Debug\Warp.obj
+         Debug\MainFrm.obj
+         Debug\stdafx.obj
+         CSIRO-face-tracker-mfc.vcxproj -> C:\Users\David\Documents\GitHub\MASc\CSIRO-face-tracker-mfc\Debug\CSIRO-face-tracker-mfc.exe
+     1>Done Building Project "C:\Users\David\Documents\GitHub\MASc\CSIRO-face-tracker-mfc\CSIRO-face-tracker-mfc\CSIRO-face-tracker-mfc.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.24

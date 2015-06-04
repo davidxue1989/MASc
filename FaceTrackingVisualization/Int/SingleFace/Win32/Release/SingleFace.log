@@ -1,0 +1,31 @@
+﻿Build started 2013-09-02 12:32:16 PM.
+     1>Project "C:\Users\dx\Downloads\FaceTrackingVisualization\SingleFace\SingleFace.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\SDKs\opencv\build\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"C:\Users\dx\Downloads\FaceTrackingVisualization\Int\SingleFace\Win32\Release\SingleFace.pch" /Fo"C:\Users\dx\Downloads\FaceTrackingVisualization\Int\SingleFace\Win32\Release\\" /Fd"C:\Users\dx\Downloads\FaceTrackingVisualization\Int\SingleFace\Win32\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt FTHelper.cpp KinectSensor.cpp SingleFace.cpp
+         FTHelper.cpp
+         KinectSensor.cpp
+         SingleFace.cpp
+     1>SingleFace.cpp(468): warning C4305: 'argument' : truncation from 'double' to 'float'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\dx\Downloads\FaceTrackingVisualization\Out\SingleFace\Win32\Release\SingleFace.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\SDKs\opencv\build\x86\vc11\lib FaceTrackLib.lib Kinect10.lib opencv_core246.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\dx\Downloads\FaceTrackingVisualization\Out\SingleFace\Win32\Release\SingleFace.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\dx\Downloads\FaceTrackingVisualization\Out\SingleFace\Win32\Release\SingleFace.lib" /MACHINE:X86 /SAFESEH C:\Users\dx\Downloads\FaceTrackingVisualization\Int\SingleFace\Win32\Release\SingleFace.res
+         C:\Users\dx\Downloads\FaceTrackingVisualization\Int\SingleFace\Win32\Release\eggavatar.obj
+         C:\Users\dx\Downloads\FaceTrackingVisualization\Int\SingleFace\Win32\Release\SingleFace.obj
+         C:\Users\dx\Downloads\FaceTrackingVisualization\Int\SingleFace\Win32\Release\FTHelper.obj
+         C:\Users\dx\Downloads\FaceTrackingVisualization\Int\SingleFace\Win32\Release\KinectSensor.obj
+         C:\Users\dx\Downloads\FaceTrackingVisualization\Int\SingleFace\Win32\Release\stdafx.obj
+         C:\Users\dx\Downloads\FaceTrackingVisualization\Int\SingleFace\Win32\Release\Visualize.obj
+         Generating code
+         Finished generating code
+         SingleFace.vcxproj -> C:\Users\dx\Downloads\FaceTrackingVisualization\Out\SingleFace\Win32\Release\SingleFace.exe
+       PostBuildEvent:
+         xcopy "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.7.0\Redist\x86\FaceTrackLib.dll" "C:\Users\dx\Downloads\FaceTrackingVisualization\Out\SingleFace\Win32\Release\" /eiycq
+         xcopy "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.7.0\Redist\x86\FaceTrackData.dll" "C:\Users\dx\Downloads\FaceTrackingVisualization\Out\SingleFace\Win32\Release\" /eiycq
+         
+         :VCEnd
+         1 File(s) copied
+         1 File(s) copied
+     1>Done Building Project "C:\Users\dx\Downloads\FaceTrackingVisualization\SingleFace\SingleFace.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.75
