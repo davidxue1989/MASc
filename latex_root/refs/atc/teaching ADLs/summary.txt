@@ -1,0 +1,633 @@
+
+
+are there studies for all sorts of activities of daily living?
+if not, what's there, what's lacking, why?
+can they be categorized into groups?
+
+for the studies there, what are common strategies / forms of ATCs?
+how's their effectiveness?
+what seems to work, what doesn't? what's missing / needing investigation?
+
+
+for each study:
+what outcome
+what technology (CBI, video, or both)
+how it was used (is video first person or third person, is reinforcement used, what prompts are used (video, verbal, tactile, etc.), is there prompting hierarchy, is it in-vitro or in-vivo)
+was it effective
+
+Ayres et al.
+making sandwich, making soup with microwave, and setting table
+CBI + video instructions (CBVI), no in-vivo instructions
+good skill acquisition and maintenance and generalization
+The images that the student saw during
+CBVI consisted of video images filmed from a
+1st person perspective (c.f. Ayres & Langone,
+2007)
+Videos showed a narrated step-bystep
+walk-through of each target skill.
+Once in the program, the student
+viewed two narrated video models of the target
+task being completed. 
+Once the student completed viewing the
+video models, the program asked them to
+complete the skill in a computer simulation.
+a modified system of
+least prompts (SLP) instructional arrangement
+(Wolery, Ault, & Doyle, 1992).
+Students were allowed 10s to respond using
+the mouse, if they did not respond, or began
+an incorrect response (e.g. clicked on the
+wrong item to pick up), the computer stopped
+them and delivered the next level in the
+prompt hierarchy. 
+1. Independent:
+2. Verbal:
+3. Model prompt: computer shows a visual
+response prompt in the form of a video
+model
+4. Stimulus Prompt: analogous to a “partial
+physical” prompt in terms of level of intrusion,
+the stimulus prompt created a bright
+yellow “halo” on the location where the
+student needed to click. 
+5. “Full Physical”: the computer controlled
+the images on the screen and completed
+the step for the student.
+No programmed reinforcement was provided
+for correct responses during CBVI. A
+reinforcer game was available non-contingently
+on student performance after the student
+completed the simulation. A teacher, or
+a parent (for Ray in the home), supervised all
+CBVI sessions and did not provide any feedback
+to the student. They were present only to
+monitor the performance of the computer
+program and to keep students on task. During
+the course of the study, students generally
+displayed eagerness to work on the program
+and no attention problems were noted.
+
+Bereznak et al.
+washing machine, making noodles, and using a copy machine were taught
+video prompting via an iPhone.
+During probes on laundry,
+the iPhone was placed on top of the dryer, which was located directly left of the
+washing machine. During probes on cooking, the iPhone was located to the right of
+the microwave and to the left of the supplies needed to cook. During both daily living
+conditions, the data collector stood behind and to the right of the participant. The
+reliability data collector stood behind and to the left of the participant.
+During probes on copying, the iPhone was placed to the right of the
+keypad, on top of the cut out for paperclips. The data collector stood behind and to
+the right of the participant and during reliability sessions, the reliability collector
+stood behind and to the left of the participant
+Videos were filmed using an adult model and
+shot from the performer’s perspective—point of view video modeling (Cihak and
+Schrader 2009)
+At the start of each step, a single word to describe the step was
+displayed on the screen (e.g., the screen displayed “TURN”). Following this, a video
+clip of the step to be performed with a built in audio description of the action required
+was played (e.g., video of a hand turning the dial to the correct place while the audio
+played “turn the dial to setting for regular”). After the video clip with audio was played,
+the screen displayed a red octagonal stop sign, with audio that said, “stop.” The participants
+were taught to press the pause button once the stop sign appeared on the screen.
+After pausing, the participants completed the step that was just shown on the video. Once
+participants completed the step, they pressed play on the screen to go onto the next step.
+Students were taught to use the iPhone prior to the baseline sessions. Students were
+presented with a novel task in which they could not predict the next step (simple
+assembly task). Since the participants had no history with the task, the only option
+was to refer to the iPhone for prompting. This task consisted of assembling various
+color magnets to magnetic balls in a specific color order. The researcher modeled the
+use of the iPhone with the task to the participants. The instructor also narrated what
+they were doing while performing the task. For example, the iPhone would be preset
+on a training video, just as it would be during intervention conditions. The researcher
+would say, “press play,” while pressing the play triangle on the iPhone. After pressing
+play the teacher would comment, “watch the video,” as the video prompt began to
+play. At the completion of the clip, the instructor said, “wait for the stop sign,” as the
+stop sign was displayed on the screen, “and press pause,” and the pause button was
+pressed on the iPhone, and “do the step” as the instructor performed the previously
+modeled task. This was repeated for the entire length of the training video followed
+by the participants practicing use of the iPhone with the skill. Errors made while
+using the iPhone were interrupted and verbally prompted with the phrases mentioned
+above.
+Training videos were used until the participant was performing the task using the
+iPhone with no verbal prompts from the instructor.
+
+
+Hutcherson et al.
+CBI
+items selected in a grocery store
+researcher sat to the right of participant to help maneuver through the computer program
+Each session consisted of 16 trials
+Community setting.
+where the participant was positioned within 3 meters of the
+target stimuli by the researcher. The researcher stood
+approximately 1 meter behind the participant and the
+reliability data collector stood approximately 3 meter behind
+the researcher.
+Computer and classroom setting.
+The researcher sat to the right of the
+participant to help maneuver through the computer program.
+The
+computer program included a cartoon tutor named Shopper
+Bob. He acted as a narrator, gave task directions, provided
+corrective feedback, and reinforced accurate responses. In the
+grocery store 8 centimeter by 10 centimeter index cards with
+photographs of the target stimuli were used as discriminative
+stimuli and the students needed no other materials.
+a correct response was defined as the
+student selecting the target stimuli appearing on the shelf or
+in the freezer independently within 30 seconds of the initial
+task direction; similarly, in the computer based probes (CBP),
+a correct response was defined as clicking the correct match
+appearing on the screen within 30 seconds of the initial task
+direction. An incorrect response in both probes was defined as
+selecting an incorrect item in the allotted 30 seconds. A no
+response was recorded if the participant did not make a
+selection within 30 seconds of the task direction.
+During CAI, participants were able to respond in one of
+five different ways:
+1. Unprompted Correct: a correct response given within
+the time limit for the stimulus set (see Table 2 for list of
+time limits)
+2. Prompted Correct: a correct response following the
+model prompt (model prompts were displayed if the
+student did not respond within the initial time period.
+3. Unprompted Incorrect: a response initiated of an
+incorrect topography performed within in the time limit
+4. Prompted Incorrect: an incorrect response occurring
+after the model prompt
+5. No Response: this was scored when the student did not
+initiate a response within before or after the model prompt.
+Grocery Store Probes:
+After the researcher positioned the participant 3 meters
+from the target stimuli, she handed the picture of the item to
+the participant and as an attention cue said “What cereal is
+this?” After the participant’s response, the researcher said,
+“Find same.” The participant had up to 60 seconds to locate
+the item and make a selection by grasping, touching, or
+pointing to the target item, although the response was scored
+as correct, incorrect, or no response after 30 seconds.
+Correct responses resulted in the item being put in the
+shopping cart while incorrect responses were put back on the
+shelf or ignored.
+If the participant did not respond
+within 60 seconds, the researcher said “Let’s try another one”
+and started the next trial.
+Computer Probe Procedures:
+Sessions began with the task direction: “Click on the item
+that matches the item in your flipbook.” The participant had
+30 seconds to locate the target item and click on the item
+using the mouse or touching the item if using a touch screen.
+When the student made a correct selection, the item moved
+into the shopping cart in the bottom left corner of the screen
+and the next trial began. The student received no verbal praise
+for correct responses during CBP. The computer ignored
+incorrect and no response errors and immediately began the
+next trial.
+Computer Based Instruction:
+If the participant made a correct selection, the item
+automatically moved into the shopping cart at the bottom left
+corner of the screen with a reinforcement prompt of “Good
+job,” “Well done,” “That’s right,” or “Great job.” The next trial
+then began. If the participant made an incorrect selection, the
+program prompted, “That isn’t the item that is in your
+flipbook. Let me show you” and then modeled how to scan left
+to right and top to bottom until the target item was found. A
+bright yellow box flashed around the correct match along with
+the auditory prompt, “This was the correct item. Try it again.”
+If the participant was correct the second time, the item moved
+into the cart and the next trial began.
+==>dxnote: the prompts are the modeled bright yellow box flashing
+Acquisition and Generalization
+All students accurately located more items following
+intervention than they did during baseline conditions.
+
+Mechling and O’Brien Pg73
+CBVI
+were able to generalize the skill to the actual bus route with no in-vivo instruction
+able to maintain the skill across time.
+PowerPoint was used to develop the CBVI
+program which simulated the bus route and
+destination using video and photographs. Students
+accessed the program using a Magic
+Touch touch screen (Keytec, Inc). The first
+slide for each video model contained a photograph
+of the destination store and recorded
+voice with the task direction, “Riding the bus
+to Target.” The slide was advanced to the next
+slide which contained an inserted video
+model of the bus route and three photographs
+of the landmarks (Figure 1).
+Video models. Video recordings were developed
+from a person first perspective as if the
+student was walking to the bus stop, boarding
+the bus and using a bus pass, sitting down,
+riding the bus, looking out the window for
+landmarks and bus stops, pushing the “request
+to stop signal” and exiting the bus.
+While recording the video model the person
+operating the camera also recorded (voice
+over) verbal cues associated with the three
+landmarks: “Look for Advanced Auto Parts”,
+“Look for Olive Garden,” “Push the request to
+stop signal when you see the Chick-Fil-A and
+Target sign.” At the beginning of each session
+the student watched the entire video model
+for the target route and destination followed
+by the first trial using video prompting (Mechling
+et al., 2003).
+Video prompts. Video segments were recorded
+for the bus route for use during 0s and
+3s video prompting instructional trials. These
+recordings were also made from a person first
+perspective, but did not include voice over.
+The video segments were for: a) walking to the
+bus stop, boarding the bus, using a pass, sitting
+down, riding the bus, passing landmarks,
+pushing the “request to stop signal” at the
+target landmark; and b) standing up and exiting
+at the correct bus stop. During the first
+trial using CBVI (following video modeling)
+the student saw the first PowerPoint slide of a
+video segment (from a person first perspective)
+of walking to the bus stop, boarding the
+bus, using a pass, sitting down, riding the bus,
+and looking out the window for landmarks.
+As the bus
+passed the three landmarks there were no
+verbal cues provided during video prompting.
+During the playing of this video segment
+(looking out the window for landmarks), a
+photograph of the “request to stop bus signal”
+was positioned at the bottom right corner of
+the PowerPoint slide (Figure 2). When selected
+(using the touch screen) the photograph button
+was programmed to stop the video. If
+correct (selecting the photograph at the correct
+landmark) the instructor advanced the
+program to the next slide which contained a
+voice over, “Yes, that’s right. Push the request
+to stop signal when you see the Chick-Fil-A
+and Target sign” and a video segment showed
+the bus stopping and exiting the bus.
+Incorrect
+responses resulted in the instructor and student
+boarding the next available bus and returning
+to the school site. Correct responses
+were reinforced by walking to the destination
+and making a purchase before boarding the
+bus and returning to the school site. Students
+also received non-specific verbal praise such
+as, “You’re doing a nice job,” on the average of
+one time per bus route for general attending
+and completion of mastered steps (i.e. “You
+sat down quickly when you got on the bus”).
+(a) unprompted correct (initiating
+and touching the photograph of the
+“request to stop bus signal” within 3s of the
+target landmark appearing on the screen);
+(b) unprompted incorrect (touching the photograph
+before the target landmark appeared
+on the screen); (c) prompted correct (touching
+the photograph within 3s of the instructor
+prompt); (d) prompted incorrect (touching
+something else on the screen); and (e) no
+response (failure to initiate touching the photograph
+within 3s of the instructor prompt).
+
+Rosenberg et al.
+using a commercially available video model to
+teach three preschoolers with autism to wash their hands. While one child
+learned 80% of the hand washing steps, 2 of the 3 children did not learn from
+the commercial model.
+customized video
+model, which resulted in at least some acquisition of the skill for the two
+students who did not learn from the commercial model
+Videos were viewed in a 11.5 ft x 9.5 ft room near one of the classrooms. => in-vitro
+Hand washing probes occurred in bathrooms used by all students
+including the three participants.
+Commercial video.
+One 25-second model of
+appropriate handwashing was selected
+The
+model was a male child, approximately 8 years old, who is shown
+walking into the school and washing his hands. No verbal narration
+of the steps is provided in the tape; however, several admonitions are
+given: “always remember to wash your hands when you’re done” and
+“and don’t forget, dry those hands.” In addition, the words “Wash”
+and “Dry” appear in the tape when the model is performing these
+actions.
+Customized video.
+Each child’s tape included a familiar child as model. Two of the participants
+had a twin sibling who served as the model (Charlie, twin
+brother; Aaron, twin sister) while a favorite preschool peer served as
+the model for John.
+The video included narration accompanying each target step
+(i.e., “first, you wet your hands, then you get soap”) and enthusiastic
+praise at the end of the hand washing sequence.
+Baseline.
+No prompts
+occurred during hand washing and no feedback was provided during
+baseline.
+Commercial Video Model.
+The instructor stated,
+“We’re going to learn how to wash hands” and played the model two
+times. Attending was praised intermittently and sitting was praised at
+completion, but no prompts were provided. The experimenter then
+escorted the child to the bathroom and stated, “wash your hands, just
+like on the tape.” Similar to baseline, toileting was allowed if the child
+initiated, no prompts occurred, and 30 seconds were allowed for completion
+of a step and progression to the next step before the session
+was terminated.
+Custom Video Model.
+were identical to the commercial
+video condition except for the content of the video model (see
+above) and the instruction to wash hands (i.e., “wash your hands, just
+like [model’s name] did on the tape”).
+
+Shipley-Benamou et al.
+Videotapes were developed from the participant’s viewing
+perspective
+was effective in promoting skill acquisition across all three children and maintained during the
+postvideo phase and a 1-month follow up.
+tasks the child did not know how to complete were selected==>
+The tasks for Danny were making orange juice,
+preparing a letter to be mailed, and setting the table. For
+David, the tasks were cleaning a fish bowl and setting the
+table. The tasks for Amy were feeding her cat, putting a letter
+in a mailbox, and setting the table.
+holding the camera in a set position
+(over the shoulder of the adult model) allowing for
+only the hands of the model and necessary materials to be
+visible in the camera lens.
+At the beginning of each task, a narrator’s voice was
+heard on the videotape giving the instruction: “Here is
+everything your friend needs to [task]. When I say “go” I
+want you to watch your friend [task]. Ready, go.”With the
+desire to facilitate initial attending to the training video, a
+5-s animated video segment of the child’s favorite cartoon
+was dubbed with the same instruction as in the training
+tape and then inserted at the beginning of the instructional
+video displaying the task.
+BASELINE
+During each session the experimenter
+provided the following statement: “[Name],
+here is everything you need to [task]. When I say “go” I
+want you to [task]. Do the best you can.”
+Sessions
+were terminated when the subject ceased to engage in the
+appropriate behaviors needed to complete the task after
+60 s and responded affirmatively (i.e., nodding head or
+verbally indicating) to the experimenter’s question, “Are
+you finished/all done?” During baseline, praise was provided
+for attending behaviors only.
+INSTRUCTIONAL VIDEO MODELING INTERVENTION
+Once the child sat in the chair,
+the child was told that a video would be shown.
+the video of the target
+task was shown to the child one time only.
+After the video was completed
+the child was immediately presented with
+the same instructions as in baseline.
+praise was provided for attending behaviors only.
+Once criterion was reached, which consisted of 100% acquisition
+on all steps of a task, reinforcement in the form
+of praise paired with either candy or access to a preferred
+toy was provided.
+
+Sigafoos et al. (2007b)
+wash dishes.
+video prompting and fading
+video clips depicting each step of the task
+skill acquired only when prompts were present (although with fading skill still there)
+maintenance was achieved for with prompt only, without prompt skill never learned
+Each step of the task analysis was initially filmed as an individual video clip
+from the perspective
+of the performer completing the task
+each
+clip also included a one-sentence voice-over instruction.
+the voice-over
+instructed the participant to: First, plug the sink.
+The voice-over instruction for this
+step was: Now, put the dishes in the sink.
+Baseline 1
+Okay [name], can you wash those dishes? while simultaneously
+pointing to the plate, cup, and spoon.
+The session terminated if the participant
+failed to initiate subsequent steps within 30 s of having completed a previous step
+in the task
+Any errors, such as the failure to wash
+all three items, were ignored. Following completion of the session, participants
+were thanked for washing their dishes, irrespective of their performance during
+the session.
+Video Prompting 1 (VP1)
+computer was placed on the counter approximately 50 cm
+to the right of the sink, which made the screen easily visible to participants. After
+finishing the snack, the trainer pointed to the computer screen and said, Okay,
+[name], watch this. The trainer then played the video clip showing the first step
+of the dish washing task analysis. When the video clip ended, the trainer said,
+Okay, [name], now you do it. At this point, the participant was given 30 s to
+complete the step. If the participant failed to complete the step within 30 s or
+made an error, the trainer completed the step correctly and as unobtrusively as
+possible so as to prevent the participant from seeing the step being completed
+correctly. After this, the trainer pointed to the computer screen and said, Okay
+[name], watch this. The trainer then played the video clip depicting the next step
+in the task analysis. This same process was followed until all of the video clips
+had been shown in sequence. Following completion of the session, participants
+were thanked for washing their dishes, irrespective of their performance during the
+session.
+
+Sigafoos et al.
+make popcorn using a microwave oven.
+During baseline, participants were instructed to make
+popcorn, but were given no further instructions or prompts. Video prompting consisted
+of first watching a video clip of a step being performed and then giving
+participants the opportunity to imitate that step.
+Following acquisition,
+video prompting was removed and maintenance in the absence of video
+prompting was assessed at 2, 6, and 10 weeks. Two of the three participants acquired
+the task when video prompting was introduced and performed at 80–100%
+correct during follow-up sessions.
+The clips were filmed from the
+performer’s perspective.
+each clip included a one-sentence voice-over instruction
+e.g. First, take the bag
+out of its wrapper
+the performer’s arm—moving toward and pressing the START panel on
+the microwave oven
+As this occurred, a voice-over instructed the adult to“Press
+the button that says START”.
+initial instruction (e.g., Ok Jim, make some popcorn). All subsequent steps
+had to be completed within 30 s.
+Baseline 1
+given the verbal instruction:
+“Ok [name] make some popcorn.” If the participant did not complete the step
+within 30 s, the trainer completed the step and then instructed the participant
+to continue by asking: “What’s next?” After the final step, whether completed
+by the trainer or participant, the participant was allowed to eat about 6 oz of the
+popcorn that had been made.
+Video Prompting
+computer was placed on the counter to
+the left of the bag of popcorn and the bowl and the participants were oriented to
+face the computer screen. The trainer would start the video of the first step and ask
+the participant to watch this, as the trainer pointed to the computer screen. After
+viewing the video clip, the trainer said now you do it. At this point, the participant
+was given 30 s to complete the step. If the participant failed to complete a step
+within 30 s, the trainer completed the step and proceeded to show the next clip
+in the task analysis using the same procedure as for the first step. In other words,
+each participant would watch the video for one step of the task analysis, then have
+the opportunity to complete that step, then be shown the video for the next step
+of the task analysis and have the opportunity to complete that step, and so on for
+the remainder of the steps. No additional instructions, feedback, or prompts were
+delivered other than the one sentence instruction provided in the video clips.
+
+Van Laarhoven et al.
+video prompting and picture prompting
+that video prompting was slightly more effective in terms of independent correct
+responding, fewer external prompts for task completion, and fewer prompts to use instructional materials.
+microwave pasta and folding laundry using a flip-and-fold.
+A man who was a teaching
+assistant in the classroom acted as the model in both of the
+tasks, and the photos and videos displayed him engaging in
+the skill sequence using both zoom and wide-angle shots
+(i.e., combination of “other” model and subjective or firstperson
+viewpoint for zoom shots).
+shot with a combination of wideangle
+(full view of the model) and a few zoom shots
+(showing the arm of the model setting the microwave).
+Zoom shots for both the picture- and video-based materials
+were used to ensure that participants attended to the critical
+aspects of the steps (e.g., setting the microwave for 4 min).
+picture prompts:
+After saving the pictures to the desktop,
+they were imported into Microsoft PowerPoint, with one
+step in the task analysis per slide. A short description of
+each step was placed on the top of each slide (e.g., “Set
+Microwave”), and the picture(s) was placed below. When
+more than one picture was presented on the slide, a text box
+with a sequenced number was placed on each picture to
+indicate the correct order of substeps. The PowerPoint presentation
+was then printed, with one slide per page. After
+the materials were printed, they were laminated, sequenced,
+hole-punched in the top left corner, and held together with
+a notebook ring to create a booklet.
+During
+the intervention, the participants looked at the picture(s) on
+one page, engaged in the step, went back to the booklet,
+turned the page, engaged in the next step, and so forth until
+the skill sequence was completed.
+video prompts
+Skill sequences (e.g., making microwave
+pasta) were broken into short video segments (for each
+step). Photos of the most salient feature of the steps (e.g., a
+still shot of “4:00” on the microwave) were “grabbed” out
+of the video and placed at the beginning of each video
+segment. Voiceover narrations were then added to each
+segment to describe the actions being depicted in each segment
+and to cover the background noise that was present in
+the setting during filming (e.g., the bell ringing, announcements
+over the intercom). Each step of the task was edited
+and saved as a separate file and placed in a PowerPoint presentation.
+Each slide in the PowerPoint presentation had a
+short description of the step on the top of the screen and the
+grabbed photo visible in the middle of the screen. The slide
+show was set so that the participants had to move the cursor
+to the photo and use a mouse click to view the video prior
+to completing the step. After completing the step, the
+participants clicked on a hyperlinked “Next” button at the
+bottom right of the screen to advance to the next slide.
+During intervention, participants
+viewed the video segment of each step on a laptop
+computer prior to engaging in each step until the task was
+completed.
+For pretest sessions, participants were brought to the
+instructional area and were told what task they were going
+to perform. They were asked to do their best and told that if
+they did not know what to do at any point, they could ask
+the researchers to complete the step for them. Each participant
+was given an instructional cue, such as “fold clothes,”
+“cook the spaghetti,” “wash the dishes,” and so forth; the
+verbal cue was used throughout the session. If participants
+made errors during the testing phases or did not respond
+within 10 s, the experimenter asked them to turn away or
+close their eyes, and the step with the error was completed
+for them. The researcher then gave the next instructional
+cue to get the participant to continue with the task. This
+protocol was repeated until the task was completed, and no
+feedback related to task performance was given; however,
+praise statements were delivered for staying on task and
+working hard.
+Training participants to use technology and photos
+participant was
+taught to use each of the prompting systems via a modellead-
+test format until he could use the prompting systems
+independently to complete a task that was unrelated to the
+instructional tasks (i.e., cleaning a desk). They were taught
+to use a picture booklet and taught to operate the laptop to
+navigate through the PowerPoint presentation until they
+could independently use the materials to prompt responses
+for three consecutive sessions.
+Instructional sessions.
+they were told which task
+they were going to do for the day and shown the prompting
+system. They were then given the instructional cue of either
+“fold clothes” or “cook pasta.” Participants used the
+prompting devices by looking at the picture in the booklet
+or playing the video segment on the laptop prior to performing
+each step in the skill sequence. They then returned to
+the booklet or computer to prompt the next step until the
+entire sequence was completed. Researchers intervened
+only if participants made an error or needed a prompt to use
+the technology. Praise statements were delivered to reinforce
+correct responding during task engagement, and high
+fives or knuckle bumps were given following the completion
+of the tasks. In addition, participants were allowed to
+eat the pasta dishes or give them to peers or faculty of their
+choosing.
+
+
+
+
+=================================
+
+Adaptive and daily-living skills, such as self-care (e.g., grooming, dressing,
+cooking), organization (e.g., time management, money management), and
+community or recreational skills (e.g., using public transportation or the library),
+have been noted as essential for an individual to function successfully and independently
+(Liss et al. 2001).
+Unfortunately, individuals
+diagnosed with ASD often struggle to acquire the adaptive and daily living skills
+necessary to live independently and often come to rely on caregivers for assistance.Smith et al. (2012) 
+
+
+instructions delivered using picture-based systems, hand-held personal
+computers, auditory prompting systems, and video models 
+
+Instructional procedures
+included prompting, prompt fading, and reinforcement. In order to promote generalization,
+study authors incorporated images and videos taken directly from the
+natural environment in order to make the instructional environment and materials
+more closely resemble the natural environment (Stokes and Baer 1977)
+
+some studies had
+ follow-up probes to assess
+ the maintenance of acquired skills were also conducted and, in the majority of
+ cases, the skill was maintained.
+
+Three studies evaluated CBI to promote independent and daily
+living skills in individuals with ASD (Ayres et al. 2009; Hutcherson 2004;
+Mechling and O’Brien 2010).
+
+For instance, Ayres et al. (2009) delivered
+instructions using a computer software program to teach food preparation and table
+setting to three children (ages 7 to 9 years old) with autism.
+This instructional program is designed to present a video simulation of the environment
+for three unique tasks (i.e., setting table, making soup, and making
+sandwich) and required children to respond by arranging materials in a simulated
+environment (e.g., putting utensils on the table)
+
+Three studies used portable laptop computers (Sigafoos et al. 2005, 2007a, b, c;
+van Laarhoven et al. 2010), two studies used a television and video player
+(Rosenberg et al. 2010; Shipley-Benamou et al. 2002), and one study used an
+iPhone (Bereznak et al. 2012) to deliver video prompts.
+

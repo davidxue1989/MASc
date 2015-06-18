@@ -1,0 +1,56 @@
+\subsection{Eye Pose Estimation}
+
+\subsubsection{Eye Image Cropping and Stabilization}
+The appearance-based method we will use follows after Mora et al. \cite{funes2013person}, and requires cropped eye images from frontal head pose.  As explained in previous section [\ref{sec:approachOverview}, the cropped color eye images are easily obtained as long as we have stable tracking of the head -- the relative position of the eyes on the head is unchanged although the head is moving.  Given the tracked head pose, we can reverse the viewing angle and project back the RGB image to obtain frontal head pose eye images.
+
+
+\subsubsection{Eye Image Descriptor}
+We first convert the eye image to gray-scale, normalize intensity values by setting mean to 125 and standard deviation to 30 (given that original intensity range is [0, 255]).  Then, we bin the image pixels into a grid of 3X5.  We form the descriptor e as the concatenated vector of bin values, normalized such that elements of e sum to 1.
+
+
+\subsubsection{Adaptive Linear Regression (ALR)}
+For a single eye, the gaze estimation problem can be formulated as the following: given training examples \( {(e_i,g_i )} \), input \(e'\), we want to estimate the gaze \(g'\).
+Let \(E\) be the matrix whose \(i^{th}\) column i is \( e_i \), \(G\) be the matrix whose \(i^{th}\) column is \(g_i\), \(\epsilon\) be a tolerance parameter, we formulate our problem as a sparse reconstruction problem, finding the optimal \(w\) by minimizing the \(L_1\) norm of w:
+\[ w' = argmin_w \|w\|_1  \quad  s.t.   \quad   \|Ew - e'\|_2 < \epsilon   \]
+, then the estimated gaze \[ g' = Gw \]
+
+
+\subsubsection{Coupled Eyes Constraints}
+Now considering both eyes together, the ALR equation holds if we redefine the following:
+
+\[  e = \begin{bmatrix}
+e_l \\ e_r
+\end{bmatrix}   \]
+
+\[  w = \begin{bmatrix}
+w_l \\ w_r
+\end{bmatrix}   \]
+
+\[  E = \begin{bmatrix}
+E_l	&	0 \\
+0	&	E_r
+\end{bmatrix}  \]
+
+and \[g = \begin{bmatrix}
+g_{\phi l} \\ g_{\theta l} \\ g_{\phi r} \\ g_{\theta r}
+\end{bmatrix}  \]
+the vector of (pan, tilt) angles of the (left, right) eye
+
+Then, the coupled eyes constraints can be formulated as: 
+\begin{enumerate}
+	\item Left and right eyes tilt angles should be the same:
+	\[ g_{\phi l}^T w_l -  g_{\phi r}^T w_r = 0 \]
+	
+	\item Left and right eyes pan angles should not differ by more than a threshold, \(\tau_\phi\), with left eye the bigger angle
+	\[  \tau_\phi < g_{\phi r}^T w_r - g_{\phi l}^T w_l < 0 \]
+\end{enumerate}
+
+
+\subsubsection{Solving ALR with Coupled Eyes Constraints}
+The ALR with coupled eyes constraints can be solved as a Second Order Cone Programming problem \cite{funes2013person, kim2001second}.
+
+
+\subsubsection{Training Examples Collection and Model Selection}
+Since we are dealing with children with ASD, collecting person specific training examples would not be possible.  Instead, generic training examples across multiple normal individuals are used.  Such training examples are extracted from the EYEDIAP dataset, with the ground truth gaze directions provided by the dataset.
+
+After training examples are collected, eye pose estimation for a new person is done through ALR searching through the training examples.  We keep track of which person's training examples are used more often, and only keep the top few.  This is done by accumulating a running sum of \(w_i\) for each person.  This way, people that have eye appearances greatly differing from the new person are ignored, making the search more efficient and the estimation more accurate.

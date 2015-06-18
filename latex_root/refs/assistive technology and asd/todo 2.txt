@@ -1,0 +1,22 @@
+they all involved visually
+engaging graphics (e.g. a computer generated head in Baldi or animated color graphics of words in
+Alpha program), and relate the user to the vocabulary speech by synchronizing the graphics with the
+speech
+
+
+The tactile prompting devices were either programmed to
+vibrate periodically or were controlled remotely by the researcher.
+==> in-vivo ATCs either need user to self operate or need AI to function automatically
+
+Not only does the script contain verbal speeches of interactions, the script may also contain prompts for the individual to follow,
+==> modeling often requires verbal instructions / prompts on top of showing the behavior
+
+During watching of the video, the instructor prompts and provides reinforcers to
+the individual with ASD for attending relevant stimuli in the video.
+--> this happens for VM for social skill and for daily living skill
+
+some studies needing more than simply
+showing the videos to the individuals (instructional prompts, reinforcers and error correction were also
+implemented) to ensure acquisition, maintenance, and generalization of target skills.
+
+
