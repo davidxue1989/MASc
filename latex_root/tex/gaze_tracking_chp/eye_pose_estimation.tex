@@ -51,6 +51,6 @@ The ALR with coupled eyes constraints can be solved as a Second Order Cone Progr
 
 
 \subsubsection{Training Examples Collection and Model Selection}
-Since we are dealing with children with ASD, collecting person specific training examples would not be possible.  Instead, generic training examples across multiple normal individuals are used.  Such training examples are extracted from the EYEDIAP dataset, with the ground truth gaze directions provided by the dataset.
+Since we are dealing with children with ASD, collecting person specific training examples would be infeasible.  Instead, generic training examples across multiple normal individuals are used.  Such training examples are extracted by cropping the eye regions from videos in the EYEDIAP dataset, with the ground truth gaze directions provided by the dataset.
 
 After training examples are collected, eye pose estimation for a new person is done through ALR searching through the training examples.  We keep track of which person's training examples are used more often, and only keep the top few.  This is done by accumulating a running sum of \(w_i\) for each person.  This way, people that have eye appearances greatly differing from the new person are ignored, making the search more efficient and the estimation more accurate.

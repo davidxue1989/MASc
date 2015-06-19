@@ -51,88 +51,91 @@
 \contentsline {section}{\numberline {4.2}Recruitment}{24}{section.4.2}
 \contentsline {paragraph}{The \textbf {inclusion criteria} for enrolling in the study were as follows:}{24}{section*.24}
 \contentsline {section}{\numberline {4.3}Humanoid Robot NAO}{25}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Verbal Prompts}{26}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Gesture Prompts}{26}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Wizard of Oz Remote Control}{26}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.1}Verbal Prompts}{27}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Gesture Prompts}{27}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Wizard of Oz Remote Control}{27}{subsection.4.3.3}
 \contentsline {section}{\numberline {4.4}Surveys}{27}{section.4.4}
 \contentsline {paragraph}{Social Responsiveness Scale Survey and Entrance Survey}{27}{section*.27}
-\contentsline {paragraph}{Post-Intervention Survey}{27}{section*.28}
-\contentsline {section}{\numberline {4.5}Protocol and Setup}{27}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Entrance Survey and SRS}{27}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}Protocol Overview}{27}{subsection.4.5.2}
+\contentsline {paragraph}{Post-Intervention Survey}{28}{section*.28}
+\contentsline {section}{\numberline {4.5}Protocol and Setup}{28}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Entrance Survey and SRS}{28}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Protocol Overview}{28}{subsection.4.5.2}
 \contentsline {subsection}{\numberline {4.5.3}Experiment Setup}{28}{subsection.4.5.3}
-\contentsline {subsection}{\numberline {4.5.4}Specific Protocol}{28}{subsection.4.5.4}
-\contentsline {paragraph}{Phase A (Baseline Phase)}{28}{section*.30}
-\contentsline {paragraph}{Phases B and C (Intervention Phases)}{28}{section*.31}
-\contentsline {subsection}{\numberline {4.5.5}Post-intervention Survey}{30}{subsection.4.5.5}
-\contentsline {subsection}{\numberline {4.5.6}Data Collection}{30}{subsection.4.5.6}
-\contentsline {subsection}{\numberline {4.5.7}Ethics}{31}{subsection.4.5.7}
-\contentsline {paragraph}{Consent and Assent}{31}{section*.33}
-\contentsline {paragraph}{Confidentiality}{31}{section*.34}
-\contentsline {paragraph}{Data Storage}{32}{section*.35}
-\contentsline {section}{\numberline {4.6}Measures}{32}{section.4.6}
-\contentsline {subsection}{\numberline {4.6.1}Video Data Measures}{32}{subsection.4.6.1}
-\contentsline {paragraph}{Prompt Effectiveness}{32}{section*.36}
-\contentsline {paragraph}{Responses to Prompts}{32}{section*.37}
-\contentsline {paragraph}{Engagement and Visual Attention}{32}{section*.38}
-\contentsline {paragraph}{}{32}{section*.39}
-\contentsline {section}{\numberline {4.7}Video Annotations}{33}{section.4.7}
-\contentsline {subsection}{\numberline {4.7.1}Annotation Framework}{33}{subsection.4.7.1}
-\contentsline {subsection}{\numberline {4.7.2}Annotation Tools}{35}{subsection.4.7.2}
-\contentsline {section}{\numberline {4.8}Data Analysis and Results}{35}{section.4.8}
-\contentsline {subsection}{\numberline {4.8.1}Participants Recruited}{35}{subsection.4.8.1}
-\contentsline {subsubsection}{Child's Demographics and Inclusion Criteria Fit}{35}{section*.41}
-\contentsline {subsection}{\numberline {4.8.2}Experiment Design Change}{36}{subsection.4.8.2}
-\contentsline {subsection}{\numberline {4.8.3}Video Data Analysis and Results}{36}{subsection.4.8.3}
-\contentsline {subsubsection}{Analysis Method}{36}{section*.42}
-\contentsline {subsubsection}{Prompt Effectiveness}{36}{section*.43}
-\contentsline {paragraph}{Number of Incomplete Steps}{36}{section*.44}
-\contentsline {paragraph}{Number of Parent Prompts}{37}{section*.46}
-\contentsline {subsubsection}{Child's Response to Prompts}{37}{section*.48}
-\contentsline {paragraph}{Compliance Rate}{37}{section*.49}
-\contentsline {paragraph}{Not Affected By Prompt Rate}{38}{section*.51}
-\contentsline {subsubsection}{Engagement and Visual Attention}{38}{section*.53}
-\contentsline {paragraph}{Number of Times Child Smiles}{38}{section*.54}
-\contentsline {paragraph}{Number of Times Child Murmurs}{38}{section*.56}
-\contentsline {paragraph}{Looking at Prompting Agent Rate}{38}{section*.58}
-\contentsline {subsection}{\numberline {4.8.4}Survey Data Results}{39}{subsection.4.8.4}
-\contentsline {subsubsection}{Entrance Survey}{39}{section*.60}
-\contentsline {paragraph}{Child's Experience with Technologies}{39}{section*.61}
-\contentsline {paragraph}{Child's Personal Preferences}{39}{section*.62}
-\contentsline {paragraph}{Child's Abilities on Hand-washing and on Other ADLs}{39}{section*.63}
-\contentsline {paragraph}{Parent's Expectation and Concerns}{39}{section*.64}
-\contentsline {subsubsection}{Post-Intervention Survey for Parent}{39}{section*.65}
-\contentsline {section}{\numberline {4.9}Discussion}{40}{section.4.9}
-\contentsline {subsection}{\numberline {4.9.1}Primary Results}{40}{subsection.4.9.1}
-\contentsline {subsection}{\numberline {4.9.2}Secondary Results}{43}{subsection.4.9.2}
-\contentsline {subsection}{\numberline {4.9.3}Limitations and Future Works}{44}{subsection.4.9.3}
-\contentsline {chapter}{\numberline {5}Visual Focus of Attention Estimation}{58}{chapter.5}
-\contentsline {section}{\numberline {5.1}Head Pose Estimation}{58}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}3D Kinect Camera Approach}{58}{subsection.5.1.1}
-\contentsline {subsubsection}{Approach Overview}{58}{section*.70}
-\contentsline {subsubsection}{KinFu Head Modeling}{59}{section*.71}
-\contentsline {paragraph}{How KinFu Works}{59}{section*.72}
-\contentsline {subparagraph}{Preprocessing}{59}{section*.73}
-\contentsline {subparagraph}{Alignment}{61}{section*.76}
-\contentsline {subparagraph}{Surface Reconstruction}{61}{section*.78}
-\contentsline {paragraph}{Using KinFu with Kinect2 Camera}{63}{section*.80}
-\contentsline {paragraph}{Using KinFu for Head Modeling}{63}{section*.81}
-\contentsline {subsubsection}{KinFu Head Pose Tracking}{64}{section*.83}
-\contentsline {subsubsection}{Point Cloud Based Inverse Pose Transformation}{64}{section*.84}
-\contentsline {paragraph}{Colored Point Cloud}{64}{section*.85}
-\contentsline {subparagraph}{Head Model Mesh Projection}{65}{section*.86}
-\contentsline {subparagraph}{3D Coordinate Calculation}{65}{section*.87}
-\contentsline {paragraph}{Inverse Pose Transformation}{66}{section*.88}
-\contentsline {subsubsection}{Projection onto Camera Image Plane}{66}{section*.89}
-\contentsline {subsubsection}{Using the EYEDIAP Dataset}{66}{section*.91}
-\contentsline {subsection}{\numberline {5.1.2}Eye Pose Estimation}{68}{subsection.5.1.2}
-\contentsline {subsubsection}{Eye Image Cropping and Stabilization}{68}{section*.92}
-\contentsline {subsubsection}{Eye Image Descriptor}{68}{section*.93}
-\contentsline {subsubsection}{Adaptive Linear Regression (ALR)}{68}{section*.94}
-\contentsline {subsubsection}{Coupled Eyes Constraints}{68}{section*.95}
-\contentsline {subsubsection}{Solving ALR with Coupled Eyes Constraints}{69}{section*.96}
-\contentsline {subsubsection}{Training Examples Collection and Model Selection}{69}{section*.97}
-\contentsline {section}{\numberline {5.2}Object Identification}{69}{section.5.2}
-\contentsline {section}{\numberline {5.3}Discussion}{71}{section.5.3}
-\contentsline {chapter}{\numberline {6}Conclusion}{72}{chapter.6}
-\contentsline {chapter}{Bibliography}{73}{chapter.6}
+\contentsline {subsection}{\numberline {4.5.4}Specific Protocol}{31}{subsection.4.5.4}
+\contentsline {paragraph}{Phase A (Baseline Phase)}{31}{section*.30}
+\contentsline {paragraph}{Phases B and C (Intervention Phases)}{31}{section*.31}
+\contentsline {subsection}{\numberline {4.5.5}Post-intervention Survey}{33}{subsection.4.5.5}
+\contentsline {subsection}{\numberline {4.5.6}Data Collection}{33}{subsection.4.5.6}
+\contentsline {subsection}{\numberline {4.5.7}Ethics}{33}{subsection.4.5.7}
+\contentsline {paragraph}{Consent and Assent}{33}{section*.33}
+\contentsline {paragraph}{Confidentiality}{33}{section*.34}
+\contentsline {paragraph}{Data Storage}{34}{section*.35}
+\contentsline {section}{\numberline {4.6}Measures}{34}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Video Data Measures}{34}{subsection.4.6.1}
+\contentsline {paragraph}{Prompt Effectiveness}{34}{section*.36}
+\contentsline {paragraph}{Responses to Prompts}{35}{section*.37}
+\contentsline {paragraph}{Engagement and Visual Attention}{35}{section*.38}
+\contentsline {paragraph}{}{35}{section*.39}
+\contentsline {section}{\numberline {4.7}Video Annotations}{35}{section.4.7}
+\contentsline {subsection}{\numberline {4.7.1}Annotation Framework}{35}{subsection.4.7.1}
+\contentsline {subsection}{\numberline {4.7.2}Annotation Tools}{37}{subsection.4.7.2}
+\contentsline {section}{\numberline {4.8}Data Analysis and Results}{37}{section.4.8}
+\contentsline {subsection}{\numberline {4.8.1}Participants Recruited}{37}{subsection.4.8.1}
+\contentsline {subsubsection}{Child's Demographics and Inclusion Criteria Fit}{37}{section*.41}
+\contentsline {subsection}{\numberline {4.8.2}Experiment Design Change}{38}{subsection.4.8.2}
+\contentsline {subsection}{\numberline {4.8.3}Video Data Analysis and Results}{38}{subsection.4.8.3}
+\contentsline {subsubsection}{Analysis Method}{38}{section*.42}
+\contentsline {subsubsection}{Prompt Effectiveness}{38}{section*.43}
+\contentsline {paragraph}{Number of Incomplete Steps}{38}{section*.44}
+\contentsline {paragraph}{Number of Parent Prompts}{39}{section*.46}
+\contentsline {subsubsection}{Child's Response to Prompts}{40}{section*.48}
+\contentsline {paragraph}{Compliance Rate}{40}{section*.49}
+\contentsline {paragraph}{Not Affected By Prompt Rate}{41}{section*.51}
+\contentsline {subsubsection}{Engagement and Visual Attention}{42}{section*.53}
+\contentsline {paragraph}{Number of Times Child Smiles}{42}{section*.54}
+\contentsline {paragraph}{Number of Times Child Murmurs}{42}{section*.56}
+\contentsline {paragraph}{Looking at Prompting Agent Rate}{42}{section*.58}
+\contentsline {subsection}{\numberline {4.8.4}Survey Data Results}{43}{subsection.4.8.4}
+\contentsline {subsubsection}{Entrance Survey}{43}{section*.60}
+\contentsline {paragraph}{Child's Experience with Technologies}{43}{section*.61}
+\contentsline {paragraph}{Child's Personal Preferences}{43}{section*.62}
+\contentsline {paragraph}{Child's Abilities on Hand-washing and on Other ADLs}{44}{section*.63}
+\contentsline {paragraph}{Parent's Expectation and Concerns}{44}{section*.64}
+\contentsline {subsubsection}{Post-Intervention Survey for Parent}{44}{section*.65}
+\contentsline {section}{\numberline {4.9}Discussion}{44}{section.4.9}
+\contentsline {subsection}{\numberline {4.9.1}Primary Results}{45}{subsection.4.9.1}
+\contentsline {subsection}{\numberline {4.9.2}Secondary Results}{49}{subsection.4.9.2}
+\contentsline {subsection}{\numberline {4.9.3}Limitations and Future Works}{51}{subsection.4.9.3}
+\contentsline {chapter}{\numberline {5}Visual Focus of Attention Estimation}{54}{chapter.5}
+\contentsline {section}{\numberline {5.1}Head Pose Estimation}{54}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}3D Kinect Camera Approach}{54}{subsection.5.1.1}
+\contentsline {subsubsection}{Approach Overview}{54}{section*.70}
+\contentsline {subsubsection}{KinFu Head Modeling}{55}{section*.71}
+\contentsline {paragraph}{How KinFu Works}{55}{section*.72}
+\contentsline {subparagraph}{Preprocessing}{55}{section*.73}
+\contentsline {subparagraph}{Alignment}{56}{section*.76}
+\contentsline {subparagraph}{Surface Reconstruction}{57}{section*.78}
+\contentsline {paragraph}{Using KinFu with Kinect2 Camera}{59}{section*.80}
+\contentsline {paragraph}{Using KinFu for Head Modeling}{59}{section*.81}
+\contentsline {subsubsection}{KinFu Head Pose Tracking}{60}{section*.83}
+\contentsline {subsubsection}{Point Cloud Based Inverse Pose Transformation}{60}{section*.84}
+\contentsline {paragraph}{Colored Point Cloud}{60}{section*.85}
+\contentsline {subparagraph}{Head Model Mesh Projection}{61}{section*.86}
+\contentsline {subparagraph}{3D Coordinate Calculation}{61}{section*.87}
+\contentsline {paragraph}{Inverse Pose Transformation}{62}{section*.88}
+\contentsline {subsubsection}{Projection onto Camera Image Plane}{62}{section*.89}
+\contentsline {subsubsection}{Using the EYEDIAP Dataset}{62}{section*.91}
+\contentsline {subsection}{\numberline {5.1.2}Eye Pose Estimation}{64}{subsection.5.1.2}
+\contentsline {subsubsection}{Eye Image Cropping and Stabilization}{64}{section*.92}
+\contentsline {subsubsection}{Eye Image Descriptor}{64}{section*.93}
+\contentsline {subsubsection}{Adaptive Linear Regression (ALR)}{64}{section*.94}
+\contentsline {subsubsection}{Coupled Eyes Constraints}{64}{section*.95}
+\contentsline {subsubsection}{Solving ALR with Coupled Eyes Constraints}{65}{section*.96}
+\contentsline {subsubsection}{Training Examples Collection and Model Selection}{65}{section*.97}
+\contentsline {section}{\numberline {5.2}Object Identification}{65}{section.5.2}
+\contentsline {section}{\numberline {5.3}Discussion}{67}{section.5.3}
+\contentsline {chapter}{\numberline {6}Conclusion}{68}{chapter.6}
+\contentsline {paragraph}{The humanoid robot, NAO, is able to independently assist child with ASD through hand-washing, and child exhibits greater engagement level, higher prompt compliance rate, and better task completion when prompted by NAO than by parent.}{68}{section*.99}
+\contentsline {paragraph}{Gestural, gaze, and verbal are the essential modes of interactions present in the hand-washing prompting scenario between child with ASD and the prompting agent NAO.}{68}{section*.100}
+\contentsline {paragraph}{Using 3DMM and ALR for estimating head pose and eye pose, and using the Kinect camera, a classification rate of more than 80\% is achieved for estimating child's VFOA on NAO, monitor screen, soap, towel, tap region, hands, and idling.}{69}{section*.101}
+\contentsline {chapter}{Bibliography}{70}{section*.101}
