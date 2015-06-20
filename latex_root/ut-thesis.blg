@@ -1,5 +1,4 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: ut-thesis.aux
-A level-1 auxiliary file: ./tex/preface/preface_chp.aux
 A level-1 auxiliary file: ./tex/intro_chp/intro_chp.aux
 A level-1 auxiliary file: ./tex/lit_rev_chp/lit_rev_chp.aux
 A level-1 auxiliary file: ./tex/research_objectives_chp/research_objectives_chp.aux
@@ -20,6 +19,7 @@ Repeated entry---line 1411 of file ./refs/thesis_report_refs.bib
  : @article{van2010comparison
  :                           ,
 I'm skipping whatever remains of this entry
+Warning--to sort, need author or key in autism2014facts
 Warning--to sort, need author or key in abledata2010alpha
 Warning--to sort, need author or key in 2005team
 Warning--to sort, need author or key in mackiev2010welcome
