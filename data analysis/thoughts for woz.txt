@@ -1,0 +1,57 @@
+it's not really about teaching the motions or reminding the steps that's challenging for MJ
+It's more of teaching him to take turns in this "prompting activity" with the robot (waiting for the robot's instructions and follow them, seek help from the robot when don't know what to do)
+
+understanding of the verbal prompts:
+- is MJ able to understand verbal prompts from Mom?
+- is MJ able to understand verbal prompts from NAO?
+- what's different between verbal prompts from Mom and from NAO?
+
+understanding of the robot gestures:
+- is the motion gestures understood by MJ?
+	- there is instance in trial 5 session 1 that MJ tried to comply to turn off the water but he mimicked the robot motion (to some degree) instead of actually doing it on the tapping
+	- in trial 5 last session CIMG1220 MJ didn't understand turn off the water, he wanted to by trying to tap on the water tap with his finger, but he didn't look? or understand what to do
+- is pointing more helpful?  out of verbal prompt, motion gesture, and pointing, which are more helpful?
+
+particular about the sequence of hand washing steps:
+- MJ wants to put soap on before watering hands
+- was it possible to change this habit?
+- should we change the habit?  would it be better if we change our program instead?
+
+why is AG not working?
+- how many times have AG ever worked?
+- how did his Mom catch his attention?
+	- "MJ, ...."?, no gestures for AG, just point for prompt
+- how does Mom's AG differ from NAO's?
+	- MJ doesn't listen to NAO, doesn't look at it at all
+	- MJ looks and follows Mom's AG most of the times
+		- what does Mom do if MJ doesn't follow?
+- why NAO's AG doesn't work?
+- is it because MJ just doesn't want to look at the robot?
+	- when does MJ ever look at NAO?
+	=> what mode of prompting from NAO is best for MJ?
+- ====> Mom says the robot is lacking the ability to get MJ's attention, and the reason is "because of the setup.  If he is at home, he is more relaxed, takes a while to wash hands".
+
+how does MJ's interactions with NAO evolve?
+- greetings (first time coming in)	
+- every time going into washroom, done, in between
+	- tapping the head of the robot
+	- grabbing and touching robot hands
+	- high fiving the robot
+- number of times needing Mom's prompts
+- quality of steps, duration of steps
+- MJ actually waiting for robot in trial 5 CIMG1214: he was expecting turn on the water while the robot gives him get some soap, he was happy about it!
+
+how does Mom's role in the interactions evolve?
+- almost closed doors with minimal presence (only tell MJ to remain)?
+- to half torso in washroom, telling MJ what to do during every robot prompt, making sure MJ follows the robot
+- to only pointing to robot / object when robot is prompting, block MJ from exiting until the robot says so.
+- 
+	
+how does the operator change in his controlling behaviours of NAO?
+- knowing which steps to skip, which steps to repeat
+- knowing when / whether to give rewards or not
+
+
+todo:
+- background music?
+- head position needs to be preset and consistent

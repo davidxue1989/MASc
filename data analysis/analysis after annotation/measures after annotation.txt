@@ -1,0 +1,18 @@
+measures after annotation:
+
+task completion after prompt:
+if attempted a step after prompt:
+	if non-extended step
+	and hasn't started this step before prompt:
+		attempts after prompt ++
+		if completed: [and P prompt gesture isn't physical intervention]
+			task completion after prompt ++
+	if extended step:
+		for each chunk of consecutive prompt sections that have same task:
+			attempts after prompt ++
+			task completion after prompt += percentage of prompt sections that have tasks completed after prompt [and P prompt gesture isn't physical intervention]
+avg completion rate = task completion after prompt / task attempted after prompt
+
+
+
+

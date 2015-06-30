@@ -1,0 +1,72 @@
+if C attempts wrong nonextend step after prompt and waits for another prompt or is interrupted by another prompt, mark step attempts for 2nd prompt as idle 0
+if, before prompt, C didn't yet have a chance to appear idle or appear to attempt a step, don't mark it as idle 0, just leave it as blank
+if C just puts hands on the object without executing it, don't even mark it as attempted, just mark it as idle 0.  C should know better than to stop half way like that.
+
+extend step:
+	- merge all prompts before C attempts as one (except the last one that causes C to attempt), and merge all prompts after C attempts before C stops as one.
+	- if C executes extend step before prompt, but is interrupted by prompt for another step, log one section for extend step, and one section for the other step
+
+soap step:
+	- merge any prompts for other steps with the section C is doing soap as long as C doesn't stop soap yet
+
+rinse step:
+	- consider rinse / scrub / wet actions as same step and don't penalize C for carrying out actions interchangeably
+
+all done step:
+	- don't mark the C response section of all done step
+	
+	
+check all verbal prompts
+	- verbal prompt needs to be 3 categories (0 no prompt, 1 prompts about complying to robot, 2 prompts about executing step)
+	- when P prompts for that's it, stop, etc.  mark it as 1 (not 2)
+	
+check all gesture prompts:
+	- difference between nudge and guide arm is that P's touch leaves before C executes for nudge.
+
+attempted step:
+	- if C is intentionally not completing a step, despite C puts hands on the object, mark the attempted step as idle instead of attempted.
+	- if C stops an extend step right after being prompted, mark attempted step after prompt as idle (0)
+	- if C attempts step simultaneously with prompt (e.g. within 0.1 seconds of prompt), mark both attempted step before and after prompt, but mark task completion when it occurs, either before or after prompt, while marking the other '\'
+	
+task completion tag:
+	- rating of 1 or 2:
+		rinse and scrub and wet:
+			1. no rapid back and forth motion
+			2. has rapid back and forth motion
+		dry:
+			1. no rubbing motion and not drying both hands
+			2. has rubbing motion and dries both hands
+	- check 0 or \ marked correctly.  mark \ if:
+		- not C's fault for not completing, interrupted by next prompt, or the completion was already marked before prompt (this is the case for any prompts asking for a step (including soap and wrong extended steps) that's already been executed successfully)
+		- if C starts nonextend step before prompt, but completes the step after the prompt, mark '\' for task completion before prompt, and 2 after prompt
+	- no completion flag be put for step 8.  just a blank
+	- if C executes extend step and is prompted for another step but continues the extend step, mark down completion status of the extend step before and after prompt just like normal
+
+time C attempts step:
+	- put the timestamp at when you can recognize C is executing the action (not at when C moves hands / attempts)
+	
+C stops correct step before next prompt:
+	- C initiates stopping by pulling head, then body, then hands, away from sink / water
+	
+number of prompts till C executes correct step :
+	- make sure it's when C successfully executes, not just attempts
+	- don't count prompts that don't make sense
+
+number of prompts till C stops step:
+	- put \ when and only when "C stops correct step before next prompt" has a \
+	- don't count prompts belonging to the next prompt section despite C not stopping current step when those prompts were delivered
+	- don't count prompts that don't make sense and for soap step, don't count prompts that asks to get soap (only count prompts for stop getting soap, e.g. reward or that's it)
+
+AG:
+	- doesn't count towards number of prompts unless its intention is to stop C from executing a step
+	- its timestamp is lumped with the prompt immediately after it
+
+Reward:
+	- counts towards number of prompts to stop C
+
+time C stops step:
+	- never put \ for extend steps regardless of C stops correct step before next prompt, always keep a stop timestamp, unless it is not the correct step
+
+distracted marked 1 if:
+	- playing with bubbles, playing with robot, playing with soap bottle / grabbing the bottle, playing with water puddle on sink table, looking at the scene camera / mirror / empty space (unless this doesn't affect C's rinse / dry performance)
+	- but not the following: taking too much soap, scratching body / adjusting glasses / picking nose

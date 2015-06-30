@@ -1,0 +1,33 @@
+file name,MVI_0004.MP4,,,,,,
+parent involvement,4,,,,,,
+step,3,2,5,5,6,7,8
+time start,0:53,,,,,,
+time stop,0:57,0:58,1:03,1:07,1:08,1:10,1:12
+attempted step before prompt,3,2,5,6,6,7,8
+attempted step successfully executed before prompt,2,2,1,\,2,2,
+P / R / P+R,0,0,1,1,0,0,1
+P verbal,,,0,0,,,
+vebal used,,,,,,,
+P gesture,,,3,1,,,
+P reward,,,,,,,1
+reward used,,,,,,,good job
+R verbal,,,,,,,
+R gesture,,,,,,,
+R attention grabber,,,,,,,
+R reward,,,,,,,
+C looks at P/R,0,0,0,1,0,1,
+C smiles,0,0,0,1,0,0,
+C murmurs,0,0,0,1,0,0,
+C distracted,0,0,0,0,0,0,
+attempted step after prompt,,,5,5,,,
+attempted step successfully executed after prompt,,,2,2,,,
+attempted step is correct although different from prompt,,,,,,,
+time 1st prompt,\,\,01:00.284,01:03.421,\,\,
+time C attempts step,00:54.242,00:56.941,00:57.595,01:04.046,01:06.557,01:07.495,
+time C stops step,00:56.282,\,01:02.930,01:05.454,\,01:10.295,
+number of prompts till C executes correct step - parent,0,0,0,1,0,0,
+number of prompts till C executes correct step - robot,0,0,0,0,0,0,
+C stops correct step before next prompt,1,\,1,1,\,1,
+number of prompts till C stops correct step - parent,0,\,1,0,\,0,
+number of prompts till C stops correct step - robot,0,\,0,0,\,0,
+number of presses till C stops soap,2,,,,,,

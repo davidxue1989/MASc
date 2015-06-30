@@ -1,0 +1,37 @@
+11 scenarios
+	no step => no step
+no step => right step
+	no step => wrong step
+	right step => right step non-extend or extend and different (attempted step is correct although different from prompt) [note for extend / non-extend, we are talking about the step after prompt only, step before prompt can be extend or non-extend, it doesn't matter]
+right step => right step extend and same
+	right step => wrong step
+	right step => no step
+	wrong step => wrong step, different
+	wrong step => wrong step, same
+wrong step => right step
+	wrong step => no step
+
+===========================================================================>
+no effects from prompt:
+right step => right step non-extend or extend and different
+wrong step => wrong step, same
+no step => no step
+
+stopped for no reason, distracted or confused:
+right step => no step
+wrong step => no step
+
+|------------------------------------------------------
+special case:
+right step => wrong step
+wrong step => wrong step, different
+no step => wrong step
+	- maybe no effects from prompt, C decides to move on to new step
+	- maybe C misunderstood the prompt
+
+prompt working, i.e. compliance:
+	right step => right step extend and same
+	wrong step => right step
+	no step => right step
+------------------------------------------------------> C did some stuff
+

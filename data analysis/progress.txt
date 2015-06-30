@@ -1,0 +1,31 @@
+V	t1:
+s1, s2, s4, s6, s8
+
+V	t2:
+s1, s3 (attempted step successfully executed), s4, s6, s8,
+
+
+V	t3:
+s1, s2 (all done step ignore attempted step successfully executed), s4, s6
+
+t4:
+s1, s2 (C starts step before prompt only if previous attempted step is different than current attempted step), s4, 
+
+
+V	t5:
+s1, s2, s4, s6, s8
+
+V	t6:
+s1, s3, s5, s6, s8, s10
+
+don't care about duration if C doesn't stop before next prompt since we are only interested in how long can we get C to continue rinse before C decides to stop, and later on if C does fake compliance by rinsing 1 seconds or less.
+-> unless there's reward and if C decides to stop after rewarded
+
+
+compliance means: attempts the right step? or just attempt any step at all?
+if wrong step, what standard for saying C complies?
+-	how do we know if C deliberately disobeyed the command, how can we be sure C understood the command correctly?
+	- if C was doing some step, and due to prompt, C does another step, then C complied
+	- if C was doing some step, and after prompt, C doesn't change its behaviour, then C didn't comply
+		- or if we know for sure C knows what the prompt means (C just followed it a second ago), but does another step in response to prompt (i.e. deliberately disobeys prompt)
+==> maybe we should log only the initial step, success?, and the second step, success.  then derive compliance later on

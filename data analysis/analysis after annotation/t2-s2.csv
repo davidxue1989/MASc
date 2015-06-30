@@ -1,0 +1,33 @@
+file name,MVI_0010.MP4,,,,,,,,,,,,,
+parent involvement,4,,,,,,,,,,,,,
+step,3,3,4,2,5,5,5,5,5,5,5,6,7,8
+time start,3:59,,,,,,,,,,,,,
+time stop,4:03,4:08,4:11,4:12,4:17,4:19,4:22,4:24,4:28,4:30,4:32,4:33,4:38,4:40
+attempted step before prompt,3,2,4,2,5,0,0,0,0,0,0,0,7,8
+attempted step successfully executed before prompt,\,\,1,0,2,,,,,,,,2,
+P / R / P+R,1,1,0,,1,1,1,1,1,1,1,1,1,1
+P verbal,2,2,,2,2,2,2,2,2,2,2,2,2,
+vebal used,just one; one soap; soap first;,"soap, soap; that's it, too much;",,turn on the water;,"more water, more;",rinse more; rinse more;,more; ,rinse more;,more; ,more;,more;,turn off the water;,"dry your...; more, more; ",
+P gesture,0,0,,0,0,0,1,0,0,0,0,0,3,
+P reward,,,,,,,,,,,,,,1
+reward used,,,,,,,,,,,,,,good job
+R verbal,,,,,,,,,,,,,,
+R gesture,,,,,,,,,,,,,,
+R attention grabber,,,,,,,,,,,,,,
+R reward,,,,,,,,,,,,,,
+C looks at P/R,0,0,0,0,0,1,1,0,0,0,0,0,1,
+C smiles,1,1,0,0,0,0,0,0,0,0,0,0,0,
+C murmurs,0,0,0,0,1,1,1,1,1,1,1,0,1,
+C distracted,0,0,0,0,0,0,0,0,0,0,0,0,0,
+attempted step after prompt,0,3,,2,5,5,5,5,5,5,5,6,7,
+attempted step successfully executed after prompt,,2,,2,2,2,2,1,2,2,2,2,2,
+attempted step is correct although different from prompt,0,,,,,,,,,,,,,
+time 1st prompt,04:01.743,04:05.688,\,04:10.873,04:14.365,04:16.348,04:19.244,04:21.827,04:24.373,04:27.695,04:29.713,04:32.308,04:34.742,
+time C attempts step,04:00.848,04:05.960,04:09.346,04:11.678,04:12.162,04:17.260,04:19.747,04:22.336,04:25.033,04:28.390,04:30.939,04:32.729,04:33.719,
+time C stops step,04:02.201,04:07.272,04:10.873,\,04:16.574,04:18.634,04:20.826,04:23.702,04:27.209,04:29.713,04:31.814,\,04:38.457,
+number of prompts till C executes correct step - parent,3,1,0,1,0,1,1,1,1,1,1,1,0,
+number of prompts till C executes correct step - robot,0,0,0,0,0,0,0,0,0,0,0,0,0,
+C stops correct step before next prompt,0,0,1,\,1,1,1,1,1,1,1,\,1,
+number of prompts till C stops correct step - parent,0,1,0,\,1,1,0,0,0,0,0,\,2,
+number of prompts till C stops correct step - robot,0,0,0,\,0,0,0,0,0,0,0,\,0,
+number of presses till C stops soap,,,,,,,,,,,,,,

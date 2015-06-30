@@ -1,0 +1,33 @@
+file name,CIMG1207.AVI,,,,,,,,,,,,,
+parent involvement,0,,,,,,,,,,,,,
+step,2,5,9,5,5,5,5,2,5,5,7,7,7,8
+time start,0:54,,,,,,,,,,,,,
+time stop,1:14,1:20,1:26,1:30,1:32,1:35,1:42,1:45,1:51,1:58,2:04,2:07,2:10,2:12
+attempted step before prompt,0,5,0,0,7,8,,0,0,0,0,0,7,8
+attempted step successfully executed before prompt,,2,,,1,,,,,,,,2,
+P / R / P+R,2,0,2,2,0,2,1,2,2,2,2,2,0,3
+P verbal,,,,,,,1,,,,,,,1
+vebal used,,,,,,,robot says rinse your hand; robot says rinse your hand;,,,,,,,"high five with the robot, high five"
+P gesture,,,,,,,1,,,,,,,5
+P reward,,,,,,,,,,,,,,
+reward used,,,,,,,,,,,,,,
+R verbal,2,,2,2,,2,,2,2,2,2,2,,
+R gesture,4,,4,4,,4,,4,4,4,4,4,,
+R attention grabber,1,,,,,,,,,,,,,1
+R reward,,,,,,,,,,,,,,
+C looks at P/R,2,0,0,0,0,0,1,0,0,0,0,0,0,3
+C smiles,1,0,0,0,0,0,0,0,1,0,0,0,0,
+C murmurs,0,0,0,0,0,0,0,0,1,0,0,0,0,
+C distracted,0,0,0,0,0,0,0,0,0,0,0,0,0,
+attempted step after prompt,3,,5,6,,8,0,2,5,5,0,6,,
+attempted step successfully executed after prompt,2,,1,2,,,,2,2,2,,2,,
+attempted step is correct although different from prompt,,,1,0,0,,0,,,,0,1,,
+time 1st prompt,00:56.054,\,01:19.907,01:26.480,\,01:32.337,01:35.462,01:42.236,01:45.187,01:50.173,01:57.645,02:03.619,\,
+time C attempts step,00:58.780,01:13.633,01:22.217,01:28.730,01:29.519,\,\,01:43.345,01:48.459,01:53.419,\,02:06.341,02:07.094,
+time C stops step,01:12.560,01:19.489,01:25.051,\,\,\,\,\,01:49.573,01:54.898,\,\,02:09.050,
+number of prompts till C executes correct step - parent,0,0,0,0,0,0,2,0,0,0,0,0,0,
+number of prompts till C executes correct step - robot,1,0,1,1,0,1,0,1,1,1,1,1,0,
+C stops correct step before next prompt,0,1,1,\,\,\,\,\,1,1,\,\,1,
+number of prompts till C stops correct step - parent,0,0,0,\,\,\,\,\,0,0,\,\,0,
+number of prompts till C stops correct step - robot,2,0,0,\,\,\,\,\,0,0,\,\,0,
+number of presses till C stops soap,27,,,,,,,,,,,,,

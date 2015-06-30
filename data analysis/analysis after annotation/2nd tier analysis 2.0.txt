@@ -1,0 +1,119 @@
+thoughts from looking at prelim graphs:
+
+1. learning effects on hand-washing skills are minimal (proof by ?)
+2. however, another learning effect, on the sequence of steps, are being picked up by C (look at fig. total number of incomplete tasks - before parent or robot prompts).
+3. the sequence of steps learning conflicts with learning effects of turn taking (with P and with R and with P+R).  In other words, it's a story of how C with ASD adapts to use R as a prompting agent during hand-washing.  But does C need one?
+4. another thing is the novelty effects of R (maybe C looking at / touching R)
+
+==============================================
+interesting:
+==============================================
+
+task attempted rate - before prompt:
+	seems to be pretty constant around 0.5 for P alone, close to 1.0 for R alone, with R+P compliance (and maybe step) around 0.6 (greater spread), R+P behind around 0.4, and finally repeat of R alone around 0.6
+
+total number of incomplete tasks - before parent prompts:
+	high spread for everyone. P alone around 3.3, R alone around 2, R+P comp around 3, R+P beh around 3, R alone rep around 1
+
+total number of incomplete tasks - before parent or robot prompts:
+	high spread for everyone, P alone around 3.5, R alone is around 2.5, R+P comp around 4, R+P behind around 4, R alone rep around 2.5
+
+average duration till attempting correct step:
+	P alone around 1 low spread, R alone around 7 with high spread, R+P comp around 4 med spread, R+P beh around 2 low spread, R alone rep around 4 med spread
+	
+average number of prompts till attempting correct step:
+	P alone around 1.2 med spread, R alone around 2 high spread, R+P comp around 1.5 med spread, R+P beh around 1.5 low spread, R alone rep around 1.5 med spread
+	
+total number of parent prompts:
+	P alone around 15 with high spread or trending up with med spread, R alone around 5 with med spread, R+P comp around 10 trending down with med spread, R+P beh around 10 with med spread, R alone rep around 2.5 with low spread
+
+total number of parent prompts - non-physical:
+	very similar to "total number of parent prompts", except R+P beh decreased a lot from 10 to around 2.5 low spread, and R+P comp trends down around 7 and settles around 2.5
+
+total number of parent prompts - physical:
+	P alone mainly 0, R alone (and rep) mainly 0, R+P comp around 3 with med spread, R+P beh around 5 with med spread	
+	
+Compliance Rate - R1Pv0g0:
+	this is compliance rate for no P prompts, clearly R alone rep (around 0.8) is better than R+P comp (0.7) better than R alone (around 0.25) (of course R+P beh (1.0) trumps them all)
+	
+Not affected by prompt rate - overall:
+	P alone around 0.15 with med spread, R alone around 0.35 with med spread, R+P comp around 0.2 with med spread, R+P beh around 0.05 with low spread, R alone rep around 0.1 with med spread
+	
+confused by prompt rate - overall:
+	P alone around 0 with low spread, R alone around 0.3 with high spread, R+P comp around 0.15 with med spread, R+P beh around 0.1 with med spread, R alone rep around 0.15 with med spread
+	
+compliance rate - overall:
+	P alone around 0.8 with med spread, R alone around 0.3 with med spread, R+P comp around 0.7 with large spread, R+P beh around 0.9 with med spread, R alone rep around 0.75 with med spread
+	
+	
+	
+==============================================
+so so interesting:
+==============================================
+
+looking at parent rate given parent prompted:
+	mainly around 0.5 except for R+P beh around 0.2 (and R alone rep has only two points)
+
+looking at robot rate given robot prompted:
+	R alone around 0.3, R+P comp around 0.3, R+P beh mainly 0, R alone rep around 0.3
+
+looking at parent rate given both prompted:
+	R alone (and rep) 0.6, R+P comp 0.5, R+P beh 0.15
+
+looking at robot rate given both prompted:
+	R alone (and rep) mainly 0, R+P comp around 0.15, R+P beh around 0.3
+	
+average duration till stopping step - dry:
+	P alone around 4 with high apread, R alone (and rep) around 2 with low spread, R+P comp around 2 with low spread, R+P beh around 4 with high spread
+	
+total number of robot prompts:
+	P alone at 0 no spread, R alone around 4 med spread, R+P comp around 10 high spread, R+P beh around 10 med spread, R alone rep around 9 high spread
+
+
+	
+	
+==============================================
+not interesting:
+==============================================
+
+task completion rate - before prompt:
+	1.0
+
+task completion rate - after prompt:
+	first R alone is terrible around 0.7 with high spread.  P alone is 1.0, while R+P comp and R+P beh and R alone repeat are all around 0.9
+
+task completion raet - overall:
+	almost all 1.0 except for 2 points in P alone and 2 points in R alone, 1 point in R+P comp, and 3 points in R alone rep, but all above 0.8
+
+total number of incomplete tasks:
+	p alone mainly 0, R alone is around 1, R+P comp is around 1.5, R+P beh is mainly 0, R alone rep is around 0.5
+
+total number of incomplete tasks - before physical prompts:
+	very similar to "total number of incomplete tasks"
+	
+stopping step before prompted rate:
+	everyone is around 0.6
+	
+average duration till stopping step - soap:
+average number of prompts till stopping step - soap:
+average number of presses till stopping step - soap:
+
+average duration till stopping step - rinse:
+	everyone around 3 with med spread except R+P comp with low spread for a little while
+
+average number of prompts till stopping step - rinse:
+	everyone around 1 with med spread
+
+average number of promtps till stopping step - dry:
+	p alone around 2 with high spread, R alone around 0.5 with med spread, R_P comp around 0.25 with low spread, R+P beh around 0.7 with med spread
+	
+total number of prompts - robot and parent:
+	P alone around 15 high spread, R alone around 7 med spread, R+P comp around 15 med spread, R+P beh around 18 med spread, R alone rep around 10 med spread
+
+not affected by prompt rate
+stopped for no reason rate
+confused by prompt rate
+compliance rate
+
+stopped for no reason rate - overall
+	everyone is around 0 with low spread

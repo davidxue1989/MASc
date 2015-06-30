@@ -1,0 +1,69 @@
+correlate with Parent involvement (especially compliance rate)
+	- annotator's rating of p overall involvement (p alone, p behind c, p prompts for step, p prompts for compliance and encouragement, p behind doors)
+	- quantitative p involvement:
+		- % p physical intervene or nudges / guides elbow out of all prompts
+		- % p prompts step out of all prompts
+		- % p prompts none of the above out of all prompts (i.e. P prompts for compliance only and doesn't physically intervene)
+
+
+write out some things I see from figures
+	- verify if the code that produced what I see is correct
+	- find an alternative way to verify what I see is true
+	- what does this mean?  what does it imply? verify what it implies is indeed true (loop from top)
+
+main questions:
+look at 
+compliance given p involvement, gaze given p involvement, compliance given gaze
+and 
+task completion rate given p involvement
+secondary questions:
+compliance given engagement level
+	- engagement includes general (smile, murmur, distracted) and specific (specific doesn't include looking at prompting agent or object under prompt, only looking at step / hands while executing)
+
+
+
+
+why does attempted task before prompt rate drop when p gestures level peaks?
+- task completion rate before prompt does exact opposite of attempted task rate before prompt during most trials (except trial 4, whenever attempted graph dips, completion graph peaks), especially the last two trials.  How do we explain this?  The two graphs should be independent, since completion rate is given C attempts.  Maybe they are correlated by a hidden variable?
+- overall completion rate graph is weird, what happened in 3rd point in trial 3 and 4th and 6th point in trial 6?  similar dips (especially trial 6) can be seen in attempted task before prompt and task completion before prompt graphs 
+- why is 2nd point of trial 5's C looks at R given R prompts -1?  I thought R prompted
+- in stopped for no reason graph, trial 3 has a upward trend, and trial 1 only peaks at the last point.  could it be that stopped for no reason is a measure for C fatigue?  (what's good measure for C fatigue, and C learning? these are control vars essential to put our results into context)  Should try to link the fatigue's effects with decrease in performance / engagement in other graphs
+- the dipping behaviour is observed again in special case graph in trial 6.  
+- same dipping behavoiur (now becomes peak) is seen in compliance graph in trial 6.  And this time, trial 5's peak also corresponds to p involvement graph too.  It makes sense that compliance is better when p involves more.  but what happened in the 5th point of trial 6?  P didn't involve that much, but positive measures (e.g. compliance) all shoot up while negative measures (e.g. special case) all dip down, why?
+
+p phys involv UP 
+=> task attempted rate DOWN
+
+in trial 4, we see STEADY decrease of attempted before prompt rate => learning to turn take?  check parent pre-session prompt with C and objective talk with researcher
+
+in trial 3, we see STEADY decrease of look at R given R prompted rate => novelty factor of R wearing off
+
+I think in general, C likes looking at P better than at R, and only looks more at R when P says so
+
+C started to listen to R in Trial 4 session 4 CIMG1207.AVI, while P refrained from prompting unless absolutely necessary.
+
+- children with ASD react so fast, waiting for them to look, and then execute prompts, this process takes too long.  they'll get bored and stop following R.
+
+C's performance drastically improved in t5-s7, when P stands behind C.  So this proves it's not C not knowing the steps or R's prompts are not understandable, but it's a compliance issue for our particular participant.  But then take a look at t5-s9, C is stuck in Turn off water step until P comes from behind door and points to the tap.  Two interpretations: (mine:) C didn't want to comply to R, and only P is authoratative enough.  (parent:) C didn't know what to do, and R's pointing gesture isn't specific enough, only P's pointing was helpful.  But then, take a look at t6-s2, P points frantically for C to turn on water and start rinsing, but C just doesn't do it.  So should we say even P's pointing wasn't specific enough? Or was C just being disobedient (but C did something (drying hands) everytime P pointed, just didn't do what P wanted C to do)
+
+C has a tendency to withdraw hands from water whenever R prompts, and this happens almost simultaneously.  At first, I thought it's just coincidence, but this happens so many times through out the trials. ==> could it be the blinking of R gives away when R is about to prompt, and the blinking LED itself is enough to get C to do / not do things?  Or should we have gotten rid of the blinking eye LEDs, since it was scary / annoying to C?
+
+C is doing terrible in t6-s3... although we saw some improvement back in trial 5 by the end, the start of trial 6 is just bad...  what happened?!  no effects?
+
+in the end, what have we shown in the final few sessions of trial 6?  C can wash hands on their own, but R is useful in getting C started.  But R is not useful in getting C to rinse or dry more...   Plus, we see that the analysis framework could be: Can R guide through nonextend steps?  Can R guide through extend steps?  Can R prolong extend steps?  Can R stop short extend steps (e.g. soap step)?  Can R modify motion behaviour of extend steps?
+
+C closes ears with hands when R prompts during trial 3, I asked P if R volume too loud, P says it's good.  So I guess P thinks C's behaviour doesn't mean anything.
+
+soap first made a huge difference.
+
+it's good to model the right rhythm of behaviours to show C exactly what's expected. Once a certain misbehaviour develops, it is essential to address it (by changing the trigger or by directing C immediately or by some other strategy) right away -- look at getting soap too much... it never got fully corrected so it got worse and worse
+
+very interestingly, C mocks R's turn off water prompt in t5-s1 CIMG1204.AVI 02:42.424, where C holds out a fist like R's gesture prompt.  Is C complaining that R's prompts don't resemble the motion of turning off water at all?
+
+C clearly seems having fun, though mischievous, in t6-s6 CIMG1236.AVI, laughing and murmuring back, though not following prompts.  Maybe having fun and complying are hard to achieve at the same time without authority?
+
+the fatigue issue is a real thing, the father in trial 6 repeatedly states that the reason why C isn't performing as desired is because of the repetitiveness of the activities.  However, we should also report how much rest is C getting in between sessions?
+
+===================================answered=============================
+why would task completion after prompt (minus physical intervention) be 1 while task completion overall be <1, while P never physically intervened?  e.g. trial 3 point 3
++====> O! task completion after prompt overall is not restricted to steps that C attempted.  So, even though for all steps C attempted, C completed, the overall completion rate is <1 for steps C never attempts

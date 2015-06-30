@@ -1,0 +1,88 @@
+how many sessions are there for each trial
+proportions of p-c, p-r-c, r-c
+
+first, time series of p-c and r-c
+	- time change and baseline (i.e. spread and level)
+	- compare between
+
+second, time series of p-r-c
+	- similar analysis as before
+	- tryad specific questions:
+		- competition between p and r
+		- change of p's role that transitioned into r-c
+
+		
+ranking measures in order of importance:
+prompt effectiveness:
+- compliance rate
+- task completion rate
+- looking at prompt rate
+	- AG compliance rate
+- step non-stop longest duration
+
+functional independence:
+- know which step without prompt
+- know the motion of step
+- confident in when to stop
+- wait for prompt
+
+=================================================================================
+
+use overall task completion rates for P, R, P+R to characterize learning effect
+
+
+
+
+Task completion rate:
+C starts step before prompt
+	attempted step successfully executed before prompt / !attempted step successfully executed before prompt
+
+C starts step after prompt
+	attempted step successfully executed after prompt / !attempted step successfully executed after prompt
+		P / R / P+R prompt (the latest prompt that makes C do stuff)
+			C looks / !C looks
+				number of prompts / or number of seconds from start of first prompt before C starts step
+
+note: if C starts but doesn't successfully complete, it could mean C doesn't know the step BUT IT ALSO COULD MEAN C IS HESITATING WHETHER TO EXECUTE (t1-s1 step 1)
+==> nah, just count it as C didn't start the step at all, just idling.
+
+note: when multiple prompts for a step is involved, we divide the step into several parts based on C's actions.  Typically, it'd be a section of prompts that C doesn't respond, then a section of prompt that C reacts, etc.
+==> merge all the prompts up to when C stops the step, so "C stops step before prompt" is only useful when going into a new step, not within a step, because it is always true within a step if there are more than one entries.  The longest duration of entries will take care of measuring C's compliance to the rinse / dry more prompts.
+				
+note: only log about a measure if it makes sense to measure it, so for example, if C attempts a step before prompt, log that, and if C didn't finish executing before P prompts, and C changes to prompted step, don't log the task completion for the step before prompt as not completed, since we only care when C demonstrates not completing step due to C distracted / confused / not knowing motion, not due to compliance to prompt.
+	for scrub / rinse / dry, attempted step successfully executed after prompt is not useful unless attempted step successfully executed before prompt is false, since we only care about the effectiveness of prompt if C doesn't complete the step.  Else, just counting how long we can make C scrub / rinse / dry is good enough ==> this will be done during programming, not annotation.
+	
+note: if C was doing a step such as rinsing in response to a prompt, and before C can stop the step, another prompt is given, don't log it as if C has started rinsing before the 2nd prompt. Just don't log it in the new entry at all, and start the entry with the prompt part.
+
+note: if C starts a step before prompt and completes it, but was prompted during the process of completing it, there will be an entry about C's reaction to prompt, i.e. attempted_step_after_prompt and attempted_step_successfully_executed_after_prompt are both nonzero, but we shouldn't count twice towards task completion rate, only count the one before prompt.  Also, if C doesn't complete task before prompt even though attempted, and completes it after prompt, count only once for overall task completion rate, but count individually both for before prompt and after prompt rate.  In fact all these rates are actually per step, not per prompt.  so I need to look through all prompts of a step before calculating anything....
+
+note: if C starts step before prompt, and is prompted, and starts step after prompt, too, the logging of the attempt after prompt for task completion should be carried out only if attempt before prompt wasn't successful or the steps before and after are different.  In case there are no attempts before prompt due to prompting while C executes within a step or for prompting to scrub / rinse / dry more, always log the attempts after prompt normalized by the total number of prompt sections, e.g. 1st prompt section results in exeuction failure, while 2nd and 3rd prompt sections result in success, then the task completion status is 2/3, not 2.
+
+
+independence:
+C starts step before prompt / !C starts step before prompt (only the first part of every step, so once P/R starts prompting, it's considered !C starts step before prompt)
+
+
+
+			
+compliance rate:
+P / R / P+R prompt
+	C looks / !C looks
+		was idling / doing another step / doing the right step
+		is idling / doing another step / doing the right step
+		
+		no change: idling => distracted / not engaged
+		no change: doing another step => confident (arrogant) and don't care about R
+		no change: doing right step => R not needed
+			not successful before, but successful after the prompt => R is effective
+		change: idling to doing the right step => prompt works (complied)
+		change: doing another step to doing the right step => prompt works (complied)
+		change: idling to doing another step => doesn't understand prompt / knows better than prompt [when water is on and is asked to get soap, C turns off water first] (complied)
+		change: doing the right step to doing another step => doesn't understand prompt / knows better (complied)
+		change: doing another step to idling => confused / distracted
+		change: doing the right step to idling => confused / distracted
+		
+			attempted step is correct although different from prompt / !attempted step is correct although different from prompt
+
+
+

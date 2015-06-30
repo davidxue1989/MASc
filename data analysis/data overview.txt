@@ -1,0 +1,68 @@
+overall structure of data
+6 trials
+trial 1: 8 sessions
+	- 8 p-c
+trial 2: 8 sessions
+	- 8 p-c
+trial 3: 7 sessions
+	- rc, rc, prc, rc, rc, rc, rc
+	- 6 r-c, 1 p-r-c
+trial 4: 10 sessions
+	- rc, prc, prc, rc, prc, prc, prc, prc, prc
+	- 2 r-c, 7 p-r-c
+trial 5: 9 sessions
+	- rc, prc!, prc!, prc~, prc~, prc~, prc!, prc!, rc
+	- 2 r-c, 3 p-r-c~, 4 p-r-c!
+trial 6: 10 sessions
+	- prc~, rc, rc, prc!, prc!, rc, rc, rc, rc, rc
+	- 7 r-c, 1 p-r-c~, 2 p-r-c!
+	
+prc: half body behind doors, prompt C for steps as well as to follow R
+prc!: behind C, physically guide
+prc~: half body behind doors, prompt mainly for C to follow R, no verbal only point
+	
+p-r-c vs r-c:
+	- is child constantly aware of P's presence, and look to P for guidance
+	- half closed door vs fully closed, does P prompt only to intervene or P prompts often to tell C to follow R
+	
+
+research questions	
+	- is C improving in task completion rate && compliance rate && number of seconds since first prompt till correct attempt && number of prompts till correct attempt, given prompted by R, by P, or by R+P? how do they compare?  
+		(Any correlation between the three?)
+		how do C looking at agent vs C not looking compare (compare within each agent)?
+		how do C looking at prompted object vs C not looking compare?
+			- any effect of prc~ and prc! on the three measures?
+		any trend in C's actions before and after prompts:
+			- nochange: idling
+			- nochange: wrong step
+			- nochange: right step
+			- change: to right step
+			- change: to wrong step
+			- change: to idling
+			=> is this trend step specific?
+	- are we able to get C to scrub / rinse / dry longer and longer? compare between p/r/pr?
+	
+	engagement:
+	- is C smiling more? compare between p/r/pr?
+	- is C touching R (tapping head, grabbing hand, high five) more?
+	- is C more verbal? compare between p/r/pr?
+	- is C's misbehaviour (excessive soap, distracted / looks in around (e.g. mirror) / not looking at task at hand during execution) improving? compare p/r/pr
+	
+	attention:
+	- does C look at prompted objects more and more? compare among p/r/pr?
+	- does C look at prompting agent more and more? compare among p/r/pr?
+		- compare between issuing AG vs. not issuing
+		- given a prompt is by p+r, which does C look at most of the times?
+	
+	- rank P's prompt modes (verbal + gesture) in order of prompt compliance rate, of task completion rate, of time till compliance, and of no. of prompts till compliance?
+		- compare on gaze
+	
+	
+	- is C improving in hand-washing abilities?
+		- number of steps per session C completes step before prompt
+	- is C growing in confidence for functional independence? From P, from R?
+		- number of steps per session needing prompt from R, from P?
+		- number of steps per session C stops step before prompt => know to move on (only count soap / scrub / rinse / dry, don't count turn on/off)
+		- number of steps per session C stops step before prompt and C starts step before prompt => doesn't wait for prompt (count turn on/off as stopped)
+		- number of steps per session C stops step before prompt and not start step before prompt => waits for prompt (count turn on/off as stopped)
+

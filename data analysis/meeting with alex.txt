@@ -1,0 +1,31 @@
+x-axis of series data:
+draw line through each phase
+draw vertical line between phase
+
+chpt 5 of ob
+
+independence as C alone or C with R
+so independence from P
+
+P vs R:
+phase A, B use independence plot
+ignored prompts plots (compliance)
+number of interactions between P and R => lump all prompts from P (hopefully less in phase B since R comes in)
+
+R vs R n P:
+
+visual attention
+
+
+
+pub med for clinical
+
+ACM and others for technical
+have an understanding of all literatures in AT for ASD
+critically analyze them
+why i'm doing what i'm doing
+
+instead of sessions in trials, call all sessions trials! so we have ~54 trials across the phases A-B-B'
+for limitation:
+- ~8 trials happening consecutively in a day -> more learning effects and fatigue compared to spreading to 1 trial a day
+

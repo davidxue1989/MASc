@@ -1,0 +1,101 @@
+Data analysis objectives:
+
+1. what are the research questions we are interested in answering / can answer from the video data / conversation with parents / surveys?
+2. what are info that are relevant / should be reported from the conversations / background etc.?
+
+there are three ppl involved:
+the robot (with its operator), the parent, and the child
+the relationships between them are:
+parent-child:
+parent's role to child: supervisor, encourager/motivator?, (pleader?, master?,)
+How much influence does the parent have on the child:
+	- % of parent's prompts ignored by child
+	- compare number of prompts needed for dyad p-c and r-c and tryad prc
+During tryad, how many robot prompts are ignored?  Compare that with dyad r-c, any difference?
+During tryad, does p-c interaction help compliance? (compare within tryad framework, and compare with dyad r-c framework)
+
+child-robot:
+robot's role to child: supervisor?, motivator?, toy, what else?
+
+parent-robot:
+parent-child-robot:
+how do the robot learn from the parent to adjust its prompts?
+how do they compare in terms of their roles to child during dyad interactions?
+	Are they in competing roles during dyad interactions, if so who wins?
+What's the difference between their roles during tryad interactions?
+	Are they in competing roles during tryad interactions, if so who wins?
+how does reward differ between parent and robot? Qualitative (what they do for rewards) and frequency as well as when to give them.
+	Does either one give rewards during tryad?
+	Whose reward is more helpful to child?  (compare child's reactions to either rewards durying dyad. Also, what happens in dyad?)
+
+
+
+
+what are the perceived roles of the parent and of the robot to the child during dyad and tryad interactions?
+
+what happened to the time evolution of child's attitude towards robot?
+	- parent's feeling of the need to intervene also decayed, how does it decay? what factors influenced its decay?  how do we know when it's good idea to start decaying, and by how much?
+
+what happened to the time evolution of robot's behaviour during prompting?
+	- when to prompt, the steps prompted / skipped / repeated, what was prompted
+
+what happened to the time evolution of child's attitude towards hand-washing (for p-c, for p-r-c, for r-c)?
+	- see the evolution during the 8 consecutive hand-washing sessions each day
+	- see the evolution across weeks
+	
+what happened to the time evolution of child's performance?
+
+surveys:
+what was good?
+what to change?
+general impression / attitude on how the system is? on the potential of the system?
+specifically about hand-washing, how useful is the system?
+(other thoughts)
+
+
+
+
+
+
+
+
+Categorizing the questions into hierarchical reasoning:
+
+
+Is robot useful in hand-washing?  How?
+Does the child obey the robot’s prompt?
+	- compliance rate
+Does the child understand the robot’s prompt?
+	- task success rate
+=> Only after a while of getting used to it.
+How to get child used to listening to the robot? How long, how often, how to instruct?
+	- qualitative analysis of factors involved and link to qualitative observations of child's behaviour, and validate / criticize / making sense using literature
+
+
+Why does the child listen to the robot? (important to know underlying cause, so we know its limitations, important factoring influencing the effect, how to replicate it, and in what other context can we observe similar effects, and where else can we utilize the effects i.e. other applications)
+	- what perceived role is robot in r-c, in p-r-c?
+Why doesn’t the child listen to the robot right away?
+Why does the child start listening to the robot?
+	- how did the perceived role of robot change?
+Why does AG not work? Has it improved?  What does that say about the robot's perceived role?
+	
+how do we define a child's behaviour as perceiving an agent of a certain role? (as instructor / mentor / supervisor, peer, pet / toy)
+	- how much prompts do they obey, how much prompts do they respond to (saying no is also a response), how often do they smile / seem to be having fun, how focused on tasks are they, how often do they do things that disrespect the agent (playing with its hands / arms / tapping on its head) (what about high fiving? who initiates it? how long the duration? how often do they do it?), 
+	
+Why that long, why that often, why that way to instruct?
+	- what literatures are similar in teaching child some well defined activity (like hand-washing, i.e. ones with steps), how long does it take them to learn / get adjusted
+	- what clues do our child's family leave in terms of how long / often the child needs to get adjusted
+
+How much / in what way does robot behaviour influence the child’s compliance?
+	- robot's pointing
+	- robot's motion gestures
+	- robot's head pose
+	=> can we comment on these quantitatively at all?
+How to fine tune the robot so it works well with the child’s particularity?
+	How to get what the child prefers from the parent?
+	The steps of tasks
+
+
+
+Uncategorized:
+2. what are info that are relevant / should be reported from the conversations / background etc.?

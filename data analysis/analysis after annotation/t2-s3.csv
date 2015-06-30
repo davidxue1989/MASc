@@ -1,0 +1,33 @@
+file name,MVI_0011.MP4,,,,,,,,
+parent involvement,4,,,,,,,,
+step,3,4,2,5,5,5,6,7,8
+time start,1:22,,,,,,,,
+time stop,1:30,1:35,1:37,1:49,1:53,1:55,1:56,2:03,2:05
+attempted step before prompt,0,0,0,5,0,0,0,7,8
+attempted step successfully executed before prompt,,,,2,,,,2,
+P / R / P+R,1,1,1,1,1,1,1,1,1
+P verbal,2,2,2,2,2,2,2,2,
+vebal used,soap; that's it; enough;,lather your hands; lather your hands; like this;,turn on the water now;,"wash wash, wash hands; wash; wash; more water;",rinse more; rinse more;,rinse more;,turn off the water;,"dry your hands, dry; dry; ;",
+P gesture,0,3,0,0,1,0,0,4,
+P reward,,,,,,,,1,1
+reward used,,,,,,,,good job,[pat on back]
+R verbal,,,,,,,,,
+R gesture,,,,,,,,,
+R attention grabber,,,,,,,,,
+R reward,,,,,,,,,
+C looks at P/R,0,1,1,0,0,0,0,1,
+C smiles,0,0,0,0,1,1,0,0,
+C murmurs,0,0,0,0,1,1,0,1,
+C distracted,0,0,0,0,0,0,0,0,
+attempted step after prompt,3,4,2,5,5,5,6,7,
+attempted step successfully executed after prompt,2,2,2,2,2,2,2,2,
+attempted step is correct although different from prompt,,,,,,,,,
+time 1st prompt,01:23.723,01:28.450,01:35.089,01:41.387,01:48.854,01:52.791,01:55.013,01:57.817,
+time C attempts step,01:25.152,01:31.157,01:36.286,01:37.129,01:49.994,01:53.580,01:55.814,01:56.472,
+time C stops step,01:28.450,01:35.455,\,01:47.722,01:51.660,01:54.548,\,02:02.906,
+number of prompts till C executes correct step - parent,1,1,1,0,1,1,1,0,
+number of prompts till C executes correct step - robot,0,0,0,0,0,0,0,0,
+C stops correct step before next prompt,0,0,\,1,1,1,\,0,
+number of prompts till C stops correct step - parent,2,2,\,4,1,0,\,4,
+number of prompts till C stops correct step - robot,0,0,\,0,0,0,\,0,
+number of presses till C stops soap,3,,,,,,,,

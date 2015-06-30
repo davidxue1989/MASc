@@ -1,0 +1,112 @@
+rationale: to analyse different prompt types / conditions on what influences compliance:
+	"the what and the how" of a prompt
+		comprehension (clarity of meaning and comprehensible delivery)
+	"the why" of a prompt
+		authority
+		fun / engaging
+		appropriate prompting modality (but this may be prompting agent dependent, or at least how C sees the role of the prompting agent)
+		recognize that the instruction is helpful (C knows he needs it)
+
+
+The analysis framework:
+		
+compare between:
+4 P alone
+3 P behind C
+2 P prompts for step
+1 P prompts for compliance
+0 P behind door
+===>
+
+Real world scenario of R compared against P:
+P alone vs. P behind door (4v0)
+
+	With a little authority scenario of R compared against P:
+	P alone vs. P prompts for compliance (4v1)
+
+	Best case scenario of R compared against P:	
+	P alone vs. P behind C (4v3)
+
+	How far is R from missing the mark given a real world scenario:
+	P behind C vs. P behind door (3v0)
+
+Compliance issue of C in presence of R:
+P prompts for step vs. P behind door (2v0)
+
+	The presence of R, does it help or hinder P's prompts:
+	P alone vs. P prompts for step (4v2)
+	
+	Effect of a little more authority to R:
+	P prompts for compliance vs. P behind door (1v0)
+
+	Understandability of P's prompts vs R's prompts:
+	P prompts for step vs. P prompts for compliance (2v1)
+
+C learning to take turn in the prompting scenario with R
+
+C learning hand-washing steps
+	
+	
+	
+
+?
+P behind C vs. P prompts for step
+
+How far is R from missing the mark given a little authority:
+P behind C vs. P prompts for compliance
+
+
+===============================================================
+measures of comparison:
+
+effectiveness of prompt:
+- number of P prompts
+- number of P physical prompts
+- task completion:
+	- number of tasks not completed
+	- number of tasks not completed before P physical prompts
+		- avg quality of rinse and dry
+
+prompt compliance:
+- percentage of complied prompts
+
+engagement, visual attention, other indicators
+
+================================================================
+shall we do a varying threshold of p prompt levels on affecting C incomplete tasks?
+-> no! just do the number of incomplete tasks given the following:
+	with P full step physical prompts,
+	without P full step physical prompts (but still allow nudge and guide),
+	without P prompts,
+	without any P or R prompts
+		do we care whether it's a level 2 or a level 1 completion? let's try including level 1 first, if it's too loose and noninformative, we'll do level 2
+		==> after testing, they don't make much of a difference. let's just include level 1
+	
+shall we do number of p prompts issued each session, varying threshold on the p prompt levels, e.g. number of p prompts that are or are below P verbal[0,2]gesture[7] (i.e. all the P prompts)?
+-> no! just do:
+	number of P prompts that are physical (nudge, guide, or full step),
+	number of P prompts that are not physical,
+	number of P prompts total, 
+	number of robot prompts, 
+	number of prompts total
+
+compliance
+	- given different conditions / criteria of the prompt, what's C's behaviour likely to be. i.e. compliance rate given prompt type
+	- prompt types:
+		-  R[1] P verbal[0]gesture[0] [robot alone]
+		vs R[0] P verbal[1]gesture[0,1,2][about robot]
+		vs R[0] P verbal[0]gesture[1,2][about object without talking]
+		vs R[0] P verbal[2]gesture[0,1,2][about object with talking]
+		vs R[0] P verbal[0,2]gesture[3,4][about step with salient gestures]
+		vs R[0] P verbal[0,2]gesture[5,6][about compliance with more influence]
+		vs R[0] P verbal[0,2]gesture[7][about compliance with force]
+		
+		vs R[1] P verbal[1]gesture[0,1,2][about robot with R]
+		vs R[1] P verbal[0]gesture[1,2][about object without talking with R]
+		vs R[1] P verbal[2]gesture[0,1,2][about object with talking with R]
+		vs R[1] P verbal[0,2]gesture[3,4][about step with salient gestures with R]
+		vs R[1] P verbal[0,2]gesture[5,6][about compliance with more influence with R]
+		vs R[1] P verbal[0,2]gesture[7][about compliance with force with R]
+		
+		
+	

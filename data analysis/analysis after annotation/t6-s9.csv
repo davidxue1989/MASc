@@ -1,0 +1,33 @@
+file name,CIMG1242.AVI,,,,,,,,
+parent involvement,0,,,,,,,,
+step,3,3,2,5,5,5,6,7,8
+time start,1:33,,,,,,,,
+time stop,1:41,1:52,1:53,1:56,2:02,2:06,2:06,2:08,2:13
+attempted step before prompt,0,0,2,5,0,0,6,7,8
+attempted step successfully executed before prompt,,,2,2,,,2,2,
+P / R / P+R,2,2,0,0,2,2,0,2,2
+P verbal,,,,,,,,,
+vebal used,,,,,,,,,
+P gesture,,,,,,,,,
+P reward,,,,,,,,,
+reward used,,,,,,,,,
+R verbal,2,2,,,2,2,,2,
+R gesture,4,4,,,4,4,,4,
+R attention grabber,,1,,,,,,,1
+R reward,,,,,,,,,
+C looks at P/R,0,0,0,0,0,0,0,0,
+C smiles,1,1,1,1,1,1,1,1,
+C murmurs,1,0,0,0,0,1,1,0,
+C distracted,1,1,0,1,1,1,0,0,
+attempted step after prompt,0,3,,,5,5,,7,
+attempted step successfully executed after prompt,,2,,,1,1,,2,
+attempted step is correct although different from prompt,0,,,,,,,,
+time 1st prompt,01:35.175,01:40.923,\,\,01:55.536,02:02.253,\,02:07.733,
+time C attempts step,\,01:46.709,01:52.018,01:53.207,01:58.005,02:02.818,02:05.641,02:06.376,
+time C stops step,\,01:50.932,\,01:54.816,02:01.288,02:03.667,\,02:08.232,
+number of prompts till C executes correct step - parent,0,0,0,0,0,0,0,0,
+number of prompts till C executes correct step - robot,1,1,0,0,1,1,0,0,
+C stops correct step before next prompt,\,1,\,1,1,1,\,1,
+number of prompts till C stops correct step - parent,\,0,\,0,0,0,\,0,
+number of prompts till C stops correct step - robot,\,0,\,0,1,0,\,1,
+number of presses till C stops soap,,11,,,,,,,

@@ -1,0 +1,36 @@
+3	Research Objectives
+3.1	Overall Goal and Approach
+Our overall goal is to increase children with ASD’s engagement level during COACH prompting and task execution, and thus improving prompt compliance and task completion rate.  Our approach is to incorporate a humanoid robot, NAO, into the current COACH setup, capable of delivering verbal and gesture prompts and attention grabbers, and to 2) automatically track the VFOA of child for more effective attention grabbers.
+3.2	Central Hypothesis
+We hypothesize that the incorporation of an embodied agent, such as the humanoid NAO, is essential in better engaging the child and better capturing and maintaining attention during prompting and task execution, and ultimately yields higher prompt compliance and task completion rates when assisting children with ASD through ADLs such as hand washing.
+3.3	Specific Objectives
+Our objectives are:
+1)	To explore the different modes of interactions between NAO and the child when prompting the hand-washing activity using a Wizard of Oz setup
+2)	To investigate the impact on child’s engagement, compliance, and task performance to an embodied prompting agent compared against one that lacks physical embodiment
+3)	To implement a real-time algorithm for tracking the child’s VFOA
+Our hypotheses are:
+1)	Gestural, gaze, and verbal are the essential modes of interactions present in the hand-washing prompting scenario between children with ASD and the embodied agent NAO.
+2)	Child has greater general engagement level when interacting with NAO than with its virtual avatar displayed on monitor.
+3)	Child has higher percentage of time looking at the correct target (i.e. robot or monitor during prompting and sink object or hands during task execution) when assisted by NAO than by its virtual avatar.
+4)	Attention grabber yields higher compliance rate from child when delivered by NAO than by its virtual avatar.
+5)	Child exhibits higher prompt compliance rate and task completion rate when the object pointing prompts and the motion demonstrating prompts are delivered by NAO than by its virtual avatar.
+6)	Using 3DMM and ALR for estimating head pose and eye pose, through the Kinect camera, a classification rate of more than 80% is achieved for estimating child’s VFOA on NAO, monitor, soap, towel, tap region, hands, and idling.
+
+
+4.2.4	Measures and Analysis
+The measures are listed as corresponding to hypotheses:
+1)	General Engagement Level 
+Average % time body is facing NAO during prompting = sum of time child’s body facing NAO when NAO prompting / total prompt time
+Average # verbal occurrences = # verbal occurrences / total # trials
+Average # physical contacts = # physical contacts with NAO or monitor / total # trials
+Average # caregiver intervening = # caregiver intervening / total # trials
+2)	Prompt Attention Level and Task Concentration Level
+Average % time VFOA is correct during prompting = sum of time child looking at NAO or virtual avatar when prompting / total prompt time
+Average % time VFOA is correct during task execution = sum of time child looking at correct sink objects (soap, towel, or tap region) or hands / total task execution time
+3)	Attention Grabber Effectiveness
+Average AG compliance rate = # complied AG / total # AG delivered
+4)	Prompt Effectiveness
+Average prompt compliance rate = # complied prompts / total # prompts delivered
+Average task completion rate = # completed tasks / total # tasks complied
+
+

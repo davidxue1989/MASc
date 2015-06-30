@@ -1,0 +1,49 @@
+ does he know which step to do without prompt
+ does he take turns and waits for the prompts
+ does he know the step's motions
+ does P ever uses AG?  does it ever work?
+ 
+ C is never in rest position when R is in primary role of prompting, but C does wait for P during P-C sessions.
+ 
+ what percentage of steps does C attempt but don't know how?
+	=> should be close to zero
+	
+
+items that aren't useful:
+	- distracted (just report distracted instances whenever it occurs)
+	- waiting for C to need help before prompt
+	- was child waiting for R to prompt
+	- mimicks the motions
+	- successfully executes with prompt
+
+	
+for p-r-c:
+- p usually don't prompt unless c doesn't follow r, so just check:
+	- 
+	
+	
+Exceptions:
+intro: only care about P/R prompted,  AG, look, mimick, and notes (anything else C did towards R)
+turn on/off water: don't look at C stops step before next prompt, duration, unit
+all done: don't look at C stops step before next prompt, duration, unit
+attempted step completed is yes for rinse / scrub / dry if the motion is correct (don't care about duration)
+	=> this means they know the step's motion. 
+if C attempts step without prompt, we don't look at C reaction section, only C execution section.
+
+1) C looks at object of prompted step
+2) C looks at object of attempted step (if attempted step differs from prompted)
+==> if not prompted or attempted step is the same as prompted step, don't look at 1), only 2)
+==> else if attempted step differs from prompted, look at both 1) and 2)
+
+
+if C execution and R prompt starts within 1 second from each other, C execution is considered to have started first (cause it takes time for C to process prompt after observing it).
+
+
+all done's step completed just means C attempts to go out.  doesn't matter if he ended up going out.
+
+is P prompts always C starts step before prompt == no?
+
+
+ 
+ 
+ 

@@ -1,0 +1,159 @@
+what does the rate given label mean?
+	-> out of all the prompts of this label given in a session, what percentage of them has this response from C
+what does the sample size of given label mean?
+	-> number of prompts of this label given in a session
+does it mean anything to multiple the two?
+	-> number of prompts of this label given in a session that has this response
+
+===============================================================================
+let's ignore weighting by sample size for now, and treat every point as equally weighted evidences:
+================>
+
+***********************************************************
+|*significant (sample size is large and trend is clear) :*|
+***********************************************************
+R0Pv2g012, P alone, 0.8 compliance 0.2 not affected by prompt
+R0Pv02g34, P alone, mainly 1.0 compliance
+
+	R1Pv0g0, R alone, 0.25 compliance 0.5 not affected by prompt 0.25 confused by prompt
+
+	R1Pv0g0, R alone rep, 0.8 compliance 0.1 not affected by prompt 0.1 confused by prompt
+
+	R1Pv0g0, R+P comp 0.7 compliance 0.15 not affected by prompt 0.15 confused by prompt
+R0Pv0g12, R+P comp, mainly 1.0 compliance
+		R1Pv02g56, R+P comp, mainly 1.0 compliance
+
+	R1Pv0g0, R+P beh mainly 1.0 compliance
+		R1Pv02g56, R+P beh, almost 1.0 compliance
+R0Pv02g56, R+P beh, almost 1.0 compliance
+R1Pv02g7, R+P beh, 1.0 compliance
+
+
+--------------------------------------------------------------
+the whole data set:
+
+R0Pv0g12, R+P step, 1.0 Not affected by prompt
+R0Pv0g12, R+P comp, mainly 1.0 compliance
+R0Pv0g12, P alone, mainly 1.0 compliance
+R0Pv0g12, R alone, 1.0 confused by prompt
+R0Pv0g12, R alone rep, 1.0 compliance
+
+no data on 
+R0Pv0g12, R+P beh
+
+
+
+R0Pv1g012, P alone, 0.5 stopped for no reason 0.5 not affected by prompt
+R0Pv1g012, R alone, 1.0 compliance
+R0Pv1g012, R alone rep, 1.0 stopped for no reason
+R0Pv1g012, R+P step, 0.5 stopped for no reason 0.5 confused by prompt
+
+no data on
+R0Pv0g12, R+P beh and comp
+
+
+
+R0Pv02g7, R alone, 1.0 compliance
+R0Pv02g7, R alone rep, mainly 1.0 compliance
+R0Pv02g7, R+P comp, 1.0 compliance
+R0Pv02g7, R+P beh, 1.0 compliance
+
+no data on
+R0Pv02g7, R+P step and P alone
+
+
+
+R0Pv02g34, P alone, mainly 1.0 compliance
+R0Pv02g34, R+P comp, 1.0 compliance
+
+no data on
+R0Pv02g34, R alone and R alone rep and R+P step and R+P beh
+
+
+
+R0Pv02g56, R+P beh, almost 1.0 compliance
+R0Pv02g56, R+P comp, 0.5 compliance 0.5 not affected by prompt
+R0Pv02g56, P alone, 1.0 compliance
+R0Pv02g56, R alone, 1.0 stopped for no reason 
+R0Pv02g56, R alone rep, 0.5 not affected by prompt 0.5 confused by prompt
+
+no data on
+R0Pv02g56, R+P step
+
+
+
+R0Pv2g012, R+P comp, 1.0 compliance
+R0Pv2g012, P alone, 0.8 compliance 0.2 not affected by prompt
+R0Pv2g012, R alone, 0.7 compliance 0.3 confused by prompt
+R0Pv2g012, R+P step, 0.6 complinace 0.4 not affected by prompt
+
+no data on
+R0Pv2g012, R+P beh and R alone rep
+
+
+
+R1Pv0g0, R alone rep, 0.8 compliance 0.1 not affected by prompt 0.1 confused by prompt
+R1Pv0g0, R alone, 0.5 not affected by prompt 0.25 compliance 0.25 confused by prompt
+R1Pv0g0, R+P step 0.5 confused by prompt 0.5 compliance
+R1Pv0g0, R+P comp 0.7 compliance 0.15 not affected by prompt 0.15 confused by prompt
+R1Pv0g0, R+P beh mainly 1.0 compliance
+
+no data on 
+R1Pv0g0, P alone
+
+
+
+
+R1Pv0g12, R alone rep, 0.7 compliance 0.15 confused by prompt 0.15 not affected by prompt
+R1Pv0g12, R+P comp all over the map but mainly for compliance and secondly for not affected by prompt
+
+no data on
+R1Pv0g12, R alone and R+P step and R+P beh and P alone
+
+
+
+
+R1Pv1g012, R alone, 1.0 not affected by prompt
+R1Pv1g012, R+P comp 0.7 compliance 0.3 not affected by prompt
+R1Pv1g012, R+P step, 0.8 compliance 0.2 not affected by prompt
+
+no data on
+R1Pv1g012, R alone rep and R+P beh and P alone
+
+
+
+
+R1Pv02g7, R+P beh, 1.0 compliance
+
+no data on
+R1Pv02g7, R alone and R alone rep and R+P comp and R+P step and P alone
+
+
+
+
+R1Pv02g34, R+P comp, 1.0 compliance
+R1Pv02g34, R+P step, 1.0 compliance
+
+no data on
+R1Pv02g34, R alone and R alone rep and R+P beh and P alone
+
+
+
+
+R1Pv02g56, R alone rep, 0.5 compliance 0.5 stopped for no reason
+R1Pv02g56, R+P comp, mainly 1.0 compliance
+R1Pv02g56, R+P beh, almost 1.0 compliance
+
+no data on 
+R1Pv02g56, R alone and R+P step and P alone
+
+
+
+R1Pv2g012, R alone, 0.5 not affected by prompt 0.25 stopped for no reason 0.25 confused by prompt
+R1Pv2g012, R+P step, 0.7 confused by prompt 0.3 compliance
+
+no data on
+R1Pv2g012, R alone rep and R+P beh and P alone
+
+
+

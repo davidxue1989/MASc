@@ -1,0 +1,33 @@
+file name,MVI_0008.MP4,,,,,,,,,,,,,,,,
+parent involvement,4,,,,,,,,,,,,,,,,
+step,3,4,4,2,5,5,5,5,5,5,5,5,5,6,7,7,8
+time start,0:24,,,,,,,,,,,,,,,,
+time stop,0:27,0:29,0:33,0:35,0:37,0:40,0:41,0:43,0:44,0:46,0:49,0:52,0:55,0:58,1:00,1:03,1:05
+attempted step before prompt,3,0,2,0,5,0,0,0,0,0,0,0,5,0,7,8,8
+attempted step successfully executed before prompt,2,,\,,1,,,,,,,,1,,1,,
+P / R / P+R,1,1,1,1,,1,1,1,1,1,1,1,0,1,0,1,1
+P verbal,2,2,2,2,,2,2,2,2,2,2,2,,2,,2,
+vebal used,just one,"soap first, soap",soap; soap,turn on the water,,"rinse, more water",more,more,more,more,"more, [C's name]",more water,,turn off the water,,dry properly,
+P gesture,0,3,3,0,,1,0,3,3,3,3,3,,0,,1,
+P reward,,,,,,,,,,,,,,,,,1
+reward used,,,,,,,,,,,,,,,,,very good
+R verbal,,,,,,,,,,,,,,,,,
+R gesture,,,,,,,,,,,,,,,,,
+R attention grabber,,,,,,,,,,,,,,,,,
+R reward,,,,,,,,,,,,,,,,,
+C looks at P/R,0,1,0,0,0,0,0,1,1,0,0,1,0,0,1,1,
+C smiles,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,
+C murmurs,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,1,
+C distracted,0,0,0,0,1,1,0,0,1,1,0,0,1,0,0,0,
+attempted step after prompt,3,4,4,2,,5,5,0,5,5,5,5,,6,,7,
+attempted step successfully executed after prompt,\,2,2,2,,1,2,,2,1,1,2,,2,,2,
+attempted step is correct although different from prompt,,,,,,,,0,,,,,,,,,
+time 1st prompt,00:25.641,00:27.002,00:29.466,00:32.823,\,00:37.391,00:39.843,00:41.431,00:42.445,00:44.324,00:46.491,00:48.817,\,00:55.162,\,00:59.828,
+time C attempts step,00:23.937,00:27.869,00:30.176,00:33.857,00:34.568,00:38.867,00:40.356,\,00:42.963,00:45.264,00:47.431,00:49.477,00:52.299,00:56.626,00:57.972,01:00.396,
+time C stops step,00:26.146,00:29.466,00:32.332,\,00:36.646,00:39.698,00:41.329,\,00:44.275,00:46.105,00:48.474,00:50.922,00:53.177,\,00:59.620,01:02.512,
+number of prompts till C executes correct step - parent,0,1,1,1,0,1,1,1,1,1,1,1,0,1,0,1,
+number of prompts till C executes correct step - robot,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+C stops correct step before next prompt,0,1,1,\,1,1,1,\,1,1,1,1,1,\,1,1,
+number of prompts till C stops correct step - parent,1,0,1,\,0,0,0,\,0,0,0,0,0,\,0,0,
+number of prompts till C stops correct step - robot,0,0,0,\,0,0,0,\,0,0,0,0,0,\,0,0,
+number of presses till C stops soap,2,,,,,,,,,,,,,,,,
