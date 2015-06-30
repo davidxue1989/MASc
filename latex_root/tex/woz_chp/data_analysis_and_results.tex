@@ -22,39 +22,35 @@ The analyses employed here are visual analyses.  The analyses mainly compare the
 To reflect how effective our prompting system is, we show whether the system can reduce both the number of incomplete steps and the number of parent prompts.
 
 \paragraph{Number of Incomplete Steps}
-We assumed that parent prompts had a higher level of authority over the child than robot prompts, because the robot only delivered verbal prompts and gestures such as pointing and motion demonstrations, while the parent could deliver those as well as nudging, guiding the arm, and completely executing the step for the child if the verbal and gesture prompts did not work.  This means we can measure the effect of robot prompts by comparing number of complete steps without prompts vs. with robot prompts alone, and measure the effect of parent prompts by comparing number of complete steps with robot prompts alone vs. with robot and parent prompts.  Figure \ref{fig:TotalNumberOfCompleteSteps} shows a series of plots for the measure ``Total Number of Complete Steps'', differing in what steps counted as complete when plotting the figures, e.g. Plot \ref{fig:7TotalNumberofCompleteSteps-WithoutPrompts} (``Without Prompts'') counts only steps completed by child with no prompts from the robot or the parent.  The next Plot \ref{fig:6TotalNumberofCompleteSteps-WithRobotPrompts} (``With Robot Prompts''), allows steps prompted by the robot to also count towards completed steps, and Plot \ref{fig:4TotalNumberofCompleteSteps-WithRobotAndParentPrompts} (``With Robot and Parent Prompts'') counts every completed steps even if they were prompted by the parent or the robot.
+We assumed that parent prompts had a higher level of authority over the child than robot prompts, because the robot only delivered verbal prompts and gestures such as pointing and motion demonstrations, while the parent could deliver those as well as nudging, guiding the arm, and completely executing the step for the child if the verbal and gesture prompts did not work.  This means we can measure the effect of robot prompts by comparing number of complete steps without prompts vs. with robot prompts alone, and measure the effect of parent prompts by comparing number of complete steps with robot prompts alone vs. with robot and parent prompts.  Figure \ref{fig:TotalNumberOfCompleteSteps} shows a series of plots for the measure ``Total Number of Complete Steps'', differing in what steps counted as completed when plotting the figures, e.g. Plot \ref{fig:7TotalNumberofCompleteSteps-WithoutPrompts} (``Without Prompts'') counts only steps completed by child with no prompts from the robot or the parent.  The next Plot \ref{fig:6TotalNumberofCompleteSteps-WithRobotPrompts} (``With Robot Prompts Only''), allows steps prompted by the robot to also count towards completed steps, and Plot \ref{fig:4TotalNumberofCompleteSteps-WithRobotAndParentPrompts} (``With Robot and Parent Prompts'') counts every completed steps even if they were prompted by the parent or the robot.
 
-The most important comparison is between Plot \ref{fig:7TotalNumberofCompleteSteps-WithoutPrompts} (``Without Prompts'') and Plot \ref{fig:6TotalNumberofCompleteSteps-WithRobotPrompts} (``With Robot Prompts''), demonstrating the effectiveness of the robot's presence.  
+The most important comparison is between Plot \ref{fig:7TotalNumberofCompleteSteps-WithoutPrompts} (``Without Prompts'') and Plot \ref{fig:6TotalNumberofCompleteSteps-WithRobotPrompts} (``With Robot Prompts Only''), demonstrating the effectiveness of the robot's presence.  We see that parent alone phase (Phase A) was unaffected since robot wasn't present, but introducing the robot in the rest of the phases show effectiveness: robot alone phase (first Phase B) from 2.5 to 3, robot parent phase (Phase C) from 2 to 3, and robot alone repeat phase (second Phase B) from 2.5 to 4.
 
-We see that parent alone phase (Phase A) was unaffected since robot wasn't present, but introducing the robot in the rest of the phases show effectiveness: robot alone phase (first Phase B) from 1.5 to 0.5, robot parent phase (Phase C) from 3 to 2, and robot alone repeat phase (second Phase B) from 2.5 to 0.5.
-
-Comparing Plot \ref{fig:6TotalNumberofCompleteSteps-WithRobotPrompts} (``With Robot Prompts'') against Plot \ref{fig:5TotalNumberofIncompleteSteps-BeforePhyiscalPrompts} (``With Robot and Parent Non-physical Prompts''), we see the effectiveness of parent non-physical prompts: parent alone phase moved from 3 to 0, robot alone phase from 0.5 to 0, robot parent phase from 2 to 1.5, robot alone repeat phase is unaffected.
+Comparing Plot \ref{fig:6TotalNumberofCompleteSteps-WithRobotPrompts} (``With Robot Prompts Only'') against Plot \ref{fig:4TotalNumberofCompleteSteps-WithRobotAndParentPrompts} (``With Robot and Parent Prompts''), we see the effectiveness of parent prompts: parent alone phase moved from 3 to 6, robot alone phase from 3 to 3.5, robot parent phase from 3 to 5, robot alone repeat phase from 4 to 4.5.
 \begin{figure}[h]
 	\centering
 	\begin{subfigure}[b]{0.49\textwidth}
-		\includegraphics[width=1.1\linewidth]{./img/data_analysis/7NumberofIncompleteSteps-BeforePorR.eps}
-		\caption{Total Number of Incomplete Steps - Without Prompts}
-		\label{fig:7TotalNumberofIncompleteSteps-BeforeParentorRobotPrompts}
+		\includegraphics[width=1.1\linewidth]{./img/data_analysis/110NumberofCompleteSteps-WithoutPorR.eps}
+		\caption{Total Number of Complete Steps - Without Prompts}
+		\label{fig:7TotalNumberofCompleteSteps-WithoutPrompts}
 	\end{subfigure}
 	\hfill
 	%	~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill, or double enter etc.	
 	\begin{subfigure}[b]{0.49\textwidth}
-		\includegraphics[width=1.1\linewidth]{./img/data_analysis/6NumberofIncompleteSteps-BeforeP.eps}
-		\caption{Total Number of Incomplete Steps - With Robot Prompts}
-		\label{fig:6TotalNumberofIncompleteSteps-BeforeParentPrompts}
+		\includegraphics[width=1.1\linewidth]{./img/data_analysis/109NumberofCompleteSteps-WithR.eps}
+		\caption{Total Number of Complete Steps - With Robot Prompts Only}
+		\label{fig:6TotalNumberofCompleteSteps-WithRobotPrompts}
 	\end{subfigure}%
 	
 	
 	\begin{subfigure}[b]{0.49\textwidth}
-u		\includegraphics[width=1.1\linewidth]{./img/data_analysis/5NumberofIncompleteSteps-BeforePPhyiscal.eps}
-		\caption{Total Number of Incomplete Steps - With Robot and Parent Non-physical Prompts}
-		\label{fig:5TotalNumberofIncompleteSteps-BeforePhyiscalPrompts}
+		\includegraphics[width=1.1\linewidth]{./img/data_analysis/blank.png}
 	\end{subfigure}%
 	\hfill
 	\begin{subfigure}[b]{0.49\textwidth}
-		\includegraphics[width=1.1\linewidth]{./img/data_analysis/4NumberofIncompleteSteps.eps}
-		\caption{Total Number of Incomplete Steps - With Robot and Parent Prompts}
-		\label{fig:4TotalNumberofIncompleteSteps}
+		\includegraphics[width=1.1\linewidth]{./img/data_analysis/108NumberofCompleteSteps-WithPandR.eps}
+		\caption{Total Number of Complete Steps - With Robot and Parent Prompts}
+		\label{fig:4TotalNumberofCompleteSteps-WithRobotAndParentPrompts}
 	\end{subfigure}%
 	\caption{Total Number of Complete Steps}
 	\label{fig:TotalNumberOfIncompleteSteps}

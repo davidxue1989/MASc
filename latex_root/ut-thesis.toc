@@ -104,38 +104,38 @@
 \contentsline {subsubsection}{Post-Intervention Survey for Parent}{45}{section*.65}
 \contentsline {section}{\numberline {4.9}Discussion}{46}{section.4.9}
 \contentsline {subsection}{\numberline {4.9.1}Primary Results}{46}{subsection.4.9.1}
-\contentsline {subsection}{\numberline {4.9.2}Secondary Results}{51}{subsection.4.9.2}
+\contentsline {subsection}{\numberline {4.9.2}Secondary Results}{50}{subsection.4.9.2}
 \contentsline {subsection}{\numberline {4.9.3}Limitations and Future Works}{52}{subsection.4.9.3}
-\contentsline {chapter}{\numberline {5}Visual Focus of Attention Estimation}{55}{chapter.5}
-\contentsline {section}{\numberline {5.1}Head Pose Estimation}{55}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}3D Kinect Camera Approach}{55}{subsection.5.1.1}
-\contentsline {subsubsection}{Approach Overview}{55}{section*.70}
-\contentsline {subsubsection}{KinFu Head Modeling}{56}{section*.71}
-\contentsline {paragraph}{How KinFu Works}{56}{section*.72}
-\contentsline {subparagraph}{Preprocessing}{56}{section*.73}
-\contentsline {subparagraph}{Alignment}{57}{section*.76}
-\contentsline {subparagraph}{Surface Reconstruction}{58}{section*.78}
-\contentsline {paragraph}{Using KinFu with Kinect2 Camera}{60}{section*.80}
-\contentsline {paragraph}{Using KinFu for Head Modeling}{60}{section*.81}
-\contentsline {subsubsection}{KinFu Head Pose Tracking}{61}{section*.83}
-\contentsline {subsubsection}{Point Cloud Based Inverse Pose Transformation}{61}{section*.84}
-\contentsline {paragraph}{Colored Point Cloud}{61}{section*.85}
-\contentsline {subparagraph}{Head Model Mesh Projection}{62}{section*.86}
-\contentsline {subparagraph}{3D Coordinate Calculation}{62}{section*.87}
-\contentsline {paragraph}{Inverse Pose Transformation}{63}{section*.88}
-\contentsline {subsubsection}{Projection onto Camera Image Plane}{63}{section*.89}
-\contentsline {subsubsection}{Using the EYEDIAP Dataset}{63}{section*.91}
-\contentsline {subsection}{\numberline {5.1.2}Eye Pose Estimation}{65}{subsection.5.1.2}
-\contentsline {subsubsection}{Eye Image Cropping and Stabilization}{65}{section*.92}
-\contentsline {subsubsection}{Eye Image Descriptor}{65}{section*.93}
-\contentsline {subsubsection}{Adaptive Linear Regression (ALR)}{65}{section*.94}
-\contentsline {subsubsection}{Coupled Eyes Constraints}{65}{section*.95}
-\contentsline {subsubsection}{Solving ALR with Coupled Eyes Constraints}{66}{section*.96}
-\contentsline {subsubsection}{Training Examples Collection and Model Selection}{66}{section*.97}
-\contentsline {section}{\numberline {5.2}Object Identification}{66}{section.5.2}
-\contentsline {section}{\numberline {5.3}Discussion}{68}{section.5.3}
-\contentsline {chapter}{\numberline {6}Conclusion}{69}{chapter.6}
-\contentsline {paragraph}{The humanoid robot, NAO, is able to independently assist child with ASD through hand-washing, and child exhibits greater engagement level, higher prompt compliance rate, and better task completion when prompted by NAO than by parent.}{69}{section*.99}
-\contentsline {paragraph}{Gestural, gaze, and verbal are the essential modes of interactions present in the hand-washing prompting scenario between child with ASD and the prompting agent NAO.}{69}{section*.100}
-\contentsline {paragraph}{Using 3DMM and ALR for estimating head pose and eye pose, and using the Kinect camera, a classification rate of more than 80\% is achieved for estimating child's VFOA on NAO, monitor screen, soap, towel, tap region, hands, and idling.}{70}{section*.101}
-\contentsline {chapter}{Bibliography}{71}{section*.101}
+\contentsline {chapter}{\numberline {5}Visual Focus of Attention Estimation}{56}{chapter.5}
+\contentsline {section}{\numberline {5.1}Head Pose Estimation}{56}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}3D Kinect Camera Approach}{56}{subsection.5.1.1}
+\contentsline {subsubsection}{Approach Overview}{56}{section*.71}
+\contentsline {subsubsection}{KinFu Head Modeling}{57}{section*.72}
+\contentsline {paragraph}{How KinFu Works}{57}{section*.73}
+\contentsline {subparagraph}{Preprocessing}{57}{section*.74}
+\contentsline {subparagraph}{Alignment}{58}{section*.77}
+\contentsline {subparagraph}{Surface Reconstruction}{59}{section*.79}
+\contentsline {paragraph}{Using KinFu with Kinect2 Camera}{61}{section*.81}
+\contentsline {paragraph}{Using KinFu for Head Modeling}{61}{section*.82}
+\contentsline {subsubsection}{KinFu Head Pose Tracking}{62}{section*.84}
+\contentsline {subsubsection}{Point Cloud Based Inverse Pose Transformation}{62}{section*.85}
+\contentsline {paragraph}{Colored Point Cloud}{62}{section*.86}
+\contentsline {subparagraph}{Head Model Mesh Projection}{63}{section*.87}
+\contentsline {subparagraph}{3D Coordinate Calculation}{63}{section*.88}
+\contentsline {paragraph}{Inverse Pose Transformation}{64}{section*.89}
+\contentsline {subsubsection}{Projection onto Camera Image Plane}{64}{section*.90}
+\contentsline {subsubsection}{Using the EYEDIAP Dataset}{64}{section*.92}
+\contentsline {subsection}{\numberline {5.1.2}Eye Pose Estimation}{66}{subsection.5.1.2}
+\contentsline {subsubsection}{Eye Image Cropping and Stabilization}{66}{section*.93}
+\contentsline {subsubsection}{Eye Image Descriptor}{66}{section*.94}
+\contentsline {subsubsection}{Adaptive Linear Regression (ALR)}{66}{section*.95}
+\contentsline {subsubsection}{Coupled Eyes Constraints}{66}{section*.96}
+\contentsline {subsubsection}{Solving ALR with Coupled Eyes Constraints}{67}{section*.97}
+\contentsline {subsubsection}{Training Examples Collection and Model Selection}{67}{section*.98}
+\contentsline {section}{\numberline {5.2}Object Identification}{67}{section.5.2}
+\contentsline {section}{\numberline {5.3}Discussion}{69}{section.5.3}
+\contentsline {chapter}{\numberline {6}Conclusion}{70}{chapter.6}
+\contentsline {paragraph}{The humanoid robot, NAO, is able to independently assist child with ASD through hand-washing, and child exhibits greater engagement level, higher prompt compliance rate, and better task completion when prompted by NAO than by parent.}{70}{section*.100}
+\contentsline {paragraph}{Gestural, gaze, and verbal are the essential modes of interactions present in the hand-washing prompting scenario between child with ASD and the prompting agent NAO.}{70}{section*.101}
+\contentsline {paragraph}{Using 3DMM and ALR for estimating head pose and eye pose, and using the Kinect camera, a classification rate of more than 80\% is achieved for estimating child's VFOA on NAO, monitor screen, soap, towel, tap region, hands, and idling.}{71}{section*.102}
+\contentsline {chapter}{Bibliography}{72}{section*.102}
