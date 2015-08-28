@@ -213,17 +213,17 @@ def calcStepCompletionRate(filename):
 #     12  R[1] P verbal[0,2]gesture[7][about compliance with force with R]
     colNames = ['noStep2noStep','noStep2rightStep','noStep2wrongStep','rightStep2rightStep_nonExtend','rightStep2rightStep_extend','rightStep2wrongStep','rightStep2noStep','wrongStep2wrongStep_Diff','wrongStep2wrongStep_Same','wrongStep2rightStep','wrongStep2noStep']
     #columns:
-#     0   noStep2noStep
-#     1   noStep2rightStep
-#     2   noStep2wrongStep
+#     0   noStep2noStep 23
+#     1   noStep2rightStep 12
+#     2   noStep2wrongStep 22
 #     3   rightStep2rightStep_nonExtend
-#     4   rightStep2rightStep_extend
-#     5   rightStep2wrongStep
-#     6   rightStep2noStep
-#     7   wrongStep2wrongStep_Diff
-#     8   wrongStep2wrongStep_Same
-#     9   wrongStep2rightStep
-#     10  wrongStep2noStep
+#     4   rightStep2rightStep_extend 13
+#     5   rightStep2wrongStep 22
+#     6   rightStep2noStep 23
+#     7   wrongStep2wrongStep_Diff 22
+#     8   wrongStep2wrongStep_Same 22
+#     9   wrongStep2rightStep 12
+#     10  wrongStep2noStep 23
     responseMatrix = np.zeros((len(rowNames), len(colNames)), dtype=int)
     
     ## Analysis Revision 2.0 - Engagement Level
