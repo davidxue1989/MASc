@@ -1,0 +1,65 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}Visual Focus of Attention Estimation}{58}{chapter.5}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}Head Pose Estimation}{58}{section.5.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.1}3D Kinect Camera Approach}{58}{subsection.5.1.1}}
+\@writefile{toc}{\contentsline {subsubsection}{Approach Overview}{58}{section*.66}}
+\newlabel{sec:approachOverview}{{5.1.1}{58}{Approach Overview}{section*.66}{}}
+\citation{rusu20113d}
+\citation{pirovano2011kinfu}
+\citation{newcombe2011kinectfusion}
+\citation{pirovano2011kinfu}
+\citation{newcombe2011kinectfusion}
+\citation{newcombe2011kinectfusion}
+\citation{tomasi1998bilateral}
+\citation{pirovano2011kinfu}
+\citation{pirovano2011kinfu}
+\@writefile{toc}{\contentsline {subsubsection}{KinFu Head Modeling}{59}{section*.67}}
+\@writefile{toc}{\contentsline {paragraph}{How KinFu Works}{59}{section*.68}}
+\@writefile{toc}{\contentsline {subparagraph}{Preprocessing}{59}{section*.69}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces A bilateral filter applied to a 2D color image. The left is the original, while the right is filtered, resulting in removal of noise. \cite  {pirovano2011kinfu}\relax }}{59}{figure.caption.70}}
+\newlabel{fig:bilateralFiltering}{{5.1}{59}{A bilateral filter applied to a 2D color image. The left is the original, while the right is filtered, resulting in removal of noise. \cite {pirovano2011kinfu}\relax }{figure.caption.70}{}}
+\citation{pirovano2011kinfu}
+\citation{pirovano2011kinfu}
+\citation{pirovano2011kinfu}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces A 3-level multi-resolution pyramid. \cite  {pirovano2011kinfu}\relax }}{60}{figure.caption.71}}
+\newlabel{fig:resolutionPyramid}{{5.2}{60}{A 3-level multi-resolution pyramid. \cite {pirovano2011kinfu}\relax }{figure.caption.71}{}}
+\@writefile{toc}{\contentsline {subparagraph}{Alignment}{60}{section*.72}}
+\citation{low2004linear}
+\citation{low2004linear}
+\citation{low2004linear}
+\citation{newcombe2011kinectfusion}
+\citation{pirovano2011kinfu}
+\citation{pirovano2011kinfu}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces Point-to-plane error between two surfaces. \cite  {low2004linear}\relax }}{61}{figure.caption.73}}
+\newlabel{fig:pointToPlaneError}{{5.3}{61}{Point-to-plane error between two surfaces. \cite {low2004linear}\relax }{figure.caption.73}{}}
+\@writefile{toc}{\contentsline {subparagraph}{Surface Reconstruction}{61}{section*.74}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces A illustration of creating an 1D TSDF. \cite  {pirovano2011kinfu}\relax }}{62}{figure.caption.75}}
+\newlabel{fig:TSDF}{{5.4}{62}{A illustration of creating an 1D TSDF. \cite {pirovano2011kinfu}\relax }{figure.caption.75}{}}
+\citation{pirovano2011kinfu}
+\@writefile{toc}{\contentsline {paragraph}{Using KinFu with Kinect2 Camera}{63}{section*.76}}
+\@writefile{toc}{\contentsline {paragraph}{Using KinFu for Head Modeling}{63}{section*.77}}
+\@writefile{toc}{\contentsline {subsubsection}{KinFu Head Pose Tracking}{63}{section*.79}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.5}{\ignorespaces The 3D Kinect Camera Approach Results: we start by grabbing a frame from the Kinect depth camera (a), then we fit the 3D head model to the depth frame (b), after which we project the head model mesh onto the color camera image plane (c), so as to associate the color pixels with the head model mesh (d), and lastly forming the 3D color point cloud (e).\relax }}{64}{figure.caption.78}}
+\newlabel{fig:headTrackingResults}{{5.5}{64}{The 3D Kinect Camera Approach Results: we start by grabbing a frame from the Kinect depth camera (a), then we fit the 3D head model to the depth frame (b), after which we project the head model mesh onto the color camera image plane (c), so as to associate the color pixels with the head model mesh (d), and lastly forming the 3D color point cloud (e).\relax }{figure.caption.78}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Point Cloud Based Inverse Pose Transformation}{64}{section*.80}}
+\@writefile{toc}{\contentsline {paragraph}{Colored Point Cloud}{64}{section*.81}}
+\@writefile{toc}{\contentsline {subparagraph}{Head Model Mesh Projection}{65}{section*.82}}
+\@writefile{toc}{\contentsline {subparagraph}{3D Coordinate Calculation}{65}{section*.83}}
+\@writefile{toc}{\contentsline {paragraph}{Inverse Pose Transformation}{65}{section*.84}}
+\citation{bertalmio2000image}
+\@writefile{toc}{\contentsline {subsubsection}{Projection onto Camera Image Plane}{66}{section*.85}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.6}{\ignorespaces Inverse Pose Transformed Color Images of an Example Head: The top row displays images of the head for moderate range of poses, showing little distortion and blank spots; the bottom row displays failure cases, the first three shows extreme head poses resulting in some distortions and huge blank spots due to occlusion, the last image shows a failure case due to head tracking error, resulting in large distortions.\relax }}{66}{figure.caption.86}}
+\newlabel{fig:inversePoseResults}{{5.6}{66}{Inverse Pose Transformed Color Images of an Example Head: The top row displays images of the head for moderate range of poses, showing little distortion and blank spots; the bottom row displays failure cases, the first three shows extreme head poses resulting in some distortions and huge blank spots due to occlusion, the last image shows a failure case due to head tracking error, resulting in large distortions.\relax }{figure.caption.86}{}}
+\citation{mora2014eyediap}
+\citation{funes2013person}
+\@writefile{toc}{\contentsline {subsubsection}{Using the EYEDIAP Dataset}{67}{section*.87}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.2}Eye Pose Estimation}{68}{subsection.5.1.2}}
+\@writefile{toc}{\contentsline {subsubsection}{Eye Image Cropping and Stabilization}{68}{section*.88}}
+\@writefile{toc}{\contentsline {subsubsection}{Eye Image Descriptor}{68}{section*.89}}
+\@writefile{toc}{\contentsline {subsubsection}{Adaptive Linear Regression (ALR)}{68}{section*.90}}
+\@writefile{toc}{\contentsline {subsubsection}{Coupled Eyes Constraints}{68}{section*.91}}
+\citation{funes2013person}
+\citation{kim2001second}

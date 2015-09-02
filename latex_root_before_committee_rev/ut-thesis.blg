@@ -1,0 +1,32 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: ut-thesis.aux
+A level-1 auxiliary file: ./tex/intro_chp/intro_chp.aux
+A level-1 auxiliary file: ./tex/lit_rev_chp/lit_rev_chp.aux
+A level-1 auxiliary file: ./tex/research_objectives_chp/research_objectives_chp.aux
+A level-1 auxiliary file: ./tex/woz_chp/woz_chp.aux
+A level-1 auxiliary file: ./tex/gaze_tracking_chp/gaze_tracking_chp.aux
+A level-1 auxiliary file: ./tex/conclusion_chp/conclusion_chp.aux
+The style file: plain.bst
+Database file #1: ./refs/thesis_report_refs.bib
+Repeated entry---line 735 of file ./refs/thesis_report_refs.bib
+ : @inproceedings{bhargava2013demonstration
+ :                                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1378 of file ./refs/thesis_report_refs.bib
+ : @article{shipley2002teaching
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1411 of file ./refs/thesis_report_refs.bib
+ : @article{van2010comparison
+ :                           ,
+I'm skipping whatever remains of this entry
+Warning--to sort, need author or key in autism2014facts
+Warning--to sort, need author or key in abledata2010alpha
+Warning--to sort, need author or key in 2005team
+Warning--to sort, need author or key in mackiev2010welcome
+Warning--to sort, need author or key in 1997microsoft
+Warning--to sort, need author or key in synapse2010the
+Warning--empty author in 1997microsoft
+Warning--empty author in 2005team
+Warning--empty journal in bandura1969principles
+Warning--there's a number but no series in funes2013person
+(There were 3 error messages)
