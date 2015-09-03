@@ -1,7 +1,7 @@
 %% ut-thesis.tex -- document template for graduate theses at UofT
 %DIF LATEXDIFF DIFFERENCE FILE
 %DIF DEL C:\Users\David\Documents\GitHub\MASc\latex_root_before_committee_rev\ut-thesis.tex   Mon Aug 17 00:25:34 2015
-%DIF ADD C:\Users\David\Documents\GitHub\MASc\latex_root\ut-thesis.tex                        Wed Sep  2 13:10:51 2015
+%DIF ADD C:\Users\David\Documents\GitHub\MASc\latex_root\ut-thesis.tex                        Wed Sep  2 13:26:07 2015
 %%
 %% Copyright (c) 1998-2012 Francois Pitt <fpitt@cs.utoronto.ca>
 %% last updated at 09:43 (EDT) on Fri  1 Jun 2012
@@ -294,10 +294,7 @@ In Chapter 6, we summarize and conclude the thesis.
 
 
 
-\DIFdelbegin \chapter{\DIFdel{Literature Review}}
-%DIFAUXCMD
-\addtocounter{chapter}{-1}%DIFAUXCMD
-\DIFdelend %DIF > \chapter{Literature Review}
+\chapter{Literature Review}
 
 \section{ASD Interventions}
 
@@ -698,15 +695,27 @@ This is the first research of its kind in the field of humanoid robot prompting 
 %	- original objectives achieved or not
 %	- future outlook
 
-\section{Wizard of Oz Experiment Design}
+\DIFdelbegin \section{\DIFdel{Wizard of Oz Experiment Design}}
+%DIFAUXCMD
+\addtocounter{section}{-1}%DIFAUXCMD
+%DIFDELCMD < 
 
-The Wizard of Oz (WoZ) is an experiment design widely used in Human Computer Interaction (HCI) and Human Robot Interaction (HRI) research.  In a typical WoZ study, there is an interactive agent that is not yet fully autonomous, and is remotely controlled by a human operator (i.e. the "wizard"), and this fact is concealed from the user being tested until after the study.  The wizard may control one or many parts of the agent, such as speech recognition and understanding, affect recognition, dialog management, utterance and gesture generation and so on \cite{bhargava2013demonstration}.  The advantage of a WoZ study is that it does not require a large amount of work spent in implementing the artificial intelligence (AI) behind the agent -- it is taken care of by the wizard.  This is great for testing hypotheses early on in the design loop, enabling us to obtain feedbacks from users, learn, and iterate through design cycles faster.  Of course, care needs to be taken to ensure the mocked up part of the AI is implementable in the near future, since the real purpose of the mock up is to have an early knowledge of the real design constraints, not trying to provide a less constrained solution.
+%DIFDELCMD < %%%
+\DIFdel{The Wizard of Oz (WoZ) is an experiment design widely used in Human Computer Interaction (HCI) and Human Robot Interaction (HRI) research.  In a typical WoZ study, there is an interactive agent that is not yet fully autonomous, and is remotely controlled by a human operator (i.e. the "wizard"), and this fact is concealed from the user being tested until after the study.  The wizard may control one or many parts of the agent, such as speech recognition and understanding, affect recognition, dialog management, utterance and gesture generation and so on \mbox{%DIFAUXCMD
+\cite{bhargava2013demonstration}}%DIFAUXCMD
+.  The advantage of a WoZ study is that it does not require a large amount of work spent in implementing the artificial intelligence (AI) behind the agent -- it is taken care of by the wizard.  This is great for testing hypotheses early on in the design loop, enabling us to obtain feedbacks from users, learn, and iterate through design cycles faster.  Of course, care needs to be taken to ensure the mocked up part of the AI is implementable in the near future, since the real purpose of the mock up is to have an early knowledge of the real design constraints, not trying to provide a less constrained solution.
+}%DIFDELCMD < 
 
-The characteristics of a WoZ study fits our pilot study requirements, where we want to learn early the important design questions regarding building an effective ADL prompting robotic agent for the children with ASD population.  Thus, we conducted a WoZ study, in which a humanoid robot whose motions and speech were preprogrammed, but the decision and timing of their executions were controlled remotely by the researcher.  This is mocking up the computer vision algorithms that understand the child with ASD's actions, the speech recognition algorithms that recognize the child with ASD's verbal interactions, and the AI decision making algorithms that decide what prompts to deliver and when to deliver them.
+%DIFDELCMD < %%%
+\DIFdel{The characteristics of a WoZ study fits our pilot study requirements, where we want to learn early the important design questions regarding building an effective ADL prompting robotic agent for the children with ASD population.  Thus, we conducted a WoZ study, in which a humanoid robot whose motions and speech were preprogrammed, but the decision and timing of their executions were controlled remotely by the researcher.  This is mocking up the computer vision algorithms that understand the child with ASD's actions, the speech recognition algorithms that recognize the child with ASD's verbal interactions, and the AI decision making algorithms that decide what prompts to deliver and when to deliver them.
+}%DIFDELCMD < 
 
-During each WoZ study trial, the child with ASD would be asked to complete the hand-washing activity in the washroom with the supervision of one of his/her parents, with the help of the NAO robot, or with the help of both the parent and the robot. The researcher, and the parent if the child was to be assisted only by the robot, would be in an adjacent room out of the child's view to observe his/her hand-washing activity.  However, the parent could enter the washroom if the child needed physical assistance to complete a step. A controlling interface running on a laptop, connected wireless to the robot, was used by the researcher to remotely control the robot, as well as to monitor the progress and responses of the child through the video feeds of the cameras installed in the washroom.
+%DIFDELCMD < %%%
+\DIFdel{During each WoZ study trial, the child with ASD would be asked to complete the hand-washing activity in the washroom with the supervision of one of his/her parents, with the help of the NAO robot, or with the help of both the parent and the robot. The researcher, and the parent if the child was to be assisted only by the robot, would be in an adjacent room out of the child's view to observe his/her hand-washing activity.  However, the parent could enter the washroom if the child needed physical assistance to complete a step. A controlling interface running on a laptop, connected wireless to the robot, was used by the researcher to remotely control the robot, as well as to monitor the progress and responses of the child through the video feeds of the cameras installed in the washroom.
+}%DIFDELCMD < 
 
-
+%DIFDELCMD < %%%
+\DIFdelend %DIF > \input{./tex/woz_chp/WoZ_experiment_design}
 \section{Recruitment}
 
 Participants were recruited from a list of families of a previous autism study that indicated that they would be interested in participating in future studies related to the development of the COACH prompting system.
