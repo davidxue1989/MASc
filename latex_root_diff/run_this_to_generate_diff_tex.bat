@@ -1,0 +1,2 @@
+latexdiff --flatten -t UNDERLINE C:\Users\David\Documents\GitHub\MASc\latex_root_before_committee_rev\ut-thesis.tex C:\Users\David\Documents\GitHub\MASc\latex_root\ut-thesis.tex > C:\Users\David\Documents\GitHub\MASc\latex_root_diff\ut-thesis_diff.tex
+pause

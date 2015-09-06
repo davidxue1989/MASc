@@ -1,5 +1,5 @@
 \section{Video Annotations}
-In order to calculate the final measures outlined above, intermediate measures need to be extracted from the video data.  This is the process of video annotation.
+To analyze the video data of the hand-washing trials quantitatively, intermediate measures need to be extracted from the data.  This is the process of video annotation.
 %To compare between P and R in terms of:
 %	- visual attention
 %	- prompt compliance rate
@@ -24,7 +24,7 @@ Each video file usually contains one hand-washing trial, sometimes two.  The ann
 
 A trial contains many hand-washing steps, and for each step, the parent and/or the robot may give several prompts.  For consistency and convenience, the annotator divides the video into segments we call ''prompt sections'', and describe each prompt section using a 3-part scheme.  The first part describes the child's actions before any prompts, the second describes the prompting agent's prompts, and the third describes the child's actions after the prompts.  The intermediate measures to be annotated in each part of the prompt section are shown in Table \ref{tab:IntermediateMeasures}.
 
-\begin{table}[H]
+\begin{table}[h]
 	\centering
 	\begin{tabular}{ | p{5cm} | l | p{7cm} | }
 		\hline
@@ -73,7 +73,7 @@ A hand-washing step could also have multiple prompt sections because of the step
 %Lastly, getting soap is a step similar to the extended steps such that it itself takes an extended period of time to execute.  However, it is different because of the child's tendency to always get more soap than needed.  So after the child starts getting soap, any prompts given are to tell the child to stop the step (as opposed to prolonging the step, as in the other extended steps' cases).  This means the measure, ``child stops step before next prompt'', is marked true if and only if no prompts are given after the child starts getting soap.  In general, ``child stops step before next prompt'' is marked true if the child stops the step before any prompt is given that is either telling him/her to stop (e.g. a verbal reward) or to go on to the next step.
 
 \subsection{Annotation Tools}
-The videos are played back by the software Media Player Classic - Home Cinema (MPC-HC 64-bit v1.7.8), where timestamps of millisecond resolution can be obtained.  The annotations are recorded onto Microsoft Office Excel spreadsheets, and each sheet exported to CSV files to be analyzed.
+The videos are played back by the software Media Player Classic - Home Cinema (MPC-HC), where timestamps of millisecond resolution can be obtained.  The annotations are recorded onto Microsoft Office Excel spreadsheets, and each sheet exported to comma separated value (CSV) files to be analyzed.
 
 %\subsection{Annotators and Inter-rater Agreement}
 %- number of annotators

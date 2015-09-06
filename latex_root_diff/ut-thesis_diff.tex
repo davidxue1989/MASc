@@ -657,9 +657,11 @@ We hypothesize that the incorporation of a humanoid robot prompting agent, such 
 %		- compliance
 %		- task performance
 
-One major objective of this thesis is to investigate the impacts that using a humanoid prompting agent has on the visual attention, prompt compliance, and task performance of children with ASD during hand-washing activities.
+One major objective of this thesis is to investigate the impacts that using a humanoid prompting agent has on the visual attention, prompt compliance, and task performance of children with ASD during hand-washing activities.  \DIFdelbegin %DIFDELCMD < 
 
-This is the first research of its kind in the field of humanoid robot prompting agent guiding children with ASD through an activity of daily living.  Therefore, it is wise to begin with a pilot study, the purpose of which is to show plausibility of the key underlying assumptions of our hypotheses, and to probe what questions are important to be answered later in a more rigorous randomized control trial.  For this reason, the pilot study should be exploratory in nature, having a flexible experiment design, and relatively low experiment setup cost.
+%DIFDELCMD < %%%
+\DIFdelend This is the first research of its kind in the field of humanoid robot prompting agent guiding children with ASD through an activity of daily living.  Therefore, it is wise to begin with a pilot study, the purpose of which is to show plausibility of the key underlying assumptions of our hypotheses, \DIFaddbegin \DIFadd{to create design recommendations of the robot for future studies, }\DIFaddend and to probe what questions are important to be answered later in a more rigorous randomized control trial.  For \DIFdelbegin \DIFdel{this reason}\DIFdelend \DIFaddbegin \DIFadd{these reasons}\DIFaddend , the pilot study should be exploratory in nature, having a flexible experiment design, and \DIFaddbegin \DIFadd{a }\DIFaddend relatively low experiment setup cost.  \DIFaddbegin \DIFadd{A Wizard of Oz experiment design in a case study format is appropriate.
+}\DIFaddend 
 
 %WoZ experiment design
 %	- what is WoZ? why do we use this scheme?
@@ -695,32 +697,45 @@ This is the first research of its kind in the field of humanoid robot prompting 
 %	- original objectives achieved or not
 %	- future outlook
 
-\DIFdelbegin \section{\DIFdel{Wizard of Oz Experiment Design}}
-%DIFAUXCMD
-\addtocounter{section}{-1}%DIFAUXCMD
-%DIFDELCMD < 
+\section{Wizard of Oz Experiment Design}
 
-%DIFDELCMD < %%%
-\DIFdel{The Wizard of Oz (WoZ) is an experiment design widely used in Human Computer Interaction (HCI) and Human Robot Interaction (HRI) research.  In a typical WoZ study, there is an interactive agent that is not yet fully autonomous, and is remotely controlled by a human operator (i.e. the "wizard"), and this fact is concealed from the user being tested until after the study.  The wizard may control one or many parts of the agent, such as speech recognition and understanding, affect recognition, dialog management, utterance and gesture generation and so on \mbox{%DIFAUXCMD
-\cite{bhargava2013demonstration}}%DIFAUXCMD
-.  The advantage of a WoZ study is that it does not require a large amount of work spent in implementing the artificial intelligence (AI) behind the agent -- it is taken care of by the wizard.  This is great for testing hypotheses early on in the design loop, enabling us to obtain feedbacks from users, learn, and iterate through design cycles faster.  Of course, care needs to be taken to ensure the mocked up part of the AI is implementable in the near future, since the real purpose of the mock up is to have an early knowledge of the real design constraints, not trying to provide a less constrained solution.
-}%DIFDELCMD < 
+The Wizard of Oz (WoZ) is an experiment design widely used in Human Computer Interaction (HCI) and Human Robot Interaction (HRI) research.  In a typical WoZ study, there is an interactive agent that is not yet fully autonomous, and is remotely controlled by a human operator (i.e. the "wizard"), and this fact is concealed from the user being tested until after the study.  The wizard may control one or many parts of the agent, such as speech recognition and understanding, affect recognition, dialog management, utterance and gesture generation and so on \cite{bhargava2013demonstration}.  The advantage of a WoZ study is that it does not require a large amount of work spent in implementing the artificial intelligence (AI) behind the agent \DIFaddbegin \DIFadd{before testing it in a study }\DIFaddend -- it is \DIFdelbegin \DIFdel{taken care of }\DIFdelend \DIFaddbegin \DIFadd{mocked up }\DIFaddend by the wizard \DIFaddbegin \DIFadd{remote controlling the agent}\DIFaddend .  This is great for testing hypotheses early on in the design loop, enabling us to obtain feedbacks from users, learn, and iterate through design cycles faster.  Of course, care needs to be taken to ensure the mocked up part of the AI is implementable in the near future, since the real purpose of the mock up is to have an early knowledge of the real design constraints, not trying to provide a less constrained solution.
 
-%DIFDELCMD < %%%
-\DIFdel{The characteristics of a WoZ study fits our pilot study requirements, where we want to learn early the important design questions regarding building an effective ADL prompting robotic agent for the children with ASD population.  Thus, we conducted a WoZ study, in which a humanoid robot whose motions and speech were preprogrammed, but the decision and timing of their executions were controlled remotely by the researcher.  This is mocking up the computer vision algorithms that understand the child with ASD's actions, the speech recognition algorithms that recognize the child with ASD's verbal interactions, and the AI decision making algorithms that decide what prompts to deliver and when to deliver them.
-}%DIFDELCMD < 
+The characteristics of a WoZ study fits our pilot study requirements, where we want to learn early the important design questions regarding building an effective ADL prompting robotic agent for the children with ASD population.  Thus, we \DIFaddbegin \DIFadd{have }\DIFaddend conducted a WoZ study \DIFdelbegin \DIFdel{, }\DIFdelend in which a humanoid robot whose motions and speech were preprogrammed, but the decision and timing of their executions were controlled remotely by the researcher.  \DIFdelbegin \DIFdel{This }\DIFdelend \DIFaddbegin \DIFadd{The researcher, acting as the wizard, }\DIFaddend is mocking up the computer vision algorithms that understand the child with ASD's actions, the speech recognition algorithms that recognize the child\DIFdelbegin \DIFdel{with ASD}\DIFdelend 's verbal interactions, and the AI decision making algorithms that decide what prompts to deliver and when to deliver them.
 
-%DIFDELCMD < %%%
-\DIFdel{During each WoZ study trial, the child with ASD would be asked to complete the hand-washing activity in the washroom with the supervision of one of his/her parents, with the help of the NAO robot, or with the help of both the parent and the robot. The researcher, and the parent if the child was to be assisted only by the robot, would be in an adjacent room out of the child's view to observe his/her hand-washing activity.  However, the parent could enter the washroom if the child needed physical assistance to complete a step. A controlling interface running on a laptop, connected wireless to the robot, was used by the researcher to remotely control the robot, as well as to monitor the progress and responses of the child through the video feeds of the cameras installed in the washroom.
-}%DIFDELCMD < 
+During each WoZ study trial, the child with ASD would be asked to complete the hand-washing activity in the washroom with the supervision of one of his/her parents, with the help of the NAO robot, or with the help of both the parent and the robot. The researcher, and the parent if the child was to be assisted only by the robot, would be in an adjacent room out of the child's view to observe his/her hand-washing activity.  However, the parent could enter the washroom if the child \DIFdelbegin \DIFdel{needed }\DIFdelend \DIFaddbegin \DIFadd{needs }\DIFaddend physical assistance to complete a step. A controlling interface running on a laptop, connected wireless to the robot, was used by the researcher to remotely control the robot, as well as to monitor the progress and responses of the child through the video feeds of the cameras installed in the washroom.
 
-%DIFDELCMD < %%%
-\DIFdelend %DIF > \input{./tex/woz_chp/WoZ_experiment_design}
-\section{Recruitment}
+
+\DIFaddbegin \section{\DIFadd{Case Study Format}}
+
+\DIFadd{The WoZ study will be conducted, analyzed, and reported in a case study format.  A case study is defined by Yin in a two fold definition: "a case study is an empirical inquiry that investigates a contemporary phenomenon in depth and within its real-life context" and its result "relies on multiple sources of evidence, with data needing to converge in a triangulating fashion" \mbox{%DIFAUXCMD
+\cite{yin2013case}}%DIFAUXCMD
+.  The case study format is widely used in human robot interaction researches for children with ASD \mbox{%DIFAUXCMD
+\cite{kozima2005interactive, robins2004robot, robins2009isolation}}%DIFAUXCMD
+.  This is because the case study format is exploratory as opposed to evaluative in nature, employs both quantitative and qualitative data analyses, and deals with a small number of subjects \mbox{%DIFAUXCMD
+\cite{yin2013case}}%DIFAUXCMD
+.  For researches in human robot interactions for children with ASD, these qualities of case study are advantageous.  Firstly, HRI researches in children with ASD is a relatively novel field, not having a sound theoretical foundation, and which hypotheses are important to test are yet to be systematically established.  Conducting pilot studies that focus on generating important hypotheses in an exploratory manner rather than conducting those that focus on testing hypotheses not soundly founded are more effective in filling research gaps.  Secondly, since a major aspects of HRI research (similar to HCI research) deals with understanding the whys and hows of user decision making, qualitative data including researcher observations, interviews, focus groups, surveys, etc. are of as much importance as quantitative metrics.  Lastly, since each child with ASD is unique and vastly different from the rest of the spectrum, starting with pilot studies that focus on only a few cases / subjects in depth and iteratively move up the sample size to eventually aim to generalize across a population is preferential.
+}
+
+\DIFadd{The case study format applies well to this thesis.  Our WoZ pilot study falls under HRI research for children with ASD, and our aim of generating important hypotheses and robot design recommendations in an exploratory manner makes the case study format highly suitable.  This does mean that compared to typical quantitative pilot studies (e.g. Bimbrahw et al. \mbox{%DIFAUXCMD
+\cite{bimbrahw2012investigating}}%DIFAUXCMD
+), we will be restricting to a smaller sample size, iteratively generating and testing hypotheses during data collection, and report the results in a more descriptive manner.
+}\DIFaddend \section{Recruitment}
 
 Participants were recruited from a list of families of a previous autism study that indicated that they would be interested in participating in future studies related to the development of the COACH prompting system.
 
-Participants were to be children between the ages of 4 to 15 with a diagnosis of ASD, and their parent. Six children would be recruited. This sample size is typical for studies of this nature for children with ASD. For example, a pilot study by Bimbrahw et al. \cite{bimbrahw2012investigating} and a Wizard of Oz study by Bhargava et al. \cite{bhargava2013demonstration} both involved a similar sample size of the children with ASD in their studies. Another reason we chose six children for this pilot study is to equally explore the two permutations of experimental conditions (i.e. A-B-C and A-C-B, see Section \ref{sec:ProtocolOverview}). Participant demographics would be recorded and would include age, sex, and the Social Responsiveness Scale (SRS) test results.  The SRS is a commonly used tool to identify the presence and estimate the severity of ASD \cite{constantino2002social}. The results of the SRS would allow the research team to substantiate a diagnosis of an ASD for the child participants before proceeding with the study.
+Participants were to be children between the ages of 4 to 15 with a diagnosis of ASD, and their parent. \DIFdelbegin \DIFdel{Six }\DIFdelend \DIFaddbegin \DIFadd{Three }\DIFaddend children would be recruited. This sample size is typical for studies of this nature for children with ASD\DIFdelbegin \DIFdel{. For example, a pilot study by Bimbrahw }\DIFdelend \DIFaddbegin \DIFadd{, e.g. Kozima }\DIFaddend et al. \DIFdelbegin \DIFdel{\mbox{%DIFAUXCMD
+\cite{bimbrahw2012investigating} }%DIFAUXCMD
+and a Wizard of Oz study by Bhargava }\DIFdelend \DIFaddbegin \DIFadd{had two participants in
+\mbox{%DIFAUXCMD
+\cite{kozima2005interactive}}%DIFAUXCMD
+, Robins }\DIFaddend et al. \DIFdelbegin \DIFdel{\mbox{%DIFAUXCMD
+\cite{bhargava2013demonstration} }%DIFAUXCMD
+both involved a similar sample size of the children with ASD in their studies. Another reason we chose six children for this pilot study is to equally explore the two permutations of experimental conditions (i.e. A-B-C and A-C-B, see Section \ref{sec:ProtocolOverview})}\DIFdelend \DIFaddbegin \DIFadd{had three in \mbox{%DIFAUXCMD
+\cite{robins2004robot} }%DIFAUXCMD
+and \mbox{%DIFAUXCMD
+\cite{robins2009isolation}}%DIFAUXCMD
+}\DIFaddend .  Participant demographics would be recorded and would include age, sex, and the Social Responsiveness Scale (SRS) test results.  The SRS is a commonly used tool to identify the presence and estimate the severity of ASD \cite{constantino2002social}. The results of the SRS would allow the research team to substantiate a diagnosis of an ASD for the child participants before proceeding with the study.
 
 \paragraph{The \textbf{inclusion criteria} for enrolling in the study were as follows:}
 \begin{itemize}
@@ -736,7 +751,7 @@ Each participating family were given a \$200 honorarium per child subject upon c
 
 \section{Humanoid Robot NAO}
 
-We chose the torso and arms only version (T14) of the commercially available humanoid robot NAO from Aldebaran Robotics as our robotic prompting agent.  NAO is a humanoid robot about half a meter high in torso (see Figure \ref{fig:NAOColor}).  It is designed by Aldebaran Robotics to primarily serve academic research in robotics.  NAO is equipped with the state of the art mechanical, electrical, embedded, control, and local network communication systems.  It also has cameras and sonar sensors for computer vision algorithms for scene understanding, path planning, and obstacle avoidance.  The software development kit (SDK) provided is very easy and powerful to program with.  Also, an even easier graphic user interface (GUI) for robot behavior programming, the Choreographe software, is also available.  One caveat of using NAO for SAR HRI researches is that it is only equipped with a single degree of freedom finger dexterity, though other joints in its body are much more mobile.  It is more than enough for doing simple pointing and other non-contact gestural prompts in sync with verbal interactions.  It just cannot perform detailed hand gesturing.  This makes NAO less capable in demonstrating a hand-washing step in high detail.
+We chose the torso and arms only version (T14) of the commercially available humanoid robot NAO from Aldebaran Robotics as our robotic prompting agent.  NAO is a humanoid robot about half a meter high in torso (see Figure \ref{fig:NAOColor}).  It is designed by Aldebaran Robotics to primarily serve academic \DIFdelbegin \DIFdel{research }\DIFdelend \DIFaddbegin \DIFadd{researches }\DIFaddend in robotics.  NAO is equipped with the state of the art mechanical, electrical, embedded, control, and local network communication systems.  It also has cameras and sonar sensors for computer vision algorithms for scene understanding, path planning, and obstacle avoidance.  The software development kit (SDK) provided is very easy and powerful to program with.  Also, an even easier graphic user interface (GUI) for robot behavior programming, the Choreographe software, is also available.  One caveat of using NAO for SAR HRI researches is that it is only equipped with a single degree of freedom finger dexterity, though other joints in its body are much more mobile.  It is more than enough for doing simple pointing and other non-contact gestural prompts in sync with verbal interactions.  It just cannot perform detailed hand gesturing.  This makes NAO less capable in demonstrating a hand-washing step in high detail.
 \begin{figure} [h]
 	\centering
 	\includegraphics[width=0.6\textwidth]{./img/nao-torso.jpg}
@@ -762,7 +777,7 @@ For our pilot study, we use the half-torso version of NAO because we do not requ
 
 
 \subsection{Verbal Prompts}
-We used the text-to-speech engine from NAO to synthesize the verbal prompts.  The pitch of NAO's voice was changed to a lower one than default for the verbal prompts to give a more authoritative feeling.  The reward verbal prompt remained the default pitch, though, to give an exciting praise.  The verbal prompts were worded as short, three or four word phrases, such as "turn on the water" or "rinse your hand", and a pause is put between the action and the subject so that the prompts sounded clearer and was easier to understand to children with ASD.  The specific choices of verbal and gesture prompts are discussed in Section \ref{sec:SpecificProtocol}.
+We used the text-to-speech engine from NAO to synthesize the verbal prompts.  The pitch of NAO's voice was changed to a lower one than default for the verbal prompts to give a more authoritative feeling.  The reward verbal prompt remained the default pitch, though, to give an exciting praise.  The verbal prompts were worded as short, three or four \DIFdelbegin \DIFdel{word }\DIFdelend \DIFaddbegin \DIFadd{words }\DIFaddend phrases, such as "turn on the water" or "rinse your hand", and a pause is put between the action and the subject so that the prompts sounded clearer and was easier to understand to children with ASD.  The specific choices of verbal and gesture prompts are discussed in Section \ref{sec:SpecificProtocol}.
 
 \subsection{Gesture Prompts}
 There are several kinds of gesture prompts NAO needs to perform:
@@ -783,30 +798,35 @@ The WoZ experiment setup involves controlling the robot remotely behind the scen
 In addition to observing the child with ASD interacting with the robot, surveys were designed to probe the child's background, experiences, and preferences, putting the observations into context.  Also, surveys probing the parent's opinion of the robot and the COACH system were also created, since the parent is also an important decision maker in the robot and the COACH system's design.
 
 \paragraph{Social Responsiveness Scale Survey and Entrance Survey}
-The Social Responsiveness Scale Survey serves to screen participants during recruitment and was filled out by the parent that accompanied the child to all trials.  The entrance survey was administered with the SRS survey, because it reports the child's demographics as well as inclusion criteria fit.  In addition, it also reports child's previous experiences with technologies, child's personal preferences, child's abilities on hand-washing and on other ADLs, and parent's expectation and concerns.
+The Social Responsiveness Scale Survey serves to screen participants during recruitment and was filled out by the parent that accompanied the child to all trials.  The entrance survey was administered \DIFaddbegin \DIFadd{along }\DIFaddend with the SRS survey\DIFdelbegin \DIFdel{, because it }\DIFdelend \DIFaddbegin \DIFadd{.  It }\DIFaddend reports the child's demographics as well as inclusion criteria fit.  In addition, it also reports child's previous experiences with technologies, child's personal preferences, child's abilities on hand-washing and on other ADLs, and parent's expectation and concerns.
 
 \paragraph{Post-Intervention Survey}
-During the last visit, the same parent who completed the SRS survey and the entrance survey was be asked to fill out the post-intervention survey.  The survey reports the parent's opinion on our robot prompting system, giving suggestions and comments and how effectiveness and appropriate is the system, and any improvements or adjustments needed.
+During the last visit, the same parent who completed the SRS survey and the entrance survey was be asked to fill out the post-intervention survey.  The survey reports the parent's opinion on \DIFdelbegin \DIFdel{our }\DIFdelend \DIFaddbegin \DIFadd{the }\DIFaddend robot prompting system, giving suggestions and comments and how effectiveness and appropriate \DIFdelbegin \DIFdel{is the system }\DIFdelend \DIFaddbegin \DIFadd{the system is}\DIFaddend , and any improvements or adjustments needed.
 
-\section{Protocol and Setup}
+\section{\DIFdelbegin \DIFdel{Protocol and Setup}\DIFdelend \DIFaddbegin \DIFadd{Interviews}\DIFaddend }
+\DIFaddbegin \DIFadd{In addition to surveys, the parent would be interviewed by the researcher through out the breaks between trials.  The purpose of these interviews is to probe what the parent thinks about the robot, what the child's behaviors mean and why the child behaves in such ways, how to get the child to comply better, how to improve the robot further, and collect more relevant background information on the child and the family.  The interview would not be scripted, but would be a result of a free flow of conversations between the researcher and the parent, discussing what happened in each trial and what to do in the next.  The interviews were to be voice recorded and would be transcribed by the researcher for analysis.
+}\DIFaddend 
 
 
-%protocol:
+\DIFaddbegin \section{\DIFadd{Study Protocol and Setup}}
+
+
+\DIFaddend %protocol:
 \subsection{Entrance Survey and SRS}
-Prior to their first visit to the lab, the parent was asked to complete the Social Responsiveness Scale (SRS). If the child met the SRS score (minimum of 76 T-score), the same parent would then be asked to complete the entrance survey before their first visit. The same parent who has completed the entrance survey was required to accompany the child through all the visits.
+Prior to their first visit to the lab, the parent was asked to complete the Social Responsiveness Scale (SRS). If the child met the SRS score (minimum of 76 T-score), the same parent would then be asked to complete the entrance survey before their first visit. \DIFdelbegin \DIFdel{The same parent who has completed the entrance survey }\DIFdelend \DIFaddbegin \DIFadd{This same parent }\DIFaddend was required to accompany the child through all \DIFdelbegin \DIFdel{the }\DIFdelend visits.
 
 
 \subsection{Protocol Overview}
 \label{sec:ProtocolOverview}
 The trials were carried out in the washroom inside the HomeLab -- a laboratory specifically designed to emulate the home settings, located on the 12th floor of Toronto Rehab Institute (more details of the experimental environment is described in Section \ref{Sec:ExpSetup}).  Each child would visit the HomeLab once a week with a total of six visits with his/her parent. The six visits would be evenly divided into three phases. The three phases are the baseline phase (Phase A) and the intervention phases (Phase B and Phase C). In Phase A, the child would be asked to wash hands by him/herself as independently as possible. The parent was instructed to provide assistance (as outlined below) to the child as the parent saw necessary.  In Phase B, the child would be assisted by the robot NAO alone.  The parent was out of view in the room adjacent to the washroom, and came into the washroom to prompt when the parent saw necessary.  In Phase C, the child would be assisted by NAO and the parent together.  The parent remained in the washroom and assisted robot NAO in its prompts.
 
-Each visit would take about an hour to an hour and a half. The child was to be asked to wash his/her hands eight times for every visit, for a total of forty-eight trials per child.  This way, the consecutive trials conducted within a day was hopefully not too much for the child to cause fatigue.  Also, having sixteen trials per phase gives a sufficient sample size for both quantitative and qualitative (visual) analyses.  The child and his/her parent could take short breaks after each hand-washing trials.  The break could last as long as the child needed until he/she was willing to continue the trial. If the parent felt the need, they could leave and come back to finish the rest of the day's trials another day. They would not be withdrawn from the study unless requested.
+Each visit would take about an hour to an hour and a half. The child was \DIFdelbegin \DIFdel{to be }\DIFdelend asked to wash his/her hands eight times for every visit, for a total of forty-eight trials per child.  This way, the consecutive trials conducted within a day was hopefully not too much for the child to cause fatigue.  Also, having sixteen trials per phase gives a sufficient sample size for both quantitative and qualitative \DIFdelbegin \DIFdel{(visual) }\DIFdelend analyses.  The child and his/her parent could take short breaks after each hand-washing \DIFdelbegin \DIFdel{trials}\DIFdelend \DIFaddbegin \DIFadd{trial}\DIFaddend .  The break could last as long as the child needed until he/she was willing to continue the trial. If the parent felt the need, they could leave and come back to finish the rest of the day's trials another day. They would not be withdrawn from the study unless requested.
 
-The participating subjects would be randomly assigned one of the two phase orders: A-B-C and A-C-B.  This would reduce the confounding effect of learning when we compare between phase B and C.
+The participating subjects would be randomly assigned one of the two phase orders: A-B-C and A-C-B.  This \DIFdelbegin \DIFdel{would reduce the confounding effect of learning }\DIFdelend \DIFaddbegin \DIFadd{was to try to reduce any learning effects }\DIFaddend when we compare between phase B and C \DIFaddbegin \DIFadd{as well as to see if the presence of phase C prior to phase B would have an effect on phase B's performance}\DIFaddend .
 
 \subsection{Experiment Setup}
 \label{Sec:ExpSetup}
-The equipment was set up near the sink, which includes a NAO robot, an overhead camera, a scene camera, and a Kinect camera. The NAO robot is a small half-torso humanoid robot and was screw-mounted on the sink countertop at the top left corner (please see Figure \ref{fig:ExpSetup}). The NAO robot delivered verbal and gesture prompts to the children with ASD while they were performing the hand-washing tasks.  The overhead camera was installed on the wall/mirror right above the sink. The overhead camera recorded objects on the sink countertop (e.g., taps, faucet, soap, and towel). The purpose of the overhead camera is to capture the hand actions of the child during hand-washing in order to track the child’s progress along the tasks. The scene camera was placed on the floor with its field of view including all objects in the scene (e.g., robot, child, and objects on sink countertop). The purpose of the scene camera is to capture the child’s engagement and attention during the prompts as well as during task executions. The Kinect camera was mounted on the sink countertop underneath the mirror and behind the tap. The Kinect camera recorded mainly the child’s face. The purpose of the Kinect camera is to capture the child’s face during hand-washing for the development of an automatic algorithm that estimates the child’s gaze direction in real-time. Examples of the images captured by the three cameras are shown in Figure \ref{fig:CameraViews}.
+The equipment was set up near the sink, which \DIFdelbegin \DIFdel{includes }\DIFdelend \DIFaddbegin \DIFadd{included }\DIFaddend a NAO robot, an overhead camera, a scene camera, and a Kinect camera. The NAO robot is a small half-torso humanoid robot and was screw-mounted on the sink countertop at the top left corner (please see Figure \ref{fig:ExpSetup}). The NAO robot delivered verbal and gesture prompts to the children with ASD while they were performing the hand-washing tasks.  The overhead camera was installed on the wall/mirror right above the sink. The overhead camera recorded objects on the sink countertop (e.g., taps, faucet, soap, and towel). The purpose of the overhead camera \DIFdelbegin \DIFdel{is }\DIFdelend \DIFaddbegin \DIFadd{was }\DIFaddend to capture the hand actions of the child during hand-washing in order to track the \DIFdelbegin \DIFdel{child�}\DIFdelend \DIFaddbegin \DIFadd{child'}\DIFaddend s progress along the tasks. The scene camera was placed on the floor \DIFaddbegin \DIFadd{on a camera stand }\DIFaddend with its field of view including all objects in the scene (e.g., robot, child, and objects on sink countertop). The purpose of the scene camera \DIFdelbegin \DIFdel{is }\DIFdelend \DIFaddbegin \DIFadd{was }\DIFaddend to capture the \DIFdelbegin \DIFdel{child�}\DIFdelend \DIFaddbegin \DIFadd{child'}\DIFaddend s engagement and attention during the prompts as well as during task executions. The Kinect camera was mounted on the sink countertop underneath the mirror and behind the tap. The Kinect camera recorded mainly the \DIFdelbegin \DIFdel{child�}\DIFdelend \DIFaddbegin \DIFadd{child'}\DIFaddend s face. The purpose of the Kinect camera \DIFdelbegin \DIFdel{is }\DIFdelend \DIFaddbegin \DIFadd{was }\DIFaddend to capture the \DIFdelbegin \DIFdel{child�}\DIFdelend \DIFaddbegin \DIFadd{child'}\DIFaddend s face during hand-washing for the development of an automatic algorithm that estimates the \DIFdelbegin \DIFdel{child�}\DIFdelend \DIFaddbegin \DIFadd{child'}\DIFaddend s gaze direction in real-time. Examples of the images captured by the three cameras are shown in Figure \ref{fig:CameraViews}.
 \begin{figure}[H]
 	\centering
 	\begin{subfigure}[b]{0.49\textwidth}
@@ -834,33 +854,33 @@ The equipment was set up near the sink, which includes a NAO robot, an overhead 
 \end{figure}
 
 
-A touchscreen laptop was used during the study by the student researcher to control the robot and the virtual avatar displayed on the LCD screen. It connects to the robot wirelessly. The laptop also connects to the overhead and Kinect cameras through USB cables to provide real-time video feed. The data collected from the cameras was saved temporarily in the laptop hard-drive. 
+A touchscreen laptop was used during the study by the student researcher to control the robot and the virtual avatar displayed on the LCD screen. It \DIFdelbegin \DIFdel{connects }\DIFdelend \DIFaddbegin \DIFadd{connected }\DIFaddend to the robot wirelessly. The laptop also \DIFdelbegin \DIFdel{connects }\DIFdelend \DIFaddbegin \DIFadd{connected }\DIFaddend to the overhead and Kinect cameras through USB cables to provide real-time video feed. The data collected from the cameras was saved temporarily in the laptop hard-drive.
 
 \subsection{Specific Protocol}
 \label{sec:SpecificProtocol}
-The hand-washing activity was broken down into seven steps: turn on the water, wet your hands, get some soap, scrub your hands, rinse your hands, turn off the water, and dry your hands.  These steps were a modified version based on Bimbrahw et al. pilot study \cite{bimbrahw2012investigating}. These constitute the same steps as Bimbrahw's except that the first (i.e. turn on the water and wet your hands) and the last step (i.e. turn off the water and dry your hands) are now four individual steps to ensure that each step only involves one action.
+The hand-washing activity was broken down into seven steps: turn on the water, wet your hands, get some soap, scrub your hands, rinse your hands, turn off the water, and dry your hands.  These steps were \DIFdelbegin \DIFdel{a modified version }\DIFdelend \DIFaddbegin \DIFadd{modified }\DIFaddend based on Bimbrahw et al.\DIFaddbegin \DIFadd{'s }\DIFaddend pilot study \cite{bimbrahw2012investigating}. These \DIFdelbegin \DIFdel{constitute }\DIFdelend \DIFaddbegin \DIFadd{constituted }\DIFaddend the same steps as Bimbrahw's except that the first (i.e. turn on the water and wet your hands) and the last step (i.e. turn off the water and dry your hands) are now four individual steps to ensure that each step only \DIFdelbegin \DIFdel{involves }\DIFdelend \DIFaddbegin \DIFadd{involved }\DIFaddend one action.
 
 \paragraph{Phase A (Baseline Phase)}
 The first phase was the baseline phase and would include sixteen trials of hand washing. The child would be asked to complete the hand-washing as independently as possible. During this phase, the parent would be present in the washroom while the child was completing the hand-washing steps. The parent would verbally and/or physically assist and give positive reinforcements to the child whenever the parent feels necessary.
 
 \paragraph{Phases B and C (Intervention Phases)}
-The rest of the two phases were the intervention phases and would include sixteen trials of hand washing each. The child would be asked to wash his/her hands with the help of NAO or of both NAO and the parent in the washroom. During each trial, NAO and the parent would wait for the child to start each step. If the child experienced troubles, an appropriate prompt would be delivered from NAO in order to help the child complete the step. If the child did not respond to NAO's prompt, an attention grabber would be delivered to capture the child's attention to the prompting agent. The attention grabber could be repeated for a second time if the child failed to respond to the first one.  A verbal reward would be delivered to the child when he/she completed a step.
+The rest of the two phases were the intervention phases and would include sixteen trials of hand washing each. The child would be asked to wash his/her hands with the help of NAO or of both NAO and the parent in the washroom. During each trial, NAO and the parent would wait for the child to start each step. If the child experienced troubles, an appropriate prompt would be delivered from NAO in order to help the child complete the step. If the child did not respond to NAO's prompt, an attention grabber would be delivered to capture the child's attention to the prompting agent. The attention grabber could be repeated for a second time if the child failed to respond to the first one.  \DIFaddbegin \DIFadd{After successfully grabbing the child's attention, the prompt would be repeated.  }\DIFaddend A verbal reward would be delivered to the child when he/she completed a step.
 
-The parent's role in phase B and C differs in that, in phase C, the parent would take a more active role to prompt the child of what to do by standing next to the child.  On the other hand, in phase B, the parent would take more of a back seat role, being out of view and coming in to prompt only for the purpose of reminding the child to listen to the robot, but leaving the prompting of the specific step to the robot.  Of course, if the child didn't respond to any of the prompts, the parent would need to physically intervene and complete the step together, just like in phase A.  After the physical intervention, the parent would then instruct and encourage the child to continue the rest of the hand-washing steps on his/her own by following the robot.  Both phase B and C are important.  Phase B serves to test if NAO can independently assist the child through hand-washing with minimal parent involvement.  Phase C serves to investigate whether and why would NAO be more effective in assisting the child when parent is present.  Comparing phase B and C would potentially yield areas of improvement for NAO.
+The parent's role in phase B and C differs in that, in phase C, the parent would take a more active role to prompt the child of what to do by standing next to the child.  On the other hand, in phase B, the parent would take more of a back seat role, being out of view and coming in to prompt only for the purpose of reminding the child to listen to the robot, but leaving the prompting of the specific step to the robot.  Of course, if the child didn't respond to any of the prompts, the parent would need to physically intervene and complete the step together, \DIFdelbegin \DIFdel{just like in }\DIFdelend \DIFaddbegin \DIFadd{similar to }\DIFaddend phase A.  After the physical intervention, the parent would then instruct and encourage the child to continue the rest of the hand-washing steps on his/her own by following the robot.  Both phase B and C are important.  Phase B serves to test if NAO can independently assist the child through hand-washing with minimal parent involvement.  Phase C serves to investigate whether and why would NAO be more effective in assisting the child when parent is present.  Comparing phase B and C would potentially yield areas of \DIFdelbegin \DIFdel{improvement }\DIFdelend \DIFaddbegin \DIFadd{improvements }\DIFaddend for NAO.
 
 There are three prompt categories that the NAO robot would deliver when interacting with the child (please see Table \ref{tab:RobotPrompts} for the specifics of each prompt used):
 \begin{enumerate}
 	\item \textbf{Step Prompt} (to prompt the child through a hand-washing step):
 
-	A verbal prompt is delivered, such as “Please [step name]” (e.g. “Please turn on the water.”).  Synchronous to the verbal, a visual prompt is also be delivered. This is a two-part gesture prompt of: first, demonstrating the motion of interaction while looking at the child (MoDemo); second, pointing to the sink object (e.g. the tap) while looking at the object (ObjPt). A maximum of two prompts is given to the child. If the child does not respond to the second prompt or has started the step but does not complete the step within the a reasonable time, the parent is asked to help the child complete the step. 
+	A verbal prompt is delivered, such as “Please [step name]” (e.g. “Please turn on the water.”).  Synchronous to the verbal, a visual prompt is also be delivered. This is a two-part gesture prompt of: first, demonstrating the motion of interaction while looking at the child (\DIFaddbegin \DIFadd{i.e. }\DIFaddend MoDemo); second, pointing to the sink object (e.g. the tap) while looking at the object (\DIFaddbegin \DIFadd{i.e. }\DIFaddend ObjPt). A maximum of two prompts is given to the child. If the child does not respond to the second prompt or has started the step but does not complete the step within the a reasonable time, the parent is asked to help the child complete the step. 
 
-	\item \textbf{Attention Grabber} (to catch the child's attention to the NAO robot): 
+	\item \textbf{Attention Grabber} (to \DIFdelbegin \DIFdel{catch }\DIFdelend \DIFaddbegin \DIFadd{capture }\DIFaddend the child's attention to the NAO robot): 
 
-	A verbal prompt is delivered, such as “Hi, [child's name]!”  Synchronous to the verbal, a visual prompt is also delivered. This is an attention grabbing gesture of waving and looking at the child (AG). A maximum of two attention grabbers is given to the child in order to get his/her attention to look at the robot.  The parent is asked to instruct the child to look at the robot if he/she does not respond to the second attention grabber. 
+	A verbal prompt is delivered, such as “Hi, [child's name]!”  Synchronous to the verbal, a visual prompt is also delivered. This is an attention grabbing gesture of waving and looking at the child (\DIFaddbegin \DIFadd{i.e. }\DIFaddend AG). A maximum of two attention grabbers is given to the child in order to get his/her attention to look at the robot.  The parent is asked to instruct the child to look at the robot if he/she does not respond to the second attention grabber. 
 
 	\item \textbf{Reward} (to provide positive reinforcement when the child attempts a step without the help from his/her parent): 
 
-	A verbal reward (i.e. “Great!”) is delivered while looking at the child and switching back and forth the colors of the light-emitting diodes (LEDs) on the eyes after successfully performing a step (REW).
+	A verbal reward (i.e. “Great!”) is delivered while looking at the child and switching back and forth the colors of the light-emitting diodes (LEDs) on the eyes after successfully performing a step (\DIFaddbegin \DIFadd{i.e. }\DIFaddend REW).
 \end{enumerate}
 \begin{table}[h]
 	\centering
@@ -873,18 +893,18 @@ There are three prompt categories that the NAO robot would deliver when interact
 		\multirow{7}{*}{\textbf{Task Prompts}}	&	Turn on the water!	&	Turning right wrist clockwise while looking at the child, then pointing and looking at the tap.	\\	\cline{2-3}
 		&	Wet your hands.	&	Holding out hands while looking at the child, then pointing and looking at the running water.	\\	\cline{2-3}
 		&	Get some soap.	&	Pressing down right hand with left hand collecting from below while looking at the child, then pointing and looking at the soap.	\\	\cline{2-3}
-		&	Scrub your hands.	&	Scrubbing both hands while looking at the child, then pointing and looking at the child’s hands.	\\	\cline{2-3}
+		&	Scrub your hands.	&	Scrubbing both hands while looking at the child, then pointing and looking at the \DIFdelbeginFL \DIFdelFL{child�}\DIFdelendFL \DIFaddbeginFL \DIFaddFL{child'}\DIFaddendFL s hands.	\\	\cline{2-3}
 		&	Rinse your hands.	&	Holding out hands while looking at the child, then pointing and looking at the running water.	\\	\cline{2-3}
 		&	Turn off the water.	&	Turning right wrist counterclockwise while looking at the child, then pointing and looking at the tap.	\\	\cline{2-3}
 		&	Dry your hands.	&	Wiping one hand against the other while looking at the child, then pointing and looking at the towel.	\\	\hline
 
 		\textbf{Reward}	&	Great!	&	No gestures. Flashing multicolor LEDs on the eyes while looking at the child.	\\	\hline
 
-		\textbf{Intro}	&	Hi, [child’s name]! Let’s start washing hands.	&	Giving an attention grabber gesture followed by a simple conversational gesture while looking at the child.	\\	\hline
+		\textbf{Intro}	&	Hi, [\DIFdelbeginFL \DIFdelFL{child�}\DIFdelendFL \DIFaddbeginFL \DIFaddFL{child'}\DIFaddendFL s name]! \DIFdelbeginFL \DIFdelFL{Let�}\DIFdelendFL \DIFaddbeginFL \DIFaddFL{Let'}\DIFaddendFL s start washing hands.	&	Giving an attention grabber gesture followed by a simple conversational gesture while looking at the child.	\\	\hline
 
-		\textbf{Re-intro}	&	Let’s continue washing hands.	&	Giving a simple conversational gesture while looking at the child.	\\	\hline
+		\textbf{Re-intro}	&	\DIFdelbeginFL \DIFdelFL{Let�}\DIFdelendFL \DIFaddbeginFL \DIFaddFL{Let'}\DIFaddendFL s continue washing hands.	&	Giving a simple conversational gesture while looking at the child.	\\	\hline
 
-		\textbf{Outro}	&	Good job, [child’s name]! You are all done.	&	Fist pumping in the air, followed by an all done gesture. Flashing multicolor LEDs on the eyes while looking at the child.	\\	\hline
+		\textbf{Outro}	&	Good job, [\DIFdelbeginFL \DIFdelFL{child�}\DIFdelendFL \DIFaddbeginFL \DIFaddFL{child'}\DIFaddendFL s name]! You are all done.	&	Fist pumping in the air, followed by an all done gesture. Flashing multicolor LEDs on the eyes while looking at the child.	\\	\hline
 	\end{tabular}
 \caption{The Robot Prompts -- Detailed Descriptions.}
 \label{tab:RobotPrompts}
@@ -896,14 +916,14 @@ For each trial, in addition to the three prompt categories stated above, the NAO
 During the last visit, the same parent who completed the entrance survey would be asked to fill out the post-intervention survey.
 
 \subsection{Data Collection}
-All phases were video recorded by the overhead, the scene, and the Kinect cameras and audio recorded by the microphone from the scene camera.  The overhead and scene video data would be reviewed and annotated by an annotators. The overhead video data would be used to score the participants' prompt compliance and hand-washing performance. The scene video data would be used to evaluate the participants' engagement during the whole activity. The effectiveness of robot prompting on engagement, compliance, and performance would then be explored qualitatively and quantitatively.
+All \DIFdelbegin \DIFdel{phases }\DIFdelend \DIFaddbegin \DIFadd{trials }\DIFaddend were video recorded by the overhead, the scene, and the Kinect cameras and audio recorded by the microphone from the scene camera.  The overhead and scene video data would be reviewed and annotated by an \DIFdelbegin \DIFdel{annotators}\DIFdelend \DIFaddbegin \DIFadd{annotator}\DIFaddend . The overhead video data would be used to score the participants' prompt compliance and hand-washing performance. The scene video data would be used to evaluate the participants' engagement during the whole activity. \DIFdelbegin \DIFdel{The effectiveness of robot prompting on }\DIFdelend \DIFaddbegin \DIFadd{Possible areas of improvement of robot prompting will be explored, based on its observed effects on }\DIFaddend engagement, compliance, and performance\DIFdelbegin \DIFdel{would then be explored qualitatively and quantitatively}\DIFdelend .
 
-The Kinect video data would not be annotated. Instead, it would be used to evaluate the automatic gaze estimation algorithm that we developed. Specifically, the Kinect video data would be used by the gaze estimation algorithm as input and the output predictions would be compared with annotations of the scene video data to derive the algorithm's prediction accuracy.
+The Kinect video data would not be annotated. Instead, it would be used to evaluate the automatic gaze estimation algorithm that we \DIFdelbegin \DIFdel{developed}\DIFdelend \DIFaddbegin \DIFadd{would develop}\DIFaddend . Specifically, the Kinect video data would be used by the gaze estimation algorithm as input and the \DIFdelbegin \DIFdel{output }\DIFdelend \DIFaddbegin \DIFadd{outputted }\DIFaddend predictions would be compared with annotations of the scene video data to \DIFdelbegin \DIFdel{derive }\DIFdelend \DIFaddbegin \DIFadd{evaluate }\DIFaddend the algorithm's prediction accuracy.
 
 
 
 \subsection{Ethics}
-The WoZ was approved by the Research Ethics Board (REB) of University Health Network (UHN), belonging to which is the Toronto Rehab Hospital, where the study was conducted.
+The WoZ \DIFaddbegin \DIFadd{pilot study }\DIFaddend was approved by the Research Ethics Board (REB) of University Health Network (UHN), belonging to which is the Toronto Rehab Hospital, where the study was conducted.
 
 \paragraph{Consent and Assent}
 Participants were given a package of consent/assent forms prior to starting the study. One of the parents would need to provide their consent for their child and themselves to participate in the study. In addition, child participants would need to provide their assent to participate in their every visit of the study. 
@@ -923,36 +943,70 @@ All soft (electronic) data would be encrypted before any transfer is made. All d
 After the study is completed and the results of the study are published, data will be stored for at least seven years from study closure. All data will be destroyed seven years after the study closure. Data contained on paper material will be destroyed by shredding the material. Data contained on electronic media will be destroyed by erasing or other removing the data in such a way that it cannot be retrieved. 
 
 
-\section{Measures}
-\label{sec:measures}
+\section{\DIFdelbegin \DIFdel{Measures}\DIFdelend \DIFaddbegin \DIFadd{Interview Transcription}\DIFaddend }
+\DIFdelbegin %DIFDELCMD < \label{sec:measures}
+%DIFDELCMD < 
 
-\subsection{Video Data Measures}
-To evaluate the effectiveness of the robot prompts on child's step completion, to measure the child's compliance to the prompts, and to investigate their relationships with the child's engagement level during hand-washing, the following metrics are calculated and analyzed from the video data annotations for each trial:
+%DIFDELCMD < %%%
+\subsection{\DIFdel{Video Data Measures}}
+%DIFAUXCMD
+\addtocounter{subsection}{-1}%DIFAUXCMD
+\DIFdel{To evaluate the effectiveness of the robot prompts on child's step completion, to measure the child's compliance to the prompts, and to investigate their relationships with the child's engagement level during hand-washing, the following metrics are calculated and analyzed from the video data annotations for each trial:
+}%DIFDELCMD < 
 
+%DIFDELCMD < %%%
+\paragraph{\DIFdel{Prompt Effectiveness}}
+%DIFAUXCMD
+\addtocounter{paragraph}{-1}%DIFAUXCMD
+%DIFDELCMD < \begin{itemize}
+%DIFDELCMD < 	\item %%%
+\textbf{\DIFdel{Total Number of Complete Steps}}%DIFAUXCMD
+\DIFdel{: the number of hand-washing steps that were completed.  }%DIFDELCMD < \item %%%
+\textbf{\DIFdel{Total Number of Parent Prompts}}%DIFAUXCMD
+\DIFdel{: the number of prompts delivered by the parent (e.g. verbal, pointing, motion demonstrations, nudging, guiding, and physically intervening).
+}%DIFDELCMD < \end{itemize}
+%DIFDELCMD < 
 
-\paragraph{Prompt Effectiveness}
-\begin{itemize}
-	\item \textbf{Total Number of Complete Steps}: the number of hand-washing steps that were completed.
-	\item \textbf{Total Number of Parent Prompts}: the number of prompts delivered by the parent (e.g. verbal, pointing, motion demonstrations, nudging, guiding, and physically intervening).
-\end{itemize}
+%DIFDELCMD < %%%
+\paragraph{\DIFdel{Responses to Prompts}}
+%DIFAUXCMD
+\addtocounter{paragraph}{-1}%DIFAUXCMD
+%DIFDELCMD < \begin{itemize}
+%DIFDELCMD < 	\item %%%
+\textbf{\DIFdel{Compliance Rate}}%DIFAUXCMD
+\DIFdel{: the percentage of prompts that the child followed correctly.
+	}%DIFDELCMD < \item %%%
+\textbf{\DIFdel{Not Affected By Prompt Rate}}%DIFAUXCMD
+\DIFdel{: the percentage of prompts that the child ignored.
+}%DIFDELCMD < \end{itemize}
+%DIFDELCMD < 
 
-\paragraph{Responses to Prompts}
-\begin{itemize}
-	\item \textbf{Compliance Rate}: the percentage of prompts that the child followed correctly.
-	\item \textbf{Not Affected By Prompt Rate}: the percentage of prompts that the child ignored.
-\end{itemize}
+%DIFDELCMD < %%%
+\paragraph{\DIFdel{Engagement and Visual Attention}}
+%DIFAUXCMD
+\addtocounter{paragraph}{-1}%DIFAUXCMD
+%DIFDELCMD < \begin{itemize}
+%DIFDELCMD < 	\item %%%
+\textbf{\DIFdel{Total Number of Times Child Smiles}}%DIFAUXCMD
+\DIFdel{: the number of prompt sections that the child smiled.
+	}%DIFDELCMD < \item %%%
+\textbf{\DIFdel{Total Number of Times Child Murmurs}}%DIFAUXCMD
+\DIFdel{: the number of prompt sections that the child murmured.
+	}%DIFDELCMD < \item %%%
+\textbf{\DIFdel{Looking at Prompting Agent Rate}}%DIFAUXCMD
+\DIFdel{: the percentage of prompt sections that the child looked at parent when parent was prompting or at robot when robot was prompting.
+}%DIFDELCMD < \end{itemize}
+%DIFDELCMD < 
 
-\paragraph{Engagement and Visual Attention}
-\begin{itemize}
-	\item \textbf{Total Number of Times Child Smiles}: the number of prompt sections that the child smiled.
-	\item \textbf{Total Number of Times Child Murmurs}: the number of prompt sections that the child murmured.
-	\item \textbf{Looking at Prompting Agent Rate}: the percentage of prompt sections that the child looked at parent when parent was prompting or at robot when robot was prompting.
-\end{itemize}
-
-\paragraph{} %a blank space
-The specific definitions for each measure will be discussed further in the analysis section \ref{sec:VideoDataAnalysisAndResults}.  The difference between prompts and prompt sections is discussed in \ref{sec:AnnotationFramework}.
-\section{Video Annotations}
-In order to calculate the final measures outlined above, intermediate measures need to be extracted from the video data.  This is the process of video annotation.
+%DIFDELCMD < %%%
+\paragraph{} %DIFAUXCMD
+\addtocounter{paragraph}{-1}%DIFAUXCMD
+%DIF < a blank space
+\DIFdel{The specific definitions for each measure will be discussed further in the analysis section \ref{sec:VideoDataAnalysisAndResults}.
+The difference between prompts and prompt sections is discussed in \ref{sec:AnnotationFramework}.
+}\DIFdelend \DIFaddbegin \DIFadd{The recorded interviews between the researcher and the parent are transcribed by the researcher into written texts for qualitative analysis later.  The purpose of such analysis is to generate themes or hypotheses in the contexts of robot design recommendations and interpreting robot prompt effectiveness, thus only conversations relevant to these contexts are transcribed from the recorded interviews.
+}\DIFaddend \section{Video Annotations}
+\DIFdelbegin \DIFdel{In order to calculate the final measures outlined above}\DIFdelend \DIFaddbegin \DIFadd{To analyze the video data of the hand-washing trials quantitatively}\DIFaddend , intermediate measures need to be extracted from the \DIFdelbegin \DIFdel{video }\DIFdelend data.  This is the process of video annotation.
 %To compare between P and R in terms of:
 %	- visual attention
 %	- prompt compliance rate
@@ -977,8 +1031,10 @@ Each video file usually contains one hand-washing trial, sometimes two.  The ann
 
 A trial contains many hand-washing steps, and for each step, the parent and/or the robot may give several prompts.  For consistency and convenience, the annotator divides the video into segments we call ''prompt sections'', and describe each prompt section using a 3-part scheme.  The first part describes the child's actions before any prompts, the second describes the prompting agent's prompts, and the third describes the child's actions after the prompts.  The intermediate measures to be annotated in each part of the prompt section are shown in Table \ref{tab:IntermediateMeasures}.
 
-\begin{table}[H]
-	\centering
+\DIFdelbegin %DIFDELCMD < \begin{table}[H]
+%DIFDELCMD < 	%%%
+\DIFdelendFL \DIFaddbeginFL \begin{table}[h]
+	\DIFaddendFL \centering
 	\begin{tabular}{ | p{5cm} | l | p{7cm} | }
 		\hline
 		\textbf{Intermediate Measure}	&	\textbf{Type}	&	\textbf{Description}	\\	\hline	\hline
@@ -1026,14 +1082,40 @@ A hand-washing step could also have multiple prompt sections because of the step
 %Lastly, getting soap is a step similar to the extended steps such that it itself takes an extended period of time to execute.  However, it is different because of the child's tendency to always get more soap than needed.  So after the child starts getting soap, any prompts given are to tell the child to stop the step (as opposed to prolonging the step, as in the other extended steps' cases).  This means the measure, ``child stops step before next prompt'', is marked true if and only if no prompts are given after the child starts getting soap.  In general, ``child stops step before next prompt'' is marked true if the child stops the step before any prompt is given that is either telling him/her to stop (e.g. a verbal reward) or to go on to the next step.
 
 \subsection{Annotation Tools}
-The videos are played back by the software Media Player Classic - Home Cinema (MPC-HC 64-bit v1.7.8), where timestamps of millisecond resolution can be obtained.  The annotations are recorded onto Microsoft Office Excel spreadsheets, and each sheet exported to CSV files to be analyzed.
+The videos are played back by the software Media Player Classic - Home Cinema (MPC-HC\DIFdelbegin \DIFdel{64-bit v1.7.8}\DIFdelend ), where timestamps of millisecond resolution can be obtained.  The annotations are recorded onto Microsoft Office Excel spreadsheets, and each sheet exported to \DIFdelbegin \DIFdel{CSV }\DIFdelend \DIFaddbegin \DIFadd{comma separated value (CSV) }\DIFaddend files to be analyzed.
 
 %\subsection{Annotators and Inter-rater Agreement}
 %- number of annotators
 %- percentage of overlap
 %- inter-rater agreement calculation (method, what's good enough)
 
-\section{Data Analysis and Results}
+\DIFaddbegin \section{\DIFadd{Video Data Measures}}
+\label{sec:measures}
+\DIFadd{After annotating the video data, to investigate the impacts of the robot prompts on child's step completion, to measure the child's compliance to the prompts, and to observe their relationships with the child's engagement level during hand-washing, the following metrics are counted:
+}
+
+\paragraph{\DIFadd{Prompt Effectiveness}}
+\begin{itemize}
+	\item \textbf{\DIFadd{Total Number of Complete Steps}}\DIFadd{: the number of hand-washing steps that were completed.
+	}\item \textbf{\DIFadd{Total Number of Parent Prompts}}\DIFadd{: the number of prompts delivered by the parent (e.g. verbal, pointing, motion demonstrations, nudging, guiding, and physically intervening).
+}\end{itemize}
+
+\paragraph{\DIFadd{Responses to Prompts}}
+\begin{itemize}
+	\item \textbf{\DIFadd{Compliance Rate}}\DIFadd{: the percentage of prompts that the child followed correctly.
+	}\item \textbf{\DIFadd{Not Affected By Prompt Rate}}\DIFadd{: the percentage of prompts that the child ignored.
+}\end{itemize}
+
+\paragraph{\DIFadd{Engagement and Visual Attention}}
+\begin{itemize}
+	\item \textbf{\DIFadd{Total Number of Times Child Smiles}}\DIFadd{: the number of prompt sections that the child smiled.
+	}\item \textbf{\DIFadd{Total Number of Times Child Murmurs}}\DIFadd{: the number of prompt sections that the child murmured.
+	}\item \textbf{\DIFadd{Looking at Prompting Agent Rate}}\DIFadd{: the percentage of prompt sections that the child looked at parent when parent was prompting or at robot when robot was prompting.
+}\end{itemize}
+
+\paragraph{} %DIF > a blank space
+\DIFadd{The specific definitions for each measure will be discussed further in the analysis section \ref{sec:VideoDataAnalysisAndResults}.  The difference between prompts and prompt sections is discussed in \ref{sec:AnnotationFramework}.
+}\DIFaddend \section{Data Analysis and Results}
 
 
 \subsection{Participants Recruited}
@@ -1924,7 +2006,14 @@ John~N Constantino and Christian~P Gruber.
 \newblock The social responsiveness scale.
 \newblock {\em Los Angeles: Western Psychological Services}, 2002.
 
-\bibitem{dautenhahn2004towards}
+\DIFaddbegin \bibitem{dautenhahn1999robots}
+\DIFadd{Kerstin Dautenhahn.
+}\newblock \DIFadd{Robots as social actors: Aurora and the case of autism.
+}\newblock \DIFadd{In }{\em \DIFadd{Proc. CT99, The Third International Cognitive Technology
+  Conference, August, San Francisco}}\DIFadd{, volume 359, page 374, 1999.
+}
+
+\DIFaddend \bibitem{dautenhahn2004towards}
 Kerstin Dautenhahn and Iain Werry.
 \newblock Towards interactive robots in autism therapy: Background, motivation
   and challenges.
@@ -2128,7 +2217,15 @@ Michael~D Kogan, Stephen~J Blumberg, Laura~A Schieve, Coleen~A Boyle, James~M
   among children in the us, 2007.
 \newblock {\em Pediatrics}, 124(5):1395--1403, 2009.
 
-\bibitem{kruger2002gabor}
+\DIFaddbegin \bibitem{kozima2005interactive}
+\DIFadd{Hideki Kozima, Cocoro Nakagawa, and Yuriko Yasuda.
+}\newblock \DIFadd{Interactive robots for communication-care: A case-study in autism
+  therapy.
+}\newblock \DIFadd{In }{\em \DIFadd{Robot and Human Interactive Communication, 2005. ROMAN 2005.
+  IEEE International Workshop on}}\DIFadd{, pages 341--346. IEEE, 2005.
+}
+
+\DIFaddend \bibitem{kruger2002gabor}
 Volker Kr{\"u}ger and Gerald Sommer.
 \newblock Gabor wavelet networks for efficient head pose estimation.
 \newblock {\em Image and vision computing}, 20(9):665--672, 2002.
@@ -2317,7 +2414,16 @@ Marcel~JT Reinders, RWC Koch, and Jan~J Gerbrands.
 \newblock In {\em Automatic Face and Gesture Recognition, 1996., Proceedings of
   the Second International Conference on}, pages 230--235. IEEE, 1996.
 
-\bibitem{robins2006does}
+\DIFaddbegin \bibitem{robins2009isolation}
+\DIFadd{Ben Robins, Kerstin Dautenhahn, and Paul Dickerson.
+}\newblock \DIFadd{From isolation to communication: a case study evaluation of robot
+  assisted play for children with autism with a minimally expressive humanoid
+  robot.
+}\newblock \DIFadd{In }{\em \DIFadd{Advances in Computer-Human Interactions, 2009. ACHI'09.
+  Second International Conferences on}}\DIFadd{, pages 205--211. IEEE, 2009.
+}
+
+\DIFaddend \bibitem{robins2006does}
 Ben Robins, Kerstin Dautenhahn, and Janek Dubowski.
 \newblock Does appearance matter in the interaction of children with autism
   with a humanoid robot?
@@ -2330,7 +2436,14 @@ Ben Robins, Kerstin Dautenhahn, R~Te~Boekhorst, and Aude Billard.
 \newblock {\em Universal Access in the Information Society}, 4(2):105--120,
   2005.
 
-\bibitem{rosenberg2010evaluating}
+\DIFaddbegin \bibitem{robins2004robot}
+\DIFadd{Ben Robins, Paul Dickerson, Penny Stribling, and Kerstin Dautenhahn.
+}\newblock \DIFadd{Robot-mediated joint attention in children with autism: A case study
+  in robot-human interaction.
+}\newblock {\em \DIFadd{Interaction studies}}\DIFadd{, 5(2):161--198, 2004.
+}
+
+\DIFaddend \bibitem{rosenberg2010evaluating}
 Nancy~E Rosenberg, Ilene~S Schwartz, and Carol~A Davis.
 \newblock Evaluating the utility of commercial videotapes for teaching hand
   washing to children with autism.
@@ -2568,6 +2681,13 @@ Alison~M Wichnick, Susan~M Vener, Magdalena Pyrtek, and Claire~L Poulson.
 Jing Xiao, Simon Baker, Iain Matthews, and Takeo Kanade.
 \newblock Real-time combined 2d+ 3d active appearance models.
 \newblock In {\em CVPR (2)}, pages 535--542, 2004.
+\DIFaddbegin 
+
+\bibitem{yin2013case}
+\DIFadd{Robert~K Yin.
+}\newblock {\em \DIFadd{Case study research: Design and methods}}\DIFadd{.
+}\newblock \DIFadd{Sage publications, 2013.
+}\DIFaddend 
 
 \bibitem{yoder2006randomized}
 Paul Yoder and Wendy~L Stone.

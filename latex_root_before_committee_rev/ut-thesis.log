@@ -1,32 +1,18 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.17)  2 SEP 2015 13:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.2)  4 SEP 2015 16:47
 entering extended mode
-**C:/Users/David/Documents/GitHub/MASc/latex_root_before_committee_rev/ut-thesi
-s.tex
-
-(C:/Users/David/Documents/GitHub/MASc/latex_root_before_committee_rev/ut-thesis
-.tex
-LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
-abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
-croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
- lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
-german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
-ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
-an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
-ishmax, welsh, loaded.
-
-(C:\Users\David\Documents\GitHub\MASc\latex_root_before_committee_rev\ut-thesis
-.cls
+**ut-thesis.tex
+(ut-thesis.tex
+LaTeX2e <2015/01/01> patch level 2
+Babel <3.9m> and hyphenation patterns for 69 languages loaded.
+(ut-thesis.cls
 Document Class: ut-thesis 2012/06/01 v2.0 graduate theses at the University of 
 Toronto
 \@thesisfootnotesep=\skip41
 \@thesismarginparpush=\skip42
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\report.cls"
-Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size10.clo"
-File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@chapter=\count80
@@ -42,15 +28,15 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \bibindent=\dimen102
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\calc.sty"
-Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count88
 \calc@Bcount=\count89
 \calc@Adimen=\dimen103
 \calc@Bdimen=\dimen104
 \calc@Askip=\skip45
 \calc@Bskip=\skip46
-LaTeX Info: Redefining \setlength on input line 76.
-LaTeX Info: Redefining \addtolength on input line 77.
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count90
 \calc@Cskip=\skip47
 )
@@ -58,7 +44,7 @@ LaTeX Info: Redefining \addtolength on input line 77.
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
@@ -86,7 +72,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@dimlist=\toks15
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\setspace\setspace.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
 ))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
@@ -148,10 +134,10 @@ LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
@@ -159,7 +145,7 @@ Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 94.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
@@ -175,10 +161,10 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen122
 \Gin@req@width=\dimen123
 )
-(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption.sty"
 Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
-(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption3.sty"
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
 \captionmargin=\dimen124
@@ -191,7 +177,7 @@ Package caption3 Info: TeX engine: e-TeX on input line 57.
 )
 \c@ContinuedFloat=\count107
 )
-(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\subcaption.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\subcaption.sty"
 Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
 \c@subfigure=\count108
 \c@subtable=\count109
@@ -307,7 +293,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count114
 
-(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -347,20 +333,10 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
 \bigstrutjot=\dimen135
 )
-(C:\Users\David\Documents\GitHub\MASc\latex_root_before_committee_rev\ut-thesis
-.aux
-(C:\Users\David\Documents\GitHub\MASc\latex_root_before_committee_rev\tex\intro
-_chp\intro_chp.aux)
-(C:\Users\David\Documents\GitHub\MASc\latex_root_before_committee_rev\tex\lit_r
-ev_chp\lit_rev_chp.aux)
-(C:\Users\David\Documents\GitHub\MASc\latex_root_before_committee_rev\tex\resea
-rch_objectives_chp\research_objectives_chp.aux)
-(C:\Users\David\Documents\GitHub\MASc\latex_root_before_committee_rev\tex\woz_c
-hp\woz_chp.aux)
-(C:\Users\David\Documents\GitHub\MASc\latex_root_before_committee_rev\tex\gaze_
-tracking_chp\gaze_tracking_chp.aux)
-(C:\Users\David\Documents\GitHub\MASc\latex_root_before_committee_rev\tex\concl
-usion_chp\conclusion_chp.aux))
+(ut-thesis.aux (tex/intro_chp/intro_chp.aux) (tex/lit_rev_chp/lit_rev_chp.aux)
+(tex/research_objectives_chp/research_objectives_chp.aux)
+(tex/woz_chp/woz_chp.aux) (tex/gaze_tracking_chp/gaze_tracking_chp.aux)
+(tex/conclusion_chp/conclusion_chp.aux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 127.
 LaTeX Font Info:    ... okay on input line 127.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 127.
@@ -410,7 +386,7 @@ LaTeX Font Info:    ... okay on input line 127.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count121
 \scratchdimen=\dimen136
@@ -442,57 +418,43 @@ LaTeX Info: Redefining \ref on input line 127.
 LaTeX Info: Redefining \pageref on input line 127.
 LaTeX Info: Redefining \nameref on input line 127.
 
-(C:\Users\David\Documents\GitHub\MASc\latex_root_before_committee_rev\ut-thesis
-.out)
-(C:\Users\David\Documents\GitHub\MASc\latex_root_before_committee_rev\ut-thesis
-.out)
+(ut-thesis.out) (ut-thesis.out)
 \@outlinefile=\write3
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 134.
 
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 134.
  [1
 
-{C:/Users/David/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3]
-(C:\Users\David\Documents\GitHub\MASc\latex_root_before_committee_rev\ut-thesis
-.lof)
+{C:/Users/David/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3] (ut
+-thesis.lof)
 \tf@lof=\write4
- [4
 
-] [5]
-(C:\Users\David\Documents\GitHub\MASc\latex_root_before_committee_rev\ut-thesis
-.lot)
+[4
+
+] [5] (ut-thesis.lot)
 \tf@lot=\write5
  [6
 
-]
-(C:\Users\David\Documents\GitHub\MASc\latex_root_before_committee_rev\ut-thesis
-.toc [7
+] (ut-thesis.toc [7
 
 ] [8])
 \tf@toc=\write6
  [9]
-(C:\Users\David\Documents\GitHub\MASc\latex_root_before_committee_rev\tex\intro
-_chp\intro_chp.tex
+(tex/intro_chp/intro_chp.tex
 Chapter 1.
-
-(C:\Users\David\Documents\GitHub\MASc\latex_root_before_committee_rev\tex\intro
-_chp\motivation.tex [1
+(tex/intro_chp/motivation.tex [1
 
 
 
-])
-(C:\Users\David\Documents\GitHub\MASc\latex_root_before_committee_rev\tex\intro
-_chp\roadmap.tex [2])) [3]
-(C:\Users\David\Documents\GitHub\MASc\latex_root_before_committee_rev\tex\lit_r
-ev_chp\lit_rev_chp.tex
+]) (tex/intro_chp/roadmap.tex [2])) [3]
+(tex/lit_rev_chp/lit_rev_chp.tex
 Chapter 2.
-
-(C:\Users\David\Documents\GitHub\MASc\latex_root_before_committee_rev\tex\lit_r
-ev_chp\ASD_interventions.tex
+(tex/lit_rev_chp/ASD_interventions.tex
 Overfull \hbox (0.90555pt too wide) in paragraph at lines 6--6
 []\OT1/cmr/bx/n/12 Applied Be-haviour Anal-y-sis and Dis-crete Trial Train-ing 
 for Skill Teach-
@@ -502,9 +464,7 @@ for Skill Teach-
 
 
 
-] [5])
-(C:\Users\David\Documents\GitHub\MASc\latex_root_before_committee_rev\tex\lit_r
-ev_chp\assistive_technology_for_ASD.tex [6]
+] [5]) (tex/lit_rev_chp/assistive_technology_for_ASD.tex [6]
 Underfull \vbox (badness 4193) has occurred while \output is active []
 
  [7]
@@ -512,9 +472,7 @@ Underfull \vbox (badness 4193) has occurred while \output is active []
 Underfull \vbox (badness 4193) has occurred while \output is active []
 
  [10]
-[11])
-(C:\Users\David\Documents\GitHub\MASc\latex_root_before_committee_rev\tex\lit_r
-ev_chp\HRI.tex [12] [13]
+[11]) (tex/lit_rev_chp/HRI.tex [12] [13]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
@@ -522,8 +480,7 @@ Missing character: There is no Ô in font cmr10!
 Missing character: There is no ¨ in font cmr10!
 Missing character: There is no Å in font cmr10!
 )
-(C:\Users\David\Documents\GitHub\MASc\latex_root_before_committee_rev\tex\lit_r
-ev_chp\robots_in_ASD_interventions.tex [14]
+(tex/lit_rev_chp/robots_in_ASD_interventions.tex [14]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 25.
 
@@ -538,14 +495,11 @@ Package pdftex.def Info: ./img/ravindra2009therapeutic.png used on input line 3
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[15])
-(C:\Users\David\Documents\GitHub\MASc\latex_root_before_committee_rev\tex\lit_r
-ev_chp\VFOA.tex
+[15]) (tex/lit_rev_chp/VFOA.tex
 
 LaTeX Warning: Reference `DTTDiscussion' on page 16 undefined on input line 3.
 
-[16 <C:/Users/David/Documents/GitHub/MASc/latex_root_before_committee_rev/img/r
-avindra2009therapeutic.png>]
+[16 <./img/ravindra2009therapeutic.png>]
 <./img/murphy2009head.png, id=808, 351.56343pt x 442.65375pt>
 File: ./img/murphy2009head.png Graphic file (type png)
 
@@ -555,14 +509,11 @@ Package pdftex.def Info: ./img/murphy2009head.png used on input line 12.
 
 Underfull \vbox (badness 5548) has occurred while \output is active []
 
- [17 <C:/Users/David/Documents/GitHub/MASc/latex_root_before_committee_rev/img/
-murphy2009head.png>] [18] [19])
+ [17 <./img/murphy2009head.png>] [18] [19])
 Underfull \vbox (badness 1052) has occurred while \output is active []
 
  [20])
-[21]
-(C:\Users\David\Documents\GitHub\MASc\latex_root_before_committee_rev\tex\resea
-rch_objectives_chp\research_objectives_chp.tex
+[21] (tex/research_objectives_chp/research_objectives_chp.tex
 Chapter 3.
 <./img/nao_t14_schema.png, id=888, 489.83pt x 347.2975pt>
 File: ./img/nao_t14_schema.png Graphic file (type png)
@@ -577,33 +528,24 @@ Underfull \vbox (badness 1917) has occurred while \output is active []
 
 
 
- <C:/Users/David/Documents/GitHub/MASc/latex_root_before_committee_rev/img/nao_
-t14_schema.png>]) [23]
-(C:\Users\David\Documents\GitHub\MASc\latex_root_before_committee_rev\tex\woz_c
-hp\woz_chp.tex
+ <./img/nao_t14_schema.png>]) [23] (tex/woz_chp/woz_chp.tex
 Chapter 4.
-
-(C:\Users\David\Documents\GitHub\MASc\latex_root_before_committee_rev\tex\woz_c
-hp\WoZ_experiment_design.tex [24
+(tex/woz_chp/WoZ_experiment_design.tex [24
 
 
 
-])
-(C:\Users\David\Documents\GitHub\MASc\latex_root_before_committee_rev\tex\woz_c
-hp\recruitment.tex
+]) (tex/woz_chp/recruitment.tex
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
 )
-(C:\Users\David\Documents\GitHub\MASc\latex_root_before_committee_rev\tex\woz_c
-hp\NAO.tex <./img/nao-torso.jpg, id=920, 426.09187pt x 454.69875pt>
+(tex/woz_chp/NAO.tex <./img/nao-torso.jpg, id=920, 426.09187pt x 454.69875pt>
 File: ./img/nao-torso.jpg Graphic file (type jpg)
 
 <use ./img/nao-torso.jpg>
 Package pdftex.def Info: ./img/nao-torso.jpg used on input line 6.
 (pdftex.def)             Requested size: 271.01526pt x 289.2231pt.
- [25] [26 <C:/Users/David/Documents/GitHub/MASc/latex_root_before_committee_rev
-/img/nao-torso.jpg>]
+ [25] [26 <./img/nao-torso.jpg>]
 <./img/exp_setup.jpg, id=932, 177.39pt x 317.0025pt>
 File: ./img/exp_setup.jpg Graphic file (type jpg)
  <use ./img/exp_setup.jpg>
@@ -612,16 +554,12 @@ Package pdftex.def Info: ./img/exp_setup.jpg used on input line 22.
 
 Underfull \vbox (badness 2035) has occurred while \output is active []
 
- [27 <C:/Users/David/Documents/GitHub/MASc/latex_root_before_committee_rev/img/
-exp_setup.jpg>]
+ [27 <./img/exp_setup.jpg>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-)
-(C:\Users\David\Documents\GitHub\MASc\latex_root_before_committee_rev\tex\woz_c
-hp\surveys.tex [28])
-(C:\Users\David\Documents\GitHub\MASc\latex_root_before_committee_rev\tex\woz_c
-hp\protocol_and_setup.tex
+) (tex/woz_chp/surveys.tex [28])
+(tex/woz_chp/protocol_and_setup.tex
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
@@ -677,10 +615,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [30]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31 <C:/Users/David/Documents/GitHub/MASc/latex_root_before_committee_rev/img/
-overhead_view.jpg> <C:/Users/David/Documents/GitHub/MASc/latex_root_before_comm
-ittee_rev/img/scene_view.jpg> <C:/Users/David/Documents/GitHub/MASc/latex_root_
-before_committee_rev/img/kinect_view.jpg>]
+ [31 <./img/overhead_view.jpg> <./img/scene_view.jpg> <./img/kinect_view.jpg>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ú in font cmr10!
@@ -755,17 +690,12 @@ Missing character: There is no ú in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
-[33] [34])
-(C:\Users\David\Documents\GitHub\MASc\latex_root_before_committee_rev\tex\woz_c
-hp\measures.tex [35])
-(C:\Users\David\Documents\GitHub\MASc\latex_root_before_committee_rev\tex\woz_c
-hp\video_annotation_protocol.tex [36]
+[33] [34]) (tex/woz_chp/measures.tex [35])
+(tex/woz_chp/video_annotation_protocol.tex [36]
 Overfull \vbox (19.56984pt too high) has occurred while \output is active []
 
 
-[37])
-(C:\Users\David\Documents\GitHub\MASc\latex_root_before_committee_rev\tex\woz_c
-hp\data_analysis_and_results.tex [38]
+[37]) (tex/woz_chp/data_analysis_and_results.tex [38]
 
 LaTeX Warning: Reference `fig:TotalNumberOfCompleteSteps' on page 39 undefined 
 on input line 25.
@@ -933,13 +863,10 @@ Overfull \hbox (22.13428pt too wide) in paragraph at lines 70--71
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [40 <C:/Users/David/Documents/GitHub/MASc/latex_root_before_committee_rev/img/
-data_analysis/110NumberofCompleteSteps-WithoutPorR-eps-converted-to.pdf> <C:/Us
-ers/David/Documents/GitHub/MASc/latex_root_before_committee_rev/img/data_analys
-is/109NumberofCompleteSteps-WithR-eps-converted-to.pdf> <C:/Users/David/Documen
-ts/GitHub/MASc/latex_root_before_committee_rev/img/data_analysis/blank.png> <C:
-/Users/David/Documents/GitHub/MASc/latex_root_before_committee_rev/img/data_ana
-lysis/108NumberofCompleteSteps-WithPandR-eps-converted-to.pdf>]
+ [40 <./img/data_analysis/110NumberofCompleteSteps-WithoutPorR-eps-converted-to
+.pdf> <./img/data_analysis/109NumberofCompleteSteps-WithR-eps-converted-to.pdf>
+ <./img/data_analysis/blank.png> <./img/data_analysis/108NumberofCompleteSteps-
+WithPandR-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./img/data_analysis/102ComplianceRate-Over
 all.eps>
 (epstopdf)                    date: 2015-08-17 00:25:32
@@ -1052,10 +979,8 @@ Overfull \hbox (22.13428pt too wide) in paragraph at lines 108--109
 [][] 
  []
 
-[41 <C:/Users/David/Documents/GitHub/MASc/latex_root_before_committee_rev/img/d
-ata_analysis/25TotalNumberofParentPrompts-eps-converted-to.pdf> <C:/Users/David
-/Documents/GitHub/MASc/latex_root_before_committee_rev/img/data_analysis/26Tota
-lNumberofParentPrompts-Physical-eps-converted-to.pdf>]
+[41 <./img/data_analysis/25TotalNumberofParentPrompts-eps-converted-to.pdf> <./
+img/data_analysis/26TotalNumberofParentPrompts-Physical-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./img/data_analysis/99NotAffectedByPromptR
 ate-Overall.eps>
 (epstopdf)                    date: 2015-08-17 00:25:33
@@ -1083,14 +1008,10 @@ eps-converted-to.pdf used on input line 120.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [42 <C:/Users/David/Documents/GitHub/MASc/latex_root_before_committee_rev/img/
-data_analysis/102ComplianceRate-Overall-eps-converted-to.pdf> <C:/Users/David/D
-ocuments/GitHub/MASc/latex_root_before_committee_rev/img/data_analysis/79Compli
-anceRate-R1Pv0g0-eps-converted-to.pdf> <C:/Users/David/Documents/GitHub/MASc/la
-tex_root_before_committee_rev/img/data_analysis/103HardComplianceRate-Overall-e
-ps-converted-to.pdf> <C:/Users/David/Documents/GitHub/MASc/latex_root_before_co
-mmittee_rev/img/data_analysis/92HardComplianceRate-R1Pv0g0-eps-converted-to.pdf
->]
+ [42 <./img/data_analysis/102ComplianceRate-Overall-eps-converted-to.pdf> <./im
+g/data_analysis/79ComplianceRate-R1Pv0g0-eps-converted-to.pdf> <./img/data_anal
+ysis/103HardComplianceRate-Overall-eps-converted-to.pdf> <./img/data_analysis/9
+2HardComplianceRate-R1Pv0g0-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./img/data_analysis/12TotalNumberofTimesCh
 ildSmiles.eps>
 (epstopdf)                    date: 2015-08-17 00:25:32
@@ -1260,13 +1181,13 @@ Overfull \hbox (22.13428pt too wide) in paragraph at lines 173--174
 [][] 
  []
 
-[43 <C:/Users/David/Documents/GitHub/MASc/latex_root_before_committee_rev/img/d
-ata_analysis/99NotAffectedByPromptRate-Overall-eps-converted-to.pdf>]
+[43 <./img/data_analysis/99NotAffectedByPromptRate-Overall-eps-converted-to.pdf
+>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[44 <C:/Users/David/Documents/GitHub/MASc/latex_root_before_committee_rev/img/d
-ata_analysis/12TotalNumberofTimesChildSmiles-eps-converted-to.pdf>]
+[44 <./img/data_analysis/12TotalNumberofTimesChildSmiles-eps-converted-to.pdf>]
+
 Overfull \hbox (27.66237pt too wide) in paragraph at lines 206--230
  [][] 
  []
@@ -1274,18 +1195,12 @@ Overfull \hbox (27.66237pt too wide) in paragraph at lines 206--230
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-)
-(C:\Users\David\Documents\GitHub\MASc\latex_root_before_committee_rev\tex\woz_c
-hp\discussion.tex [45 <C:/Users/David/Documents/GitHub/MASc/latex_root_before_c
-ommittee_rev/img/data_analysis/13TotalNumberofTimesChildMurmurs-eps-converted-t
-o.pdf>] [46 <C:/Users/David/Documents/GitHub/MASc/latex_root_before_committee_r
-ev/img/data_analysis/8LookingatParentRateGivenParentPrompted-eps-converted-to.p
-df> <C:/Users/David/Documents/GitHub/MASc/latex_root_before_committee_rev/img/d
-ata_analysis/9LookingatRobotRateGivenRobotPrompted-eps-converted-to.pdf> <C:/Us
-ers/David/Documents/GitHub/MASc/latex_root_before_committee_rev/img/data_analys
-is/10LookingatParentRateGivenBothPrompted-eps-converted-to.pdf> <C:/Users/David
-/Documents/GitHub/MASc/latex_root_before_committee_rev/img/data_analysis/11Look
-ingatRobotRateGivenBothPrompted-eps-converted-to.pdf>]
+) (tex/woz_chp/discussion.tex [45 <./img/data_analysis/13TotalNumberofTimesChil
+dMurmurs-eps-converted-to.pdf>] [46 <./img/data_analysis/8LookingatParentRateGi
+venParentPrompted-eps-converted-to.pdf> <./img/data_analysis/9LookingatRobotRat
+eGivenRobotPrompted-eps-converted-to.pdf> <./img/data_analysis/10LookingatParen
+tRateGivenBothPrompted-eps-converted-to.pdf> <./img/data_analysis/11LookingatRo
+botRateGivenBothPrompted-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./img/data_analysis/4NumberofIncompleteSte
 ps.eps>
 (epstopdf)                    date: 2015-08-17 00:25:33
@@ -1313,8 +1228,7 @@ rted-to.pdf used on input line 16.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[47] [48 <C:/Users/David/Documents/GitHub/MASc/latex_root_before_committee_rev/
-img/data_analysis/4NumberofIncompleteSteps-eps-converted-to.pdf>]
+[47] [48 <./img/data_analysis/4NumberofIncompleteSteps-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./img/data_analysis/107ParentInvolvement.e
 ps>
 (epstopdf)                    date: 2015-08-17 00:25:32
@@ -1489,35 +1403,25 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[50 <C:/Users/David/Documents/GitHub/MASc/latex_root_before_committee_rev/img/d
-ata_analysis/107ParentInvolvement-eps-converted-to.pdf>]
+[50 <./img/data_analysis/107ParentInvolvement-eps-converted-to.pdf>]
 Underfull \vbox (badness 5245) has occurred while \output is active []
 
- [51 <C:/Users/David/Documents/GitHub/MASc/latex_root_before_committee_rev/img/
-data_analysis/102ComplianceRate-Overall_robotAloneOnly-eps-converted-to.pdf> <C
-:/Users/David/Documents/GitHub/MASc/latex_root_before_committee_rev/img/data_an
-alysis/79ComplianceRate-R1Pv0g0_robotAloneOnly-eps-converted-to.pdf> <C:/Users/
-David/Documents/GitHub/MASc/latex_root_before_committee_rev/img/data_analysis/1
-03HardComplianceRate-Overall_robotAloneOnly-eps-converted-to.pdf> <C:/Users/Dav
-id/Documents/GitHub/MASc/latex_root_before_committee_rev/img/data_analysis/92Ha
-rdComplianceRate-R1Pv0g0_robotAloneOnly-eps-converted-to.pdf>] [52 <C:/Users/Da
-vid/Documents/GitHub/MASc/latex_root_before_committee_rev/img/data_analysis/99N
-otAffectedByPromptRate-Overall_robotAloneOnly-eps-converted-to.pdf>]
+ [51 <./img/data_analysis/102ComplianceRate-Overall_robotAloneOnly-eps-converte
+d-to.pdf> <./img/data_analysis/79ComplianceRate-R1Pv0g0_robotAloneOnly-eps-conv
+erted-to.pdf> <./img/data_analysis/103HardComplianceRate-Overall_robotAloneOnly
+-eps-converted-to.pdf> <./img/data_analysis/92HardComplianceRate-R1Pv0g0_robotA
+loneOnly-eps-converted-to.pdf>] [52 <./img/data_analysis/99NotAffectedByPromptR
+ate-Overall_robotAloneOnly-eps-converted-to.pdf>]
 Underfull \vbox (badness 4193) has occurred while \output is active []
 
  [53]
 Underfull \vbox (badness 4193) has occurred while \output is active []
 
  [54]))
-[55]
-(C:\Users\David\Documents\GitHub\MASc\latex_root_before_committee_rev\tex\gaze_
-tracking_chp\gaze_tracking_chp.tex
+[55] (tex/gaze_tracking_chp/gaze_tracking_chp.tex
 Chapter 5.
-
-(C:\Users\David\Documents\GitHub\MASc\latex_root_before_committee_rev\tex\gaze_
-tracking_chp\head_pose_estimation.tex
-(C:\Users\David\Documents\GitHub\MASc\latex_root_before_committee_rev\tex\gaze_
-tracking_chp\3D_kinect_camera_approach.tex [56
+(tex/gaze_tracking_chp/head_pose_estimation.tex
+(tex/gaze_tracking_chp/3D_kinect_camera_approach.tex [56
 
 
 
@@ -1552,22 +1456,18 @@ Package pdftex.def Info: ./img/point_to_plane_error.jpg used on input line 56.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[58 <C:/Users/David/Documents/GitHub/MASc/latex_root_before_committee_rev/img/b
-ilateral_filtering.jpg>] <./img/TSDF.jpg, id=2053, 332.6599pt x 159.79297pt>
+[58 <./img/bilateral_filtering.jpg>]
+<./img/TSDF.jpg, id=2053, 332.6599pt x 159.79297pt>
 File: ./img/TSDF.jpg Graphic file (type jpg)
-
-<use ./img/TSDF.jpg>
+ <use ./img/TSDF.jpg>
 Package pdftex.def Info: ./img/TSDF.jpg used on input line 71.
 (pdftex.def)             Requested size: 271.01526pt x 130.18256pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[59 <C:/Users/David/Documents/GitHub/MASc/latex_root_before_committee_rev/img/r
-esolution_pyramid.jpg>] [60 <C:/Users/David/Documents/GitHub/MASc/latex_root_be
-fore_committee_rev/img/point_to_plane_error.jpg> <C:/Users/David/Documents/GitH
-ub/MASc/latex_root_before_committee_rev/img/TSDF.jpg>]
-<./img/headTrackingResults1.jpg, id=2067, 722.7pt x 406.51875pt>
+[59 <./img/resolution_pyramid.jpg>] [60 <./img/point_to_plane_error.jpg> <./img
+/TSDF.jpg>] <./img/headTrackingResults1.jpg, id=2067, 722.7pt x 406.51875pt>
 File: ./img/headTrackingResults1.jpg Graphic file (type jpg)
 
 <use ./img/headTrackingResults1.jpg>
@@ -1578,8 +1478,7 @@ Package pdftex.def Info: ./img/headTrackingResults1.jpg used on input line 144.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[61] [62 <C:/Users/David/Documents/GitHub/MASc/latex_root_before_committee_rev/
-img/headTrackingResults1.jpg>] [63]
+[61] [62 <./img/headTrackingResults1.jpg>] [63]
 <./img/eyeimages/s1.jpg, id=2090, 702.625pt x 702.625pt>
 File: ./img/eyeimages/s1.jpg Graphic file (type jpg)
 
@@ -1661,19 +1560,11 @@ Overfull \hbox (10.8414pt too wide) in paragraph at lines 207--208
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[64] [65 <C:/Users/David/Documents/GitHub/MASc/latex_root_before_committee_rev/
-img/eyeimages/s1.jpg> <C:/Users/David/Documents/GitHub/MASc/latex_root_before_c
-ommittee_rev/img/eyeimages/s2.jpg> <C:/Users/David/Documents/GitHub/MASc/latex_
-root_before_committee_rev/img/eyeimages/s3.jpg> <C:/Users/David/Documents/GitHu
-b/MASc/latex_root_before_committee_rev/img/eyeimages/f1.jpg> <C:/Users/David/Do
-cuments/GitHub/MASc/latex_root_before_committee_rev/img/eyeimages/f2.jpg> <C:/U
-sers/David/Documents/GitHub/MASc/latex_root_before_committee_rev/img/eyeimages/
-f3.jpg> <C:/Users/David/Documents/GitHub/MASc/latex_root_before_committee_rev/i
-mg/eyeimages/trackingError.jpg>]))
-(C:\Users\David\Documents\GitHub\MASc\latex_root_before_committee_rev\tex\gaze_
-tracking_chp\eye_pose_estimation.tex [66])
-(C:\Users\David\Documents\GitHub\MASc\latex_root_before_committee_rev\tex\gaze_
-tracking_chp\object_identification.tex [67]
+[64] [65 <./img/eyeimages/s1.jpg> <./img/eyeimages/s2.jpg> <./img/eyeimages/s3.
+jpg> <./img/eyeimages/f1.jpg> <./img/eyeimages/f2.jpg> <./img/eyeimages/f3.jpg>
+ <./img/eyeimages/trackingError.jpg>]))
+(tex/gaze_tracking_chp/eye_pose_estimation.tex [66])
+(tex/gaze_tracking_chp/object_identification.tex [67]
 Package epstopdf Info: Source file: <./img/loc_calib_gauss.eps>
 (epstopdf)                    date: 2015-08-17 00:25:33
 (epstopdf)                    size: 40177 bytes
@@ -1725,12 +1616,8 @@ Overfull \hbox (22.13428pt too wide) in paragraph at lines 17--18
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [68 <C:/Users/David/Documents/GitHub/MASc/latex_root_before_committee_rev/img/
-loc_calib_gauss-eps-converted-to.pdf> <C:/Users/David/Documents/GitHub/MASc/lat
-ex_root_before_committee_rev/img/loc_calib_gauss_cross-eps-converted-to.pdf>]) 
-[69]
-(C:\Users\David\Documents\GitHub\MASc\latex_root_before_committee_rev\tex\concl
-usion_chp\conclusion_chp.tex
+ [68 <./img/loc_calib_gauss-eps-converted-to.pdf> <./img/loc_calib_gauss_cross-
+eps-converted-to.pdf>]) [69] (tex/conclusion_chp/conclusion_chp.tex
 Chapter 6.
 )
 Underfull \hbox (badness 10000) in paragraph at lines 11--221
@@ -1741,9 +1628,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--221
 
 
 
-] [71]
-(C:\Users\David\Documents\GitHub\MASc\latex_root_before_committee_rev\ut-thesis
-.bbl
+] [71] (ut-thesis.bbl
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no î in font cmr10!
@@ -1800,20 +1685,10 @@ Package atveryend Info: Empty hook `BeforeClearDocument' on input line 243.
  [81]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 243.
 
-(C:\Users\David\Documents\GitHub\MASc\latex_root_before_committee_rev\ut-thesis
-.aux
-(C:\Users\David\Documents\GitHub\MASc\latex_root_before_committee_rev\tex\intro
-_chp\intro_chp.aux)
-(C:\Users\David\Documents\GitHub\MASc\latex_root_before_committee_rev\tex\lit_r
-ev_chp\lit_rev_chp.aux)
-(C:\Users\David\Documents\GitHub\MASc\latex_root_before_committee_rev\tex\resea
-rch_objectives_chp\research_objectives_chp.aux)
-(C:\Users\David\Documents\GitHub\MASc\latex_root_before_committee_rev\tex\woz_c
-hp\woz_chp.aux)
-(C:\Users\David\Documents\GitHub\MASc\latex_root_before_committee_rev\tex\gaze_
-tracking_chp\gaze_tracking_chp.aux)
-(C:\Users\David\Documents\GitHub\MASc\latex_root_before_committee_rev\tex\concl
-usion_chp\conclusion_chp.aux))
+(ut-thesis.aux (tex/intro_chp/intro_chp.aux) (tex/lit_rev_chp/lit_rev_chp.aux)
+(tex/research_objectives_chp/research_objectives_chp.aux)
+(tex/woz_chp/woz_chp.aux) (tex/gaze_tracking_chp/gaze_tracking_chp.aux)
+(tex/conclusion_chp/conclusion_chp.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 243.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 243.
 Package rerunfilecheck Info: File `ut-thesis.out' has not changed.
@@ -1825,13 +1700,13 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 243.
  ) 
 Here is how much of TeX's memory you used:
- 8490 strings out of 493921
- 147363 string characters out of 3144876
- 227760 words of memory out of 3000000
- 11095 multiletter control sequences out of 15000+200000
+ 8485 strings out of 493673
+ 140137 string characters out of 3141531
+ 232033 words of memory out of 3000000
+ 11145 multiletter control sequences out of 15000+200000
  9468 words of font info for 34 fonts, out of 3000000 for 9000
- 841 hyphenation exceptions out of 8191
- 42i,9n,42p,2760b,464s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 1025 hyphenation exceptions out of 8191
+ 42i,9n,42p,2691b,464s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/P
@@ -1848,7 +1723,7 @@ KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiKTeX
 .9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on ut-thesis.pdf (90 pages, 2731143 bytes).
+Output written on ut-thesis.pdf (90 pages, 2729381 bytes).
 PDF statistics:
  2359 PDF objects out of 2487 (max. 8388607)
  427 named destinations out of 1000 (max. 500000)

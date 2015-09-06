@@ -48,64 +48,66 @@
 \contentsline {paragraph}{Our hypotheses are:}{23}{section*.23}
 \contentsline {chapter}{\numberline {4}The Wizard of Oz Pilot Study}{24}{chapter.4}
 \contentsline {section}{\numberline {4.1}Wizard of Oz Experiment Design}{24}{section.4.1}
-\contentsline {section}{\numberline {4.2}Recruitment}{25}{section.4.2}
-\contentsline {paragraph}{The \textbf {inclusion criteria} for enrolling in the study were as follows:}{25}{section*.24}
-\contentsline {section}{\numberline {4.3}Humanoid Robot NAO}{26}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Verbal Prompts}{28}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Gesture Prompts}{28}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Wizard of Oz Remote Control}{28}{subsection.4.3.3}
-\contentsline {section}{\numberline {4.4}Surveys}{28}{section.4.4}
-\contentsline {paragraph}{Social Responsiveness Scale Survey and Entrance Survey}{28}{section*.27}
+\contentsline {section}{\numberline {4.2}Case Study Format}{25}{section.4.2}
+\contentsline {section}{\numberline {4.3}Recruitment}{25}{section.4.3}
+\contentsline {paragraph}{The \textbf {inclusion criteria} for enrolling in the study were as follows:}{26}{section*.24}
+\contentsline {section}{\numberline {4.4}Humanoid Robot NAO}{26}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Verbal Prompts}{27}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Gesture Prompts}{28}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Wizard of Oz Remote Control}{29}{subsection.4.4.3}
+\contentsline {section}{\numberline {4.5}Surveys}{29}{section.4.5}
+\contentsline {paragraph}{Social Responsiveness Scale Survey and Entrance Survey}{29}{section*.27}
 \contentsline {paragraph}{Post-Intervention Survey}{29}{section*.28}
-\contentsline {section}{\numberline {4.5}Protocol and Setup}{29}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Entrance Survey and SRS}{29}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}Protocol Overview}{29}{subsection.4.5.2}
-\contentsline {subsection}{\numberline {4.5.3}Experiment Setup}{29}{subsection.4.5.3}
-\contentsline {subsection}{\numberline {4.5.4}Specific Protocol}{32}{subsection.4.5.4}
+\contentsline {section}{\numberline {4.6}Interviews}{29}{section.4.6}
+\contentsline {section}{\numberline {4.7}Study Protocol and Setup}{30}{section.4.7}
+\contentsline {subsection}{\numberline {4.7.1}Entrance Survey and SRS}{30}{subsection.4.7.1}
+\contentsline {subsection}{\numberline {4.7.2}Protocol Overview}{30}{subsection.4.7.2}
+\contentsline {subsection}{\numberline {4.7.3}Experiment Setup}{30}{subsection.4.7.3}
+\contentsline {subsection}{\numberline {4.7.4}Specific Protocol}{32}{subsection.4.7.4}
 \contentsline {paragraph}{Phase A (Baseline Phase)}{32}{section*.30}
 \contentsline {paragraph}{Phases B and C (Intervention Phases)}{32}{section*.31}
-\contentsline {subsection}{\numberline {4.5.5}Post-intervention Survey}{34}{subsection.4.5.5}
-\contentsline {subsection}{\numberline {4.5.6}Data Collection}{34}{subsection.4.5.6}
-\contentsline {subsection}{\numberline {4.5.7}Ethics}{34}{subsection.4.5.7}
+\contentsline {subsection}{\numberline {4.7.5}Post-intervention Survey}{34}{subsection.4.7.5}
+\contentsline {subsection}{\numberline {4.7.6}Data Collection}{34}{subsection.4.7.6}
+\contentsline {subsection}{\numberline {4.7.7}Ethics}{34}{subsection.4.7.7}
 \contentsline {paragraph}{Consent and Assent}{34}{section*.33}
 \contentsline {paragraph}{Confidentiality}{35}{section*.34}
 \contentsline {paragraph}{Data Storage}{35}{section*.35}
-\contentsline {section}{\numberline {4.6}Measures}{35}{section.4.6}
-\contentsline {subsection}{\numberline {4.6.1}Video Data Measures}{35}{subsection.4.6.1}
-\contentsline {paragraph}{Prompt Effectiveness}{35}{section*.36}
-\contentsline {paragraph}{Responses to Prompts}{36}{section*.37}
-\contentsline {paragraph}{Engagement and Visual Attention}{36}{section*.38}
-\contentsline {paragraph}{}{36}{section*.39}
-\contentsline {section}{\numberline {4.7}Video Annotations}{36}{section.4.7}
-\contentsline {subsection}{\numberline {4.7.1}Annotation Framework}{36}{subsection.4.7.1}
-\contentsline {subsection}{\numberline {4.7.2}Annotation Tools}{38}{subsection.4.7.2}
-\contentsline {section}{\numberline {4.8}Data Analysis and Results}{38}{section.4.8}
-\contentsline {subsection}{\numberline {4.8.1}Participants Recruited}{38}{subsection.4.8.1}
+\contentsline {section}{\numberline {4.8}Interview Transcription}{35}{section.4.8}
+\contentsline {section}{\numberline {4.9}Video Annotations}{36}{section.4.9}
+\contentsline {subsection}{\numberline {4.9.1}Annotation Framework}{36}{subsection.4.9.1}
+\contentsline {subsection}{\numberline {4.9.2}Annotation Tools}{37}{subsection.4.9.2}
+\contentsline {section}{\numberline {4.10}Video Data Measures}{37}{section.4.10}
+\contentsline {paragraph}{Prompt Effectiveness}{37}{section*.37}
+\contentsline {paragraph}{Responses to Prompts}{37}{section*.38}
+\contentsline {paragraph}{Engagement and Visual Attention}{37}{section*.39}
+\contentsline {paragraph}{}{37}{section*.40}
+\contentsline {section}{\numberline {4.11}Data Analysis and Results}{37}{section.4.11}
+\contentsline {subsection}{\numberline {4.11.1}Participants Recruited}{37}{subsection.4.11.1}
 \contentsline {subsubsection}{Child's Demographics and Inclusion Criteria Fit}{38}{section*.41}
-\contentsline {subsection}{\numberline {4.8.2}Experiment Design Change}{39}{subsection.4.8.2}
-\contentsline {subsection}{\numberline {4.8.3}Video Data Analysis and Results}{39}{subsection.4.8.3}
-\contentsline {subsubsection}{Analysis Method}{39}{section*.42}
-\contentsline {subsubsection}{Prompt Effectiveness}{39}{section*.43}
-\contentsline {paragraph}{Number of Incomplete Steps}{39}{section*.44}
-\contentsline {paragraph}{Number of Parent Prompts}{41}{section*.46}
-\contentsline {subsubsection}{Child's Response to Prompts}{41}{section*.48}
-\contentsline {paragraph}{Compliance Rate}{41}{section*.49}
-\contentsline {paragraph}{Not Affected By Prompt Rate}{43}{section*.51}
-\contentsline {subsubsection}{Engagement and Visual Attention}{43}{section*.53}
-\contentsline {paragraph}{Number of Times Child Smiles}{43}{section*.54}
-\contentsline {paragraph}{Number of Times Child Murmurs}{43}{section*.56}
-\contentsline {paragraph}{Looking at Prompting Agent Rate}{44}{section*.58}
-\contentsline {subsection}{\numberline {4.8.4}Survey Data Results}{44}{subsection.4.8.4}
-\contentsline {subsubsection}{Entrance Survey}{44}{section*.60}
-\contentsline {paragraph}{Child's Experience with Technologies}{44}{section*.61}
-\contentsline {paragraph}{Child's Personal Preferences}{45}{section*.62}
-\contentsline {paragraph}{Child's Abilities on Hand-washing and on Other ADLs}{45}{section*.63}
-\contentsline {paragraph}{Parent's Expectation and Concerns}{45}{section*.64}
-\contentsline {subsubsection}{Post-Intervention Survey for Parent}{45}{section*.65}
-\contentsline {section}{\numberline {4.9}Discussion}{46}{section.4.9}
-\contentsline {subsection}{\numberline {4.9.1}Primary Results}{46}{subsection.4.9.1}
-\contentsline {subsection}{\numberline {4.9.2}Secondary Results}{50}{subsection.4.9.2}
-\contentsline {subsection}{\numberline {4.9.3}Limitations and Future Works}{52}{subsection.4.9.3}
+\contentsline {subsection}{\numberline {4.11.2}Experiment Design Change}{38}{subsection.4.11.2}
+\contentsline {subsection}{\numberline {4.11.3}Video Data Analysis and Results}{38}{subsection.4.11.3}
+\contentsline {subsubsection}{Analysis Method}{38}{section*.42}
+\contentsline {subsubsection}{Prompt Effectiveness}{38}{section*.43}
+\contentsline {paragraph}{Number of Incomplete Steps}{38}{section*.44}
+\contentsline {paragraph}{Number of Parent Prompts}{39}{section*.46}
+\contentsline {subsubsection}{Child's Response to Prompts}{39}{section*.48}
+\contentsline {paragraph}{Compliance Rate}{39}{section*.49}
+\contentsline {paragraph}{Not Affected By Prompt Rate}{41}{section*.51}
+\contentsline {subsubsection}{Engagement and Visual Attention}{41}{section*.53}
+\contentsline {paragraph}{Number of Times Child Smiles}{41}{section*.54}
+\contentsline {paragraph}{Number of Times Child Murmurs}{41}{section*.56}
+\contentsline {paragraph}{Looking at Prompting Agent Rate}{42}{section*.58}
+\contentsline {subsection}{\numberline {4.11.4}Survey Data Results}{43}{subsection.4.11.4}
+\contentsline {subsubsection}{Entrance Survey}{43}{section*.60}
+\contentsline {paragraph}{Child's Experience with Technologies}{43}{section*.61}
+\contentsline {paragraph}{Child's Personal Preferences}{43}{section*.62}
+\contentsline {paragraph}{Child's Abilities on Hand-washing and on Other ADLs}{43}{section*.63}
+\contentsline {paragraph}{Parent's Expectation and Concerns}{44}{section*.64}
+\contentsline {subsubsection}{Post-Intervention Survey for Parent}{44}{section*.65}
+\contentsline {section}{\numberline {4.12}Discussion}{44}{section.4.12}
+\contentsline {subsection}{\numberline {4.12.1}Primary Results}{44}{subsection.4.12.1}
+\contentsline {subsection}{\numberline {4.12.2}Secondary Results}{49}{subsection.4.12.2}
+\contentsline {subsection}{\numberline {4.12.3}Limitations and Future Works}{51}{subsection.4.12.3}
 \contentsline {chapter}{\numberline {5}Visual Focus of Attention Estimation}{56}{chapter.5}
 \contentsline {section}{\numberline {5.1}Head Pose Estimation}{56}{section.5.1}
 \contentsline {subsection}{\numberline {5.1.1}3D Kinect Camera Approach}{56}{subsection.5.1.1}

@@ -371,6 +371,13 @@ Michael~D Kogan, Stephen~J Blumberg, Laura~A Schieve, Coleen~A Boyle, James~M
   among children in the us, 2007.
 \newblock {\em Pediatrics}, 124(5):1395--1403, 2009.
 
+\bibitem{kozima2005interactive}
+Hideki Kozima, Cocoro Nakagawa, and Yuriko Yasuda.
+\newblock Interactive robots for communication-care: A case-study in autism
+  therapy.
+\newblock In {\em Robot and Human Interactive Communication, 2005. ROMAN 2005.
+  IEEE International Workshop on}, pages 341--346. IEEE, 2005.
+
 \bibitem{kruger2002gabor}
 Volker Kr{\"u}ger and Gerald Sommer.
 \newblock Gabor wavelet networks for efficient head pose estimation.
@@ -560,6 +567,14 @@ Marcel~JT Reinders, RWC Koch, and Jan~J Gerbrands.
 \newblock In {\em Automatic Face and Gesture Recognition, 1996., Proceedings of
   the Second International Conference on}, pages 230--235. IEEE, 1996.
 
+\bibitem{robins2009isolation}
+Ben Robins, Kerstin Dautenhahn, and Paul Dickerson.
+\newblock From isolation to communication: a case study evaluation of robot
+  assisted play for children with autism with a minimally expressive humanoid
+  robot.
+\newblock In {\em Advances in Computer-Human Interactions, 2009. ACHI'09.
+  Second International Conferences on}, pages 205--211. IEEE, 2009.
+
 \bibitem{robins2006does}
 Ben Robins, Kerstin Dautenhahn, and Janek Dubowski.
 \newblock Does appearance matter in the interaction of children with autism
@@ -572,6 +587,12 @@ Ben Robins, Kerstin Dautenhahn, R~Te~Boekhorst, and Aude Billard.
   can a small humanoid robot help encourage social interaction skills?
 \newblock {\em Universal Access in the Information Society}, 4(2):105--120,
   2005.
+
+\bibitem{robins2004robot}
+Ben Robins, Paul Dickerson, Penny Stribling, and Kerstin Dautenhahn.
+\newblock Robot-mediated joint attention in children with autism: A case study
+  in robot-human interaction.
+\newblock {\em Interaction studies}, 5(2):161--198, 2004.
 
 \bibitem{rosenberg2010evaluating}
 Nancy~E Rosenberg, Ilene~S Schwartz, and Carol~A Davis.
@@ -811,6 +832,11 @@ Alison~M Wichnick, Susan~M Vener, Magdalena Pyrtek, and Claire~L Poulson.
 Jing Xiao, Simon Baker, Iain Matthews, and Takeo Kanade.
 \newblock Real-time combined 2d+ 3d active appearance models.
 \newblock In {\em CVPR (2)}, pages 535--542, 2004.
+
+\bibitem{yin2013case}
+Robert~K Yin.
+\newblock {\em Case study research: Design and methods}.
+\newblock Sage publications, 2013.
 
 \bibitem{yoder2006randomized}
 Paul Yoder and Wendy~L Stone.
