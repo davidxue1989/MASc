@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.2)  5 SEP 2015 17:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.2)  11 SEP 2015 15:05
 entering extended mode
 **ut-thesis_diff.tex
 (ut-thesis_diff.tex
@@ -495,7 +495,7 @@ Missing character: There is no Å in font cmr10!
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 468.
 
-<./img/ravindra2009therapeutic.png, id=799, 204.765pt x 163.73672pt>
+<./img/ravindra2009therapeutic.png, id=833, 204.765pt x 163.73672pt>
 File: ./img/ravindra2009therapeutic.png Graphic file (type png)
 
 <use ./img/ravindra2009therapeutic.png>
@@ -512,7 +512,7 @@ LaTeX Warning: Reference `DTTDiscussion' on page 16 undefined on input line 485
 .
 
 [16 <./img/ravindra2009therapeutic.png>]
-<./img/murphy2009head.png, id=824, 351.56343pt x 442.65375pt>
+<./img/murphy2009head.png, id=858, 351.56343pt x 442.65375pt>
 File: ./img/murphy2009head.png Graphic file (type png)
 
 <use ./img/murphy2009head.png>
@@ -527,7 +527,7 @@ Underfull \vbox (badness 1052) has occurred while \output is active []
  [20]
 [21]
 Chapter 3.
-<./img/nao_t14_schema.png, id=904, 489.83pt x 347.2975pt>
+<./img/nao_t14_schema.png, id=938, 489.83pt x 347.2975pt>
 File: ./img/nao_t14_schema.png Graphic file (type png)
 
 <use ./img/nao_t14_schema.png>
@@ -542,84 +542,86 @@ Underfull \vbox (badness 1917) has occurred while \output is active []
 Chapter 4.
 [24
 
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [25]
+] [25] [26]pdfTeX warning (ext4): destination with the same identifier (name{se
+ction.4.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.797 \DIFaddend \section{Recruitment}
+                                      
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
-
-<./img/nao-torso.jpg, id=953, 426.09187pt x 454.69875pt>
+ [27]
+<./img/nao-torso.jpg, id=1004, 426.09187pt x 454.69875pt>
 File: ./img/nao-torso.jpg Graphic file (type jpg)
 
 <use ./img/nao-torso.jpg>
-Package pdftex.def Info: ./img/nao-torso.jpg used on input line 757.
+Package pdftex.def Info: ./img/nao-torso.jpg used on input line 836.
 (pdftex.def)             Requested size: 271.01526pt x 289.2231pt.
- [26]
-<./img/exp_setup.jpg, id=961, 177.39pt x 317.0025pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./img/exp_setup.jpg, id=1006, 177.39pt x 317.0025pt>
 File: ./img/exp_setup.jpg Graphic file (type jpg)
- <use ./img/exp_setup.jpg>
-Package pdftex.def Info: ./img/exp_setup.jpg used on input line 773.
+
+<use ./img/exp_setup.jpg>
+Package pdftex.def Info: ./img/exp_setup.jpg used on input line 852.
 (pdftex.def)             Requested size: 238.82736pt x 426.79134pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[27 <./img/nao-torso.jpg>]
+[28]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [28 <./img/exp_setup.jpg>] [29]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no ‚ in font cmr10!
+ [29 <./img/nao-torso.jpg>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<./img/overhead_view.jpg, id=981, 240.9pt x 180.675pt>
+ [30 <./img/exp_setup.jpg>] [31]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+ <./img/overhead_view.jpg, id=1031, 240.9pt x 180.675pt>
 File: ./img/overhead_view.jpg Graphic file (type jpg)
 
 <use ./img/overhead_view.jpg>
-Package pdftex.def Info: ./img/overhead_view.jpg used on input line 833.
+Package pdftex.def Info: ./img/overhead_view.jpg used on input line 915.
 (pdftex.def)             Requested size: 243.46364pt x 182.60435pt.
 
-Overfull \hbox (22.13428pt too wide) in paragraph at lines 833--834
+Overfull \hbox (22.13428pt too wide) in paragraph at lines 915--916
 [][] 
  []
 
-<./img/scene_view.jpg, id=982, 226.665pt x 127.458pt>
+<./img/scene_view.jpg, id=1032, 226.665pt x 127.458pt>
 File: ./img/scene_view.jpg Graphic file (type jpg)
 
 <use ./img/scene_view.jpg>
-Package pdftex.def Info: ./img/scene_view.jpg used on input line 840.
+Package pdftex.def Info: ./img/scene_view.jpg used on input line 922.
 (pdftex.def)             Requested size: 243.46364pt x 136.90767pt.
 
-Overfull \hbox (22.13428pt too wide) in paragraph at lines 840--841
+Overfull \hbox (22.13428pt too wide) in paragraph at lines 922--923
 [][] 
  []
 
-<./img/kinect_view.jpg, id=983, 722.7pt x 406.51875pt>
+<./img/kinect_view.jpg, id=1033, 722.7pt x 406.51875pt>
 File: ./img/kinect_view.jpg Graphic file (type jpg)
 
 <use ./img/kinect_view.jpg>
-Package pdftex.def Info: ./img/kinect_view.jpg used on input line 847.
+Package pdftex.def Info: ./img/kinect_view.jpg used on input line 929.
 (pdftex.def)             Requested size: 243.46364pt x 136.94913pt.
 
-Overfull \hbox (22.13428pt too wide) in paragraph at lines 847--848
+Overfull \hbox (22.13428pt too wide) in paragraph at lines 929--930
 [][] 
  []
 
-
-Underfull \vbox (badness 2205) has occurred while \output is active []
-
- [30]
+[32]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [32 <./img/overhead_view.jpg> <./img/scene_view.jpg> <./img/kinect_view.jpg>]
+ [33 <./img/overhead_view.jpg> <./img/scene_view.jpg> <./img/kinect_view.jpg>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ú in font cmr10!
@@ -632,7 +634,7 @@ Missing character: There is no ú in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
- [33]
+ [34]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ú in font cmr10!
@@ -649,59 +651,81 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 
-Underfull \hbox (badness 5231) in paragraph at lines 903--903
+Underfull \hbox (badness 5231) in paragraph at lines 986--986
 []\OT1/cmr/m/n/10 Hi, [[]|   [][][]|   [][]s name]!
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 903--903
+Underfull \hbox (badness 10000) in paragraph at lines 986--986
 []|   [][][]|   [][]\OT1/cmr/m/n/10 s start wash-ing
  []
 
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 
-Underfull \hbox (badness 7221) in paragraph at lines 907--907
+Underfull \hbox (badness 7221) in paragraph at lines 990--990
 []\OT1/cmr/m/n/10 Good job, [[]|   [][][]|   [][]s
  []
 
 
-Overfull \hbox (20.5159pt too wide) in paragraph at lines 887--909
+Overfull \hbox (20.5159pt too wide) in paragraph at lines 970--992
  [][] 
  []
 
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
-[34] [35] [36]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[37] [38] [39]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
 
-LaTeX Warning: Reference `fig:TotalNumberOfCompleteSteps' on page 40 undefined 
-on input line 1142.
+Overfull \hbox (6.93198pt too wide) in paragraph at lines 998--998
+[][]|   []   |   [][][]|   []   |   []   |   []   |   []   |   []   |   []   | 
+  []
+ []
+
+[35] [36] [37] [38]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 2393) has occurred while \output is active []
+
+ [39]
+[40] [41]
+Overfull \hbox (30.9957pt too wide) in paragraph at lines 1266--1290
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [42]
+[43]
+
+LaTeX Warning: Reference `fig:TotalNumberOfCompleteSteps' on page 44 undefined 
+on input line 1311.
 
 Package epstopdf Info: Source file: <./img/data_analysis/110NumberofCompleteSte
 ps-WithoutPorR.eps>
@@ -714,26 +738,26 @@ ps-WithoutPorR-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=./img/data_analysis/110Numb
 erofCompleteSteps-WithoutPorR-eps-converted-to.pdf ./img/data_analysis/110Numbe
 rofCompleteSteps-WithoutPorR.eps>
-(epstopdf)             \includegraphics on input line 1150.
+(epstopdf)             \includegraphics on input line 1319.
 Package epstopdf Info: Output file is already uptodate.
 
 <./img/data_analysis/110NumberofCompleteSteps-WithoutPorR-eps-converted-to.pdf,
- id=1059, 578.16pt x 433.62pt>
+ id=1126, 578.16pt x 433.62pt>
 File: ./img/data_analysis/110NumberofCompleteSteps-WithoutPorR-eps-converted-to
 .pdf Graphic file (type pdf)
 
 <use ./img/data_analysis/110NumberofCompleteSteps-WithoutPorR-eps-converted-to.
 pdf>
 Package pdftex.def Info: ./img/data_analysis/110NumberofCompleteSteps-WithoutPo
-rR-eps-converted-to.pdf used on input line 1150.
+rR-eps-converted-to.pdf used on input line 1319.
 (pdftex.def)             Requested size: 243.46364pt x 182.59554pt.
 
-Overfull \hbox (22.13428pt too wide) in paragraph at lines 1150--1151
+Overfull \hbox (22.13428pt too wide) in paragraph at lines 1319--1320
 [][] 
  []
 
 
-Underfull \hbox (badness 1946) in paragraph at lines 1151--1151
+Underfull \hbox (badness 1946) in paragraph at lines 1320--1320
 []\OT1/cmr/m/n/9 (a) |To-tal Num-ber of Com-plete Steps - With-out
  []
 
@@ -748,32 +772,32 @@ ps-WithR-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=./img/data_analysis/109Numb
 erofCompleteSteps-WithR-eps-converted-to.pdf ./img/data_analysis/109NumberofCom
 pleteSteps-WithR.eps>
-(epstopdf)             \includegraphics on input line 1157.
+(epstopdf)             \includegraphics on input line 1326.
 Package epstopdf Info: Output file is already uptodate.
 
-<./img/data_analysis/109NumberofCompleteSteps-WithR-eps-converted-to.pdf, id=10
-60, 578.16pt x 433.62pt>
+<./img/data_analysis/109NumberofCompleteSteps-WithR-eps-converted-to.pdf, id=11
+27, 578.16pt x 433.62pt>
 File: ./img/data_analysis/109NumberofCompleteSteps-WithR-eps-converted-to.pdf G
 raphic file (type pdf)
 
 <use ./img/data_analysis/109NumberofCompleteSteps-WithR-eps-converted-to.pdf>
 Package pdftex.def Info: ./img/data_analysis/109NumberofCompleteSteps-WithR-eps
--converted-to.pdf used on input line 1157.
+-converted-to.pdf used on input line 1326.
 (pdftex.def)             Requested size: 243.46364pt x 182.59554pt.
 
-Overfull \hbox (22.13428pt too wide) in paragraph at lines 1157--1158
+Overfull \hbox (22.13428pt too wide) in paragraph at lines 1326--1327
 [][] 
  []
 
-<./img/data_analysis/blank.png, id=1061, 301.125pt x 225.84375pt>
+<./img/data_analysis/blank.png, id=1128, 301.125pt x 225.84375pt>
 File: ./img/data_analysis/blank.png Graphic file (type png)
 
 <use ./img/data_analysis/blank.png>
-Package pdftex.def Info: ./img/data_analysis/blank.png used on input line 1164.
+Package pdftex.def Info: ./img/data_analysis/blank.png used on input line 1333.
 
 (pdftex.def)             Requested size: 243.46364pt x 182.60504pt.
 
-Overfull \hbox (22.13428pt too wide) in paragraph at lines 1164--1165
+Overfull \hbox (22.13428pt too wide) in paragraph at lines 1333--1334
 [][] 
  []
 
@@ -788,21 +812,21 @@ ps-WithPandR-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=./img/data_analysis/108Numb
 erofCompleteSteps-WithPandR-eps-converted-to.pdf ./img/data_analysis/108Numbero
 fCompleteSteps-WithPandR.eps>
-(epstopdf)             \includegraphics on input line 1168.
+(epstopdf)             \includegraphics on input line 1337.
 Package epstopdf Info: Output file is already uptodate.
 
 <./img/data_analysis/108NumberofCompleteSteps-WithPandR-eps-converted-to.pdf, i
-d=1062, 578.16pt x 433.62pt>
+d=1129, 578.16pt x 433.62pt>
 File: ./img/data_analysis/108NumberofCompleteSteps-WithPandR-eps-converted-to.p
 df Graphic file (type pdf)
 
 <use ./img/data_analysis/108NumberofCompleteSteps-WithPandR-eps-converted-to.pd
 f>
 Package pdftex.def Info: ./img/data_analysis/108NumberofCompleteSteps-WithPandR
--eps-converted-to.pdf used on input line 1168.
+-eps-converted-to.pdf used on input line 1337.
 (pdftex.def)             Requested size: 243.46364pt x 182.59554pt.
 
-Overfull \hbox (22.13428pt too wide) in paragraph at lines 1168--1169
+Overfull \hbox (22.13428pt too wide) in paragraph at lines 1337--1338
 [][] 
  []
 
@@ -820,20 +844,20 @@ rompts-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=./img/data_analysis/25Total
 NumberofParentPrompts-eps-converted-to.pdf ./img/data_analysis/25TotalNumberofP
 arentPrompts.eps>
-(epstopdf)             \includegraphics on input line 1181.
+(epstopdf)             \includegraphics on input line 1350.
 Package epstopdf Info: Output file is already uptodate.
 
-<./img/data_analysis/25TotalNumberofParentPrompts-eps-converted-to.pdf, id=1066
+<./img/data_analysis/25TotalNumberofParentPrompts-eps-converted-to.pdf, id=1133
 , 578.16pt x 433.62pt>
 File: ./img/data_analysis/25TotalNumberofParentPrompts-eps-converted-to.pdf Gra
 phic file (type pdf)
 
 <use ./img/data_analysis/25TotalNumberofParentPrompts-eps-converted-to.pdf>
 Package pdftex.def Info: ./img/data_analysis/25TotalNumberofParentPrompts-eps-c
-onverted-to.pdf used on input line 1181.
+onverted-to.pdf used on input line 1350.
 (pdftex.def)             Requested size: 243.46364pt x 182.59554pt.
 
-Overfull \hbox (22.13428pt too wide) in paragraph at lines 1181--1182
+Overfull \hbox (22.13428pt too wide) in paragraph at lines 1350--1351
 [][] 
  []
 
@@ -848,29 +872,29 @@ rompts-Physical-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=./img/data_analysis/26Total
 NumberofParentPrompts-Physical-eps-converted-to.pdf ./img/data_analysis/26Total
 NumberofParentPrompts-Physical.eps>
-(epstopdf)             \includegraphics on input line 1187.
+(epstopdf)             \includegraphics on input line 1356.
 Package epstopdf Info: Output file is already uptodate.
 
 <./img/data_analysis/26TotalNumberofParentPrompts-Physical-eps-converted-to.pdf
-, id=1067, 578.16pt x 433.62pt>
+, id=1134, 578.16pt x 433.62pt>
 File: ./img/data_analysis/26TotalNumberofParentPrompts-Physical-eps-converted-t
 o.pdf Graphic file (type pdf)
 
 <use ./img/data_analysis/26TotalNumberofParentPrompts-Physical-eps-converted-to
 .pdf>
 Package pdftex.def Info: ./img/data_analysis/26TotalNumberofParentPrompts-Physi
-cal-eps-converted-to.pdf used on input line 1187.
+cal-eps-converted-to.pdf used on input line 1356.
 (pdftex.def)             Requested size: 243.46364pt x 182.59554pt.
 
-Overfull \hbox (22.13428pt too wide) in paragraph at lines 1187--1188
+Overfull \hbox (22.13428pt too wide) in paragraph at lines 1356--1357
 [][] 
  []
 
-[40]
+[44]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[41 <./img/data_analysis/110NumberofCompleteSteps-WithoutPorR-eps-converted-to.
+[45 <./img/data_analysis/110NumberofCompleteSteps-WithoutPorR-eps-converted-to.
 pdf> <./img/data_analysis/109NumberofCompleteSteps-WithR-eps-converted-to.pdf> 
 <./img/data_analysis/blank.png> <./img/data_analysis/108NumberofCompleteSteps-W
 ithPandR-eps-converted-to.pdf>]
@@ -885,20 +909,20 @@ all-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=./img/data_analysis/102Comp
 lianceRate-Overall-eps-converted-to.pdf ./img/data_analysis/102ComplianceRate-O
 verall.eps>
-(epstopdf)             \includegraphics on input line 1206.
+(epstopdf)             \includegraphics on input line 1375.
 Package epstopdf Info: Output file is already uptodate.
 
-<./img/data_analysis/102ComplianceRate-Overall-eps-converted-to.pdf, id=1201, 5
+<./img/data_analysis/102ComplianceRate-Overall-eps-converted-to.pdf, id=1267, 5
 78.16pt x 433.62pt>
 File: ./img/data_analysis/102ComplianceRate-Overall-eps-converted-to.pdf Graphi
 c file (type pdf)
 
 <use ./img/data_analysis/102ComplianceRate-Overall-eps-converted-to.pdf>
 Package pdftex.def Info: ./img/data_analysis/102ComplianceRate-Overall-eps-conv
-erted-to.pdf used on input line 1206.
+erted-to.pdf used on input line 1375.
 (pdftex.def)             Requested size: 243.46364pt x 182.59554pt.
 
-Overfull \hbox (22.13428pt too wide) in paragraph at lines 1206--1207
+Overfull \hbox (22.13428pt too wide) in paragraph at lines 1375--1376
 [][] 
  []
 
@@ -913,20 +937,20 @@ g0-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=./img/data_analysis/79Compl
 ianceRate-R1Pv0g0-eps-converted-to.pdf ./img/data_analysis/79ComplianceRate-R1P
 v0g0.eps>
-(epstopdf)             \includegraphics on input line 1212.
+(epstopdf)             \includegraphics on input line 1381.
 Package epstopdf Info: Output file is already uptodate.
 
-<./img/data_analysis/79ComplianceRate-R1Pv0g0-eps-converted-to.pdf, id=1202, 57
+<./img/data_analysis/79ComplianceRate-R1Pv0g0-eps-converted-to.pdf, id=1268, 57
 8.16pt x 433.62pt>
 File: ./img/data_analysis/79ComplianceRate-R1Pv0g0-eps-converted-to.pdf Graphic
  file (type pdf)
 
 <use ./img/data_analysis/79ComplianceRate-R1Pv0g0-eps-converted-to.pdf>
 Package pdftex.def Info: ./img/data_analysis/79ComplianceRate-R1Pv0g0-eps-conve
-rted-to.pdf used on input line 1212.
+rted-to.pdf used on input line 1381.
 (pdftex.def)             Requested size: 243.46364pt x 182.59554pt.
 
-Overfull \hbox (22.13428pt too wide) in paragraph at lines 1212--1213
+Overfull \hbox (22.13428pt too wide) in paragraph at lines 1381--1382
 [][] 
  []
 
@@ -941,20 +965,20 @@ Overall-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=./img/data_analysis/103Hard
 ComplianceRate-Overall-eps-converted-to.pdf ./img/data_analysis/103HardComplian
 ceRate-Overall.eps>
-(epstopdf)             \includegraphics on input line 1219.
+(epstopdf)             \includegraphics on input line 1388.
 Package epstopdf Info: Output file is already uptodate.
 
-<./img/data_analysis/103HardComplianceRate-Overall-eps-converted-to.pdf, id=120
-3, 578.16pt x 433.62pt>
+<./img/data_analysis/103HardComplianceRate-Overall-eps-converted-to.pdf, id=126
+9, 578.16pt x 433.62pt>
 File: ./img/data_analysis/103HardComplianceRate-Overall-eps-converted-to.pdf Gr
 aphic file (type pdf)
 
 <use ./img/data_analysis/103HardComplianceRate-Overall-eps-converted-to.pdf>
 Package pdftex.def Info: ./img/data_analysis/103HardComplianceRate-Overall-eps-
-converted-to.pdf used on input line 1219.
+converted-to.pdf used on input line 1388.
 (pdftex.def)             Requested size: 243.46364pt x 182.59554pt.
 
-Overfull \hbox (22.13428pt too wide) in paragraph at lines 1219--1220
+Overfull \hbox (22.13428pt too wide) in paragraph at lines 1388--1389
 [][] 
  []
 
@@ -969,20 +993,20 @@ Package epstopdf Info: Source file: <./img/data_analysis/92HardComplianceRate-R
 (epstopdf)             Command: <epstopdf --outfile=./img/data_analysis/92HardC
 omplianceRate-R1Pv0g0-eps-converted-to.pdf ./img/data_analysis/92HardCompliance
 Rate-R1Pv0g0.eps>
-(epstopdf)             \includegraphics on input line 1225.
+(epstopdf)             \includegraphics on input line 1394.
 Package epstopdf Info: Output file is already uptodate.
 
-<./img/data_analysis/92HardComplianceRate-R1Pv0g0-eps-converted-to.pdf, id=1204
+<./img/data_analysis/92HardComplianceRate-R1Pv0g0-eps-converted-to.pdf, id=1270
 , 578.16pt x 433.62pt>
 File: ./img/data_analysis/92HardComplianceRate-R1Pv0g0-eps-converted-to.pdf Gra
 phic file (type pdf)
 
 <use ./img/data_analysis/92HardComplianceRate-R1Pv0g0-eps-converted-to.pdf>
 Package pdftex.def Info: ./img/data_analysis/92HardComplianceRate-R1Pv0g0-eps-c
-onverted-to.pdf used on input line 1225.
+onverted-to.pdf used on input line 1394.
 (pdftex.def)             Requested size: 243.46364pt x 182.59554pt.
 
-Overfull \hbox (22.13428pt too wide) in paragraph at lines 1225--1226
+Overfull \hbox (22.13428pt too wide) in paragraph at lines 1394--1395
 [][] 
  []
 
@@ -1000,25 +1024,25 @@ ate-Overall-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=./img/data_analysis/99NotAf
 fectedByPromptRate-Overall-eps-converted-to.pdf ./img/data_analysis/99NotAffect
 edByPromptRate-Overall.eps>
-(epstopdf)             \includegraphics on input line 1237.
+(epstopdf)             \includegraphics on input line 1406.
 Package epstopdf Info: Output file is already uptodate.
 
 <./img/data_analysis/99NotAffectedByPromptRate-Overall-eps-converted-to.pdf, id
-=1206, 578.16pt x 433.62pt>
+=1272, 578.16pt x 433.62pt>
 File: ./img/data_analysis/99NotAffectedByPromptRate-Overall-eps-converted-to.pd
 f Graphic file (type pdf)
 
 <use ./img/data_analysis/99NotAffectedByPromptRate-Overall-eps-converted-to.pdf
 >
 Package pdftex.def Info: ./img/data_analysis/99NotAffectedByPromptRate-Overall-
-eps-converted-to.pdf used on input line 1237.
+eps-converted-to.pdf used on input line 1406.
 (pdftex.def)             Requested size: 271.01526pt x 203.25887pt.
+ [46 <./img/data_analysis/25TotalNumberofParentPrompts-eps-converted-to.pdf> <.
+/img/data_analysis/26TotalNumberofParentPrompts-Physical-eps-converted-to.pdf>]
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[42 <./img/data_analysis/25TotalNumberofParentPrompts-eps-converted-to.pdf> <./
-img/data_analysis/26TotalNumberofParentPrompts-Physical-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./img/data_analysis/12TotalNumberofTimesCh
 ildSmiles.eps>
 (epstopdf)                    date: 2015-08-17 00:25:32
@@ -1030,17 +1054,17 @@ ildSmiles-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=./img/data_analysis/12Total
 NumberofTimesChildSmiles-eps-converted-to.pdf ./img/data_analysis/12TotalNumber
 ofTimesChildSmiles.eps>
-(epstopdf)             \includegraphics on input line 1250.
+(epstopdf)             \includegraphics on input line 1419.
 Package epstopdf Info: Output file is already uptodate.
 
 <./img/data_analysis/12TotalNumberofTimesChildSmiles-eps-converted-to.pdf, id=1
-281, 578.16pt x 433.62pt>
+348, 578.16pt x 433.62pt>
 File: ./img/data_analysis/12TotalNumberofTimesChildSmiles-eps-converted-to.pdf 
 Graphic file (type pdf)
 
 <use ./img/data_analysis/12TotalNumberofTimesChildSmiles-eps-converted-to.pdf>
 Package pdftex.def Info: ./img/data_analysis/12TotalNumberofTimesChildSmiles-ep
-s-converted-to.pdf used on input line 1250.
+s-converted-to.pdf used on input line 1419.
 (pdftex.def)             Requested size: 271.01526pt x 203.25887pt.
 
 
@@ -1057,19 +1081,19 @@ ildMurmurs-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=./img/data_analysis/13Total
 NumberofTimesChildMurmurs-eps-converted-to.pdf ./img/data_analysis/13TotalNumbe
 rofTimesChildMurmurs.eps>
-(epstopdf)             \includegraphics on input line 1261.
+(epstopdf)             \includegraphics on input line 1430.
 Package epstopdf Info: Output file is already uptodate.
 
 <./img/data_analysis/13TotalNumberofTimesChildMurmurs-eps-converted-to.pdf, id=
-1283, 578.16pt x 433.62pt>
+1350, 578.16pt x 433.62pt>
 File: ./img/data_analysis/13TotalNumberofTimesChildMurmurs-eps-converted-to.pdf
  Graphic file (type pdf)
 
 <use ./img/data_analysis/13TotalNumberofTimesChildMurmurs-eps-converted-to.pdf>
 Package pdftex.def Info: ./img/data_analysis/13TotalNumberofTimesChildMurmurs-e
-ps-converted-to.pdf used on input line 1261.
+ps-converted-to.pdf used on input line 1430.
 (pdftex.def)             Requested size: 271.01526pt x 203.25887pt.
-[43 <./img/data_analysis/102ComplianceRate-Overall-eps-converted-to.pdf> <./img
+[47 <./img/data_analysis/102ComplianceRate-Overall-eps-converted-to.pdf> <./img
 /data_analysis/79ComplianceRate-R1Pv0g0-eps-converted-to.pdf> <./img/data_analy
 sis/103HardComplianceRate-Overall-eps-converted-to.pdf> <./img/data_analysis/92
 HardComplianceRate-R1Pv0g0-eps-converted-to.pdf>]
@@ -1087,21 +1111,21 @@ venParentPrompted-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=./img/data_analysis/8Lookin
 gatParentRateGivenParentPrompted-eps-converted-to.pdf ./img/data_analysis/8Look
 ingatParentRateGivenParentPrompted.eps>
-(epstopdf)             \includegraphics on input line 1271.
+(epstopdf)             \includegraphics on input line 1440.
 Package epstopdf Info: Output file is already uptodate.
 
 <./img/data_analysis/8LookingatParentRateGivenParentPrompted-eps-converted-to.p
-df, id=1446, 578.16pt x 433.62pt>
+df, id=1512, 578.16pt x 433.62pt>
 File: ./img/data_analysis/8LookingatParentRateGivenParentPrompted-eps-converted
 -to.pdf Graphic file (type pdf)
 
 <use ./img/data_analysis/8LookingatParentRateGivenParentPrompted-eps-converted-
 to.pdf>
 Package pdftex.def Info: ./img/data_analysis/8LookingatParentRateGivenParentPro
-mpted-eps-converted-to.pdf used on input line 1271.
+mpted-eps-converted-to.pdf used on input line 1440.
 (pdftex.def)             Requested size: 243.46364pt x 182.59554pt.
 
-Overfull \hbox (22.13428pt too wide) in paragraph at lines 1271--1272
+Overfull \hbox (22.13428pt too wide) in paragraph at lines 1440--1441
 [][] 
  []
 
@@ -1116,21 +1140,21 @@ enRobotPrompted-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=./img/data_analysis/9Lookin
 gatRobotRateGivenRobotPrompted-eps-converted-to.pdf ./img/data_analysis/9Lookin
 gatRobotRateGivenRobotPrompted.eps>
-(epstopdf)             \includegraphics on input line 1277.
+(epstopdf)             \includegraphics on input line 1446.
 Package epstopdf Info: Output file is already uptodate.
 
 <./img/data_analysis/9LookingatRobotRateGivenRobotPrompted-eps-converted-to.pdf
-, id=1447, 578.16pt x 433.62pt>
+, id=1513, 578.16pt x 433.62pt>
 File: ./img/data_analysis/9LookingatRobotRateGivenRobotPrompted-eps-converted-t
 o.pdf Graphic file (type pdf)
 
 <use ./img/data_analysis/9LookingatRobotRateGivenRobotPrompted-eps-converted-to
 .pdf>
 Package pdftex.def Info: ./img/data_analysis/9LookingatRobotRateGivenRobotPromp
-ted-eps-converted-to.pdf used on input line 1277.
+ted-eps-converted-to.pdf used on input line 1446.
 (pdftex.def)             Requested size: 243.46364pt x 182.59554pt.
 
-Overfull \hbox (22.13428pt too wide) in paragraph at lines 1277--1278
+Overfull \hbox (22.13428pt too wide) in paragraph at lines 1446--1447
 [][] 
  []
 
@@ -1145,21 +1169,21 @@ ivenBothPrompted-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=./img/data_analysis/10Looki
 ngatParentRateGivenBothPrompted-eps-converted-to.pdf ./img/data_analysis/10Look
 ingatParentRateGivenBothPrompted.eps>
-(epstopdf)             \includegraphics on input line 1284.
+(epstopdf)             \includegraphics on input line 1453.
 Package epstopdf Info: Output file is already uptodate.
 
 <./img/data_analysis/10LookingatParentRateGivenBothPrompted-eps-converted-to.pd
-f, id=1448, 578.16pt x 433.62pt>
+f, id=1514, 578.16pt x 433.62pt>
 File: ./img/data_analysis/10LookingatParentRateGivenBothPrompted-eps-converted-
 to.pdf Graphic file (type pdf)
 
 <use ./img/data_analysis/10LookingatParentRateGivenBothPrompted-eps-converted-t
 o.pdf>
 Package pdftex.def Info: ./img/data_analysis/10LookingatParentRateGivenBothProm
-pted-eps-converted-to.pdf used on input line 1284.
+pted-eps-converted-to.pdf used on input line 1453.
 (pdftex.def)             Requested size: 243.46364pt x 182.59554pt.
 
-Overfull \hbox (22.13428pt too wide) in paragraph at lines 1284--1285
+Overfull \hbox (22.13428pt too wide) in paragraph at lines 1453--1454
 [][] 
  []
 
@@ -1174,37 +1198,34 @@ venBothPrompted-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=./img/data_analysis/11Looki
 ngatRobotRateGivenBothPrompted-eps-converted-to.pdf ./img/data_analysis/11Looki
 ngatRobotRateGivenBothPrompted.eps>
-(epstopdf)             \includegraphics on input line 1290.
+(epstopdf)             \includegraphics on input line 1459.
 Package epstopdf Info: Output file is already uptodate.
 
 <./img/data_analysis/11LookingatRobotRateGivenBothPrompted-eps-converted-to.pdf
-, id=1449, 578.16pt x 433.62pt>
+, id=1515, 578.16pt x 433.62pt>
 File: ./img/data_analysis/11LookingatRobotRateGivenBothPrompted-eps-converted-t
 o.pdf Graphic file (type pdf)
 
 <use ./img/data_analysis/11LookingatRobotRateGivenBothPrompted-eps-converted-to
 .pdf>
 Package pdftex.def Info: ./img/data_analysis/11LookingatRobotRateGivenBothPromp
-ted-eps-converted-to.pdf used on input line 1290.
+ted-eps-converted-to.pdf used on input line 1459.
 (pdftex.def)             Requested size: 243.46364pt x 182.59554pt.
 
-Overfull \hbox (22.13428pt too wide) in paragraph at lines 1290--1291
+Overfull \hbox (22.13428pt too wide) in paragraph at lines 1459--1460
 [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[44 <./img/data_analysis/99NotAffectedByPromptRate-Overall-eps-converted-to.pdf
->] [45 <./img/data_analysis/12TotalNumberofTimesChildSmiles-eps-converted-to.pd
+[48 <./img/data_analysis/99NotAffectedByPromptRate-Overall-eps-converted-to.pdf
+>] [49 <./img/data_analysis/12TotalNumberofTimesChildSmiles-eps-converted-to.pd
 f>]
-Overfull \hbox (27.66237pt too wide) in paragraph at lines 1323--1347
- [][] 
- []
+Underfull \vbox (badness 1033) has occurred while \output is active []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+ [50 <./img/data_analysis/13TotalNumberofTimesChildMurmurs-eps-converted-to.pdf
+>]
 Package epstopdf Info: Source file: <./img/data_analysis/4NumberofIncompleteSte
 ps.eps>
 (epstopdf)                    date: 2015-08-17 00:25:33
@@ -1216,30 +1237,28 @@ ps-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=./img/data_analysis/4Number
 ofIncompleteSteps-eps-converted-to.pdf ./img/data_analysis/4NumberofIncompleteS
 teps.eps>
-(epstopdf)             \includegraphics on input line 1365.
+(epstopdf)             \includegraphics on input line 1611.
 Package epstopdf Info: Output file is already uptodate.
 
-<./img/data_analysis/4NumberofIncompleteSteps-eps-converted-to.pdf, id=1538, 57
+<./img/data_analysis/4NumberofIncompleteSteps-eps-converted-to.pdf, id=1643, 57
 8.16pt x 433.62pt>
 File: ./img/data_analysis/4NumberofIncompleteSteps-eps-converted-to.pdf Graphic
  file (type pdf)
 
 <use ./img/data_analysis/4NumberofIncompleteSteps-eps-converted-to.pdf>
 Package pdftex.def Info: ./img/data_analysis/4NumberofIncompleteSteps-eps-conve
-rted-to.pdf used on input line 1365.
+rted-to.pdf used on input line 1611.
 (pdftex.def)             Requested size: 271.01526pt x 203.25887pt.
 
-[46 <./img/data_analysis/13TotalNumberofTimesChildMurmurs-eps-converted-to.pdf>
-]
+Underfull \vbox (badness 1418) has occurred while \output is active []
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[47 <./img/data_analysis/8LookingatParentRateGivenParentPrompted-eps-converted-
-to.pdf> <./img/data_analysis/9LookingatRobotRateGivenRobotPrompted-eps-converte
-d-to.pdf> <./img/data_analysis/10LookingatParentRateGivenBothPrompted-eps-conve
-rted-to.pdf> <./img/data_analysis/11LookingatRobotRateGivenBothPrompted-eps-con
-verted-to.pdf>] [48 <./img/data_analysis/4NumberofIncompleteSteps-eps-converted
--to.pdf>]
+ [51 <./img/data_analysis/8LookingatParentRateGivenParentPrompted-eps-converted
+-to.pdf> <./img/data_analysis/9LookingatRobotRateGivenRobotPrompted-eps-convert
+ed-to.pdf> <./img/data_analysis/10LookingatParentRateGivenBothPrompted-eps-conv
+erted-to.pdf> <./img/data_analysis/11LookingatRobotRateGivenBothPrompted-eps-co
+nverted-to.pdf>] [52 <./img/data_analysis/4NumberofIncompleteSteps-eps-converte
+d-to.pdf>]
+[53]
 Package epstopdf Info: Source file: <./img/data_analysis/107ParentInvolvement.e
 ps>
 (epstopdf)                    date: 2015-08-17 00:25:32
@@ -1251,22 +1270,18 @@ ps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=./img/data_analysis/107Pare
 ntInvolvement-eps-converted-to.pdf ./img/data_analysis/107ParentInvolvement.eps
 >
-(epstopdf)             \includegraphics on input line 1387.
+(epstopdf)             \includegraphics on input line 1633.
 Package epstopdf Info: Output file is already uptodate.
 
-<./img/data_analysis/107ParentInvolvement-eps-converted-to.pdf, id=1778, 578.16
+<./img/data_analysis/107ParentInvolvement-eps-converted-to.pdf, id=1849, 578.16
 pt x 433.62pt>
 File: ./img/data_analysis/107ParentInvolvement-eps-converted-to.pdf Graphic fil
 e (type pdf)
 
 <use ./img/data_analysis/107ParentInvolvement-eps-converted-to.pdf>
 Package pdftex.def Info: ./img/data_analysis/107ParentInvolvement-eps-converted
--to.pdf used on input line 1387.
+-to.pdf used on input line 1633.
 (pdftex.def)             Requested size: 271.01526pt x 203.25887pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 Package epstopdf Info: Source file: <./img/data_analysis/102ComplianceRate-Over
 all_robotAloneOnly.eps>
 (epstopdf)                    date: 2015-08-17 00:25:32
@@ -1278,21 +1293,21 @@ all_robotAloneOnly-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=./img/data_analysis/102Comp
 lianceRate-Overall_robotAloneOnly-eps-converted-to.pdf ./img/data_analysis/102C
 omplianceRate-Overall_robotAloneOnly.eps>
-(epstopdf)             \includegraphics on input line 1396.
+(epstopdf)             \includegraphics on input line 1642.
 Package epstopdf Info: Output file is already uptodate.
 
 <./img/data_analysis/102ComplianceRate-Overall_robotAloneOnly-eps-converted-to.
-pdf, id=1781, 578.16pt x 433.62pt>
+pdf, id=1852, 578.16pt x 433.62pt>
 File: ./img/data_analysis/102ComplianceRate-Overall_robotAloneOnly-eps-converte
 d-to.pdf Graphic file (type pdf)
 
 <use ./img/data_analysis/102ComplianceRate-Overall_robotAloneOnly-eps-converted
 -to.pdf>
 Package pdftex.def Info: ./img/data_analysis/102ComplianceRate-Overall_robotAlo
-neOnly-eps-converted-to.pdf used on input line 1396.
+neOnly-eps-converted-to.pdf used on input line 1642.
 (pdftex.def)             Requested size: 243.46364pt x 182.59554pt.
 
-Overfull \hbox (22.13428pt too wide) in paragraph at lines 1396--1397
+Overfull \hbox (22.13428pt too wide) in paragraph at lines 1642--1643
 [][] 
  []
 
@@ -1307,21 +1322,21 @@ g0_robotAloneOnly-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=./img/data_analysis/79Compl
 ianceRate-R1Pv0g0_robotAloneOnly-eps-converted-to.pdf ./img/data_analysis/79Com
 plianceRate-R1Pv0g0_robotAloneOnly.eps>
-(epstopdf)             \includegraphics on input line 1402.
+(epstopdf)             \includegraphics on input line 1648.
 Package epstopdf Info: Output file is already uptodate.
 
 <./img/data_analysis/79ComplianceRate-R1Pv0g0_robotAloneOnly-eps-converted-to.p
-df, id=1782, 578.16pt x 433.62pt>
+df, id=1853, 578.16pt x 433.62pt>
 File: ./img/data_analysis/79ComplianceRate-R1Pv0g0_robotAloneOnly-eps-converted
 -to.pdf Graphic file (type pdf)
 
 <use ./img/data_analysis/79ComplianceRate-R1Pv0g0_robotAloneOnly-eps-converted-
 to.pdf>
 Package pdftex.def Info: ./img/data_analysis/79ComplianceRate-R1Pv0g0_robotAlon
-eOnly-eps-converted-to.pdf used on input line 1402.
+eOnly-eps-converted-to.pdf used on input line 1648.
 (pdftex.def)             Requested size: 243.46364pt x 182.59554pt.
 
-Overfull \hbox (22.13428pt too wide) in paragraph at lines 1402--1403
+Overfull \hbox (22.13428pt too wide) in paragraph at lines 1648--1649
 [][] 
  []
 
@@ -1336,21 +1351,21 @@ Overall_robotAloneOnly-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=./img/data_analysis/103Hard
 ComplianceRate-Overall_robotAloneOnly-eps-converted-to.pdf ./img/data_analysis/
 103HardComplianceRate-Overall_robotAloneOnly.eps>
-(epstopdf)             \includegraphics on input line 1409.
+(epstopdf)             \includegraphics on input line 1655.
 Package epstopdf Info: Output file is already uptodate.
 
 <./img/data_analysis/103HardComplianceRate-Overall_robotAloneOnly-eps-converted
--to.pdf, id=1783, 578.16pt x 433.62pt>
+-to.pdf, id=1854, 578.16pt x 433.62pt>
 File: ./img/data_analysis/103HardComplianceRate-Overall_robotAloneOnly-eps-conv
 erted-to.pdf Graphic file (type pdf)
 
 <use ./img/data_analysis/103HardComplianceRate-Overall_robotAloneOnly-eps-conve
 rted-to.pdf>
 Package pdftex.def Info: ./img/data_analysis/103HardComplianceRate-Overall_robo
-tAloneOnly-eps-converted-to.pdf used on input line 1409.
+tAloneOnly-eps-converted-to.pdf used on input line 1655.
 (pdftex.def)             Requested size: 243.46364pt x 182.59554pt.
 
-Overfull \hbox (22.13428pt too wide) in paragraph at lines 1409--1410
+Overfull \hbox (22.13428pt too wide) in paragraph at lines 1655--1656
 [][] 
  []
 
@@ -1365,21 +1380,21 @@ Package epstopdf Info: Source file: <./img/data_analysis/92HardComplianceRate-R
 (epstopdf)             Command: <epstopdf --outfile=./img/data_analysis/92HardC
 omplianceRate-R1Pv0g0_robotAloneOnly-eps-converted-to.pdf ./img/data_analysis/9
 2HardComplianceRate-R1Pv0g0_robotAloneOnly.eps>
-(epstopdf)             \includegraphics on input line 1415.
+(epstopdf)             \includegraphics on input line 1661.
 Package epstopdf Info: Output file is already uptodate.
 
 <./img/data_analysis/92HardComplianceRate-R1Pv0g0_robotAloneOnly-eps-converted-
-to.pdf, id=1784, 578.16pt x 433.62pt>
+to.pdf, id=1855, 578.16pt x 433.62pt>
 File: ./img/data_analysis/92HardComplianceRate-R1Pv0g0_robotAloneOnly-eps-conve
 rted-to.pdf Graphic file (type pdf)
 
 <use ./img/data_analysis/92HardComplianceRate-R1Pv0g0_robotAloneOnly-eps-conver
 ted-to.pdf>
 Package pdftex.def Info: ./img/data_analysis/92HardComplianceRate-R1Pv0g0_robot
-AloneOnly-eps-converted-to.pdf used on input line 1415.
+AloneOnly-eps-converted-to.pdf used on input line 1661.
 (pdftex.def)             Requested size: 243.46364pt x 182.59554pt.
 
-Overfull \hbox (22.13428pt too wide) in paragraph at lines 1415--1416
+Overfull \hbox (22.13428pt too wide) in paragraph at lines 1661--1662
 [][] 
  []
 
@@ -1394,184 +1409,185 @@ ate-Overall_robotAloneOnly-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=./img/data_analysis/99NotAf
 fectedByPromptRate-Overall_robotAloneOnly-eps-converted-to.pdf ./img/data_analy
 sis/99NotAffectedByPromptRate-Overall_robotAloneOnly.eps>
-(epstopdf)             \includegraphics on input line 1424.
+(epstopdf)             \includegraphics on input line 1670.
 Package epstopdf Info: Output file is already uptodate.
 
 <./img/data_analysis/99NotAffectedByPromptRate-Overall_robotAloneOnly-eps-conve
-rted-to.pdf, id=1785, 578.16pt x 433.62pt>
+rted-to.pdf, id=1856, 578.16pt x 433.62pt>
 File: ./img/data_analysis/99NotAffectedByPromptRate-Overall_robotAloneOnly-eps-
 converted-to.pdf Graphic file (type pdf)
 
 <use ./img/data_analysis/99NotAffectedByPromptRate-Overall_robotAloneOnly-eps-c
 onverted-to.pdf>
 Package pdftex.def Info: ./img/data_analysis/99NotAffectedByPromptRate-Overall_
-robotAloneOnly-eps-converted-to.pdf used on input line 1424.
+robotAloneOnly-eps-converted-to.pdf used on input line 1670.
 (pdftex.def)             Requested size: 271.01526pt x 203.25887pt.
- [49]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[50 <./img/data_analysis/107ParentInvolvement-eps-converted-to.pdf>]
-Underfull \vbox (badness 5245) has occurred while \output is active []
 
- [51 <./img/data_analysis/102ComplianceRate-Overall_robotAloneOnly-eps-converte
-d-to.pdf> <./img/data_analysis/79ComplianceRate-R1Pv0g0_robotAloneOnly-eps-conv
-erted-to.pdf> <./img/data_analysis/103HardComplianceRate-Overall_robotAloneOnly
--eps-converted-to.pdf> <./img/data_analysis/92HardComplianceRate-R1Pv0g0_robotA
-loneOnly-eps-converted-to.pdf>] [52 <./img/data_analysis/99NotAffectedByPromptR
-ate-Overall_robotAloneOnly-eps-converted-to.pdf>]
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 1701) has occurred while \output is active []
+
+ [54 <./img/data_analysis/107ParentInvolvement-eps-converted-to.pdf>] [55 <./im
+g/data_analysis/102ComplianceRate-Overall_robotAloneOnly-eps-converted-to.pdf> 
+<./img/data_analysis/79ComplianceRate-R1Pv0g0_robotAloneOnly-eps-converted-to.p
+df> <./img/data_analysis/103HardComplianceRate-Overall_robotAloneOnly-eps-conve
+rted-to.pdf> <./img/data_analysis/92HardComplianceRate-R1Pv0g0_robotAloneOnly-e
+ps-converted-to.pdf>] [56 <./img/data_analysis/99NotAffectedByPromptRate-Overal
+l_robotAloneOnly-eps-converted-to.pdf>]
 Underfull \vbox (badness 1769) has occurred while \output is active []
 
- [53]
+ [57]
 Underfull \vbox (badness 4193) has occurred while \output is active []
 
- [54]
-[55] [56] [57]
+ [58]
+[59] [60]
 Chapter 5.
-[58
+[61
 
-] <./img/bilateral_filtering.jpg, id=2060, 483.8075pt x 279.0425pt>
+] <./img/bilateral_filtering.jpg, id=2122, 483.8075pt x 279.0425pt>
 File: ./img/bilateral_filtering.jpg Graphic file (type jpg)
 
 <use ./img/bilateral_filtering.jpg>
-Package pdftex.def Info: ./img/bilateral_filtering.jpg used on input line 1510.
+Package pdftex.def Info: ./img/bilateral_filtering.jpg used on input line 1756.
 
 (pdftex.def)             Requested size: 271.01526pt x 156.31807pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[59] <./img/resolution_pyramid.jpg, id=2080, 161.09346pt x 141.31006pt>
+[62] <./img/resolution_pyramid.jpg, id=2142, 161.09346pt x 141.31006pt>
 File: ./img/resolution_pyramid.jpg Graphic file (type jpg)
 
 <use ./img/resolution_pyramid.jpg>
-Package pdftex.def Info: ./img/resolution_pyramid.jpg used on input line 1527.
+Package pdftex.def Info: ./img/resolution_pyramid.jpg used on input line 1773.
 (pdftex.def)             Requested size: 271.01526pt x 237.77661pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./img/point_to_plane_error.jpg, id=2086, 531.48563pt x 320.69812pt>
+<./img/point_to_plane_error.jpg, id=2148, 531.48563pt x 320.69812pt>
 File: ./img/point_to_plane_error.jpg Graphic file (type jpg)
 
 <use ./img/point_to_plane_error.jpg>
-Package pdftex.def Info: ./img/point_to_plane_error.jpg used on input line 1541
+Package pdftex.def Info: ./img/point_to_plane_error.jpg used on input line 1787
 .
 (pdftex.def)             Requested size: 271.01526pt x 163.53429pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[60 <./img/bilateral_filtering.jpg>]
-<./img/TSDF.jpg, id=2096, 332.6599pt x 159.79297pt>
+[63 <./img/bilateral_filtering.jpg>]
+<./img/TSDF.jpg, id=2158, 332.6599pt x 159.79297pt>
 File: ./img/TSDF.jpg Graphic file (type jpg)
  <use ./img/TSDF.jpg>
-Package pdftex.def Info: ./img/TSDF.jpg used on input line 1556.
+Package pdftex.def Info: ./img/TSDF.jpg used on input line 1802.
 (pdftex.def)             Requested size: 271.01526pt x 130.18256pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[61 <./img/resolution_pyramid.jpg>] [62 <./img/point_to_plane_error.jpg> <./img
-/TSDF.jpg>] <./img/headTrackingResults1.jpg, id=2110, 722.7pt x 406.51875pt>
+[64 <./img/resolution_pyramid.jpg>] [65 <./img/point_to_plane_error.jpg> <./img
+/TSDF.jpg>] <./img/headTrackingResults1.jpg, id=2173, 722.7pt x 406.51875pt>
 File: ./img/headTrackingResults1.jpg Graphic file (type jpg)
 
 <use ./img/headTrackingResults1.jpg>
-Package pdftex.def Info: ./img/headTrackingResults1.jpg used on input line 1629
+Package pdftex.def Info: ./img/headTrackingResults1.jpg used on input line 1875
 .
 (pdftex.def)             Requested size: 451.68752pt x 254.07358pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[63] [64 <./img/headTrackingResults1.jpg>] [65]
-<./img/eyeimages/s1.jpg, id=2134, 702.625pt x 702.625pt>
+[66] [67 <./img/headTrackingResults1.jpg>] [68]
+<./img/eyeimages/s1.jpg, id=2196, 702.625pt x 702.625pt>
 File: ./img/eyeimages/s1.jpg Graphic file (type jpg)
 
 <use ./img/eyeimages/s1.jpg>
-Package pdftex.def Info: ./img/eyeimages/s1.jpg used on input line 1673.
+Package pdftex.def Info: ./img/eyeimages/s1.jpg used on input line 1919.
 (pdftex.def)             Requested size: 158.9985pt x 158.9951pt.
 
-Overfull \hbox (14.4552pt too wide) in paragraph at lines 1673--1674
+Overfull \hbox (14.4552pt too wide) in paragraph at lines 1919--1920
 [][] 
  []
 
-<./img/eyeimages/s2.jpg, id=2135, 702.625pt x 702.625pt>
+<./img/eyeimages/s2.jpg, id=2197, 702.625pt x 702.625pt>
 File: ./img/eyeimages/s2.jpg Graphic file (type jpg)
 
 <use ./img/eyeimages/s2.jpg>
-Package pdftex.def Info: ./img/eyeimages/s2.jpg used on input line 1676.
+Package pdftex.def Info: ./img/eyeimages/s2.jpg used on input line 1922.
 (pdftex.def)             Requested size: 158.9985pt x 158.9951pt.
 
-Overfull \hbox (14.4552pt too wide) in paragraph at lines 1676--1677
+Overfull \hbox (14.4552pt too wide) in paragraph at lines 1922--1923
 [][] 
  []
 
-<./img/eyeimages/s3.jpg, id=2136, 702.625pt x 702.625pt>
+<./img/eyeimages/s3.jpg, id=2198, 702.625pt x 702.625pt>
 File: ./img/eyeimages/s3.jpg Graphic file (type jpg)
 
 <use ./img/eyeimages/s3.jpg>
-Package pdftex.def Info: ./img/eyeimages/s3.jpg used on input line 1679.
+Package pdftex.def Info: ./img/eyeimages/s3.jpg used on input line 1925.
 (pdftex.def)             Requested size: 158.9985pt x 158.9951pt.
 
-Overfull \hbox (14.4552pt too wide) in paragraph at lines 1679--1680
+Overfull \hbox (14.4552pt too wide) in paragraph at lines 1925--1926
 [][] 
  []
 
-<./img/eyeimages/f1.jpg, id=2137, 702.625pt x 702.625pt>
+<./img/eyeimages/f1.jpg, id=2199, 702.625pt x 702.625pt>
 File: ./img/eyeimages/f1.jpg Graphic file (type jpg)
 
 <use ./img/eyeimages/f1.jpg>
-Package pdftex.def Info: ./img/eyeimages/f1.jpg used on input line 1683.
+Package pdftex.def Info: ./img/eyeimages/f1.jpg used on input line 1929.
 (pdftex.def)             Requested size: 119.24887pt x 119.24097pt.
 
-Overfull \hbox (10.8414pt too wide) in paragraph at lines 1683--1684
+Overfull \hbox (10.8414pt too wide) in paragraph at lines 1929--1930
 [][] 
  []
 
-<./img/eyeimages/f2.jpg, id=2138, 702.625pt x 702.625pt>
+<./img/eyeimages/f2.jpg, id=2200, 702.625pt x 702.625pt>
 File: ./img/eyeimages/f2.jpg Graphic file (type jpg)
 
 <use ./img/eyeimages/f2.jpg>
-Package pdftex.def Info: ./img/eyeimages/f2.jpg used on input line 1686.
+Package pdftex.def Info: ./img/eyeimages/f2.jpg used on input line 1932.
 (pdftex.def)             Requested size: 119.24887pt x 119.24097pt.
 
-Overfull \hbox (10.8414pt too wide) in paragraph at lines 1686--1687
+Overfull \hbox (10.8414pt too wide) in paragraph at lines 1932--1933
 [][] 
  []
 
-<./img/eyeimages/f3.jpg, id=2139, 702.625pt x 702.625pt>
+<./img/eyeimages/f3.jpg, id=2201, 702.625pt x 702.625pt>
 File: ./img/eyeimages/f3.jpg Graphic file (type jpg)
 
 <use ./img/eyeimages/f3.jpg>
-Package pdftex.def Info: ./img/eyeimages/f3.jpg used on input line 1689.
+Package pdftex.def Info: ./img/eyeimages/f3.jpg used on input line 1935.
 (pdftex.def)             Requested size: 119.24887pt x 119.24097pt.
 
-Overfull \hbox (10.8414pt too wide) in paragraph at lines 1689--1690
+Overfull \hbox (10.8414pt too wide) in paragraph at lines 1935--1936
 [][] 
  []
 
-<./img/eyeimages/trackingError.jpg, id=2140, 702.625pt x 702.625pt>
+<./img/eyeimages/trackingError.jpg, id=2202, 702.625pt x 702.625pt>
 File: ./img/eyeimages/trackingError.jpg Graphic file (type jpg)
 
 <use ./img/eyeimages/trackingError.jpg>
 Package pdftex.def Info: ./img/eyeimages/trackingError.jpg used on input line 1
-692.
+938.
 (pdftex.def)             Requested size: 119.24887pt x 119.24097pt.
 
-Overfull \hbox (10.8414pt too wide) in paragraph at lines 1692--1693
+Overfull \hbox (10.8414pt too wide) in paragraph at lines 1938--1939
 [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[66] [67 <./img/eyeimages/s1.jpg> <./img/eyeimages/s2.jpg> <./img/eyeimages/s3.
+[69] [70 <./img/eyeimages/s1.jpg> <./img/eyeimages/s2.jpg> <./img/eyeimages/s3.
 jpg> <./img/eyeimages/f1.jpg> <./img/eyeimages/f2.jpg> <./img/eyeimages/f3.jpg>
- <./img/eyeimages/trackingError.jpg>] [68] [69]
+ <./img/eyeimages/trackingError.jpg>] [71] [72]
 Package epstopdf Info: Source file: <./img/loc_calib_gauss.eps>
 (epstopdf)                    date: 2015-08-17 00:25:33
 (epstopdf)                    size: 40177 bytes
@@ -1581,18 +1597,18 @@ Package epstopdf Info: Source file: <./img/loc_calib_gauss.eps>
 (epstopdf)                    size: 24645 bytes
 (epstopdf)             Command: <epstopdf --outfile=./img/loc_calib_gauss-eps-c
 onverted-to.pdf ./img/loc_calib_gauss.eps>
-(epstopdf)             \includegraphics on input line 1791.
+(epstopdf)             \includegraphics on input line 2037.
 Package epstopdf Info: Output file is already uptodate.
 
-<./img/loc_calib_gauss-eps-converted-to.pdf, id=2181, 815.045pt x 639.38875pt>
+<./img/loc_calib_gauss-eps-converted-to.pdf, id=2244, 815.045pt x 639.38875pt>
 File: ./img/loc_calib_gauss-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./img/loc_calib_gauss-eps-converted-to.pdf>
 Package pdftex.def Info: ./img/loc_calib_gauss-eps-converted-to.pdf used on inp
-ut line 1791.
+ut line 2037.
 (pdftex.def)             Requested size: 243.46364pt x 190.98882pt.
 
-Overfull \hbox (22.13428pt too wide) in paragraph at lines 1791--1792
+Overfull \hbox (22.13428pt too wide) in paragraph at lines 2037--2038
 [][] 
  []
 
@@ -1605,35 +1621,35 @@ to.pdf>
 (epstopdf)                    size: 26261 bytes
 (epstopdf)             Command: <epstopdf --outfile=./img/loc_calib_gauss_cross
 -eps-converted-to.pdf ./img/loc_calib_gauss_cross.eps>
-(epstopdf)             \includegraphics on input line 1795.
+(epstopdf)             \includegraphics on input line 2041.
 Package epstopdf Info: Output file is already uptodate.
 
-<./img/loc_calib_gauss_cross-eps-converted-to.pdf, id=2182, 815.045pt x 639.388
+<./img/loc_calib_gauss_cross-eps-converted-to.pdf, id=2245, 815.045pt x 639.388
 75pt>
 File: ./img/loc_calib_gauss_cross-eps-converted-to.pdf Graphic file (type pdf)
  <use ./img/loc_calib_gauss_cross-eps-converted-to.pdf>
 Package pdftex.def Info: ./img/loc_calib_gauss_cross-eps-converted-to.pdf used 
-on input line 1795.
+on input line 2041.
 (pdftex.def)             Requested size: 243.46364pt x 190.98882pt.
 
-Overfull \hbox (22.13428pt too wide) in paragraph at lines 1795--1796
+Overfull \hbox (22.13428pt too wide) in paragraph at lines 2041--2042
 [][] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [70 <./img/loc_calib_gauss-eps-converted-to.pdf> <./img/loc_calib_gauss_cross-
-eps-converted-to.pdf>] [71]
+ [73 <./img/loc_calib_gauss-eps-converted-to.pdf> <./img/loc_calib_gauss_cross-
+eps-converted-to.pdf>] [74]
 Chapter 6.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1823--1827
+Underfull \hbox (badness 10000) in paragraph at lines 2069--2073
 
  []
 
-[72
+[75
 
-] [73]
+] [76]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no î in font cmr10!
@@ -1643,16 +1659,16 @@ Missing character: There is no ô in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
- [74
+ [77
 
-] [75] [76] [77]
+] [78] [79] [80]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [78] [79]
+ [81] [82]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
@@ -1665,46 +1681,46 @@ Missing character: There is no ô in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [80]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
- [81]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
- [82]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
  [83]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2721.
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
  [84]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2721.
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [85]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [86]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2966.
+ [87]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2966.
 
 (ut-thesis_diff.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2721.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2721.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2966.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2966.
 
 Package rerunfilecheck Info: File `ut-thesis_diff.out' has not changed.
-(rerunfilecheck)             Checksum: ED8C229556793633135D040F99C29264;5525.
+(rerunfilecheck)             Checksum: A725903C3D7277E0847A04146044DA94;6198.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2721.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2966.
  ) 
 Here is how much of TeX's memory you used:
- 8522 strings out of 493673
- 138671 string characters out of 3141531
- 267839 words of memory out of 3000000
- 11274 multiletter control sequences out of 15000+200000
+ 8548 strings out of 493673
+ 139092 string characters out of 3141531
+ 286159 words of memory out of 3000000
+ 11285 multiletter control sequences out of 15000+200000
  9574 words of font info for 35 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  42i,12n,40p,2601b,478s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1725,9 +1741,9 @@ KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiKTeX
 fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
 s/type1/public/amsfonts/latxfont/lasy6.pfb>
-Output written on ut-thesis_diff.pdf (93 pages, 2771173 bytes).
+Output written on ut-thesis_diff.pdf (96 pages, 2826546 bytes).
 PDF statistics:
- 2415 PDF objects out of 2487 (max. 8388607)
- 442 named destinations out of 1000 (max. 500000)
- 831 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2479 PDF objects out of 2487 (max. 8388607)
+ 457 named destinations out of 1000 (max. 500000)
+ 887 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -649,7 +649,7 @@ We hypothesize that the incorporation of a humanoid robot prompting agent, such 
 
 \end{enumerate}
 
-\chapter{The Wizard of Oz Pilot Study}
+\chapter{The Wizard of Oz Pilot \DIFaddbegin \DIFadd{Case }\DIFaddend Study}
 
 %What are we trying to find out? Why are they important?
 %	- is there a difference in child's response to parent prompt vs robot prompt?
@@ -657,70 +657,147 @@ We hypothesize that the incorporation of a humanoid robot prompting agent, such 
 %		- compliance
 %		- task performance
 
-One major objective of this thesis is to investigate the impacts that using a humanoid prompting agent has on the visual attention, prompt compliance, and task performance of children with ASD during hand-washing activities.  \DIFdelbegin %DIFDELCMD < 
+
+%DIF > WoZ experiment design
+%DIF > 	- what is WoZ? why do we use this scheme?
+%DIF > 	- experiment design, why use this design
+%DIF > 	- short blurb of the experiment
+%DIF > Recruitment
+%DIF > 	- inclusion criteria
+%DIF > 	- method of recruitment, target sample size
+%DIF > NAO
+%DIF > 	- overall description, capabilities
+%DIF > 	- general design decisions for
+%DIF > 		- verbal prompts
+%DIF > 		- gesture prompts
+%DIF > Protocol and Setup
+%DIF > 	- experiment / equipment setup for data collection
+%DIF > 	- protocol
+%DIF > 	- video data to be collected
+%DIF > 	- survey to be collected
+%DIF > 	- ethics considerations
+%DIF > Video annotation protocol
+%DIF > Measures
+%DIF > Analysis and results:
+%DIF > 	- participants recruited
+%DIF > 	- video data collected
+%DIF > 	- video analysis method
+%DIF > 	- video analysis results
+%DIF > 	- inter-rater agreement analysis and results
+%DIF > 	- survey data collected
+%DIF > 	- survey analysis method and results
+%DIF > Discussion:
+%DIF > 	- results interpretations
+%DIF > 	- interpretation limitations
+%DIF > 	- original objectives achieved or not
+%DIF > 	- future outlook
+\DIFaddbegin 
+
+\section{\DIFadd{Research Design and Strategy}}
+\DIFaddend One major objective of this thesis is to investigate the impacts that using a humanoid prompting agent has on the visual attention, prompt compliance, and task performance of children with ASD during hand-washing activities.  \DIFdelbegin %DIFDELCMD < 
 
 %DIFDELCMD < %%%
 \DIFdelend This is the first research of its kind in the field of humanoid robot prompting agent guiding children with ASD through an activity of daily living.  Therefore, it is wise to begin with a pilot study, the purpose of which is to show plausibility of the key underlying assumptions of our hypotheses, \DIFaddbegin \DIFadd{to create design recommendations of the robot for future studies, }\DIFaddend and to probe what questions are important to be answered later in a more rigorous randomized control trial.  For \DIFdelbegin \DIFdel{this reason}\DIFdelend \DIFaddbegin \DIFadd{these reasons}\DIFaddend , the pilot study should be exploratory in nature, having a flexible experiment design, and \DIFaddbegin \DIFadd{a }\DIFaddend relatively low experiment setup cost.  \DIFaddbegin \DIFadd{A Wizard of Oz experiment design in a case study format is appropriate.
 }\DIFaddend 
 
-%WoZ experiment design
-%	- what is WoZ? why do we use this scheme?
-%	- experiment design, why use this design
-%	- short blurb of the experiment
-%Recruitment
-%	- inclusion criteria
-%	- method of recruitment, target sample size
-%NAO
-%	- overall description, capabilities
-%	- general design decisions for
-%		- verbal prompts
-%		- gesture prompts
-%Protocol and Setup
-%	- experiment / equipment setup for data collection
-%	- protocol
-%	- video data to be collected
-%	- survey to be collected
-%	- ethics considerations
-%Video annotation protocol
-%Measures
-%Analysis and results:
-%	- participants recruited
-%	- video data collected
-%	- video analysis method
-%	- video analysis results
-%	- inter-rater agreement analysis and results
-%	- survey data collected
-%	- survey analysis method and results
-%Discussion:
-%	- results interpretations
-%	- interpretation limitations
-%	- original objectives achieved or not
-%	- future outlook
+%DIF < WoZ experiment design
+%DIF < 	- what is WoZ? why do we use this scheme?
+%DIF < 	- experiment design, why use this design
+%DIF < 	- short blurb of the experiment
+%DIF < Recruitment
+%DIF < 	- inclusion criteria
+%DIF < 	- method of recruitment, target sample size
+%DIF < NAO
+%DIF < 	- overall description, capabilities
+%DIF < 	- general design decisions for
+%DIF < 		- verbal prompts
+%DIF < 		- gesture prompts
+%DIF < Protocol and Setup
+%DIF < 	- experiment / equipment setup for data collection
+%DIF < 	- protocol
+%DIF < 	- video data to be collected
+%DIF < 	- survey to be collected
+%DIF < 	- ethics considerations
+%DIF < Video annotation protocol
+%DIF < Measures
+%DIF < Analysis and results:
+%DIF < 	- participants recruited
+%DIF < 	- video data collected
+%DIF < 	- video analysis method
+%DIF < 	- video analysis results
+%DIF < 	- inter-rater agreement analysis and results
+%DIF < 	- survey data collected
+%DIF < 	- survey analysis method and results
+%DIF < Discussion:
+%DIF < 	- results interpretations
+%DIF < 	- interpretation limitations
+%DIF < 	- original objectives achieved or not
+%DIF < 	- future outlook
+\DIFdelbegin %DIFDELCMD < 
 
-\section{Wizard of Oz Experiment Design}
+%DIFDELCMD < %%%
+\section{\DIFdel{Wizard of Oz Experiment Design}}
+%DIFAUXCMD
+\addtocounter{section}{-1}%DIFAUXCMD
+%DIFDELCMD < 
 
-The Wizard of Oz (WoZ) is an experiment design widely used in Human Computer Interaction (HCI) and Human Robot Interaction (HRI) research.  In a typical WoZ study, there is an interactive agent that is not yet fully autonomous, and is remotely controlled by a human operator (i.e. the "wizard"), and this fact is concealed from the user being tested until after the study.  The wizard may control one or many parts of the agent, such as speech recognition and understanding, affect recognition, dialog management, utterance and gesture generation and so on \cite{bhargava2013demonstration}.  The advantage of a WoZ study is that it does not require a large amount of work spent in implementing the artificial intelligence (AI) behind the agent \DIFaddbegin \DIFadd{before testing it in a study }\DIFaddend -- it is \DIFdelbegin \DIFdel{taken care of }\DIFdelend \DIFaddbegin \DIFadd{mocked up }\DIFaddend by the wizard \DIFaddbegin \DIFadd{remote controlling the agent}\DIFaddend .  This is great for testing hypotheses early on in the design loop, enabling us to obtain feedbacks from users, learn, and iterate through design cycles faster.  Of course, care needs to be taken to ensure the mocked up part of the AI is implementable in the near future, since the real purpose of the mock up is to have an early knowledge of the real design constraints, not trying to provide a less constrained solution.
+%DIFDELCMD < %%%
+\DIFdelend \DIFaddbegin \subsection{\DIFadd{Wizard of Oz Experiment Design}}
+\DIFaddend The Wizard of Oz (WoZ) is an experiment design widely used in Human Computer Interaction (HCI) and Human Robot Interaction (HRI) research.  In a typical WoZ study, there is an interactive agent that is not yet fully autonomous, and is remotely controlled by a human operator (i.e. the \DIFdelbegin \DIFdel{"wizard"}\DIFdelend \DIFaddbegin \DIFadd{``wizard''}\DIFaddend ), and this fact is concealed from the user being tested until after the study.  The wizard may control one or many parts of the agent, such as speech recognition and understanding, affect recognition, dialog management, utterance and gesture generation and so on \cite{bhargava2013demonstration}.  The advantage of a WoZ study is that it does not require a large amount of work spent in implementing the artificial intelligence (AI) behind the agent \DIFaddbegin \DIFadd{before testing it in a study }\DIFaddend -- it is \DIFdelbegin \DIFdel{taken care of }\DIFdelend \DIFaddbegin \DIFadd{mocked up }\DIFaddend by the wizard \DIFaddbegin \DIFadd{remote controlling the agent}\DIFaddend .  This is great for testing hypotheses early on in the design loop, enabling us to obtain feedbacks from users, learn, and iterate through design cycles faster.  Of course, care needs to be taken to ensure the mocked up part of the AI is implementable in the near future, since the real purpose of the mock up is to have an early knowledge of the real design constraints, not trying to provide a less constrained solution.
 
 The characteristics of a WoZ study fits our pilot study requirements, where we want to learn early the important design questions regarding building an effective ADL prompting robotic agent for the children with ASD population.  Thus, we \DIFaddbegin \DIFadd{have }\DIFaddend conducted a WoZ study \DIFdelbegin \DIFdel{, }\DIFdelend in which a humanoid robot whose motions and speech were preprogrammed, but the decision and timing of their executions were controlled remotely by the researcher.  \DIFdelbegin \DIFdel{This }\DIFdelend \DIFaddbegin \DIFadd{The researcher, acting as the wizard, }\DIFaddend is mocking up the computer vision algorithms that understand the child with ASD's actions, the speech recognition algorithms that recognize the child\DIFdelbegin \DIFdel{with ASD}\DIFdelend 's verbal interactions, and the AI decision making algorithms that decide what prompts to deliver and when to deliver them.
 
 During each WoZ study trial, the child with ASD would be asked to complete the hand-washing activity in the washroom with the supervision of one of his/her parents, with the help of the NAO robot, or with the help of both the parent and the robot. The researcher, and the parent if the child was to be assisted only by the robot, would be in an adjacent room out of the child's view to observe his/her hand-washing activity.  However, the parent could enter the washroom if the child \DIFdelbegin \DIFdel{needed }\DIFdelend \DIFaddbegin \DIFadd{needs }\DIFaddend physical assistance to complete a step. A controlling interface running on a laptop, connected wireless to the robot, was used by the researcher to remotely control the robot, as well as to monitor the progress and responses of the child through the video feeds of the cameras installed in the washroom.
 
-
-\DIFaddbegin \section{\DIFadd{Case Study Format}}
-
-\DIFadd{The WoZ study will be conducted, analyzed, and reported in a case study format.  A case study is defined by Yin in a two fold definition: "a case study is an empirical inquiry that investigates a contemporary phenomenon in depth and within its real-life context" and its result "relies on multiple sources of evidence, with data needing to converge in a triangulating fashion" \mbox{%DIFAUXCMD
+\DIFaddbegin \subsection{\DIFadd{Case Study Format}}
+\DIFadd{The WoZ study will be conducted, analyzed, and reported in a case study format.  A case study is defined by Yin in a two fold definition: ``a case study is an empirical inquiry that investigates a contemporary phenomenon in depth and within its real-life context'' and its result ``relies on multiple sources of evidence, with data needing to converge in a triangulating fashion'' \mbox{%DIFAUXCMD
 \cite{yin2013case}}%DIFAUXCMD
 .  The case study format is widely used in human robot interaction researches for children with ASD \mbox{%DIFAUXCMD
 \cite{kozima2005interactive, robins2004robot, robins2009isolation}}%DIFAUXCMD
-.  This is because the case study format is exploratory as opposed to evaluative in nature, employs both quantitative and qualitative data analyses, and deals with a small number of subjects \mbox{%DIFAUXCMD
+.  This is because the case study format can be exploratory as opposed to evaluative in nature, employs both quantitative and qualitative data analyses, and deals with a small number of subjects \mbox{%DIFAUXCMD
 \cite{yin2013case}}%DIFAUXCMD
-.  For researches in human robot interactions for children with ASD, these qualities of case study are advantageous.  Firstly, HRI researches in children with ASD is a relatively novel field, not having a sound theoretical foundation, and which hypotheses are important to test are yet to be systematically established.  Conducting pilot studies that focus on generating important hypotheses in an exploratory manner rather than conducting those that focus on testing hypotheses not soundly founded are more effective in filling research gaps.  Secondly, since a major aspects of HRI research (similar to HCI research) deals with understanding the whys and hows of user decision making, qualitative data including researcher observations, interviews, focus groups, surveys, etc. are of as much importance as quantitative metrics.  Lastly, since each child with ASD is unique and vastly different from the rest of the spectrum, starting with pilot studies that focus on only a few cases / subjects in depth and iteratively move up the sample size to eventually aim to generalize across a population is preferential.
+.  For researches in human robot interactions for children with ASD, these qualities of a case study are advantageous.  Firstly, HRI researches in children with ASD is a relatively novel field, not having a sound theoretical foundation, and it is are yet to be systematically established which hypotheses are important to test.  Thus, it is more effective in filling research gaps by conducting pilot studies that focus on generating important hypotheses in an exploratory manner rather than conducting those that focus on testing hypotheses not soundly founded.  Secondly, since a major aspects of HRI research (similar to HCI research) deals with understanding the whys and hows of user decision making, qualitative data including researcher observations, interviews, focus groups, surveys, etc. are of as much importance as quantitative metrics, if not more during the early stages of research.  Lastly, since each child with ASD is unique and vastly different from the rest of the spectrum, starting with pilot studies that focus on only a few cases / subjects in depth and iteratively move up the sample size to eventually aim to generalize across a population is preferential.
 }
 
 \DIFadd{The case study format applies well to this thesis.  Our WoZ pilot study falls under HRI research for children with ASD, and our aim of generating important hypotheses and robot design recommendations in an exploratory manner makes the case study format highly suitable.  This does mean that compared to typical quantitative pilot studies (e.g. Bimbrahw et al. \mbox{%DIFAUXCMD
 \cite{bimbrahw2012investigating}}%DIFAUXCMD
 ), we will be restricting to a smaller sample size, iteratively generating and testing hypotheses during data collection, and report the results in a more descriptive manner.
-}\DIFaddend \section{Recruitment}
+}
+
+\subsection{\DIFadd{Combining Qualitative and Quantitative Research}}
+\DIFadd{As pointed out previously, conducting qualitatively research is necessary, since only then can we attempt to understand reasons behind user preferences and behaviors, and build hypotheses regarding children with ASD useful for designing effective robot prompting agents.  On the other hand, one apparent role of quantitative research, then, is to test these hypotheses and evaluate to what degree are these hypotheses true.  This investigation would be conducted after the WoZ pilot study.  However, there is also a role for quantitative research during the WoZ pilot study along side the qualitative research - it is to preliminarily show plausibility of these hypotheses by providing a source of converging evidence.  This stems from the triangulation approach that qualitative research employs, which assumes that the internal validity of a research is strengthened when the use of multiple sources of data, multiple methods, multiple investigators, or multiple theories confirms the same findings \mbox{%DIFAUXCMD
+\cite{merriam2014qualitative}}%DIFAUXCMD
+.  Quantitative research, then, can be one more method, using one more source of data, that confirms and strengthens the validity of the findings from the qualitative research.  This role of quantitative research differs from its first role in that, this role of validating plausibility is less rigorous than the first role of theory testing.  Thus, large sample size and statistical significance are not necessary.
+}
+
+\DIFadd{One thing to note is, in qualitative research, data analysis is conducted during data collection, and data collection method is revised iteratively with analysis \mbox{%DIFAUXCMD
+\cite{merriam2014qualitative}}%DIFAUXCMD
+.  For example, if analysis reveals that a certain device should be improved or a certain data collection protocol should be changed, data collection may take a turn in this new direction.  This may potentially create problems for quantitative research if it shares with the qualitative research the same pool of data collected.  For the data collected using methods that are changing, grouping them would be not rigorous, but not grouping them would make the sample size very small for each group.  However, for the purpose of using quantitative research as plausibility validation, we are at liberty to do either.
+}
+
+\subsection{\DIFadd{Case Selection and Sample Selection}}
+\label{sec:CaseSelectionAndSampleSelection}
+\DIFadd{When conducting a case study, selecting the right case and sampling in it the data to focus on are essential for bounding the scope of the study and producing results of significance.  The case selection and the sampling within the case are essentially two layers of the same process called sample selection \mbox{%DIFAUXCMD
+\cite{merriam2014qualitative}}%DIFAUXCMD
+.  Merriam \mbox{%DIFAUXCMD
+\cite{merriam2014qualitative} }%DIFAUXCMD
+listed several sample selection methods.  Of them, the ones most relevant to a case study are typical sampling, unique sampling, maximum variation sampling, and theoretical sampling. As Merriam defines them:
+}\begin{itemize}
+	\item \textbf{\DIFadd{Typical Sampling}} \DIFadd{chooses samples that are the ``average person, situation, or instance of the phenomenon of interest''
+	}\item \textbf{\DIFadd{Unique Sampling}} \DIFadd{focuses on ``unique, atypical, perhaps rare attributes or occurrences of the phenomenon of interest''
+	}\item \textbf{\DIFadd{Maximum Variation Sampling}} \DIFadd{explores extreme variations of the phenomenon of interest, sometimes even involving ``a deliberate hunt for negative or disconfirming variations''
+	}\item \textbf{\DIFadd{Theoretical Sampling}}  \DIFadd{is ``an ongoing sample selection process'' that ``begins the same way as purposeful sampling'' (purposeful sampling includes the three sampling methods above), ``but the total sample is not selected ahead of time'' but is decided iteratively as results from data analysis roll out
+}\end{itemize}
+
+\DIFadd{In our WoZ pilot case study's context, case selection is the process of setting inclusion criteria for recruiting a subpopulation of the children with ASD, and sample selection within the selected case is deciding the robot and parent prompting protocols that are used to guide our participant through the hand-washing trials.  Case selection will be discussed in more detail in Section \ref{sec:Recruitment} - Recruitment.  Sample selection will be discussed in more detail in Section \ref{sec:StudyProtocol} - Study Protocol.
+}
+
+
+
+\DIFaddend \section{Recruitment}
+\DIFaddbegin \label{sec:Recruitment}
+\DIFadd{Since children with ASD are a diverse population with each child unique and vastly different from one another, the subpopulation from which we recruit from directly influences our study results and focus.  This is the process of case selection.  Since the aim of our study is to form important hypotheses about children with ASD that aid in future iterations of the robot prompting design, focusing on the typical use case would be most beneficial at the pilot study stage.  One way to ensure this is through sampling for the typical user that our robot is designed for.  This would be children with ASD, not adults nor any one without a diagnosis of ASD.  In addition, the participant needs to be able to interact with a prompting agent, understanding and following its instructions.  Gender, ethnicity, and other factors that are not significant in determining important robot design recommendations are not constrained in our inclusion criteria.  In addition, hand-washing skills are constrained to a certain degree, but the level of hand-washing skills need not be non-existent.  All participants yield valuable design input information as long as the participant requires some form of assistance during hand-washing, whether it be requiring prompts to get started, to know which steps to execute, or to know how to execute each step.  This means, on the spectrum of hand-washing levels, we might have several different cases depending on the participants we recruited.
+}\DIFaddend 
 
 Participants were recruited from a list of families of a previous autism study that indicated that they would be interested in participating in future studies related to the development of the COACH prompting system.
 
@@ -748,8 +825,10 @@ and \mbox{%DIFAUXCMD
 \end{itemize}
 
 Each participating family were given a \$200 honorarium per child subject upon completion of the study. All participants were able to withdraw from the study at any time. The honorarium would then be adjusted to be proportionate to the number of visits completed (e.g. completing 3 visits means the participated child would receive \$100 (\$200 * 3 / 6 = \$100)). This would be made clear to participants at the time of consent.
+\DIFdelbegin %DIFDELCMD < 
 
-\section{Humanoid Robot NAO}
+%DIFDELCMD < %%%
+\DIFdelend \section{Humanoid Robot NAO}
 
 We chose the torso and arms only version (T14) of the commercially available humanoid robot NAO from Aldebaran Robotics as our robotic prompting agent.  NAO is a humanoid robot about half a meter high in torso (see Figure \ref{fig:NAOColor}).  It is designed by Aldebaran Robotics to primarily serve academic \DIFdelbegin \DIFdel{research }\DIFdelend \DIFaddbegin \DIFadd{researches }\DIFaddend in robotics.  NAO is equipped with the state of the art mechanical, electrical, embedded, control, and local network communication systems.  It also has cameras and sonar sensors for computer vision algorithms for scene understanding, path planning, and obstacle avoidance.  The software development kit (SDK) provided is very easy and powerful to program with.  Also, an even easier graphic user interface (GUI) for robot behavior programming, the Choreographe software, is also available.  One caveat of using NAO for SAR HRI researches is that it is only equipped with a single degree of freedom finger dexterity, though other joints in its body are much more mobile.  It is more than enough for doing simple pointing and other non-contact gestural prompts in sync with verbal interactions.  It just cannot perform detailed hand gesturing.  This makes NAO less capable in demonstrating a hand-washing step in high detail.
 \begin{figure} [h]
@@ -804,25 +883,28 @@ The Social Responsiveness Scale Survey serves to screen participants during recr
 During the last visit, the same parent who completed the SRS survey and the entrance survey was be asked to fill out the post-intervention survey.  The survey reports the parent's opinion on \DIFdelbegin \DIFdel{our }\DIFdelend \DIFaddbegin \DIFadd{the }\DIFaddend robot prompting system, giving suggestions and comments and how effectiveness and appropriate \DIFdelbegin \DIFdel{is the system }\DIFdelend \DIFaddbegin \DIFadd{the system is}\DIFaddend , and any improvements or adjustments needed.
 
 \section{\DIFdelbegin \DIFdel{Protocol and Setup}\DIFdelend \DIFaddbegin \DIFadd{Interviews}\DIFaddend }
-\DIFaddbegin \DIFadd{In addition to surveys, the parent would be interviewed by the researcher through out the breaks between trials.  The purpose of these interviews is to probe what the parent thinks about the robot, what the child's behaviors mean and why the child behaves in such ways, how to get the child to comply better, how to improve the robot further, and collect more relevant background information on the child and the family.  The interview would not be scripted, but would be a result of a free flow of conversations between the researcher and the parent, discussing what happened in each trial and what to do in the next.  The interviews were to be voice recorded and would be transcribed by the researcher for analysis.
+\DIFaddbegin \DIFadd{In addition to surveys, the parent would be interviewed by the researcher through out the breaks between trials.  The purpose of these interviews is to probe what the parent thinks about the robot, what the child's behaviors mean and why the child behaves in such ways, how to get the child to comply better, how to improve the robot further, and collect more relevant background information on the child and the family.  The interview would not be scripted, but would be a result of a free flow of conversations between the researcher and the parent, discussing what happened in each trial and what to do in the next.  The interviews would be voice recorded and transcribed by the researcher for analysis.
 }\DIFaddend 
 
 
 \DIFaddbegin \section{\DIFadd{Study Protocol and Setup}}
-
+\label{sec:StudyProtocol}
 
 \DIFaddend %protocol:
-\subsection{Entrance Survey and SRS}
+\subsection{\DIFaddbegin \DIFadd{Conducting }\DIFaddend Entrance \DIFdelbegin \DIFdel{Survey }\DIFdelend and SRS \DIFaddbegin \DIFadd{Surveys}\DIFaddend }
 Prior to their first visit to the lab, the parent was asked to complete the Social Responsiveness Scale (SRS). If the child met the SRS score (minimum of 76 T-score), the same parent would then be asked to complete the entrance survey before their first visit. \DIFdelbegin \DIFdel{The same parent who has completed the entrance survey }\DIFdelend \DIFaddbegin \DIFadd{This same parent }\DIFaddend was required to accompany the child through all \DIFdelbegin \DIFdel{the }\DIFdelend visits.
 
 
-\subsection{Protocol Overview}
+\subsection{\DIFaddbegin \DIFadd{Hand-Washing Trials }\DIFaddend Protocol Overview}
 \label{sec:ProtocolOverview}
-The trials were carried out in the washroom inside the HomeLab -- a laboratory specifically designed to emulate the home settings, located on the 12th floor of Toronto Rehab Institute (more details of the experimental environment is described in Section \ref{Sec:ExpSetup}).  Each child would visit the HomeLab once a week with a total of six visits with his/her parent. The six visits would be evenly divided into three phases. The three phases are the baseline phase (Phase A) and the intervention phases (Phase B and Phase C). In Phase A, the child would be asked to wash hands by him/herself as independently as possible. The parent was instructed to provide assistance (as outlined below) to the child as the parent saw necessary.  In Phase B, the child would be assisted by the robot NAO alone.  The parent was out of view in the room adjacent to the washroom, and came into the washroom to prompt when the parent saw necessary.  In Phase C, the child would be assisted by NAO and the parent together.  The parent remained in the washroom and assisted robot NAO in its prompts.
+The trials were carried out in the washroom inside the HomeLab -- a laboratory specifically designed to emulate the home settings, located on the 12th floor of Toronto Rehab Institute (more details of the experimental environment is described in Section \ref{Sec:ExpSetup}).  Each child would visit the HomeLab once a week with a total of six visits with his/her parent. The six visits would \DIFdelbegin \DIFdel{be evenly divided into three }\DIFdelend \DIFaddbegin \DIFadd{consist of three kinds of }\DIFaddend phases. The three phases are \DIFaddbegin \DIFadd{namely }\DIFaddend the baseline phase (Phase A) and the intervention phases (Phase B and Phase C). In Phase A, the child would be asked to wash hands by him/herself as independently as possible. The parent was instructed to provide assistance \DIFdelbegin \DIFdel{(as outlined below) }\DIFdelend to the child as the parent saw necessary.  In Phase B, the child would be assisted by the robot NAO alone.  The parent was out of view in the room adjacent to the washroom, and came into the washroom to \DIFdelbegin \DIFdel{prompt when the parent saw necessary}\DIFdelend \DIFaddbegin \DIFadd{guide the child to continue if the child got stuck or finished early and was leaving the washroom}\DIFaddend .  In Phase C, the child would be assisted by NAO and the parent together.  The parent remained in the washroom and assisted robot NAO in its prompts.  \DIFaddbegin \DIFadd{The parent is left to his/her best judgment in how to work best together with the robot.
+}\DIFaddend 
 
-Each visit would take about an hour to an hour and a half. The child was \DIFdelbegin \DIFdel{to be }\DIFdelend asked to wash his/her hands eight times for every visit, for a total of forty-eight trials per child.  This way, the consecutive trials conducted within a day was hopefully not too much for the child to cause fatigue.  Also, having sixteen trials per phase gives a sufficient sample size for both quantitative and qualitative \DIFdelbegin \DIFdel{(visual) }\DIFdelend analyses.  The child and his/her parent could take short breaks after each hand-washing \DIFdelbegin \DIFdel{trials}\DIFdelend \DIFaddbegin \DIFadd{trial}\DIFaddend .  The break could last as long as the child needed until he/she was willing to continue the trial. If the parent felt the need, they could leave and come back to finish the rest of the day's trials another day. They would not be withdrawn from the study unless requested.
+Each visit would take about an hour to an hour and a half. The child was \DIFdelbegin \DIFdel{to be }\DIFdelend asked to wash his/her hands eight times for every visit, for a total of forty-eight trials per child.  This way, the consecutive trials conducted within a day \DIFdelbegin \DIFdel{was hopefully }\DIFdelend \DIFaddbegin \DIFadd{would hopefully be }\DIFaddend not too much for the child to cause fatigue.  \DIFdelbegin \DIFdel{Also, having sixteen trials per phase gives a sufficient sample size for both quantitative and qualitative (visual) analyses.  }\DIFdelend The child and his/her parent could take short breaks after each hand-washing \DIFdelbegin \DIFdel{trials}\DIFdelend \DIFaddbegin \DIFadd{trial}\DIFaddend .  The break could last as long as the child needed until he/she was willing to continue the trial. If the parent felt the need, they could leave and come back to finish the rest of the day's trials another day. They would not be withdrawn from the study unless requested.
 
-The participating subjects would be randomly assigned one of the two phase orders: A-B-C and A-C-B.  This \DIFdelbegin \DIFdel{would reduce the confounding effect of learning }\DIFdelend \DIFaddbegin \DIFadd{was to try to reduce any learning effects }\DIFaddend when we compare between phase B and C \DIFaddbegin \DIFadd{as well as to see if the presence of phase C prior to phase B would have an effect on phase B's performance}\DIFaddend .
+\DIFdelbegin \DIFdel{The participating subjects would be randomly assigned one of the two phase orders: A-B-C and A-C-B.  This would reduce the confounding effect of learning when we compare between phase B and C.  }\DIFdelend \DIFaddbegin \DIFadd{We would conduct the phases in the order A-A-B-C-C-B (i.e. parent alone phase - robot alone phase - robot parent phase - 2nd robot alone phase).  By splitting phase B to flank phase C, we can compare first Phase B and second Phase B to see how much did learning in Phase C affect our results.  We aimed to approximately have sixteen trials per phase, which gives a good sample size for both quantitative and qualitative analyses.  This means first phase B and second phase B would have about eight trials each.  Note that the number of trials for each phase might be adjusted as by the researcher depending on the ongoing data analysis, and the interview would be used as a basis for such adjustment.  More detail is discussed in Section \ref{sec:ConductingInterviews} - Conducting Interviews and the Basis of Sample Selection.
+}\DIFaddend 
+
 
 \subsection{Experiment Setup}
 \label{Sec:ExpSetup}
@@ -861,12 +943,13 @@ A touchscreen laptop was used during the study by the student researcher to cont
 The hand-washing activity was broken down into seven steps: turn on the water, wet your hands, get some soap, scrub your hands, rinse your hands, turn off the water, and dry your hands.  These steps were \DIFdelbegin \DIFdel{a modified version }\DIFdelend \DIFaddbegin \DIFadd{modified }\DIFaddend based on Bimbrahw et al.\DIFaddbegin \DIFadd{'s }\DIFaddend pilot study \cite{bimbrahw2012investigating}. These \DIFdelbegin \DIFdel{constitute }\DIFdelend \DIFaddbegin \DIFadd{constituted }\DIFaddend the same steps as Bimbrahw's except that the first (i.e. turn on the water and wet your hands) and the last step (i.e. turn off the water and dry your hands) are now four individual steps to ensure that each step only \DIFdelbegin \DIFdel{involves }\DIFdelend \DIFaddbegin \DIFadd{involved }\DIFaddend one action.
 
 \paragraph{Phase A (Baseline Phase)}
-The first phase was the baseline phase and would include sixteen trials of hand washing. The child would be asked to complete the hand-washing as independently as possible. During this phase, the parent would be present in the washroom while the child was completing the hand-washing steps. The parent would verbally and/or physically assist and give positive reinforcements to the child whenever the parent feels necessary.
+\DIFdelbegin \DIFdel{The first phase was }\DIFdelend \DIFaddbegin \DIFadd{In }\DIFaddend the baseline phase\DIFdelbegin \DIFdel{and would include sixteen trials of hand washing. The }\DIFdelend \DIFaddbegin \DIFadd{, the }\DIFaddend child would be asked to complete the hand-washing as independently as possible. During this phase, the parent would be present in the washroom while the child was completing the hand-washing steps. The parent would verbally \DIFaddbegin \DIFadd{prompt }\DIFaddend and/or physically assist \DIFaddbegin \DIFadd{the child }\DIFaddend and give positive reinforcements to the child whenever the parent feels necessary.  \DIFaddbegin \DIFadd{Minimal restrictions or guidances were presented to the parent by the researcher, so that what the parent thought were important could become apparent to the researcher.
+}\DIFaddend 
 
 \paragraph{Phases B and C (Intervention Phases)}
-The rest of the two phases were the intervention phases and would include sixteen trials of hand washing each. The child would be asked to wash his/her hands with the help of NAO or of both NAO and the parent in the washroom. During each trial, NAO and the parent would wait for the child to start each step. If the child experienced troubles, an appropriate prompt would be delivered from NAO in order to help the child complete the step. If the child did not respond to NAO's prompt, an attention grabber would be delivered to capture the child's attention to the prompting agent. The attention grabber could be repeated for a second time if the child failed to respond to the first one.  \DIFaddbegin \DIFadd{After successfully grabbing the child's attention, the prompt would be repeated.  }\DIFaddend A verbal reward would be delivered to the child when he/she completed a step.
+\DIFdelbegin \DIFdel{The rest of the two phases were the intervention phases and would include sixteen trials of hand washing each. The }\DIFdelend \DIFaddbegin \DIFadd{In the intervention phases, the }\DIFaddend child would be asked to wash his/her hands with the help of NAO or of both NAO and the parent in the washroom. During \DIFdelbegin \DIFdel{each }\DIFdelend \DIFaddbegin \DIFadd{every }\DIFaddend trial, NAO and\DIFaddbegin \DIFadd{/or }\DIFaddend the parent would wait for the child to start each step. If the child experienced troubles, an appropriate prompt would be delivered from NAO in order to help the child complete the step. If the child did not respond to NAO's prompt, an attention grabber would be delivered to capture the child's attention to the prompting agent. The attention grabber could be repeated for a second time if the child failed to respond to the first one.  \DIFaddbegin \DIFadd{After successfully grabbing the child's attention, the prompt would be repeated.  }\DIFaddend A verbal reward would be delivered to the child when he/she completed a step.
 
-The parent's role in phase B and C differs in that, in phase C, the parent would take a more active role to prompt the child of what to do by standing next to the child.  On the other hand, in phase B, the parent would take more of a back seat role, being out of view and coming in to prompt only for the purpose of reminding the child to listen to the robot, but leaving the prompting of the specific step to the robot.  Of course, if the child didn't respond to any of the prompts, the parent would need to physically intervene and complete the step together, \DIFdelbegin \DIFdel{just like in }\DIFdelend \DIFaddbegin \DIFadd{similar to }\DIFaddend phase A.  After the physical intervention, the parent would then instruct and encourage the child to continue the rest of the hand-washing steps on his/her own by following the robot.  Both phase B and C are important.  Phase B serves to test if NAO can independently assist the child through hand-washing with minimal parent involvement.  Phase C serves to investigate whether and why would NAO be more effective in assisting the child when parent is present.  Comparing phase B and C would potentially yield areas of \DIFdelbegin \DIFdel{improvement }\DIFdelend \DIFaddbegin \DIFadd{improvements }\DIFaddend for NAO.
+The parent's role in phase B and C differs in that, in phase C, the parent would take a more active role to prompt the child of what to do by standing next to the child.  On the other hand, in phase B, the parent would \DIFdelbegin \DIFdel{take more of a back seat role, being }\DIFdelend \DIFaddbegin \DIFadd{be }\DIFaddend out of view and coming in to prompt only \DIFaddbegin \DIFadd{when the robot is unable to continue, and }\DIFaddend for the purpose of reminding the child to listen to the robot, but leaving the prompting of the \DIFdelbegin \DIFdel{specific step }\DIFdelend \DIFaddbegin \DIFadd{specifics of the steps }\DIFaddend to the robot.  Of course, \DIFaddbegin \DIFadd{for both phases, }\DIFaddend if the child didn't respond to any of the prompts, the parent would need to physically intervene and complete the step together, \DIFdelbegin \DIFdel{just like in }\DIFdelend \DIFaddbegin \DIFadd{similar to }\DIFaddend phase A.  After the physical intervention \DIFaddbegin \DIFadd{in phase B}\DIFaddend , the parent would then instruct and encourage the child to continue the rest of the hand-washing steps on his/her own by following the robot.  Both phase B and C are important.  Phase B serves to test if NAO can independently assist the child through hand-washing with minimal parent involvement.  Phase C serves to investigate whether and why would NAO be more effective in assisting the child when parent is present.  Comparing phase B and C would potentially yield areas of \DIFdelbegin \DIFdel{improvement }\DIFdelend \DIFaddbegin \DIFadd{improvements }\DIFaddend for NAO.
 
 There are three prompt categories that the NAO robot would deliver when interacting with the child (please see Table \ref{tab:RobotPrompts} for the specifics of each prompt used):
 \begin{enumerate}
@@ -912,8 +995,13 @@ There are three prompt categories that the NAO robot would deliver when interact
 
 For each trial, in addition to the three prompt categories stated above, the NAO robot would also deliver a short introduction before the start of each trial, a re-intro after the parent finished assisting the child through a step, and an outro at the end of each trial. The introduction is a two-part prompt. The first part is an attention grabber. The second part consists of a verbal prompt (i.e. “Let's start washing hands.”) with a simple conversational gesture. The re-intro is a verbal prompt (i.e. “Let's continue washing hands.”) with a simple conversational gesture. Same as the introduction, the outro is a two-part prompt. The first part consists of a verbal prompt (i.e. “Good job, [child's name]!”) with a gesture of fist pumping in the air. The second part consists of a verbal prompt (i.e. “You are all done.”) with a gesture signifying all the hand-washing steps have been done.
 
-\subsection{Post-intervention Survey}
-During the last visit, the same parent who completed the entrance survey would be asked to fill out the post-intervention survey.
+\subsection{\DIFdelbegin \DIFdel{Post-intervention Survey}\DIFdelend \DIFaddbegin \DIFadd{Conducting Interviews and the Basis of Sample Selection}\DIFaddend }
+\DIFaddbegin \label{sec:ConductingInterviews}
+\DIFadd{The interview with the parent would be conducted by the researcher during every break between trials.  This is to discuss what happened in the last trial, why the child behaved this way, whether we need to change the robot prompts for improving effectiveness, whether to change the protocol to focus on certain aspects of the study more, and how many more trials of the current phase should we do.  Also, the researcher might also request certain ways the parent was to assist and guide the child, so to explore the influence of the parent on child's interaction with the robot.  Although conducted in an informal conversation format, this interviewing, discussion, and reflection process is a form of qualitative analysis similar to that of making observational field notes.  Thus, the results of these discussions were then used as basis for sample selection, revising the robot behavior and study protocol for the next trials.  This process was continued iteratively, which models after the theoretical sampling method defined in Section \ref{sec:CaseSelectionAndSampleSelection}.  And within the theoretical sampling approach, we adopted the maximum variation sampling method by varying the degree of the parent's involvement.
+}
+
+\subsection{\DIFadd{Conducting Post-intervention Surveys}}
+\DIFaddend During the last visit, the same parent who completed the entrance survey would be asked to fill out the post-intervention survey.
 
 \subsection{Data Collection}
 All \DIFdelbegin \DIFdel{phases }\DIFdelend \DIFaddbegin \DIFadd{trials }\DIFaddend were video recorded by the overhead, the scene, and the Kinect cameras and audio recorded by the microphone from the scene camera.  The overhead and scene video data would be reviewed and annotated by an \DIFdelbegin \DIFdel{annotators}\DIFdelend \DIFaddbegin \DIFadd{annotator}\DIFaddend . The overhead video data would be used to score the participants' prompt compliance and hand-washing performance. The scene video data would be used to evaluate the participants' engagement during the whole activity. \DIFdelbegin \DIFdel{The effectiveness of robot prompting on }\DIFdelend \DIFaddbegin \DIFadd{Possible areas of improvement of robot prompting will be explored, based on its observed effects on }\DIFaddend engagement, compliance, and performance\DIFdelbegin \DIFdel{would then be explored qualitatively and quantitatively}\DIFdelend .
@@ -1114,18 +1202,99 @@ The videos are played back by the software Media Player Classic - Home Cinema (M
 }\end{itemize}
 
 \paragraph{} %DIF > a blank space
-\DIFadd{The specific definitions for each measure will be discussed further in the analysis section \ref{sec:VideoDataAnalysisAndResults}.  The difference between prompts and prompt sections is discussed in \ref{sec:AnnotationFramework}.
+\DIFadd{The specific definitions for each measure will be discussed further in the analysis section \ref{sec:VideoDataAnalysisAndResults}.  The difference between prompts and prompt sections was discussed in previous section \ref{sec:AnnotationFramework}.
 }\DIFaddend \section{Data Analysis and Results}
+\DIFaddbegin \DIFadd{In the following section, the hand-washing trials, the SRS survey, entrance survey, and post-interventions survey, and the parent interviews are analyzed qualitatively, and the annotated video data of the hand-washing trials is analyzed quantitatively.  
+}\DIFaddend 
 
-
+%DIF > need to comment what case selection is this, and its implications on our analysis and how to interpret the results
+%DIF > sampling selection:
+%DIF > which case is our participant?
+%DIF > 1. Key cases
+%DIF > 2. Outlier cases
+%DIF > 3. Local knowledge cases
+%DIF > why this is good and why this is bad and what do we do now after knowing this?
 \subsection{Participants Recruited}
-Due to limitation of time, we were only able to recruit one subject.  Our participant is a thirteen years old male child of Asian ethnicity.  He was accompanied to the trials by his mother, who was the one that answered all surveys.
+Due to limitation of time, we were only able to recruit one subject.  Our participant is a thirteen years old male child \DIFaddbegin \DIFadd{(C) }\DIFaddend of Asian ethnicity.  He was accompanied to the trials by his mother \DIFaddbegin \DIFadd{(M)}\DIFaddend , who was the one that answered all surveys.
 
-\subsubsection{Child's Demographics and Inclusion Criteria Fit}
-The child has been clinically diagnosed of Autism Spectrum Disorder.  We also conducted the Social Responsiveness Scale Survey, and he obtained a T-score of 79, passing the minimum score for severe ASD.  Through the Entrance Survey, we learned that the child has difficulty independently completing self-care activities (a 2 on a scale of 1 (not independent at all) to 5 (completely independent)), and this includes hand-washing (also a 2 on the same scale).  We also learned that the child is able to do but not good at verbal communication (a 3 on a scale of 1 (very not well) to 5 (very well)).  Specifically, the child can only speak one or two words at a time to express what he wants, uses iPad for communication, and often just murmurs illegibly.  However, the child has the ability to follow simple, one-step verbal instructions (a 4 on a scale of 1 (very not well) to 5 (very well)).  Lastly, the child does not exhibit severely aggressive behavior (a 1 from a scale of 1 (never) to 5 (often)).  The above shows that the child fits in our inclusion criteria.
+\subsubsection{\DIFdelbegin \DIFdel{Child's Demographics }\DIFdelend \DIFaddbegin \DIFadd{Entrance }\DIFaddend and \DIFdelbegin \DIFdel{Inclusion Criteria Fit}\DIFdelend \DIFaddbegin \DIFadd{SRS Survey Results}\DIFaddend }
+The \DIFdelbegin \DIFdel{child }\DIFdelend \DIFaddbegin \DIFadd{following backgrounds of C are reported by the entrance and SRS surveys.  The purpose of this section is to familiarize the reader with our participant and understand better the context that our study results situate in.
+}
+
+\paragraph{\DIFadd{Child's Demographics and Inclusion Criteria Fit}}
+\DIFadd{M reported that C }\DIFaddend has been clinically diagnosed of Autism Spectrum Disorder.  We also conducted the Social Responsiveness Scale Survey, and \DIFdelbegin \DIFdel{he }\DIFdelend \DIFaddbegin \DIFadd{C }\DIFaddend obtained a T-score of 79, passing the minimum score for severe ASD.  Through the Entrance Survey, we learned that \DIFdelbegin \DIFdel{the child }\DIFdelend \DIFaddbegin \DIFadd{C }\DIFaddend has difficulty independently completing self-care activities (a 2 on a scale of 1 (not independent at all) to 5 (completely independent)), and this includes hand-washing (also a 2 on the same scale).  We also learned that \DIFdelbegin \DIFdel{the child }\DIFdelend \DIFaddbegin \DIFadd{C }\DIFaddend is able to do but not good at verbal communication (a 3 on a scale of 1 (very not well) to 5 (very well)).  Specifically, \DIFdelbegin \DIFdel{the child }\DIFdelend \DIFaddbegin \DIFadd{C }\DIFaddend can only speak one or two words at a time to express what he wants, uses iPad for communication, and often just murmurs illegibly.  However, \DIFdelbegin \DIFdel{the child }\DIFdelend \DIFaddbegin \DIFadd{C }\DIFaddend has the ability to follow simple, one-step verbal instructions (a 4 on a scale of 1 (very not well) to 5 (very well)).  Lastly, \DIFdelbegin \DIFdel{the child }\DIFdelend \DIFaddbegin \DIFadd{C }\DIFaddend does not exhibit severely aggressive behavior (a 1 from a scale of 1 (never) to 5 (often)).  The above shows that \DIFdelbegin \DIFdel{the child }\DIFdelend \DIFaddbegin \DIFadd{C }\DIFaddend fits in our inclusion criteria.
+
+\DIFaddbegin \paragraph{\DIFadd{Child's Experience with Technologies}}
+\DIFadd{C is more of a visual learner.  He uses a computer at home, and likes to use it very much.  He also likes to use other technologies (e.g. iPhone, iPad), and likes to watch movies and TV.  He doesn't have a robot toy to play with at home or at school, so M doesn't know how much he likes to play with robot toys.  The parent never used technologies to help C with self-care activities except using pictures to teach step by step hand-washing.
+}
+
+\paragraph{\DIFadd{Child's Personal Preferences}}
+\DIFadd{The child is sensitive to sound.  He likes Disney cartoon musics, and likes to watch his favorite cartoon scenes repeatedly on the iPad.  To reward C after a good behavior, M suggested the following rewards: give extra time to play on iPad, give him praises (e.g. good job), give children books to read and animal dinosaurs to play with, give M's iPhone since C's favorite musics are on there.
+}
+
+\paragraph{\DIFadd{Child's Abilities on Hand-washing and on Other ADLs}}
+\DIFadd{The parent agrees that C usually gets distracted when performing hand-washing.  To assist him, M mainly reminds him to put soap, rinse properly, and dry properly with towel.  He needs more prompting in these areas since he always washes in a hurry.
+}
+
+\DIFadd{Other activities C needs help with include:  tooth brushing -- 2 hours/week; bathing -- 4.5 hours/week; dressing -- usually just hand the clothes to him, he knows how to put them on, but needs reminders of the order of the clothing, 7 hours/week.
+}
+
+\paragraph{\DIFadd{Parent's Expectation and Concerns}}
+\DIFadd{The parent expected the robot to be helpful in reminding C to put soap, rinse and dry more, similar to the role of M.  Some concerns M has include: C may be wondering why does he need to wash hands so many times repeatedly; C performs well in his comfort zone with the same environment, so it takes a while for C to get used to the lab environment.
+}
+
+%DIF > this is the qualitative data method section
+\subsection{\DIFadd{Qualitative Data Analysis Method}}
+%DIF > Qualitative analysis method:
+%DIF > the constant comparative method (see Chapter
+%DIF > Eight ). Tell us what this is and cite a couple of references. Tell us
+%DIF > precisely how you plan to go about doing it. What will you do first?
+%DIF > Second? Next? That is, tell the reader your step - by - step plan for
+%DIF > analyzing your data. This is where you might talk about coding
+%DIF > your data.
+
+%DIF > this is the qualitative data results section
+\subsection{\DIFadd{Description and Analysis of Trials, Surveys and Interviews}}
 
 
-\subsection{Experiment Design Change}
+\subsubsection{\DIFadd{Post-Intervention Survey for Parent}}
+\DIFadd{The post-intervention survey results are presented in Table \ref{tab:PostInterventionSurveyData}.  We see that M was happy with all aspects of the robot as a prompting agent, but did not see it to be as good as herself yet.  The suggestions M made regarding the robot and the experiment are reported in the discussion section.
+}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{ | p{12cm} | l | }
+		\hline
+		\textbf{\DIFaddFL{Survey Question}}	&	\textbf{\DIFaddFL{Parent's Answer}}	\\	\hline	\hline		
+		\DIFaddFL{Hand-washing steps break down was appropriate	}&	\DIFaddFL{Strongly Agree	}\\	\hline
+		\DIFaddFL{My child understood the verbal prompts	}&	\DIFaddFL{Agree	}\\	\hline
+		\DIFaddFL{Robot's verbal prompts were appropriate	}&	\DIFaddFL{Strongly Agree	}\\	\hline
+		\DIFaddFL{The prompt wordings were similar to mine	}&	\DIFaddFL{Strongly Agree	}\\	\hline
+		\DIFaddFL{The prompt voice and tone were appropriate	}&	\DIFaddFL{Strongly Agree	}\\	\hline
+		\DIFaddFL{The prompt wordings were easy to understand	}&	\DIFaddFL{Strongly Agree }\\	\hline
+		\DIFaddFL{My child understood the gesture prompts	}&	\DIFaddFL{Strongly Agree	}\\	\hline
+		\DIFaddFL{The gesture prompts were appropriate	}&	\DIFaddFL{Strongly Agree	}\\	\hline
+		\DIFaddFL{The gesture prompts were easy to understand	}&	\DIFaddFL{Agree	}\\	\hline
+		\DIFaddFL{The physical appearance of robot is aesthetically pleasing	}&	\DIFaddFL{Agree	}\\	\hline
+		\DIFaddFL{The attention grabber gestures were appropriate	}&	\DIFaddFL{Strongly Agree	}\\	\hline
+		\DIFaddFL{The verbal rewards were appropriate	}&	\DIFaddFL{Strongly Agree	}\\	\hline
+		\DIFaddFL{The reward gestures were appropriate	}&	\DIFaddFL{Strongly Agree	}\\	\hline
+		\DIFaddFL{The robot was effective in assisting my child through hand-washing	}&	\DIFaddFL{Strongly Agree	}\\	\hline
+		\DIFaddFL{The robot motivated my child to wash hands	}&	\DIFaddFL{Strongly Agree	}\\	\hline
+		\DIFaddFL{The robot was fun for my child to use	}&	\DIFaddFL{Strongly Agree	}\\	\hline
+		\DIFaddFL{My child was confused by the robot	}&	\DIFaddFL{Disagree	}\\	\hline
+		\DIFaddFL{I like the idea of a robot prompting my child	}&	\DIFaddFL{Strongly Agree	}\\	\hline
+		\DIFaddFL{The robot is able to provide guidance as well as I can or better	}&	\DIFaddFL{Neither Agree or Disagree	}\\	\hline
+		\DIFaddFL{I would want to own a robot like this one	}&	\DIFaddFL{Strongly Agree	}\\	\hline
+	\end{tabular}
+	\caption{\DIFaddFL{The Post-Intervention Survey Data}}
+	\label{tab:PostInterventionSurveyData}
+\end{table}
+
+
+%DIF > rename this section to simply report sample selection
+%DIF > when should i discuss parent's decision on how to involve during phase C?  should have been in the qualitative results section
+\DIFaddend \subsection{Experiment Design Change}
 We were not able to counterbalance the confounding effect of learning through randomly assigning participants to phase orders (A-B-C versus A-C-B), since we only recruited one participant.  Instead, we decided to control it by splitting the Phase B into two segments, one before Phase C and one after.  Thus, we conducted the study in the following phase order: A-B-C-B (i.e. parent alone phase - robot alone phase - robot parent phase - 2nd robot alone phase).  This way, we can compare first Phase B and second Phase B to see how much does learning in Phase C affect our results.  Also, first Phase B and second Phase B won't have sixteen trials each due to limitation of time.  Instead, we conducted these two phases only long enough to see a stable response, as is typically done in a single-subject research design \cite{ayres2009acquisition, bereznak2012video}.  As a result, we had 16 trials for Phase A, 8 trials for first Phase B, 21 trials for Phase C, and 5 trials for second Phase B.  Note that the intervention conditions of first Phase B and second Phase B are meant to be the same.
 
 
@@ -1295,59 +1464,136 @@ A prompt can be given by the parent, by the robot, or by them together.  During 
 	\label{fig:LookingAtPromptingAgentDuringPrompts}
 \end{figure}
 
-\subsection{Survey Data Results}
+\DIFdelbegin \subsection{\DIFdel{Survey Data Results}}
+%DIFAUXCMD
+\addtocounter{subsection}{-1}%DIFAUXCMD
+%DIFDELCMD < 
 
-\subsubsection{Entrance Survey}
-The entrance survey results are reported as follows:
+%DIFDELCMD < %%%
+\subsubsection{\DIFdel{Entrance Survey}}
+%DIFAUXCMD
+\addtocounter{subsubsection}{-1}%DIFAUXCMD
+\DIFdel{The entrance survey results are reported as follows:
+}%DIFDELCMD < 
 
-\paragraph{Child's Experience with Technologies}
-The child is more of a visual learner.  He uses a computer at home, and likes to use it very much.  He also likes to use other technologies (e.g. iPhone, iPad), and likes to watch movies and TV.  He doesn't have a robot toy to play with at home or at school, so the parent doesn't know how much he likes to play with robot toys.  The parent never used technologies to help the child with self-care activities except using pictures to teach step by step hand-washing.
+%DIFDELCMD < %%%
+\paragraph{\DIFdel{Child's Experience with Technologies}}
+%DIFAUXCMD
+\addtocounter{paragraph}{-1}%DIFAUXCMD
+\DIFdel{The child is more of a visual learner.  He uses a computer at home, and likes to use it very much.  He also likes to use other technologies (e.g. iPhone, iPad), and likes to watch movies and TV.  He doesn't have a robot toy to play with at home or at school, so the parent doesn't know how much he likes to play with robot toys.  The parent never used technologies to help the child with self-care activities except using pictures to teach step by step hand-washing.
+}%DIFDELCMD < 
 
-\paragraph{Child's Personal Preferences}
-The child is sensitive to sound.  He likes Disney cartoon musics, and likes to watch his favorite cartoon scenes repeatedly on the iPad.  To reward the child after a good behavior, the parent suggested the following rewards: give extra time to play on iPad, give him praises (e.g. good job), give children books to read and animal dinosaurs to play with, give the parent's iPhone since his favorite musics are on there.
+%DIFDELCMD < %%%
+\paragraph{\DIFdel{Child's Personal Preferences}}
+%DIFAUXCMD
+\addtocounter{paragraph}{-1}%DIFAUXCMD
+\DIFdel{The child is sensitive to sound.  He likes Disney cartoon musics, and likes to watch his favorite cartoon scenes repeatedly on the iPad.  To reward the child after a good behavior, the parent suggested the following rewards: give extra time to play on iPad, give him praises (e.g. good job), give children books to read and animal dinosaurs to play with, give the parent's iPhone since his favorite musics are on there.
+}%DIFDELCMD < 
 
-\paragraph{Child's Abilities on Hand-washing and on Other ADLs}
-The parent agrees that the child usually gets distracted when performing hand-washing.  To assist him, the parent mainly reminds him to put soap, rinse properly, and dry properly with towel.  He needs more prompting in these areas since he always washes in a hurry.
+%DIFDELCMD < %%%
+\paragraph{\DIFdel{Child's Abilities on Hand-washing and on Other ADLs}}
+%DIFAUXCMD
+\addtocounter{paragraph}{-1}%DIFAUXCMD
+\DIFdel{The parent agrees that the child usually gets distracted when performing hand-washing.  To assist him, the parent mainly reminds him to put soap, rinse properly, and dry properly with towel.  He needs more prompting in these areas since he always washes in a hurry.
+}%DIFDELCMD < 
 
-Other activities the child needs help with include:  tooth brushing -- 2 hours/week; bathing -- 4.5 hours/week; dressing -- usually just hand the clothes to him, he knows how to put them on, but needs reminders of the order of the clothing, 7 hours/week.
+%DIFDELCMD < %%%
+\DIFdel{Other activities the child needs help with include:  tooth brushing -- 2 hours/week; bathing -- 4.5 hours/week; dressing -- usually just hand the clothes to him, he knows how to put them on, but needs reminders of the order of the clothing, 7 hours/week.
+}%DIFDELCMD < 
 
-\paragraph{Parent's Expectation and Concerns}
-The parent expected the robot to be helpful in reminding the child to put soap, rinse and dry more, similar to the role of the parent.  Some concerns the parent has include: the child may be wondering why does he need to wash hands so many times repeatedly; the child performs well in his comfort zone with the same environment, so it takes a while for the child to get used to the lab environment.
+%DIFDELCMD < %%%
+\paragraph{\DIFdel{Parent's Expectation and Concerns}}
+%DIFAUXCMD
+\addtocounter{paragraph}{-1}%DIFAUXCMD
+\DIFdel{The parent expected the robot to be helpful in reminding the child to put soap, rinse and dry more, similar to the role of the parent.  Some concerns the parent has include: the child may be wondering why does he need to wash hands so many times repeatedly; the child performs well in his comfort zone with the same environment, so it takes a while for the child to get used to the lab environment.
+}%DIFDELCMD < 
 
+%DIFDELCMD < %%%
+\subsubsection{\DIFdel{Post-Intervention Survey for Parent}}
+%DIFAUXCMD
+\addtocounter{subsubsection}{-1}%DIFAUXCMD
+\DIFdel{The post-intervention survey results are presented in Table \ref{tab:PostInterventionSurveyData}.  We see that the parent was happy with all aspects of the robot as a prompting agent, but did not see it to be as good as herself yet.  The suggestions the parent made regarding the robot and the experiment are reported in the discussion section.
+}%DIFDELCMD < 
 
-\subsubsection{Post-Intervention Survey for Parent}
-The post-intervention survey results are presented in Table \ref{tab:PostInterventionSurveyData}.  We see that the parent was happy with all aspects of the robot as a prompting agent, but did not see it to be as good as herself yet.  The suggestions the parent made regarding the robot and the experiment are reported in the discussion section.
-
-\begin{table}[h]
-	\centering
-	\begin{tabular}{ | p{12cm} | l | }
-		\hline
-		\textbf{Survey Question}	&	\textbf{Parent's Answer}	\\	\hline	\hline		
-		Hand-washing steps break down was appropriate	&	Strongly Agree	\\	\hline
-		My child understood the verbal prompts	&	Agree	\\	\hline
-		Robot's verbal prompts were appropriate	&	Strongly Agree	\\	\hline
-		The prompt wordings were similar to mine	&	Strongly Agree	\\	\hline
-		The prompt voice and tone were appropriate	&	Strongly Agree	\\	\hline
-		The prompt wordings were easy to understand	&	Strongly Agree \\	\hline
-		My child understood the gesture prompts	&	Strongly Agree	\\	\hline
-		The gesture prompts were appropriate	&	Strongly Agree	\\	\hline
-		The gesture prompts were easy to understand	&	Agree	\\	\hline
-		The physical appearance of robot is aesthetically pleasing	&	Agree	\\	\hline
-		The attention grabber gestures were appropriate	&	Strongly Agree	\\	\hline
-		The verbal rewards were appropriate	&	Strongly Agree	\\	\hline
-		The reward gestures were appropriate	&	Strongly Agree	\\	\hline
-		The robot was effective in assisting my child through hand-washing	&	Strongly Agree	\\	\hline
-		The robot motivated my child to wash hands	&	Strongly Agree	\\	\hline
-		The robot was fun for my child to use	&	Strongly Agree	\\	\hline
-		My child was confused by the robot	&	Disagree	\\	\hline
-		I like the idea of a robot prompting my child	&	Strongly Agree	\\	\hline
-		The robot is able to provide guidance as well as I can or better	&	Neither Agree or Disagree	\\	\hline
-		I would want to own a robot like this one	&	Strongly Agree	\\	\hline
-	\end{tabular}
-	\caption{The Post-Intervention Survey Data}
-	\label{tab:PostInterventionSurveyData}
-\end{table}
-\section{Discussion}
+%DIFDELCMD < \begin{table}[h]
+%DIFDELCMD < 	\centering
+%DIFDELCMD < 	\begin{tabular}{ | p{12cm} | l | }
+%DIFDELCMD < 		\hline
+%DIFDELCMD < 		%%%
+\textbf{\DIFdelFL{Survey Question}}	%DIFAUXCMD
+%DIFDELCMD < &	%%%
+\textbf{\DIFdelFL{Parent's Answer}}	%DIFAUXCMD
+%DIFDELCMD < \\	\hline	\hline		
+%DIFDELCMD < 		%%%
+\DIFdelFL{Hand-washing steps break down was appropriate	}%DIFDELCMD < &	%%%
+\DIFdelFL{Strongly Agree	}%DIFDELCMD < \\	\hline
+%DIFDELCMD < 		%%%
+\DIFdelFL{My child understood the verbal prompts	}%DIFDELCMD < &	%%%
+\DIFdelFL{Agree	}%DIFDELCMD < \\	\hline
+%DIFDELCMD < 		%%%
+\DIFdelFL{Robot's verbal prompts were appropriate	}%DIFDELCMD < &	%%%
+\DIFdelFL{Strongly Agree	}%DIFDELCMD < \\	\hline
+%DIFDELCMD < 		%%%
+\DIFdelFL{The prompt wordings were similar to mine	}%DIFDELCMD < &	%%%
+\DIFdelFL{Strongly Agree	}%DIFDELCMD < \\	\hline
+%DIFDELCMD < 		%%%
+\DIFdelFL{The prompt voice and tone were appropriate	}%DIFDELCMD < &	%%%
+\DIFdelFL{Strongly Agree	}%DIFDELCMD < \\	\hline
+%DIFDELCMD < 		%%%
+\DIFdelFL{The prompt wordings were easy to understand	}%DIFDELCMD < &	%%%
+\DIFdelFL{Strongly Agree }%DIFDELCMD < \\	\hline
+%DIFDELCMD < 		%%%
+\DIFdelFL{My child understood the gesture prompts	}%DIFDELCMD < &	%%%
+\DIFdelFL{Strongly Agree	}%DIFDELCMD < \\	\hline
+%DIFDELCMD < 		%%%
+\DIFdelFL{The gesture prompts were appropriate	}%DIFDELCMD < &	%%%
+\DIFdelFL{Strongly Agree	}%DIFDELCMD < \\	\hline
+%DIFDELCMD < 		%%%
+\DIFdelFL{The gesture prompts were easy to understand	}%DIFDELCMD < &	%%%
+\DIFdelFL{Agree	}%DIFDELCMD < \\	\hline
+%DIFDELCMD < 		%%%
+\DIFdelFL{The physical appearance of robot is aesthetically pleasing	}%DIFDELCMD < &	%%%
+\DIFdelFL{Agree	}%DIFDELCMD < \\	\hline
+%DIFDELCMD < 		%%%
+\DIFdelFL{The attention grabber gestures were appropriate	}%DIFDELCMD < &	%%%
+\DIFdelFL{Strongly Agree	}%DIFDELCMD < \\	\hline
+%DIFDELCMD < 		%%%
+\DIFdelFL{The verbal rewards were appropriate	}%DIFDELCMD < &	%%%
+\DIFdelFL{Strongly Agree	}%DIFDELCMD < \\	\hline
+%DIFDELCMD < 		%%%
+\DIFdelFL{The reward gestures were appropriate	}%DIFDELCMD < &	%%%
+\DIFdelFL{Strongly Agree	}%DIFDELCMD < \\	\hline
+%DIFDELCMD < 		%%%
+\DIFdelFL{The robot was effective in assisting my child through hand-washing	}%DIFDELCMD < &	%%%
+\DIFdelFL{Strongly Agree	}%DIFDELCMD < \\	\hline
+%DIFDELCMD < 		%%%
+\DIFdelFL{The robot motivated my child to wash hands	}%DIFDELCMD < &	%%%
+\DIFdelFL{Strongly Agree	}%DIFDELCMD < \\	\hline
+%DIFDELCMD < 		%%%
+\DIFdelFL{The robot was fun for my child to use	}%DIFDELCMD < &	%%%
+\DIFdelFL{Strongly Agree	}%DIFDELCMD < \\	\hline
+%DIFDELCMD < 		%%%
+\DIFdelFL{My child was confused by the robot	}%DIFDELCMD < &	%%%
+\DIFdelFL{Disagree	}%DIFDELCMD < \\	\hline
+%DIFDELCMD < 		%%%
+\DIFdelFL{I like the idea of a robot prompting my child	}%DIFDELCMD < &	%%%
+\DIFdelFL{Strongly Agree	}%DIFDELCMD < \\	\hline
+%DIFDELCMD < 		%%%
+\DIFdelFL{The robot is able to provide guidance as well as I can or better	}%DIFDELCMD < &	%%%
+\DIFdelFL{Neither Agree or Disagree	}%DIFDELCMD < \\	\hline
+%DIFDELCMD < 		%%%
+\DIFdelFL{I would want to own a robot like this one	}%DIFDELCMD < &	%%%
+\DIFdelFL{Strongly Agree	}%DIFDELCMD < \\	\hline
+%DIFDELCMD < 	\end{tabular}
+%DIFDELCMD < 	%%%
+%DIFDELCMD < \caption{%
+{%DIFAUXCMD
+\DIFdelFL{The Post-Intervention Survey Data}}
+	%DIFAUXCMD
+%DIFDELCMD < \label{tab:PostInterventionSurveyData}
+%DIFDELCMD < \end{table}
+%DIFDELCMD < %%%
+\DIFdelend \section{Discussion}
 A Wizard of Oz study has been conducted following the A-B-C-B design.  In Phase A, the parent alone prompted the child through hand-washing steps.  In first Phase B, the robot alone prompted the child.  In Phase C, the parent and the robot jointly prompted.  Visual analyses were used to analyze the measures from annotated video data of the trials.
 
 %To evaluate the effectiveness of the robot prompts on child's step completion, to measure the child's compliance to the prompts, and to investigate their relationships with the child's engagement level during hand-washing, the following metrics are calculated and analyzed from the video data annotations for each trial:
@@ -2006,14 +2252,7 @@ John~N Constantino and Christian~P Gruber.
 \newblock The social responsiveness scale.
 \newblock {\em Los Angeles: Western Psychological Services}, 2002.
 
-\DIFaddbegin \bibitem{dautenhahn1999robots}
-\DIFadd{Kerstin Dautenhahn.
-}\newblock \DIFadd{Robots as social actors: Aurora and the case of autism.
-}\newblock \DIFadd{In }{\em \DIFadd{Proc. CT99, The Third International Cognitive Technology
-  Conference, August, San Francisco}}\DIFadd{, volume 359, page 374, 1999.
-}
-
-\DIFaddend \bibitem{dautenhahn2004towards}
+\bibitem{dautenhahn2004towards}
 Kerstin Dautenhahn and Iain Werry.
 \newblock Towards interactive robots in autism therapy: Background, motivation
   and challenges.
@@ -2295,7 +2534,13 @@ Linda Mechling and Eileen O'Brien.
 \newblock {\em Education and Training in Autism and Developmental
   Disabilities}, pages 230--241, 2010.
 
-\bibitem{mihailidis2008coach}
+\DIFaddbegin \bibitem{merriam2014qualitative}
+\DIFadd{Sharan~B Merriam.
+}\newblock {\em \DIFadd{Qualitative research: A guide to design and implementation}}\DIFadd{.
+}\newblock \DIFadd{John Wiley \& Sons, 2014.
+}
+
+\DIFaddend \bibitem{mihailidis2008coach}
 Alex Mihailidis, Jennifer~N Boger, Tammy Craig, and Jesse Hoey.
 \newblock The coach prompting system to assist older adults with dementia
   through handwashing: An efficacy study.
