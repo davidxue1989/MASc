@@ -1,0 +1,76 @@
+phase A notes:
+- get soap, lather, turn on water, rinse, turn off water, dry
+- child prefers turn on water then lather in water
+
+compare parent and robot prompts:
+prompt:
+- step used
+- verbal used
+- gesture used
+- timing of prompts
+- reward (AG, intro, outro), gaze
+child reception:
+		- compliance score table
+- able to complete the hand-washings?
+- always start soap first
+- X wait for first step if parent don't prompt proactive
+- sometimes not complying to terminate get soap, need to use physical interventions
+- X wait for turn on water prompt
+- always start rinsing by himself after turning on water
+- terminate rinse by himself after 8 seconds
+- V follow rinse more prompt, but terminate afte 1 second
+- V wait for prompt befor turn off water
+- always start drying by himself after turning off water
+- dry step quality is poor
+- terminate dry by himself after 8 seconds
+noncompliance strategies:
+- ...
+confusions:
+- rinse again prompt -> child got soap before starting rinse
+fatigues seen by playing with bubbles and noncompliance behaviors
+repeat verbal prompts as he processes it
+
+first phase B notes:
+- robot delay 4 seconds prompt execution, 2 sec pause between same prompts, 4-8 sec pause between diff prompts
+- turn on water, get soap, rinse.
+- always get soap first, despite robot repeated prompts
+- not always waiting for first prompts?
+- start rinse by himself immediately after turn on water
+- verbal reward prior to rinse, causing delay.  changed to no rewards after few trials.  better flow, no effect on child's enthusiasm.
+- rinse 4 seconds then terminate by himself
+- does not rinse more upon hearing rinse prompt
+- does not wait for turn off water prompt, terminate dry and leave by himself
+- first step prompted proactively, others prompted reactively or correctively due to robot delays, and many no prompts
+- compliance was nonexistent
+noncompliance strategies:
+- repeat prompt
+- AG
+- parent intervention
+-> both not working, and parent intervention sometimes not working verbally, had to be physically intervened
+Gaze:
+- more gaze in beginning of phase, but lost gaze interest quickly as trials progressed, correlated to whether child waits for robot?
+
+
+
+
+
+phase C notes:
+immediate changes due to parent involvement
+ - steps prompted
+gradual changes
+ - changes observed through out first and second phase B and phase C
+ - changes unique to phase C
+
+
+
+
+
+to report phase b and c:
+describe robot prompt and compare with parent
+describe robot prompt changes
+describe different stages of parent joint prompts
+describe child reactions and change in reactions in each phases (and stages)
+summarise and compare child reactions across phases
+	- phase a, first phase b, first visit phase c, after first visit phase c, second phase b
+
+

@@ -1,0 +1,109 @@
+tech types:
+Mechanical Prompts:
+	- vocal, gestural, physical, written/pictorial, and signed
+	prompts
+	(MacDuff, Krantz, &
+	McClannahan, 2001).
+- audio, tactile
+Video prompts
+Computer-Based Interventions
+Speech generating device
+
+
+Auditory prompting devices often require less manpower to result in positive change which is a
+critical benefit given the increasing number of children with autism served in local school settings where
+teacher resources may be scarce. Modern auditory prompts such as auditory pagers, portable compact
+disc players, and MP3 players are relatively small and unobtrusive and are used by enough children to
+minimize any stigma associated with carrying one for therapeutic purposes. Despite these apparent
+benefits, the paucity of literature focusing on technology-based auditory prompting for children with
+autism makes generalization of current findings difficult. Future research, as suggested by Taber et al.
+(1999), should continue to examine the effectiveness of self-operated auditory prompting systems with
+this population. Although Taber et al. (1999) & Coyle and Cole (2004) focused on decreasing off-task
+behavior, future investigations should also evaluate the effectiveness of auditory prompting for skill
+acquisition.
+
+
+Tactile stimulation in the form of manual gestural and physical prompts has often been used
+successfully for children with autism. However, the inherent limitation of manual prompting is the
+requirement for constant close proximity of a second person (e.g., parent, researcher, peer, etc.), which
+can be intrusive and demanding of human resources. As with auditory prompting, the development of
+electromechanical, tactile prompting devices is removing the need for the presence of a second individual.
+Although there are limits to the capabilities of existing prompting/vibratory devices, currently available
+products (e.g., Follow Through Inc., 2003; JTECH Communications Inc., 2004) provide researchers who
+lack design and manufacturing expertise the opportunity to conduct research in this area.
+
+Given the efficacy demonstrated thus far, research utilizing tactile prompting should be expanded.
+One broad area for future research involves the application of technology-based prompts to other skill
+areas. Thus far, research has focused on increasing social initiations in play settings or as a means to
+solicit help. However, this technology could be applied to numerous skills. For example, tactile
+prompting could be used to prompt children to look before crossing the street, to take medication, or to
+increase eye contact. The second area for future research involves development of strategies or modified
+technology to allow more effective prompt fading. Researchers’ ability to successfully fade mechanical
+prompts may be dependent on their ability to vary the prompts along a variety of stimulus dimensions
+such as volume or vibration intensity. For example, Shabani et al. (2002) decreased the frequency of
+prompts but were unable to alter the stimulus along dimensions that might have been more amenable to
+fading such as vibration intensity. If researchers collaborate with technology developers on design of
+future products, new and better options may become available that will more closely match mechanical
+technology (e.g., pagers) with behavioral technology (e.g., stimulus fading). Additionally, as children
+become frequent users of small, electronic devices for personal communication (e.g., cell phones, pagers,
+MP3 players, PDA’s, etc.) the use of discrete auditory and tactile prompting devices becomes a more
+socially valid and economically feasible intervention for children with autism.
+
+Video technology has proven useful as a tool for modeling appropriate behavior, providing
+feedback, and creating discrimination opportunities for the child's own behavior, and as a medium for
+presenting basic instruction that many children find engaging (Sturmey, 2003).
+
+While there are several demonstrations of the effectiveness of video modeling, only one
+published study has directly compared the use of video modeling to live modeling. The preliminary
+results from this comparative study indicate that incorporation of video may result in superior intervention
+effectiveness. Charlop-Christy, Le, & Freeman (2000) compared the effectiveness of video modeling to in
+vivo modeling for teaching developmental skills to children with autism and found that video modeling
+led to faster acquisition of play, language, and self -help skills and generalization of skills that was not
+observed in the in vivo condition. The authors suggest that video modeling may result in more ready
+generalization than in vivo modeling because it (a) uses a relatively simple format to present concepts in a
+systematic way, (b) effectively gains and maintains children’s attention, and (c) is a less “emotionally
+laden” way to learn. Additionally, video modeling offers the freedom to present a variety of exemplars to
+facilitate maintenance and generalization and allows easy repetition of the model without the requirement
+of repeated model effort and the risk of inconsistency in the model. Additional comparative studies are
+needed to support this preliminary finding.
+
+Overall, video is an increasingly popular, economical, readily available, user-friendly technology
+that can prove beneficial for children with autism. Although the production of video modeling tapes may
+be initially effortful and time consuming, taped models can be used repeatedly with the same child and
+with other children who have similar deficits. Researchers and clinicians who create video models for
+children with autism should keep several design features in mind. First, video models should display clear
+and detailed behaviors. Second, make im portant stimulus features as salient as possible while minimizing
+irrelevant or distracting stimuli to combat potential problems with stimulus overselectivity (LeBlanc et
+al., 2003). Clinicians may want to create several versions of the model that includes progressively more
+distracter stimuli or decreased salience of the target stimulus. Additionally, video models should teach
+multiple exemplars to promote generalization and minimize the likelihood of rote responding (e.g., Sherer
+et al., 2001). Finally, one should combine video modeling with other treatment components (e.g., roleplay,
+reinforcement, etc.) to increase the probability that efficient learning will occur.
+
+Computer-based intervention:
+There is mounting evidence that computer-based interventions are beneficial for children with
+autism but the critical question is whether computer-based instruction is more beneficial than its low-tech
+counterpart.
+Several comparative studies suggested that CBI results in increased motivation, reduced behavior problems, increased attention and sometimes results in increased learning compared to traditional methods.
+First, computer programming allows unlimited control of stimulus presentation
+that allows researchers and clinicians to present repeated learning trials in an identical or systematically
+varied format. Additionally, computer-based reinforcers can be delivered immediately following
+responses, and the delivery of reinforcement can easily be changed for schedule thinning purposes and
+varied to reduce the likelihood of satiation. Finally, although typically used as a single person technology,
+computers have the ability to permit concurrent, or “cooperative,” use (i.e., two children with two
+joysticks). Given that many parents are often concerned that use of technology will promote isolation and
+decreased interpersonal interaction, this is a notable feature.
+
+Speech generating device:
+There are several potential advantages to using SGD to support communication.
+First, they are often highly portable (Mechling 2011). For example, when the
+correct software application is installed, a handheld iPod or iPad can be used as a
+SGD device, and the ubiquity of such handheld devices among the typically
+developing population might also help reduce the stigmatization of using assistive
+technology for communication (Kagohara et al. 2013). Second, because electronic
+speech is produced, communication attempts may be more easily understood by
+most communication partners than more ambiguous forms of AAC such as sign
+language (Mirenda 2001). Finally, the SGD models the correct spoken message
+during moments when the person is motivated to communicate and some studies
+have demonstrated that using a SGD may lead to the acquisition of spoken
+communication (Schlosser and Wendt 2008).

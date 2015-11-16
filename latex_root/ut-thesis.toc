@@ -50,7 +50,7 @@
 \contentsline {section}{\numberline {4.1}Research Design and Strategy}{24}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Wizard of Oz Experiment Design}{24}{subsection.4.1.1}
 \contentsline {subsection}{\numberline {4.1.2}Case Study Format}{25}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Combining Qualitative and Quantitative Research}{26}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.3}Combining Qualitative and Quantitative Research}{25}{subsection.4.1.3}
 \contentsline {subsection}{\numberline {4.1.4}Case Selection and Sample Selection}{26}{subsection.4.1.4}
 \contentsline {section}{\numberline {4.2}Recruitment}{27}{section.4.2}
 \contentsline {paragraph}{The \textbf {inclusion criteria} for enrolling in the study were as follows:}{27}{section*.24}
@@ -73,7 +73,7 @@
 \contentsline {subsection}{\numberline {4.6.6}Conducting Post-intervention Surveys}{36}{subsection.4.6.6}
 \contentsline {subsection}{\numberline {4.6.7}Data Collection}{36}{subsection.4.6.7}
 \contentsline {subsection}{\numberline {4.6.8}Ethics}{36}{subsection.4.6.8}
-\contentsline {paragraph}{Consent and Assent}{37}{section*.33}
+\contentsline {paragraph}{Consent and Assent}{36}{section*.33}
 \contentsline {paragraph}{Confidentiality}{37}{section*.34}
 \contentsline {paragraph}{Data Storage}{37}{section*.35}
 \contentsline {section}{\numberline {4.7}Interview Transcription}{38}{section.4.7}
@@ -84,14 +84,14 @@
 \contentsline {paragraph}{Prompt Effectiveness}{39}{section*.37}
 \contentsline {paragraph}{Responses to Prompts}{39}{section*.38}
 \contentsline {paragraph}{Engagement and Visual Attention}{39}{section*.39}
-\contentsline {paragraph}{}{40}{section*.40}
+\contentsline {paragraph}{}{39}{section*.40}
 \contentsline {section}{\numberline {4.10}Data Analysis and Results}{40}{section.4.10}
 \contentsline {subsection}{\numberline {4.10.1}Participants Recruited}{40}{subsection.4.10.1}
 \contentsline {subsubsection}{Entrance and SRS Survey Results}{40}{section*.41}
 \contentsline {paragraph}{Child's Demographics and Inclusion Criteria Fit}{40}{section*.42}
 \contentsline {paragraph}{Child's Experience with Technologies}{40}{section*.43}
 \contentsline {paragraph}{Child's Personal Preferences}{40}{section*.44}
-\contentsline {paragraph}{Child's Abilities on Hand-washing and on Other ADLs}{41}{section*.45}
+\contentsline {paragraph}{Child's Abilities on Hand-washing and on Other ADLs}{40}{section*.45}
 \contentsline {paragraph}{Parent's Expectation and Concerns}{41}{section*.46}
 \contentsline {subsection}{\numberline {4.10.2}Case Selected}{41}{subsection.4.10.2}
 \contentsline {subsection}{\numberline {4.10.3}Qualitative Data Analysis Method}{41}{subsection.4.10.3}
@@ -108,10 +108,10 @@
 \contentsline {subsubsection}{Analysis Method}{51}{section*.56}
 \contentsline {subsubsection}{Prompt Effectiveness}{51}{section*.57}
 \contentsline {paragraph}{Number of Incomplete Steps}{51}{section*.58}
-\contentsline {paragraph}{Number of Parent Prompts}{51}{section*.60}
-\contentsline {subsubsection}{Child's Response to Prompts}{52}{section*.62}
+\contentsline {paragraph}{Number of Parent Prompts}{52}{section*.60}
+\contentsline {subsubsection}{Child's Response to Prompts}{53}{section*.62}
 \contentsline {paragraph}{Compliance Rate}{53}{section*.63}
-\contentsline {paragraph}{Not Affected By Prompt Rate}{53}{section*.65}
+\contentsline {paragraph}{Not Affected By Prompt Rate}{54}{section*.65}
 \contentsline {subsubsection}{Engagement and Visual Attention}{54}{section*.67}
 \contentsline {paragraph}{Number of Times Child Smiles}{54}{section*.68}
 \contentsline {paragraph}{Number of Times Child Murmurs}{55}{section*.70}

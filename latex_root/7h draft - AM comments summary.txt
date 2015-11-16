@@ -1,4 +1,4 @@
-(1hr) past tense, contractions, other gramar fixes, and small fixes
+V (1hr) past tense, contractions, other gramar fixes, and small fixes
 
 gaze pattern comparison between first phase B, phase C, and second phase B
 	- (1hr) method of determination / observation -> pick at most three instances of interest for gaze pattern description
