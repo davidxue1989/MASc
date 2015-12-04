@@ -94,32 +94,33 @@
 \contentsline {paragraph}{Child's Abilities on Hand-washing and on Other ADLs}{40}{section*.45}
 \contentsline {paragraph}{Parent's Expectation and Concerns}{41}{section*.46}
 \contentsline {subsection}{\numberline {4.10.2}Case Selected}{41}{subsection.4.10.2}
-\contentsline {subsection}{\numberline {4.10.3}Qualitative Data Analysis Method}{41}{subsection.4.10.3}
-\contentsline {subsection}{\numberline {4.10.4}Qualitative Data Analysis Results}{42}{subsection.4.10.4}
-\contentsline {subsubsection}{Parent Prompts - Phase A}{42}{section*.47}
-\contentsline {subsubsection}{Robot Prompts - First Phase B}{45}{section*.49}
-\contentsline {subsubsection}{Robot Prompts - Phase C}{47}{section*.50}
-\contentsline {subsubsection}{Robot Prompts - Second Phase B}{48}{section*.51}
-\contentsline {subsubsection}{Causes of Child's Non-Compliances}{48}{section*.52}
-\contentsline {subsubsection}{Causes of Improvements of Child's Compliance}{49}{section*.53}
-\contentsline {subsubsection}{Post-Intervention Survey for Parent}{50}{section*.54}
-\contentsline {subsection}{\numberline {4.10.5}Experiment Design Change}{50}{subsection.4.10.5}
-\contentsline {subsection}{\numberline {4.10.6}Video Data Analysis and Results}{51}{subsection.4.10.6}
-\contentsline {subsubsection}{Analysis Method}{51}{section*.56}
-\contentsline {subsubsection}{Prompt Effectiveness}{51}{section*.57}
-\contentsline {paragraph}{Number of Incomplete Steps}{51}{section*.58}
-\contentsline {paragraph}{Number of Parent Prompts}{52}{section*.60}
-\contentsline {subsubsection}{Child's Response to Prompts}{53}{section*.62}
-\contentsline {paragraph}{Compliance Rate}{53}{section*.63}
-\contentsline {paragraph}{Not Affected By Prompt Rate}{54}{section*.65}
-\contentsline {subsubsection}{Engagement and Visual Attention}{54}{section*.67}
-\contentsline {paragraph}{Number of Times Child Smiles}{54}{section*.68}
-\contentsline {paragraph}{Number of Times Child Murmurs}{55}{section*.70}
-\contentsline {paragraph}{Looking at Prompting Agent Rate}{56}{section*.72}
-\contentsline {section}{\numberline {4.11}Discussion}{56}{section.4.11}
-\contentsline {subsection}{\numberline {4.11.1}Primary Results}{57}{subsection.4.11.1}
+\contentsline {subsection}{\numberline {4.10.3}Quantitative Data Description}{41}{subsection.4.10.3}
+\contentsline {subsubsection}{Analysis Method}{41}{section*.47}
+\contentsline {paragraph}{Number of Parent Prompts}{42}{section*.49}
+\contentsline {subsubsection}{Prompt Effectiveness}{42}{section*.51}
+\contentsline {paragraph}{Number of Incomplete Steps}{42}{section*.52}
+\contentsline {subsubsection}{Child's Response to Prompts}{44}{section*.55}
+\contentsline {paragraph}{Compliance Rate}{44}{section*.56}
+\contentsline {paragraph}{Not Affected By Prompt Rate}{45}{section*.58}
+\contentsline {subsection}{\numberline {4.10.4}Qualitative Data Analysis Method}{46}{subsection.4.10.4}
+\contentsline {subsection}{\numberline {4.10.5}Qualitative Data Analysis Results}{47}{subsection.4.10.5}
+\contentsline {subsubsection}{Parent Prompts - Phase A}{47}{section*.60}
+\contentsline {subsubsection}{Robot Prompts - First Phase B}{51}{section*.62}
+\contentsline {subsubsection}{Robot Prompts - Phase C}{52}{section*.63}
+\contentsline {subsubsection}{Robot Prompts - Second Phase B}{53}{section*.64}
+\contentsline {subsubsection}{Causes of Child's Non-Compliances}{53}{section*.65}
+\contentsline {subsubsection}{Causes of Improvements of Child's Compliance}{55}{section*.66}
+\contentsline {subsubsection}{Post-Intervention Survey for Parent}{55}{section*.67}
+\contentsline {subsection}{\numberline {4.10.6}Experiment Design Change}{56}{subsection.4.10.6}
+\contentsline {subsection}{\numberline {4.10.7}Video Data Analysis and Results}{56}{subsection.4.10.7}
+\contentsline {subsubsection}{Engagement and Visual Attention}{56}{section*.69}
+\contentsline {paragraph}{Number of Times Child Smiles}{57}{section*.70}
+\contentsline {paragraph}{Number of Times Child Murmurs}{57}{section*.72}
+\contentsline {paragraph}{Looking at Prompting Agent Rate}{57}{section*.74}
+\contentsline {section}{\numberline {4.11}Discussion}{58}{section.4.11}
+\contentsline {subsection}{\numberline {4.11.1}Primary Results}{58}{subsection.4.11.1}
 \contentsline {subsection}{\numberline {4.11.2}Secondary Results}{61}{subsection.4.11.2}
-\contentsline {subsection}{\numberline {4.11.3}Limitations and Future Works}{62}{subsection.4.11.3}
+\contentsline {subsection}{\numberline {4.11.3}Limitations and Future Works}{63}{subsection.4.11.3}
 \contentsline {chapter}{\numberline {5}Visual Focus of Attention Estimation}{67}{chapter.5}
 \contentsline {section}{\numberline {5.1}Head Pose Estimation}{67}{section.5.1}
 \contentsline {subsection}{\numberline {5.1.1}3D Kinect Camera Approach}{67}{subsection.5.1.1}

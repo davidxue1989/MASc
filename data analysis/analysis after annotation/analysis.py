@@ -4,6 +4,10 @@ import collections #for ordereddict
 import matplotlib.pyplot as plt
 import numpy as np
 
+# #this is for python 3.x where cmp isn't there anymore
+# def cmp(a, b):
+#     return (a>b)-(a<b)
+
 def toTime(str):
     #converts str to time in seconds. str in format of mm:ss.mss, e.g. 00:26.803
     assert(len(str) == 9)
@@ -848,8 +852,6 @@ def calcStepCompletionRate(filename):
     compliance_hard_rate_v_SmplSz = np.sum(responseMatrix[:, compliance_hard_SmplSz_indx], 1)
     compliance_hard_rate_v = 1. * np.sum(responseMatrix[:, compliance_hard_indx], 1) / compliance_hard_rate_v_SmplSz
     
-    compliance_hard_rate_overall = 1. * np.sum(np.array([1, 2, 3])) / np.array([0])
-    
     responseMatrix_overall = np.sum(responseMatrix, 0)
     
     no_effects_from_prompt_rate_overall_SmplSz = np.sum(responseMatrix_overall[no_effects_from_prompt_SmplSz_indx])
@@ -1123,7 +1125,7 @@ def calcStepCompletionRate(filename):
 ## script start
 
 #load the files
-directory = 'C:\\Users\\David-PC\\SkyDrive\\thesis report\\data analysis\\analysis after annotation\\'
+directory = 'C:\\Users\\David\\Documents\\GitHub\\MASc\\data analysis\\analysis after annotation\\'
 names_t1 = ['t1-s1.csv', 't1-s2.csv', 't1-s3.csv', 't1-s4.csv', 't1-s5.csv', 't1-s6.csv', 't1-s7.csv', 't1-s8.csv']
 names_t2 = ['t2-s1.csv', 't2-s2.csv', 't2-s3.csv', 't2-s4.csv', 't2-s5.csv', 't2-s6.csv', 't2-s7.csv', 't2-s8.csv']
 names_t3 = ['t3-s1.csv', 't3-s2.csv', 't3-s3.csv', 't3-s4.csv', 't3-s5.csv', 't3-s6.csv']

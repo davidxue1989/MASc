@@ -6,6 +6,8 @@ gaze pattern comparison between first phase B, phase C, and second phase B
 	- (1hr) write up the results
 
 how to tie quantitative and qualitative analysis together:
+		=> quantitative data for parent involvement, task completion, and compliance overall prior to qualitative analysis
+		=> quantitative data for indicators of improvement identified by qualitative analysis after qualitative analysis
 - video data annotation -> for purpose of describing the data quantitatively, can then be used to clarify and depict things discussed in qualitative analysis
 	- (1hr) what things should be depicted by quantitative figures / tables?
 	- (2hr) generate those figures, describe method and results
