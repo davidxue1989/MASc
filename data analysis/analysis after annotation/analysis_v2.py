@@ -222,6 +222,8 @@ def computeMeasures(filename):
     ##initializing
     nPromptSessions = len(step)
     
+    sumNumPromptsPhysical_parent = 0
+    
     distinct_steps = [[2], [3], [4, 5], [6], [7]]
     distinct_steps_completed_overall = [0, 0, 0, 0, 0]
     distinct_steps_p_phy_int = [0, 0, 0, 0, 0]
@@ -283,7 +285,10 @@ def computeMeasures(filename):
                     distinct_steps_p_phy_int[stepIdx] = 1
                 distinct_steps_completed_overall[stepIdx] = stepCompleted
                 distinct_steps_completed_wo_p_phy_int[stepIdx] = (distinct_steps_p_phy_int[stepIdx] == 0) and stepCompleted
-
+        
+        if P_gesture[idx] >= 6: #P is physically intervening
+            sumNumPromptsPhysical_parent = sumNumPromptsPhysical_parent + max(number_of_Prompts_till_C_executes_correct_step_parent[idx], 0) #only count prompts before attempt, since usually physical gestures are not for continuing an extend step, so let's just ignore them
+    
         if step[idx] in [4,5] and (attempted_step_before_prompt[idx] in [4,5] or attempted_step_after_prompt[idx] in [4,5]): 
         #if child is executing rinse or scrub step, we wanna measure longest duration before child self terminate
             durationRinseLongest = max(durationRinseLongest, time_C_stops_step[idx] - time_C_attempts_step[idx])
@@ -398,7 +403,6 @@ def computeMeasures(filename):
     smplSzDict['Number of Steps Completed - Overall'] = nPromptSessions
     # retDict['Number of Steps Completed - Without Parent Phys. Intervene'] = sum(distinct_steps_completed_wo_p_phy_int)
     # smplSzDict['Number of Steps Completed - Without Parent Phys. Intervene'] = nPromptSessions
-
     
     no_effects_from_prompt_indx = getSelectedIndx(colNames, ['rightStep2rightStep_nonExtend', 'wrongStep2wrongStep_Same', 'noStep2noStep'])
     stopped_for_no_reason_indx = getSelectedIndx(colNames, ['rightStep2noStep', 'wrongStep2noStep'])
@@ -514,6 +518,9 @@ def computeMeasures(filename):
     retDict['Parent Involvement'] = parent_involvement
     smplSzDict['Parent Involvement'] = 1
     
+    retDict['Number of Parent Prompts - Phys. Interv.'] = sumNumPromptsPhysical_parent
+    smplSzDict['Number of Parent Prompts - Phys. Interv.'] = nPromptSessions
+    
     retDict['Longest Duration of Rinse'] = durationRinseLongest
     smplSzDict['Longest Duration of Rinse'] = nPromptSessionsRinse
     
@@ -582,6 +589,14 @@ for i, key3 in enumerate(resultsDict):
         #draw vertical phase lines
         if phaseIdx != len(phaseSegs)-1: #don't draw line for the last seg
             plt.axvline(newPhaseEndIndx + 0.5, color='k')
+        #draw median lines
+        if 'Parent Involvement' not in key3 and 'Number of Parent Prompts' not in key3:
+            x = resultsDict[key3][indices]
+            x = x[~np.isnan(x)] #get rid of the NaNs when calculating the median
+            med = np.median(x)
+            plt.plot([timeAxis[indices[0]], timeAxis[indices[-1]]], [med, med], color='k', linestyle='-', linewidth=2.5)
+            
+            # plt.text((timeAxis[indices[0]] + timeAxis[indices[-1]])*0.5, med, str(round(med, 2)), fontsize=15)
         
         phaseEndIndx = newPhaseEndIndx
 
@@ -590,25 +605,24 @@ for i, key3 in enumerate(resultsDict):
 #     plt.title(key3)
     plt.xlabel('Trial Number')
     plt.ylabel(key3)
-#     plt.legend(loc='best', shadow=True, markerscale=0.5, numpoints=1, fontsize=9)
-    #x,y limits
+    #x,y limits, make sure points don't touch boundary
     plt.xlim(0.5, len(timeAxis)+1)
-    plt.ylim(ymin=-0.1)#make sure points don't touch boundary
-    if 'Rate' in key3 or 'Percentage' in key3:
-        plt.ylim(ymax=1.0)
+    plt.ylim(ymin=-0.1)
+    if 'Rate' in key3 in key3:
+        plt.ylim(ymax=1.1)
 #         plt.ylim(-1, 1) #todo: debug
-    if 'Number of Incomplete Steps' in key3:
-        plt.ylim(ymax=5)
-    if 'Number of Complete Steps' in key3:
-        plt.ylim(ymax=7)
-    plt.ylim(ymax=plt.ylim()[1]+0.1)#make sure points don't touch boundary
+    if 'Number of Steps Completed' in key3:
+        plt.ylim(ymax=5.5)
+    if 'Parent Involvement' in key3:
+        plt.ylim(ymax=4.5)
+    # plt.ylim(ymax=plt.ylim()[1]+0.1
     # annotate phases
     phaseEndIndx = 0
     for phaseIdx, phaseLen in enumerate(phaseSegs):
         newPhaseEndIndx = phaseEndIndx + phaseLen
         plt.annotate(phaseLabel[phaseIdx], xy=(0.5*(phaseEndIndx+newPhaseEndIndx), 0.95*plt.ylim()[1]+0.05*plt.ylim()[0]), color='k', size=20)
         phaseEndIndx = newPhaseEndIndx
-#     plt.show()
+    # plt.show()
     plt.savefig(directory + 'figures\\' + str(i) + key3.translate(None, ' ') + '.eps') #no spaces in names for latex use
     plt.savefig(directory + 'figures\\' + str(i) + key3.translate(None, ' ') + '.png') #no spaces in names for latex use
 
@@ -642,7 +656,7 @@ for xcond in xconditions:
             plt.ylabel('Number of Steps Completed - Overall')
             
             #legends
-            plt.legend(legendHandels, phaseLabel, loc='lower right', fontsize=10)
+            plt.legend(legendHandels, phaseLabel, loc='lower right', fontsize=10, shadow=True, markerscale=0.75, numpoints=1)
             
             #save figures
             plt.savefig(directory + 'figures\\' + ycond.translate(None, ' ') + '_vs_' + xcond.translate(None, ' ') + str(phaseIdx) + '.eps') #no spaces in names for latex use
