@@ -224,10 +224,10 @@ def computeMeasures(filename):
     
     sumNumPromptsPhysical_parent = 0
     
-    distinct_steps = [[2], [3], [4, 5], [6], [7]]
-    distinct_steps_completed_overall = [0, 0, 0, 0, 0]
-    distinct_steps_p_phy_int = [0, 0, 0, 0, 0]
-    distinct_steps_completed_wo_p_phy_int = [0, 0, 0, 0, 0]
+    distinct_steps = [[2], [3], [4], [5], [6], [7], [9]]
+    distinct_steps_completed_overall = [0, 0, 0, 0, 0, 0, 0]
+    distinct_steps_p_phy_int = [0, 0, 0, 0, 0, 0, 0]
+    distinct_steps_completed_wo_p_phy_int = [0, 0, 0, 0, 0, 0, 0]
     number_of_distinct_steps_completed_overall = 0
     number_of_distinct_steps_completed_wo_p_phy_int = 0
     
@@ -275,22 +275,25 @@ def computeMeasures(filename):
         if step[idx] == 1 or step[idx] == 8: #this is intro or alldone step, skip
             continue
         
-        #parent physical intervention flag
-        p_phy_int = P_gesture[idx]>= 6 #6 is guide arm, 7 is fully do step
-        stepCompleted = (attempted_step_successfully_executed_before_prompt[idx] >= 1) or (attempted_step_successfully_executed_after_prompt[idx] >= 1)
+        p_phy_int = P_gesture[idx]>= 6 #parent physical intervention flag, 6 is guide arm, 7 is fully do step
+        stepCompleted = -1
+        if attempted_step_successfully_executed_before_prompt[idx] >= 1:
+            stepCompleted = attempted_step_before_prompt[idx]
+        elif attempted_step_successfully_executed_after_prompt[idx] >= 1:
+            assert(attempted_step_successfully_executed_before_prompt[idx] < 1)
+            stepCompleted = attempted_step_after_prompt[idx]
         for stepIdx, distinct_step in enumerate(distinct_steps):
             #distinct steps completed count
-            if step[idx] in distinct_step:
+            if stepCompleted in distinct_step:
                 if p_phy_int:
                     distinct_steps_p_phy_int[stepIdx] = 1
-                distinct_steps_completed_overall[stepIdx] = stepCompleted
-                distinct_steps_completed_wo_p_phy_int[stepIdx] = (distinct_steps_p_phy_int[stepIdx] == 0) and stepCompleted
+                distinct_steps_completed_overall[stepIdx] = 1
+                distinct_steps_completed_wo_p_phy_int[stepIdx] = distinct_steps_p_phy_int[stepIdx] == 0
         
         if P_gesture[idx] >= 6: #P is physically intervening
             sumNumPromptsPhysical_parent = sumNumPromptsPhysical_parent + max(number_of_Prompts_till_C_executes_correct_step_parent[idx], 0) #only count prompts before attempt, since usually physical gestures are not for continuing an extend step, so let's just ignore them
     
-        if step[idx] in [4,5] and (attempted_step_before_prompt[idx] in [4,5] or attempted_step_after_prompt[idx] in [4,5]): 
-        #if child is executing rinse or scrub step, we wanna measure longest duration before child self terminate
+        if step[idx] in [4,5] and (attempted_step_before_prompt[idx] in [4,5] or attempted_step_after_prompt[idx] in [4,5]): #if child is executing rinse or scrub step, we wanna measure longest duration before child self terminate
             durationRinseLongest = max(durationRinseLongest, time_C_stops_step[idx] - time_C_attempts_step[idx])
             nPromptSessionsRinse = nPromptSessionsRinse + 1
             # if time_C_attempts_step[idx] < 0:
@@ -612,7 +615,7 @@ for i, key3 in enumerate(resultsDict):
         plt.ylim(ymax=1.1)
 #         plt.ylim(-1, 1) #todo: debug
     if 'Number of Steps Completed' in key3:
-        plt.ylim(ymax=5.5)
+        plt.ylim(ymax=6.5)
     if 'Parent Involvement' in key3:
         plt.ylim(ymax=4.5)
     # plt.ylim(ymax=plt.ylim()[1]+0.1
@@ -628,38 +631,38 @@ for i, key3 in enumerate(resultsDict):
 
 
 ##Step Completion vs. Compliance
-plt.clf()
-plt.rc("font", size=18)
-colors = ['r', 'k', 'g', 'b']
-markers = ['^', 's', 'o', 'h']
-# xconditions = ['Compliance Rate - Overall', 'Compliance Rate - R1Pv0g0']
-# yconditions = ['Number of Steps Completed - Overall', 'Number of Steps Completed - Without Parent Phys. Intervene']
-xconditions = ['Compliance Rate - Overall']
-yconditions = ['Number of Steps Completed - Overall']
-legendHandels = []
-for xcond in xconditions:
-    for ycond in yconditions:
-        phaseEndIndx = 0
-        for phaseIdx, phaseLen in enumerate(phaseSegs):
-            #form the indices of items of the phase
-            newPhaseEndIndx = phaseEndIndx + phaseLen
-            indices = range(phaseEndIndx, newPhaseEndIndx)
-            # print (indices) #debug
-            h, = plt.plot(resultsDict[xcond][indices], resultsDict[ycond][indices], color=colors[phaseIdx], marker=markers[phaseIdx], linestyle='', linewidth=0.8, markersize=10)
-            legendHandels.append(h)
-            phaseEndIndx = newPhaseEndIndx
-            
-            #label axes
-            plt.ylim(ymax=6, ymin=-1)
-            plt.xlim(xmax=1.1, xmin=-0.1)
-            plt.xlabel('Compliance Rate - Overall')
-            plt.ylabel('Number of Steps Completed - Overall')
-            
-            #legends
-            plt.legend(legendHandels, phaseLabel, loc='lower right', fontsize=10, shadow=True, markerscale=0.75, numpoints=1)
-            
-            #save figures
-            plt.savefig(directory + 'figures\\' + ycond.translate(None, ' ') + '_vs_' + xcond.translate(None, ' ') + str(phaseIdx) + '.eps') #no spaces in names for latex use
-            plt.savefig(directory + 'figures\\' + ycond.translate(None, ' ') + '_vs_' + xcond.translate(None, ' ') + str(phaseIdx) + '.png') #no spaces in names for latex use
-        # plt.show() #debug
-            
+# plt.clf()
+# plt.rc("font", size=18)
+# colors = ['r', 'k', 'g', 'b']
+# markers = ['^', 's', 'o', 'h']
+# # xconditions = ['Compliance Rate - Overall', 'Compliance Rate - R1Pv0g0']
+# # yconditions = ['Number of Steps Completed - Overall', 'Number of Steps Completed - Without Parent Phys. Intervene']
+# xconditions = ['Compliance Rate - Overall']
+# yconditions = ['Number of Steps Completed - Overall']
+# legendHandels = []
+# for xcond in xconditions:
+#     for ycond in yconditions:
+#         phaseEndIndx = 0
+#         for phaseIdx, phaseLen in enumerate(phaseSegs):
+#             #form the indices of items of the phase
+#             newPhaseEndIndx = phaseEndIndx + phaseLen
+#             indices = range(phaseEndIndx, newPhaseEndIndx)
+#             # print (indices) #debug
+#             h, = plt.plot(resultsDict[xcond][indices], resultsDict[ycond][indices], color=colors[phaseIdx], marker=markers[phaseIdx], linestyle='', linewidth=0.8, markersize=10)
+#             legendHandels.append(h)
+#             phaseEndIndx = newPhaseEndIndx
+#             
+#             #label axes
+#             plt.ylim(ymax=6, ymin=-1)
+#             plt.xlim(xmax=1.1, xmin=-0.1)
+#             plt.xlabel('Compliance Rate - Overall')
+#             plt.ylabel('Number of Steps Completed - Overall')
+#             
+#             #legends
+#             plt.legend(legendHandels, phaseLabel, loc='lower right', fontsize=10, shadow=True, markerscale=0.75, numpoints=1)
+#             
+#             #save figures
+#             plt.savefig(directory + 'figures\\' + ycond.translate(None, ' ') + '_vs_' + xcond.translate(None, ' ') + str(phaseIdx) + '.eps') #no spaces in names for latex use
+#             plt.savefig(directory + 'figures\\' + ycond.translate(None, ' ') + '_vs_' + xcond.translate(None, ' ') + str(phaseIdx) + '.png') #no spaces in names for latex use
+#         # plt.show() #debug
+#             
