@@ -1,3 +1,9 @@
+- report what worked and what didn't for robot prompt protocols
+
+
+
+
+
 new organization for analysis and results:
 
 V QN: parent involvement level
@@ -45,6 +51,8 @@ how are prompts grouped into a prompt session?
 
 include all the names in the annotation framework column to thesis?
 make the distinction between attempt and sucessfully execute in thesis?
+discuss the decision to use AG sparingly, if used at all
 
+The reason why we grouped scrub and rinse hands as one step was because the our participant was not able to make a distinction between the two steps.
 
-
+MoDemo serves more than just clarifying action, its fast moving visual action is salient to our participant, and can be used as a way to grab and maintain attention of the child during prompt

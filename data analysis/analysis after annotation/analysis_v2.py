@@ -384,7 +384,7 @@ def computeMeasures(filename):
                         cc = colNames.index('rightStep2rightStep_extend')
                         correctResponse_updateMatrix(step[idx], extendSteps, rr, cc, responseMatrix, colNames, number_of_Prompts_till_C_executes_correct_step_parent[idx], number_of_Prompts_till_C_executes_correct_step_robot[idx], number_of_prompts_till_C_stops_correct_step_parent[idx], number_of_prompts_till_C_stops_correct_step_robot[idx], nRinsePrompts, nRinsePromptsComplied)
                         
-                    else:
+                    elif attempted_step_after_prompt[idx] not in extendSteps:
                         rr = rowNames.index(getRowName(R_verbal[idx], R_gesture[idx], P_verbal[idx], P_gesture[idx]))
                         cc = colNames.index('rightStep2rightStep_nonExtend')
                         correctResponse_updateMatrix(step[idx], extendSteps, rr, cc, responseMatrix, colNames, number_of_Prompts_till_C_executes_correct_step_parent[idx], number_of_Prompts_till_C_executes_correct_step_robot[idx], number_of_prompts_till_C_stops_correct_step_parent[idx], number_of_prompts_till_C_stops_correct_step_robot[idx], nRinsePrompts, nRinsePromptsComplied)
@@ -472,6 +472,8 @@ def computeMeasures(filename):
     #     smplSzDict['Hard Compliance Rate - ' + rowNames[ii]] = value
     
     responseMatrix_overall = np.sum(responseMatrix, 0)
+    
+    # rightStep2rightStep_nonExtend_dbg = responseMatrix_overall[getSelectedIndx(colNames, ['rightStep2rightStep_nonExtend'])]
     
     no_effects_from_prompt_rate_overall_SmplSz = np.sum(responseMatrix_overall[no_effects_from_prompt_SmplSz_indx])
     no_effects_from_prompt_rate_overall = 1. * np.sum(responseMatrix_overall[no_effects_from_prompt_indx]) / np.array(no_effects_from_prompt_rate_overall_SmplSz) # / np.array(*) gets rid of division by zero error (automatically places a NaN)
@@ -599,7 +601,7 @@ for i, key3 in enumerate(resultsDict):
             med = np.median(x)
             plt.plot([timeAxis[indices[0]], timeAxis[indices[-1]]], [med, med], color='k', linestyle='-', linewidth=2.5)
             
-            # plt.text((timeAxis[indices[0]] + timeAxis[indices[-1]])*0.5, med, str(round(med, 2)), fontsize=15)
+            # plt.text((timeAxis[indices[0]] + timeAxis[indices[-1]])*0.5, med, str(round(med, 2)), fontsize=15) #median values labeled
         
         phaseEndIndx = newPhaseEndIndx
 

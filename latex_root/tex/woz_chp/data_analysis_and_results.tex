@@ -1,4 +1,5 @@
 \section{Data Analysis and Results}
+\label{Sec:DataAnalysisAndResults}
 In the following section, the hand-washing trials, the SRS survey, entrance survey, and post-interventions survey, and the parent interviews were analyzed qualitatively, and the annotated video data of the hand-washing trials was analyzed quantitatively.
 
 \subsection{Participants Recruited}
@@ -24,27 +25,10 @@ Other everyday activities the child needs help with include:  tooth brushing -- 
 \paragraph{Parent's Expectation and Concerns}
 The parent expected the robot to be helpful in reminding the child to put soap, rinse and dry more, similar to the role of M.  Some concerns the parent has include: the child may be wondering why does he need to wash hands so many times repeatedly; the child performs well in his comfort zone with the same environment, so it takes a while for the child to get used to the lab environment.
 
-\subsection{Case Selected}
-Our participant fitted the inclusion criteria as a user with typical use case for the robot.  It was noted that the typical use cases for the robot may be several, depending on the kinds of helps the user needs.  From the background report above, we understood that the child mainly needs help initiating the hand-washing activity, and guidances during certain steps (i.e. the get soap, rinse, and dry steps), but the child does not need much prompts for demonstrating the actions of each step.  This tendency of the child was verified during the trials, and we attempted to answer the question how ``best to prompt the child'' given this tendency (e.g. Should we prompt only the steps the child needs help, or prompt every step to create consistency?  Should we still demonstrate actions for the prompted steps or skip the MoDemo part of the prompt entirely?)  These will be answered in our discussions.
+\subsection{Case and Samples Selected}
+Our participant fitted the inclusion criteria as a user with typical use case for the robot.  It was noted that the typical use cases for the robot may be several, depending on the kinds of helps the user needs.  From the background report above, we understood that the child mainly needs help initiating the hand-washing activity, and guidances during certain steps (i.e. the get soap, rinse, and dry steps), but the child does not need much prompts for demonstrating the actions of each step.  This tendency of the child was verified during the trials, and we attempted to answer the question ``how best to prompt the child'' given this tendency (e.g. Should we prompt only the steps the child needs help, or prompt every step to create consistency?  Should we still demonstrate actions for the prompted steps or skip the MoDemo part of the prompt entirely?)  These will be answered in our discussions.
 
-
-
-
-
-\subsection{Quantitative Data Description}
-
-
-
-
-
-
-
-\subsubsection{Analysis Method}
-The analyses employed here are visual analyses.  The analyses mainly compare the levels (eyeballing the mean) of measures in different phases.  In cases where the level of a measure changes dramatically within a phase, this trend with initial level and final level were noted.
-
-
-
-It is important to mention here that the parent did not prompt the same way uniformly through Phase C, but instead was involved in various degrees.  The level of involvement was left up to the parent's discretion for each trial, with the ultimate goal to fade out the involvement to minimal by the end of Phase C.  By reviewing how the parent prompted the child, five levels of involvement were observed:
+As part of the effort for employing maximum variation sampling method, we had different phases of trials having a variation of the prompting agents involved.  In addition, for the phase with parent and robot joint prompting (i.e. Phase C), the researcher and the parent discussed before each trial how much the parent involved in helping the child for that trial, with the goal to fade out the involvement to minimal by the end of Phase C, while maintaining a high level of child's compliance to robot prompts.  To describe specifically, across the four phases, there were five levels of involvement employed:
 \begin{itemize}
 	\item \textbf{Level 0}: the parent is outside of the room out of the child's view, only comes into the washroom to prompt when the child is not following the robot (this behavior is similar to that during Phase B)
 	\item \textbf{Level 1}: the parent stands beside the child in the washroom, and mainly uses gestures to prompt the child to follow the robot and to demonstrate the step's motions after robot prompts
@@ -55,10 +39,62 @@ It is important to mention here that the parent did not prompt the same way unif
 The Parent Involvement Level is plotted in Figure \ref{fig:107ParentInvolvement}.  We see that, in Phase C, the parent mainly alternated between trial segments of level 1 and level 3 to train the child to follow the robot, while mixing single trials of level 0 to monitor the child's progress when left with robot alone.
 \begin{figure} [h]
 	\centering
-	\includegraphics[width=0.6\textwidth]{./img/data_analysis/107ParentInvolvement.eps}
+	\includegraphics[width=0.6\textwidth]{./img/data_analysis/6ParentInvolvement.eps}
 	\caption{Parent Involvement}
-	\label{fig:107ParentInvolvement}
+	\label{fig:6ParentInvolvement}
 \end{figure}
+
+As part of the study protocol, the parent was allowed to physically help the child through a step if other methods of prompting failed.  This intervention from the parent involved either the parent guiding the arm of the child during step execution or doing the step fully for the child.  Specifically, the number of prompts that the parent intervened in this manner were counted and plotted, shown in Figure \ref{fig:102ComplianceRate-Overall}.  We see the parent minimally physically intervened during Phase A and Bs but intervened much more during Phase C (the joint prompting training phase).
+\begin{figure} [h]
+	\centering
+	\includegraphics[width=0.6\textwidth]{./img/data_analysis/7NumberofParentPrompts-Phys.Interv..eps}
+	\caption{Number of Parent Prompts - Phys. Interv.}
+	\label{fig:7NumberofParentPrompts-Phys.Interv.}
+\end{figure}
+
+
+\subsection{Quantitative Analysis and Results}
+The annotated video data are analyzed quantitatively by calculating the measures defined in Section \ref{sec:measures} to investigate how well can the child wash hands with the help of the parent and the robot and how well does the child respond to the prompts.
+
+\subsubsection{Quantitative Analysis Method}
+A script written by the researcher in Python 2.7 with NumPy scientific computing package was used to calculate the measures from the CSV files generated from video annotations.  Matplotlib package was used for plotting.  We compared each measure across the phases by calculating the median of all the trials in each phase.  The median was chosen for robustness against outliers.  No further statistical analyses were employed because of the small sample size involved.
+
+\subsubsection{Task Completion}
+The ``Number of Steps Completed'' by the child, for both steps completed independently and steps helped by a prompting agent, are plotted in Figure \ref{fig:0NumberofStepsCompleted-Overall}.  The figure shows that Phase A has a median of 6 steps completed, while the rest of the phases have a median of 5 steps being completed.  The missing step in all phases is the wet hands step.  The parent in Phase A never prompted for the wet hands steps, and thus it was never completed in Phase A.  This was because the child was used to getting soap first with dry hands before turning on the water for rinsing.  The researcher, upon observing this, decided to skip prompting for the wet hands step as well for the subsequent phases, and thus all phases are missing the completion of the wet hands step.  The missing step specifically for Phase Bs and C is the scrub hands step.
+\begin{figure} [h]
+	\centering
+	\includegraphics[width=0.6\textwidth]{./img/data_analysis/0NumberofStepsCompleted-Overall.eps}
+	\caption{Number of Steps Completed - Overall}
+	\label{fig:0NumberofStepsCompleted-Overall}
+\end{figure}
+
+\subsubsection{Child's Response to Prompts}
+In order to break down how much of the task completion was due to the prompts from the parent and the robot, we measured the ``Compliance Rate'' and the ``Not Affected By Prompt Rate''.  To define these two measures, we observe that for each prompt, there are three components: the step the child was executing before the prompt, the step being prompted, and the step the child executes after the prompt.  Also, the child could be executing the correct step being prompted, could be executing the wrong step, or could be idling without executing any step.
+
+Compliance to a prompt, then, is defined as when the child was executing the wrong step or was idling before prompt, and is executing the right step after the prompt.  In addition, when the step is an extended step (e.g. scrub, rinse, dry), which requires multiple prompts, compliance can also be seen when the child was executing the correct step both prior to and after the prompt.  The ``Compliance Rate'' is plotted in Figure \ref{fig:4ComplianceRate-Overall}, and the median for Phase A is 87\%, for first Phase B is 33\%, for Phase C is 77\%, and for second Phase B is 80\%.  The variance is fairly high for all phases, but we can definitely see that first Phase B has a much lower compliance rate, while the rate for other phases remained similar levels.
+
+No effects from prompt is when the child does not change the step before and after the prompt, specifically, if the child was executing the wrong step before prompt and remains executing that same wrong step after the prompt, or when the child was idling before prompt and remains idling after prompt, or when the child executes the correct non-extended step before and after the prompt (this usually happened because the robot delivered the prompt too late although the child knew what to do or when the parent prompted for the child to stop the getting soap step but the child did not comply).  The ``Not Affected By Prompt Rate'' is plotted in Figure \ref{fig:1NotAffectedByPromptRate-Overall}, and the median for Phase A is 10\%, for first Phase B is 33\%, for Phase C is 8\%, for second Phase B is 13\%.  The variance for all phases are fairly high again, but again we see first Phase B sticking out from the rest of the phases.
+\begin{figure} [h]
+	\centering
+	\includegraphics[width=0.6\textwidth]{./img/data_analysis/4ComplianceRate-Overall.eps}
+	\caption{Compliance Rate - Overall}
+	\label{fig:4ComplianceRate-Overall}
+\end{figure}
+\begin{figure} [h]
+	\centering
+	\includegraphics[width=0.6\textwidth]{./img/data_analysis/1NotAffectedByPromptRate-Overall.eps}
+	\caption{Not Affected By Prompt Rate - Overall}
+	\label{fig:1NotAffectedByPromptRate-Overall}
+\end{figure}
+
+
+
+discussions:
+In Phase A, where the parent would prompt the scrub step right after the child finished getting soap as well as demonstrating the motion of scrub in the air.  The child was looking at the parent's MoDemo prompts and was following the motions himself.  In the subsequent phases, when the robot prompted the scrub step with MoDemo, the child did not follow, and would start rinsing instead.  The researcher decided to skip robot prompting for the scrub hands step, and focused on the rinse step prompts instead.  In whole, although the expectation of which steps to be completed shifted from six steps in Phase A into five steps in Phase Bs and C, the child mostly completed the steps up to expectations in all trials.  This was a result of the child's own independent ability to complete hand-washing, the help of the robot prompts, the help of the parent's prompts, and at times the result of the parent completing the step for the child.
+
+what other scenarios besides compliance and not affected by prompts?  are they worthwhile of investigation? (what portion of total scenarios are they)
+
+
 
 
 \paragraph{Number of Parent Prompts}
