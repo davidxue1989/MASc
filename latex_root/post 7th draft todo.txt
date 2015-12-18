@@ -1,3 +1,10 @@
+V switch sections: quantitative further, then qualitative further (factors for improvement)
+V engagement and visual attention qualitative analysis (lack of visually obvious measures / indicators)
+parent poast intervention survey comments results
+discussions
+
+
+
 - report what worked and what didn't for robot prompt protocols
 
 
@@ -38,16 +45,6 @@ actually, one can argue that, since rinse step had the most improvements, and th
 which steps are being skipped during phase C?
 transition trial (1st trial of the next phase) always have outlier? what happened in the first trial of 2nd phase B? It's an outlier trial to the rest of that phase...
 
-what is the definition of compliance in terms of response matrix?
-	    no_effects_from_prompt_indx = getSelectedIndx(colNames, ['rightStep2rightStep_nonExtend', 'wrongStep2wrongStep_Same', 'noStep2noStep'])
-    stopped_for_no_reason_indx = getSelectedIndx(colNames, ['rightStep2noStep', 'wrongStep2noStep'])
-    special_case_indx = getSelectedIndx(colNames, ['rightStep2wrongStep', 'wrongStep2wrongStep_Diff', 'noStep2wrongStep'])
-    compliance_indx = getSelectedIndx(colNames, ['rightStep2rightStep_extend', 'wrongStep2rightStep', 'noStep2rightStep'])
-    compliance_hard_indx = getSelectedIndx(colNames, ['wrongStep2rightStep'])
-how are prompts grouped into a prompt session? 
-	number_of_Prompts_till_C_executes_correct_step_parent, number_of_Prompts_till_C_executes_correct_step_robot
-	number_of_prompts_till_C_stops_correct_step_parent, number_of_prompts_till_C_stops_correct_step_robot,
-	why max(number_of_Prompts_till_C_executes_correct_step_parent, number_of_Prompts_till_C_executes_correct_step_robot, 0) instead of summing them? (i.e. treat robot + parent prompt pair as one prompt)
 
 include all the names in the annotation framework column to thesis?
 make the distinction between attempt and sucessfully execute in thesis?
@@ -56,3 +53,5 @@ discuss the decision to use AG sparingly, if used at all
 The reason why we grouped scrub and rinse hands as one step was because the our participant was not able to make a distinction between the two steps.
 
 MoDemo serves more than just clarifying action, its fast moving visual action is salient to our participant, and can be used as a way to grab and maintain attention of the child during prompt
+
+robot prompts mimick parent's prompts quite closely (list key similarities. and some key differences) and represent the natural way of prompting the child.

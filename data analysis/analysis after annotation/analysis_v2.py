@@ -269,6 +269,11 @@ def computeMeasures(filename):
     
     durationRinseLongest = 0
     nPromptSessionsRinse = 0
+    
+    notWaitingForTurnOnWater = False
+    nPromptsBeforeTerminatingSoap = -1
+    nPressesTillTerminatingSoap = -1
+
 
     ##main loop
     for idx in range(0, nPromptSessions): #looping through prompt sessions
@@ -302,6 +307,20 @@ def computeMeasures(filename):
             #     a = 0
             # elif C_stops_correct_step_before_next_prompt[idx] != 1:
             #     a = 0
+        
+        #notWaitingForTurnOnWater
+        if attempted_step_before_prompt[idx] == 2 or (step[idx] != 2 and  attempted_step_after_prompt[idx] == 2 and attempted_step_is_correct_although_different_from_prompt[idx] < 1):
+            notWaitingForTurnOnWater = True
+        
+        #nPromptsBeforeTerminatingSoap
+        if step[idx] == 3:
+            if C_stops_correct_step_before_next_prompt[idx] == 1:
+                nPromptsBeforeTerminatingSoap = 0
+            else:
+                nPromptsBeforeTerminatingSoap = max(nPromptsBeforeTerminatingSoap, number_of_prompts_till_C_stops_correct_step_parent[idx], number_of_prompts_till_C_stops_correct_step_robot[idx])
+                
+        nPressesTillTerminatingSoap = max(nPressesTillTerminatingSoap, number_of_presses_till_C_stops_soap[idx])
+
 
         #C response to prompts
         if P_R_PandR[idx] > 0: #if prompted
@@ -523,15 +542,29 @@ def computeMeasures(filename):
     retDict['Parent Involvement'] = parent_involvement
     smplSzDict['Parent Involvement'] = 1
     
-    retDict['Number of Parent Prompts - Phys. Interv.'] = sumNumPromptsPhysical_parent
-    smplSzDict['Number of Parent Prompts - Phys. Interv.'] = nPromptSessions
+    retDict['Number of Parent Prompts - Phys Interv'] = sumNumPromptsPhysical_parent
+    smplSzDict['Number of Parent Prompts - Phys Interv'] = nPromptSessions
     
-    retDict['Longest Duration of Rinse'] = durationRinseLongest
-    smplSzDict['Longest Duration of Rinse'] = nPromptSessionsRinse
+    retDict['Longest Duration of Rinse (sec)'] = durationRinseLongest
+    smplSzDict['Longest Duration of Rinse (sec)'] = nPromptSessionsRinse
+    
+    retDict['Not Waiting For Turn On Water'] = notWaitingForTurnOnWater
+    smplSzDict['Not Waiting For Turn On Water'] = 1
+    
+    # if nPromptsBeforeTerminatingSoap == -1:
+    #     nPromptsBeforeTerminatingSoap = np.NaN
+    #     a = 1
+    # retDict['Number of Prompts Before Terminating Soap'] = nPromptsBeforeTerminatingSoap
+    # smplSzDict['Number of Prompts Before Terminating Soap'] = 1
+    # 
+    # if nPressesTillTerminatingSoap < 0:
+    #     nPressesTillTerminatingSoap = np.NaN
+    # retDict['Number of Presses Before Terminating Soap'] = nPressesTillTerminatingSoap
+    # smplSzDict['Number of Presses Before Terminating Soap'] = 1
     
     return [retDict, smplSzDict]
     
-    
+
 
 ### script start
 
@@ -568,6 +601,10 @@ for i, names in enumerate(names_all):
                 resultsSmplSzDict[key1] = np.zeros(nTrials, dtype=int)
 
         for key2 in result:
+            if key2 == 'Not Waiting For Turn On Water':
+                a = 1
+            elif key2 == 'Number of Prompts Before Terminating Soap':
+                a = 1
             resultsDict[key2][currRowFirstIdx + j] = result[key2]
             resultsSmplSzDict[key2][currRowFirstIdx + j] = resultSmplSz[key2]
     currRowFirstIdx = currRowFirstIdx + len(names)
@@ -583,8 +620,20 @@ plt.figure(1)
 timeAxis = np.arange(1, len(resultsDict[resultsDict.keys()[0]])+1)
 
 for i, key3 in enumerate(resultsDict):
+
+    if 'Not Waiting For Turn On Water' in key3:
+        phaseEndIndx = 0
+        for phaseIdx, phaseLen in enumerate(phaseSegs):
+            newPhaseEndIndx = phaseEndIndx + phaseLen
+            indices = range(phaseEndIndx, newPhaseEndIndx)
+            rez = resultsDict['Not Waiting For Turn On Water'][indices]
+            print('Not Waiting For Turn On Water - Phase ' + phaseLabel[phaseIdx] + ': ' + str(sum(rez)) + '/' + str(len(rez)) + ' = ' + str(np.average(rez)))
+            phaseEndIndx = newPhaseEndIndx
+        continue
+
     plt.clf()
     plt.rc("font", size=18)
+    
     phaseEndIndx = 0
     for phaseIdx, phaseLen in enumerate(phaseSegs):
         #form the indices of items of the phase
@@ -602,7 +651,6 @@ for i, key3 in enumerate(resultsDict):
             plt.plot([timeAxis[indices[0]], timeAxis[indices[-1]]], [med, med], color='k', linestyle='-', linewidth=2.5)
             
             # plt.text((timeAxis[indices[0]] + timeAxis[indices[-1]])*0.5, med, str(round(med, 2)), fontsize=15) #median values labeled
-        
         phaseEndIndx = newPhaseEndIndx
 
 
@@ -628,8 +676,10 @@ for i, key3 in enumerate(resultsDict):
         plt.annotate(phaseLabel[phaseIdx], xy=(0.5*(phaseEndIndx+newPhaseEndIndx), 0.95*plt.ylim()[1]+0.05*plt.ylim()[0]), color='k', size=20)
         phaseEndIndx = newPhaseEndIndx
     # plt.show()
-    plt.savefig(directory + 'figures\\' + str(i) + key3.translate(None, ' ') + '.eps') #no spaces in names for latex use
-    plt.savefig(directory + 'figures\\' + str(i) + key3.translate(None, ' ') + '.png') #no spaces in names for latex use
+    plt.savefig(directory + 'figures\\' + str(i) + key3.translate(None, ' ()') + '.eps') #no spaces in names for latex use
+    plt.savefig(directory + 'figures\\' + str(i) + key3.translate(None, ' ()') + '.png') #no spaces in names for latex use
+    
+
 
 
 ##Step Completion vs. Compliance
