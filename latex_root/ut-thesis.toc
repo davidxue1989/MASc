@@ -152,4 +152,6 @@
 \contentsline {paragraph}{The humanoid robot, NAO, is able to independently assist child with ASD through hand-washing, and child exhibits greater engagement level, higher prompt compliance rate, and better task completion when prompted by NAO than by parent.}{78}{section*.104}
 \contentsline {paragraph}{Gestural, gaze, and verbal are the essential modes of interactions present in the hand-washing prompting scenario between child with ASD and the prompting agent NAO.}{78}{section*.105}
 \contentsline {paragraph}{Using 3DMM and ALR for estimating head pose and eye pose, and using the Kinect camera, a classification rate of more than 80\% is achieved for estimating child's VFOA on NAO, monitor screen, soap, towel, tap region, hands, and idling.}{79}{section*.106}
-\contentsline {chapter}{Bibliography}{80}{section*.106}
+\contentsline {section}{\numberline {6.1}Significance}{79}{section.6.1}
+\contentsline {section}{\numberline {6.2}Looking Back}{79}{section.6.2}
+\contentsline {chapter}{Bibliography}{81}{section.6.2}

@@ -7,24 +7,20 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces NAO T14 Humanoid Torso\relax }}{29}{figure.caption.25}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Experiment Setup\relax }}{30}{figure.caption.26}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces The views of the three cameras used in the WoZ study.\relax }}{33}{figure.caption.29}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Total Number of Complete Steps\relax }}{53}{figure.caption.63}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Total Number of Parent Prompts\relax }}{54}{figure.caption.65}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Compliance Rate\relax }}{55}{figure.caption.68}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Not Affected By Prompt Rate\relax }}{56}{figure.caption.70}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Total Number of Times Child Smiles\relax }}{57}{figure.caption.73}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Total Number of Times Child Murmurs\relax }}{58}{figure.caption.75}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Looking at Prompting Agent Rate\relax }}{59}{figure.caption.77}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Number of Incomplete Steps\relax }}{60}{figure.caption.84}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Parent Involvement\relax }}{62}{figure.caption.85}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Compliance Rate\relax }}{63}{figure.caption.86}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Not Affected By Prompt Rate - Robot Alone Trials\relax }}{64}{figure.caption.87}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces The views of the three cameras used in the WoZ study.\relax }}{34}{figure.caption.29}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces {\color {blue}\uwave {Parent Involvement}}\relax }}{44}{figure.caption.48}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces {\color {blue}\uwave {Number of Parent Prompts - Physical Intervention}}\relax }}{45}{figure.caption.49}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces {\color {blue}\uwave {Number of Steps Completed - Overall}}\relax }}{46}{figure.caption.52}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces {\color {blue}\uwave {Compliance Rate - Overall}}\relax }}{46}{figure.caption.54}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces {\color {blue}\uwave {Not Affected By Prompt Rate - Overall}}\relax }}{47}{figure.caption.55}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces {\color {blue}\uwave {Rinse Step Compliance Rate}}\relax }}{56}{figure.caption.65}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces {\color {blue}\uwave {Longest Duration of Rinse Step}}\relax }}{56}{figure.caption.67}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces A bilateral filter applied to a 2D color image. The left is the original, while the right is filtered, resulting in removal of noise, figure adapted from \cite {pirovano2011kinfu}\relax }}{71}{figure.caption.92}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces A 3-level multi-resolution pyramid, figure adapted from \cite {pirovano2011kinfu}\relax }}{72}{figure.caption.93}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Point-to-plane error between two surfaces, figure adapted from \cite {low2004linear}\relax }}{73}{figure.caption.95}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces A illustration of creating an 1D TSDF, figure adapted from \cite {pirovano2011kinfu}\relax }}{73}{figure.caption.97}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces The 3D Kinect Camera Approach Results: we start by grabbing a frame from the Kinect depth camera (a), then we fit the 3D head model to the depth frame (b), after which we project the head model mesh onto the color camera image plane (c), so as to associate the color pixels with the head model mesh (d), and lastly forming the 3D color point cloud (e).\relax }}{75}{figure.caption.100}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Inverse Pose Transformed Color Images of an Example Head: The top row displays images of the head for moderate range of poses, showing little distortion and blank spots; the bottom row displays failure cases, the first three shows extreme head poses resulting in some distortions and huge blank spots due to occlusion, the last image shows a failure case due to head tracking error, resulting in large distortions.\relax }}{78}{figure.caption.108}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces The Gaussian ellipsoid formed by finding the point of minimal sum of squared distances from all gaze lines. Shown in red is the calculated point, shown in green are the closest point on each gaze line, shown in blue are the gaze lines. In the left figure, the person doing the object location calibration is standing on the right, looking to the left. The figure on the right shows the same plot rotated so the spread of the ellipsoid is seen more clearly.\relax }}{81}{figure.caption.116}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces A bilateral filter applied to a 2D color image. The left is the original, while the right is filtered, resulting in removal of noise, figure adapted from \cite {pirovano2011kinfu}\relax }}{77}{figure.caption.91}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces A 3-level multi-resolution pyramid, figure adapted from \cite {pirovano2011kinfu}\relax }}{78}{figure.caption.92}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Point-to-plane error between two surfaces, figure adapted from \cite {low2004linear}\relax }}{78}{figure.caption.94}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces A illustration of creating an 1D TSDF, figure adapted from \cite {pirovano2011kinfu}\relax }}{79}{figure.caption.96}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces The 3D Kinect Camera Approach Results: we start by grabbing a frame from the Kinect depth camera (a), then we fit the 3D head model to the depth frame (b), after which we project the head model mesh onto the color camera image plane (c), so as to associate the color pixels with the head model mesh (d), and lastly forming the 3D color point cloud (e).\relax }}{81}{figure.caption.99}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Inverse Pose Transformed Color Images of an Example Head: The top row displays images of the head for moderate range of poses, showing little distortion and blank spots; the bottom row displays failure cases, the first three shows extreme head poses resulting in some distortions and huge blank spots due to occlusion, the last image shows a failure case due to head tracking error, resulting in large distortions.\relax }}{84}{figure.caption.107}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces The Gaussian ellipsoid formed by finding the point of minimal sum of squared distances from all gaze lines. Shown in red is the calculated point, shown in green are the closest point on each gaze line, shown in blue are the gaze lines. In the left figure, the person doing the object location calibration is standing on the right, looking to the left. The figure on the right shows the same plot rotated so the spread of the ellipsoid is seen more clearly.\relax }}{88}{figure.caption.115}
 \addvspace {10\p@ }
