@@ -1,0 +1,764 @@
+Assistive Technology for People
+with Autism Spectrum Disorders
+Russell Lang, Sathiyaprakash Ramdoss, Tracy Raulston,
+Amarie Carnet, Jeff Sigafoos, Robert Didden, Dennis Moore
+and Mark F. O’Reilly
+
+
+The term ‘‘assistive technology’’ refers to any device or piece of equipment that
+facilitates teaching new skills, augments existing skills, or otherwise reduces the
+impact of disability on daily functioning (Bryant et al. 2010; Reichle et al. 2011).
+
+
+(a) communication skills, (b) social and emotional skills, and (c) daily living and
+other adaptive skills of people with ASD
+
+summarized in terms of participant characteristics, dependent variables,
+intervention components, and outcomes
+====================================================================================
+Assistive Technology for Communication:
+====================================================================================
+People with ASD may experience a wide array of deficits in communication
+(American Psychiatric Association 2000; Howlin 2003). People with autism, for
+example, may have a very limited spoken repertoire with as many as 61 % failing
+to develop speech altogether (Weitz 1997). Whereas people with Asperger’s
+syndrome will often develop good speech skills, they may still struggle to communicate
+effectively due, in part, to perseveration on preferred conversation topics
+(e.g., frequent discussion of trains, the plots of movies, or other topics), unusual
+reactions to social cues from conversation partners (e.g., misinterpreting facial
+expressions), or anxiety-related to social situations (Scheuermann and Webber
+2002). Further, individuals with ASD may engage in a number of stereotypies that
+can impede communication, for example, echolalia (i.e., verbatim repeating of
+someone else’s words) involves speech but often might appear to lack communicative
+intent (Sigafoos et al. 2007a, b, c).
+
+Assistive technology used to support
+communication may be referred to as aided augmentative and alternative communication
+(AAC) (Sigafoos and Drasgow 2001). Aided AAC systems include
+high-tech electronic devices such as speech generating devices (SGD) and more
+low-tech materials, such as pictures or symbols that can be pointed to, affixed to a
+board, or exchanged with a communication partner (e.g., Bondy and Frost 2002).
+Most aided AAC systems involve visual cues (e.g., pictures or symbols) that are
+intended to build on the visual processing ability thought to be well developed in
+many people with ASD (Mirenda 2001; Shane et al. 2012).
+
+For example, some individuals with ASD may have motor impairments
+that could render sign language too difficult to learn. In such cases an aided
+AAC, that requires less manual dexterity (e.g., activation of a speech generating
+device), might be indicated. Similarly, the ability to imitate the motor behavior of
+another person has also been suggested as a prerequisite skill for sign language
+training that may not be required for using other types of aided AAC (Bondy and
+Frost 2002).
+
+The reviews summarized
+in Table 6.1 suggest that the three most common approaches to supporting communication
+using assistive technology are speech generating devices (SGD), picture
+exchange communication systems (PECS), and computer-based instruction (CBI)
+(e.g., Ganz et al. 2012b; Ramdoss et al. 2011; Schlosser and Wendt 2008; van der
+Meer and Rispoli 2010).
+
+Speech-Generating Devices. A SGD (also referred to as a Voice Output
+Communication Aid (VOCA)) is a portable device that contains one or more panels
+or switches that when depressed will activate pre-recorded digitized or synthesized
+speech output. These devices range in complexity from a single panel/switch that
+plays one message to multiswitch devices that can serve numerous communicative
+functions including requesting, commenting, and greeting. Pictures or symbols on
+the device indicate to the user what message will be played if a specific switch is
+activated. For example, a picture of a favorite toy may be used to indicate that the
+message ‘‘May I have my toy please?’’ will be played if the corresponding panel on
+the SGD is activated.
+
+There are several potential advantages to using SGD to support communication.
+First, they are often highly portable (Mechling 2011). For example, when the
+correct software application is installed, a handheld iPod or iPad can be used as a
+SGD device, and the ubiquity of such handheld devices among the typically
+developing population might also help reduce the stigmatization of using assistive
+technology for communication (Kagohara et al. 2013). Second, because electronic
+speech is produced, communication attempts may be more easily understood by
+most communication partners than more ambiguous forms of AAC such as sign
+language (Mirenda 2001). Finally, the SGD models the correct spoken message
+during moments when the person is motivated to communicate and some studies
+have demonstrated that using a SGD may lead to the acquisition of spoken
+communication (Schlosser and Wendt 2008).
+
+Probably because selecting the symbols on the
+SGD was intended to serve the same communicative functions as the vocal
+stereotypy and was a more efficient way to communicate, vocal stereotypy was
+nearly eliminated when the child began independently using the SGD. This study
+demonstrated the potential of a SGD to be used across multiple settings, for a
+variety of communicative functions, and to reduce problem behavior when the
+communicative function of the SGD is matched to that of problem behavior
+(c.f., Carr and Durand 1985).
+
+A recent systematic review conducted by van der Meer and Rispoli (2010)
+focused on communication interventions involving SGD and children (\18 years
+old) with ASD (see Table 6.1).
+A variety of
+different communication skills were enabled through the use of SGDs, with the
+majority of studies (70 %) focused on using the device to request preferred items,
+food, or activities. The remainder of the studies utilized SGDs for commenting
+(e.g., starting a conversation), answering questions (e.g., selecting between ‘‘yes’’
+and ‘‘no’’), and reducing vocal stereotypy. The majority of the reviewed studies
+employed single-case experimental designs and demonstrated clear intervention
+results. However, it was also noted that there was a lack of randomized control
+trials. As such, there appears to be a need for more research involving larger groups
+of participants and demonstrating the utility of SGDs for more complex communication
+needs, such as sustaining a conversation and asking questions.
+
+
+The Picture Exchange Communication System (PECS). PECS involves teaching
+the person with ASD to communicate via handing their partner a picture or symbol
+card depicting their communicative intent (Bondy and Frost 2002).
+
+Ganz et al. (2012a) conducted a meta-analysis of 13 PECS intervention studies
+involving people with ASD. Only studies using single-case experimental designs
+were included in the review. A wide range of effect sizes ((ES) range, –0.51–0.95)
+was reported suggesting that PECS is very effective but outcomes hinge on
+additional factors. Specifically, PECS was found to be more beneficial for preschool
+age participants than elementary or secondary age participants and for
+participants with autism without any other comorbid developmental or intellectual
+disability diagnosis. Additionally, the effects on targeted dependent variables
+(i.e., picture exchange) and effects on collateral ‘‘untargeted’’ dependent variables
+(i.e., problem behavior and speech production) were analyzed separately and
+compared. Results indicate that the largest ES are associated with targeted
+dependent variables and that outcomes for reducing problem behavior and
+increasing speech are highly variable but promising.
+
+
+In addition to increases in picture exchange communication, PECS has also
+been shown to be associated with an increase in spoken communication in children
+with ASD (e.g., Anderson et al. 2007; Charlop-Christy et al. 2002; Ganz and
+Simpson 2004; Ganz et al. 2008; Jurgens et al. 2009; Tincani 2004; Tincani et al.
+2006; Yoder and Stone 2006).
+Ganz and colleagues
+recommend cautious interpretation; specifically, PECS does not hinder speech
+production or increase problem behavior but improvements in those variables are
+inconsistent across studies. Additional research is necessary to determine the
+factors that predict improvements in those variables following PECS training.
+
+
+
+Computer-Based Instruction.
+Computers can be
+considered assistive technology when they are used to deliver or supplement
+intervention for people with disability.
+CBI differs from the aided AAC
+systems (e.g., SGD) because the computer does not usually travel with the individual
+to function as a communication modality. Rather, the computer is used to
+teach some skill that, once acquired, improves an individual’s communication even
+though the computer may not be present.
+
+There are several potential advantages to using CBI to teach people with ASD
+communication skills. 
+
+Specifically, a computer is very consistent and predictable
+and may therefore be a preferred medium for instructional delivery for people with
+ASD who prefer routines and managed expectations (Ramdoss et al. 2011a).
+
+
+Further, computers can provide a one-to-one instructional format that reduces
+distractions and control for autism-specific learning characteristics such as stimulus
+overselectivity (Lovaas et al. 1979). 
+
+Finally, 
+computers can efficiently and accurately
+implement complex reinforcement schedules, provide and fade prompts, and
+collect data on participant responses simultaneously while demanding less time and
+attention from a teacher or therapist (Ramdoss et al. 2011b; Higgins and Boone
+1996). In addition to communication skills, CBI has been used to teach people with
+autism social-emotional skills, academics, and daily living skills (Ramdoss et al.
+2011a, b, 2012a, b).
+
+Ramdoss et al. (2011a) completed a review on the use of CBI to teach communication
+skills to people with ASD.
+The potential of
+CBI to improve communication has only been evaluated in children 14 years old
+or younger diagnosed with autism. There were no studies involving adults or
+individuals with Asperger’s syndrome identified in the systematic search procedures.
+
+Massaro and Bosseler (2006) used Baldi to teach five children
+with autism to identify specific pictures based on Baldi’s spoken words (i.e.,
+receptive language) and then to produce spoken names for those pictures.
+The researchers concluded that communication skills can be
+increased within an automated program and that the presence of the life-like face
+facilitates that process.
+
+The other two programs identified by Ramdoss et al. (2011a) were HyperStudio
+and PowerPoint. Those programs are designed to deliver multimedia presentations
+and the specific curriculum or presentation must be created by the practitioner. In
+those cases, the extent to which the practitioner is able to create a presentation that
+utilizes reinforcement, prompting, and other research-based instructional strategies
+would seem more likely to predict outcomes than merely the use of the computer.
+Further, because the specific presentations used in those studies are not available,
+replication of those findings is hindered. Ramdoss, Lang et al. concluded that there
+is insufficient evidence to classify CBI as a research-based approach for communication
+intervention at this time. However, because all 10 studies demonstrated
+at least some improvement for all participants, CBI can be considered a promising
+practice for improving communication.
+
+assistive technology to support communication typically
+involves use of a device that augments and provides alternative forms of
+communication (e.g., PECS and SGD). Those devices are not typically faded out
+of communication intervention programs, but remain as a permanent communication
+modality.
+
+====================================================================================
+Assistive Technology for Social Skills
+====================================================================================
+The diagnostic criteria for autistic disorder and Asperger’s syndrome both include
+deficits in social skills (American Psychiatric Association 2000). For example,
+(a) lack of or inappropriate eye contact, (b) failure to develop peer relationships,
+(c) lack of joint attention, and (d) qualitative deficits in the extent of social and/or
+emotional reciprocity (Rao et al. 2008; White et al. 2007). Further, people with
+ASD may have a different understanding of social relationships and the emotions
+typically associated with those relationships.
+
+Assistive technology used to support social skills, however, is
+more likely to be instructional and the assistive technology may be faded or
+eliminated to promote more typical functioning after the target social skill has
+been acquired.
+For example, Hopkins et al. (2011) used the computer program
+FaceSay to provide 49 children with autism opportunities to practice attending to
+eye gaze, discriminating between facial expressions, recognizing faces, and
+identifying emotions.
+
+In some cases, the support provided by assistive technology may be difficult to
+fade or eliminate. Shabani et al. (2002), for example, used a pager that vibrated
+using a remote control to prompt three children with autism to initiate a social
+interaction with other children during play and to respond to the bids for social
+interaction made by other children.
+
+assistive technology has
+been successfully used to improve social and emotional functioning of people with
+ASD (Bellini and Akullian 2007; Rao et al. 2008; Reed et al. 2011; Shukla-Mehta
+et al. 2010; White et al. 2007).
+
+Reed and colleagues conducted a systematic review
+of 29 intervention studies focused on the use of assistive technology to teach social
+skills to children with autism. They found that assistive technology had been used
+to teach children with ASD to: (a) initiate conversations, (b) engage in more
+sophisticated and social forms of play, (c) utilize social conventions and norms
+during conversations, (d) respond to the social initiations of others, (e) solve social
+problems, and (f) identify and regulate emotions and emotional reciprocity. Most
+of the studies were implemented in applied settings (e.g., schools and homes),
+utilized sound experimental procedures, included standardized assessments, and
+resulted in improved social skills.
+
+A variety of assistive technology interventions
+were utilized including CBI (described in the preceding section) and script training
+(e.g., listening or reading a scripted conversation); however, the most common
+form of assistive technology used to teach social and emotional skills was video
+modeling (see Table 6.2). Video modeling and script training are therefore discussed
+in more detail.
+
+Video Modeling.
+Video modeling involves watching a
+video of the target skill being performed and then imitating the modeled behavior
+or skill (Bellini and Akullian 2007). In addition to social skills, video modeling has
+been used to teach motor skills, communication skills, self-monitoring, vocational
+skills, and emotional regulation to people with and without developmental disability
+(Bellini et al. 2007; Hitchcock et al. 2003).
+
+Rayner et al. (2009) identified
+several variations of video modeling. Specifically, the video may be shot from a
+first-person point of view (i.e., the observer sees as if through the eyes of the
+person performing the skill) or from a third-person point of view (i.e., the observer
+sees a person perform the skill). The person performing the skill is referred to as
+the model and the model may be a peer, therapist, or the same person with ASD
+that is receiving the intervention. When the person watching the video is also the
+model, the intervention may be referred to as video self-modeling (VSM).
+
+VSM is often used when the person occasionally performs the target skill, but
+the goal of intervention is to increase the rate of occurrence or bring the occurrence
+of the behavior under the control of some environmental stimulus. If the person
+with ASD has never engaged in the target skill (precluding it being filmed), a selfmodeling
+video can still be created by editing to remove prompts or to string
+together several video segments depicting components of the skill, so that the
+person with ASD can watch himself or herself perform the entire target skill
+independently even if they have never actually done so in the past (Rayner et al.
+2009).
+
+There are several potential advantages to using video modeling to improve the
+social skills of children with ASD. First, once the video is created, it can be used
+repeatedly and this repetition and consistency may be particularly conducive to
+skill acquisition in people with ASD (Ogilvie 2011). Second, video modeling may
+be a relatively easy intervention for practitioners and typically takes only a few
+minutes to run the video training session (Shukla-Mehta et al. 2010). Third, in the
+case of VSM, people with ASD may learn to visualize themselves being successful,
+which might facilitate the acquisition of other similar skills. In addition to
+these potential advantages, there is sufficient empirical evidence to support the use
+of video modeling for teaching individuals with ASD (e.g., Ayers and Langone
+2005; Bellini and Akullian 2007; Delano 2007; McCoy and Hermansen 2007;
+Mechling 2005; Rayner et al. 2009; Shukla-Mehta et al. 2010).
+
+However, previous reviews into the efficacy of video modeling as a technologyassisted
+teaching procedure for individuals with ASD (e.g., Ayers and Langone
+2005; Bellini and Akullian 2007; Delano 2007; McCoy and Hermansen 2007;
+Mechling 2005; Rayner et al. 2009; Shukla-Mehta et al. 2010) have highlighted
+several unanswered questions regarding video modeling that should be addressed
+in future research. Specifically, the majority of studies utilizing video modeling
+have involved other nonassistive technology components (e.g., direct prompting
+and reinforcement from a trainer) implemented in tandem with video modeling. In
+those studies that lack a component analysis, it is difficult to determine if video
+modeling alone would have been effective. Second, it is not currently known what
+type of model is most effective for teaching specific skills. For example, is it better
+to use peer models or self-models to teach social initiations? Finally, the participant
+characteristics associated with positive outcomes following video modeling
+need to be delineated to improve the efficiency with which this type of assistive
+technology is applied. For example, it is not clear if imitation skills represent a
+prerequisite to successful use of video modeling (Lindsay et al. 2013; Rayner et al.
+2009).
+
+
+Script Training. Script training involves the teacher or therapist planning a
+specific social interaction in which the spoken lines and/or behavior of one or both
+people in the social interaction is scripted. After the social interaction is scripted,
+the participant is either given a written copy of the script or hears it from a
+recording or a person reading it (Stevenson et al. 2000). The participant is then
+placed in the social situation referred to in the script. For example, a child with
+ASD could be given a script on what to say and/or how to act while playing with a
+peer and then be taken to a play session with a peer. Scripts may also contain
+prompts for specific behaviors hypothesized to facilitate the social interaction. For
+example, in addition to scripting speech, a script may also prompt the participant
+to approach a potential conversation partner, initiate conversation, orientate to the
+person speaking, make eye contact, wait while the other person talks, and other
+similar behaviors conducive to the target skill (Wichnick et al. 2010).
+The goal of script training is not to produce rote scripted responding, but to
+offer an opportunity to practice pro-social behaviors. When script training is
+successful, the individual with ASD does not follow the script verbatim, but is able
+to deviate from the script in socially appropriate ways and express unscripted ideas
+(MacDuff et al. 2007). This flexibility and spontaneity during the target social
+interaction is accomplished by systematically fading the script over time so that
+the person with ASD can assume ever increasing control over the social interaction
+as his or her skills improve.
+
+script training appears to be most commonly used to
+increase the duration or quality of social interactions (e.g., longer conversations or
+extended social play). However, a small number of studies have used script
+training to increase more basic social skills. For example, MacDuff et al. (2007)
+used audiotaped scripts to increase the frequency of bids for joint attention by
+children with autism.
+
+The existing research in support of script training is limited but results like
+these suggest additional research investigating the potential benefits of script
+training is warranted.
+
+
+
+====================================================================================
+Assistive Technology for Adaptive and Daily Living Skills
+====================================================================================
+Adaptive and daily-living skills, such as self-care (e.g., grooming, dressing,
+cooking), organization (e.g., time management, money management), and
+community or recreational skills (e.g., using public transportation or the library),
+have been noted as essential for an individual to function successfully and independently
+(Liss et al. 2001). In addition to increasing independence, acquisition of
+adaptive and daily living skills might promote self-determination by reducing
+passivity and learned helplessness (Parmenter 1993). Unfortunately, individuals
+diagnosed with ASD often struggle to acquire the adaptive and daily living skills
+necessary to live independently and often come to rely on caregivers for assistance.Smith et al. (2012) 
+
+investigated the daily living skills of a group of 397
+adolescents and adults with ASD over a 10-year period. Latent growth curve
+modeling indicated that, despite a period of improvement during adolescence and
+the early 20s, the daily living skills of people with ASD most often plateau short of
+independent functioning.
+
+Several previous literature
+reviews have evaluated the intervention research in this area. For instance,
+Mechling (2008) reviewed studies focused on teaching cooking skills and found
+that the instructions delivered using picture-based systems, hand-held personal
+computers, auditory prompting systems, and video models have been effective in
+enabling people with ASD and intellectual disability to prepare their own meals.
+Similarly, a review conducted by Morse et al. (1996) revealed that video-taped
+instructional models and slide show examples can be used to teach grocery
+shopping skills. Finally, Palmen et al. (2012) noted the practical utility of a variety
+of high and low technology instructional modalities in teaching domestic skills to
+individuals with high functioning ASD.
+	
+The nine studies summarized in Table 6.3 aimed to teach adaptive and daily
+living skills to a total of 20 participants. Nineteen of the participants had a
+diagnosis of autism and one study involved a participant with a diagnosis of PDDNOS
+(Mechling and O’Brien 2010). Eighteen of the participants were male.
+Participant ages ranged from 3 to 36 years.
+
+All participants in the studies summarized
+in Table 6.3 acquired the targeted adaptive and daily living skills that
+were supported or taught using assistive technology.
+The same basic approach and
+general instructional strategy was used across studies. Specifically, to determine
+pre-intervention skill levels, participants were first provided an opportunity to
+engage in the target skills in the natural environment and then some form of
+assistive technology was used to teach the target skill. Instructional procedures
+included prompting, prompt fading, and reinforcement. In order to promote generalization,
+study authors incorporated images and videos taken directly from the
+natural environment in order to make the instructional environment and materials
+more closely resemble the natural environment (Stokes and Baer 1977). Following
+intervention, performance was assessed again in the natural environment. In seven
+of the nine included studies (Ayres et al. 2009; Mechling and O’Brien 2010;
+Rosenberg et al. 2010; Shipley-Benamou et al. 2002; Sigafoos et al. 2005;
+Sigafoos et al. 2007a, b, c; van Laarhoven et al. 2010), follow-up probes to assess
+the maintenance of acquired skills were also conducted and, in the majority of
+cases, the skill was maintained.
+
+Rosenberg et al. (2010)
+compared commercially available videotapes and customized videotapes to
+examine effectiveness for teaching hand washing skills to three children diagnosed
+with autism.
+
+Across the studies, a variety of assistive technology systems were used to
+deliver instruction. Three studies evaluated CBI to promote independent and daily
+living skills in individuals with ASD (Ayres et al. 2009; Hutcherson 2004;
+Mechling and O’Brien 2010). For instance, Ayres et al. (2009) delivered
+instructions using a computer software program to teach food preparation and table
+setting to three children (ages 7 to 9 years old) with autism. Instruction was
+provided by the software program I Can—Daily Living and Community Skills.
+This instructional program is designed to present a video simulation of the environment
+for three unique tasks (i.e., setting table, making soup, and making
+sandwich) and required children to respond by arranging materials in a simulated
+environment (e.g., putting utensils on the table). Initially, participants were
+assessed in vivo on their ability to complete the selected tasks in the absence of
+intervention. CBI was then provided and participants reached the mastery criteria
+for each task. Following CBI, in vivo performance was evaluated again and data
+indicated the skills had been acquired.
+
+Three studies used portable laptop computers (Sigafoos et al. 2005, 2007a, b, c;
+van Laarhoven et al. 2010), two studies used a television and video player
+(Rosenberg et al. 2010; Shipley-Benamou et al. 2002), and one study used an
+iPhone (Bereznak et al. 2012) to deliver video prompts. For instance, Sigafoos and
+colleagues evaluated the effects of computer-delivered video prompting procedures
+to teach three adults with developmental disabilities (including one participant with
+autism) to make microwave popcorn. Video prompting involved showing a video
+clip of one step of the making popcorn task analysis at a time. Following the video
+prompt, participants were given the opportunity to initiate and complete the step.
+After this, a video clip of the next step in the task was presented and so forth until
+the completion of the task. The skills necessary to make microwave popcorn were
+acquired and maintained even after video prompting was withdrawn at the 10-week
+follow-up.
+
+
+Discussion:
+With respect to the first category of
+communication studies,
+assistive technology has been successfully used to develop a range of communication
+skills, including requesting preferred objects and activities, rejecting nonpreferred
+objects and activities, naming/labeling objects/pictures, and initiating
+conversational exchanges. However, it would appear that most of the research has
+to date focused on teaching what might be viewed as relatively beginning communication
+skills for basic self-regulation functions (e.g., requesting preferred
+objects). Given the potential for assistive technology to enable much more
+sophisticated and complex communication interactions, there would seem to be
+some value in extending the existing literature to explore the use of these types of
+assistive communication technologies for enabling participants with ASD to enter
+into more complex and prolonged communicative exchanges.
+Most of the studies into the use of assistive communication technologies for
+individuals with ASD were conducted in home, school, or clinical settings and
+with communicative partners who were familiar with the child and with the nature
+of the assistive technology. This raises the important clinical issue as to the
+effectiveness of PECS, SGD-, and CBI-based communication in community settings
+with unfamiliar listeners.
+
+With respect to the second category of studies targeting social and emotional
+skills
+assistive technology
+has been successfully used to develop a range of social/emotional skills, including
+responding to facial expressions, identifying emotional states (e.g., anger, anxiety),
+using social gestures, initiating social interactions, and recruiting attention/
+interaction. This range covers a number of the areas that have been described as
+causing problems for people with ASD, but the literature is somewhat limited in
+that other important areas have not yet been covered (e.g., empathy). Given the
+potential for assistive technology to assist individuals with ASD in these areas of
+social difficulty, there would seem to be some value in extending the existing
+literature to explore the use of these types of assistive communication technologies
+for enabling participants with ASD to acquire other social skills and learn to
+identify and appropriately express a wider range of emotions.
+The literature in the social/emotional area is also limited with respect to the
+range of assistive technology employed. Most studies have used CBI or video
+modeling. There would seem to be scope for investigating other (portable) technologies
+for addressing the needs in the social/emotional areas, such as perhaps
+iPhones, virtual reality, and robotics. Still, the results of these 11 studies were
+sufficiently impressive to make the case for using assistive technology within a
+more general systematic instructional approach for teaching new social/emotional
+skills to persons with ASD.
+
+With respect to the third and final category of studies targeting daily living and
+other adaptive skills
+assistive technology can successfully used to develop a range of daily living/
+adaptive behavior skills, including preparing meals/snacks, using office and
+household appliances, locating grocery store items, signaling a bus to stop,
+washing hands, mailing a letter, caring from pets, setting the table, washing dishes,
+and folding laundry.
+The diversity of skills suggests that assistive
+technology may have relatively broad applicability in the daily living/adaptive
+skills domain.The literature in the daily living/adaptive behavior skills area is,
+however, somewhat limited with respect to the range of assistive technology
+employed. As was the situation in the social skills domain, most studies in the
+daily living/adaptive skills domain have used CBI or video modeling (e.g., Jowlett
+2012; Moore et al. 2013; Shrestha et al. 2013). While effective, there would seem
+to be considerable potential perhaps for evaluating newer emerging assistive
+technology to assist persons with ASD in the performance of daily living/adaptive
+behavior skills.
+
+
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+Use of Technology in Interventions for Children with Autism
+
+This review will focus on five examples of technology introduced as a temporary instructional aid
+to be removed once the goal of behavior change has been met: (a) tactile and auditory prompting devices,
+(b) video-based instruction and feedback, (c) computer-aided instruction, (d) virtual reality, and (e)
+robotics
+
+Mechanical Prompts
+Individuals with autism often need external stimulus prompts to initiate, maintain, or terminate a
+behavior. Commonly used prompts include vocal, gestural, physical, written/pictorial, and signed
+prompts, and each modality has been demonstrated effective for multiple purposes (MacDuff, Krantz, &
+McClannahan, 2001).
+The two most commonly use mechanical prompts are auditory and
+tactile prompts.
+
+
+
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+Evaluating the Effectiveness
+of Video Instruction on Social
+and Communication Skills Training
+for Children With Autism Spectrum
+Disorders: A Review of the Literature
+
+Video instruction generally comprises several techniques
+including video modeling (VM), video self-modeling (VSM),
+and point-of-view video modeling (PVM). VM is described
+as a process where (a) a person is asked to watch a video
+prior to instruction in the target skill, (b) the target skill is
+modeled by an adult or peer within the activity context,
+(c) the instructor provides prompts and reinforcers to the
+person for attending to relevant stimuli, and (d) the person
+then imitates the behavior of the model when provided with
+the opportunity to perform the skills displayed in the video
+(Bellini & Akullian, 2007; Graetz, Mastropieri, & Scruggs,
+2006; Sigafoos, O’Reilly, & de la Cruz, 2007).
+Similar to VM, VSM involves the use of the individual
+being instructed as the model in the videotape instead of
+adults, peers, or siblings. VSM is described as a process
+where (a) only the exemplary target behavior of the student
+
+is displayed on the videotape minus teacher prompts and
+reinforcers (Hitchcock, Dowrick, & Prater, 2003), (b) the
+student observes his/her own adaptive behavior in the video
+(Buggey, 2005), (c) the student is provided with opportunities
+to imitate his/her own target behaviors after watching
+the video (Bellini, Akullian, & Hopf, 2007; Hine & Wolery,
+2006; Schreibman et al., 2000), and (d) after watching oneself
+engaging only in the appropriate behavior, the student’s
+actual behavior also tends to change (Coyle & Cole, 2004).
+
+In contrast to the use of others or self as models for
+appropriate behavior, PVM has been defined as the process
+of videotaping elements of the environment or activity context
+from the visual perspective or vantage point of the student
+who needs to acquire and/or master the target responses
+(Hine & Wolery, 2006; Schreibman et al., 2000; Shipley-
+Benamou, Lutzker, & Taubman, 2002). The videographer
+records steps for completing an activity or transitions from
+one setting to another by actually navigating through the
+process at the eye level of the student. When students review
+the videotape, they see exactly what they are supposed to do
+from the beginning until the end of the task or routine. Such
+a technique, when viewed repeatedly, promotes visual comprehension,
+increases familiarity with materials and settings,
+and provides a “picture” of the completed process, ostensibly
+reducing task anxiety and inappropriate behavior.
+
+video instruction has gained momentum in recent
+years in the pursuit of effective practices for social skills
+instruction for individuals with ASD
+
+
+VM Interventions
+The purpose of VM is to allow a student to see the appropriate
+actions for performing the target behavior immediately
+prior to performing the skill, increasing the probability of
+successful performance. Students watch a short video clip
+of discrete target behaviors in its entirety before performing
+these behaviors or watch a clip of one step, perform the
+step, and continue the same until the task procedure is
+completed. For discrete behaviors of short durations, a 3-
+to 5-min video clip is generally considered to be adequate
+given the relatively low attending skills of students with
+ASD (Buggey, 2005).
+
+
+VM as the primary intervention without additional intervention
+components.
+During intervention, if participants initiated an interaction
+(e.g., asked a question, made a comment), the experimenter
+responded accordingly; however, the response was not a
+prompt, correction, or reinforcer.
+
+participants
+not only acquired the target skills but also maintained and/or
+generalized the target responses to untrained people, objects,
+and settings.
+
+Many educators assume
+that all instructional situations targeting novel skills require
+the use of antecedent prompts to evoke correct responding,
+the use of error correction procedures to promote accurate
+responding, and reinforcers to maintain the rate of occurrence.
+In each of these studies, researchers used stimulus
+materials that promoted acquisition of skills in the absence
+of prompts, corrections, and reinforcers.
+
+
+VM as the primary intervention with additional intervention
+components (e.g., instructional prompts and reinforcers).
+
+VM in these
+studies was accompanied by the use of instructional prompts;
+tangible, edible, or verbal reinforcers; redirection (e.g.,
+Paterson & Arco, 2007); or review of video content after the
+viewing (Charlop-Christy & Daneshvar, 2003; Taylor et al.,
+1999) for training on target skills.
+
+VM as one component of a multielement intervention package.
+
+additional components were
+added when VM alone did not increase the target responses
+of participants. These multielement interventions included
+not only instructional prompts to evoke correct responding
+and tangible or verbal reinforcers for correct responses but
+also other teacher-directed strategies contingent upon incorrect
+responding.
+
+The implication of adding these intervention components
+to VM is the need to evaluate the reasons why VM
+alone was ineffective in producing the desired target
+responses. Specific attention needs to be paid to the elements
+of the video itself, for example, the length of each
+video clip watched by participants (only some studies
+reported the length), the number of viewings, time lapse
+between video-viewing and opportunity to perform the target
+response, and whether experimenters conducted debriefing
+sessions with participants after watching the video clip.
+The implication is to document the procedural fidelity of
+implementation of the various components of the intervention
+package.
+
+VM compared to another intervention strategy to determine
+relative effects of each intervention.
+In other words, children in the VM condition did experience
+at least one demonstration of in-vivo modeling of the correct
+response, making the comparison between VM and invivo
+technically not equal or comparable
+Sherer et al. (2001) compared the
+effectiveness of VM to VSM on target skills.
+participants with the highest level of performance on target
+responses in the Sherer et al. study also indicated greater
+preference for visual stimuli and qualitatively better visual
+memories.
+This finding relates to the need for assessing visual preferences
+of participants prior to using video instruction as an
+intervention strategy.
+
+
+VSM Interventions
+VSM differs from VM in that VSM involves videotaping
+the participant instead of other adults, peers, or siblings as a
+model. 
+
+The assumption is that there is no better model similar
+in age, gender, race, and other characteristics than oneself
+(Bandura, 1969; Buggey, Toombs, Gardener, & Cervetti,
+1999). VSM interventions usually fall into two categories
+(Dowrick, 1999), positive self-review and video feed forward.
+Positive self-review refers to individuals viewing
+themselves successfully engaging in a behavior or activity
+that is already in their repertoire or one they are learning. In
+video feed forward interventions, individuals observe themselves
+successfully demonstrating skills that are slightly
+above their current capability. The positive self-review
+form of VSM has been used as an intervention strategy for
+individuals with autism.
+
+Using VSM to teach social skills to students with autism
+can be challenging for several reasons. First, videotape samples
+of students displaying exemplary behavior are generally
+accumulated over time by encouraging the students to
+role-play or imitate the target behavior (Buggey et al., 1999;
+Delano, 2007). Second, obtaining the child’s cooperation
+with task demands for videotaping can be time consuming,
+especially if the target skill is novel (Bellini & Akullian,
+2007; Sherer et al., 2001). Third, VSM necessitates acquisition
+of the target response at some level in order to videotape,
+which can be difficult for skills that a student has not
+acquired.
+
+Interpretation of the results of these four
+studies showed that overall, VSM increased target responses
+such as social initiations and engagement, response to others’
+questions, and spontaneous requests. Bellini et al. (2007)
+found while the absolute mean rate of social interactions
+of both participants increased relative to baseline and
+the percentage of non-overlapping data for intervention
+was 80%, the behavioral pattern of both children showed
+high variability (Range 5%–75%, Participant 1; Range
+0%–50%, Participant 2) throughout the intervention
+and maintenance phases, undermining the impact of the
+intervention.
+There is
+limited evidence on the effectiveness of VSM as an intervention
+strategy for improving the social and communication
+responses of students with ASD. Clearly, further research
+is warranted to determine what child characteristics make
+VSM an effective intervention strategy.
+
+PVM Instruction
+PVM requires videotaping elements of the environment or
+activity from the vantage point of the student.
+Schreibman et al. (2000) used PVM as an antecedent strategy
+to make transition routines more predictable for students
+in order to decrease their problem behavior.
+PVM might be a promising intervention strategy; however,
+further research is needed to proclaim PVM as an effective
+intervention.
+
+
+
+
+
+
+
+The use of instructional prompts and reinforcers or
+error correction appears to be more effective for
+promoting acquisition, maintenance, and generalization
+of target skills. In some studies, the addition
+of reinforcement or prompting and feedback were
+necessary to improve the frequency of targets. This
+is critical as educators advocate the use of systematic
+instruction involving a sequence of prompts,
+corrective feedback, reinforcers, and opportunities
+to practice to promote learning of complex
+behaviors such as social and/or communication
+skills.
+
+It is necessary to evaluate the child’s skills in
+attending, imitation, visual processing and comprehension,
+matching-to-sample, and spatial ability in
+order to determine the amount of content and the
+length of the video.
+
+3. Children who are able to attend to a video for at
+least 1 min are more likely to benefit from this
+instructional strategy when compared to students
+who are more distracted by irrelevant features like
+“noise” (conversation), clothes of the actors, or
+other features (Nikopoulos & Keenan, 2003).
+
+The type of model (peer, familiar or unfamiliar
+adult, or self) did not appear to affect student learning
+in any manner. It appears that all types of models
+could be effective.

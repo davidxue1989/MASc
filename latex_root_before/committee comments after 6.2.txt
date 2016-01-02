@@ -1,3 +1,36 @@
+summary:
+Disconnect between proposed and done, revise intro materials
+	- Change objective: to evaluate the feasibility of using a robot for teaching activities of daily living to children with ASD through a case study
+	- Change to a case study design with greater emphasis on creating design recommendations for moving forward as opposed to determining the efficacy of the system.  Limitations in the methodology make it nearly impossible to say if the system worked or not, but there is rich information in there that inform future design e.g. the importance of a training stage with the robot for instance.  This will require you to reduce the emphasis on the graphs as your main data source.  Include the parent survey. Include more information about what instructions were given to the parent with respect to prompts during the robot phase. 
+
+qualitative analysis with respect to documenting and reporting challenges, usability issues etc. that you encountered in order to be able to clearly outline specific design recommendations.
+
+Change eye-balling to quantitative analysis (slope of the line of best fit for each phase)
+	- “Eye-balling” is not good – Methods need to be better described and repeatable.
+
+Too many graphs and not always clear e.g. Figure 4.
+
+Comment on whether or not changing the design of phase B midway through the experiment affected the outcome measures.
+	- need much more explanation. Perhaps a logic flow i.e. if you saw X, you did Y…..  perhaps, this logic flow can form part of your results
+
+Learning effect regardless of experimental condition across the 50 trials
+
+Can task be successfully completed if done in the wrong order? Need to take into account the order of the hand washing tasks?
+
+
+
+
+Clearly state novel technical contribution of chp 5
+	- It’s not clear if you are simply implementing other people’s code.  You need to define your novel contributions very clearly.
+
+Evaluate your implementation in Chapter 5, using public database or videos of myself
+	- Need to have some quantification of its accuracy perhaps with a typically developing individual and with the child. I know it didn’t work well for the child, but there needs to be an evaluation of this.
+
+Address Azadeh comments in pdf
+
+--------------------------------------------------------------------------
+
+
 Hi David,
 
 Thank you for sending your thesis. You have clearly worked hard on this. In my opinion, a few revisions are needed before we can move on to the defense.

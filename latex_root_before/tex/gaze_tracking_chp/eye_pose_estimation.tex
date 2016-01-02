@@ -1,4 +1,6 @@
 \subsection{Eye Pose Estimation}
+After successfully implementing the head pose tracker as well as frontal pose transforming the color video stream, we are ready to implement the eye pose tracker.  However, due to limitation of time, we were not able to start its implementation.  In the following section, we will only present method proposed.
+
 
 \subsubsection{Eye Image Cropping and Stabilization}
 The appearance-based method we use follows after Mora et al. \cite{funes2013person}, and requires cropped eye images from frontal head pose.  As explained in previous section (Section \ref{sec:approachOverview}), the cropped color eye images are easily obtained as long as we have stable tracking of the head -- the relative position of the eyes on the head is unchanged although the head is moving.  Given the tracked head pose, we can reverse the viewing angle and project back the RGB image to obtain frontal head pose eye images.

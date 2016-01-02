@@ -1,0 +1,37 @@
+Hi David,
+
+Thank you for sending your thesis. You have clearly worked hard on this. In my opinion, a few revisions are needed before we can move on to the defense.
+
+1. As the thesis is currently written, there is a disconnect between what you propose and what you actually end up doing. Would you be able to revise the introductory material to reflect the work that was actually done? For example, an objective that better reflects what you have done may be "to evaluate the feasibility of using a robot for teaching activities of daily living to children with ASD through a case study".
+2. In chapter 4, can you provide some quantitative analysis instead of "eye balling"? For example, you can compute the slope of the line of best fit for each phase.
+3. In chapter 4, it's a little strange to expect the child to murmur or smile to the robot. In fact, I would argue that this would be very concerning if it did happen.
+4. Given that you have asked the child to wash his hands 50 times in your study, you may want to look at the changes in your outcome measures overall (all phases) to see if there was a learning effect for the actual task of hand washing, regardless of the experimental condition.
+5. Since you changed the design of phase B midway through the experiment, you should comment on whether or not this change affected the outcome measures.
+6. It is not clear what the novel technical contribution is in Chapter 5. Please state this clearly.
+7. It's important that you somehow evaluate your implementation in Chapter 5. I understand that you are unable to do this using participant data, but can you use data from a public database or use videos of yourself?
+8. I have attached a marked-up copy of your thesis with more specific comments.
+
+I hope this helps and please let me know if you have any questions. Also, please note that I will going on parental leave starting mid-august and will not be available for a meeting in the next few months.
+Best,
+Azadeh
+
+
+I want to echo Azadeh’s suggestions.  Some additional suggestions:
+
+Part 1
+
+1.       Change to a case study design with greater emphasis on creating design recommendations for moving forward as opposed to determining the efficacy of the system.  Limitations in the methodology make it nearly impossible to say if the system worked or not, but there is rich information in there that inform future design e.g. the importance of a training stage with the robot for instance.  This will require you to reduce the emphasis on the graphs as your main data source.  Include the parent survey. Include more information about what instructions were giving to the parent with respect to prompts during the robot phase. 
+2.       “Eye-balling” – I don’t know what you mean by this.  Methods need to be better described and repeatable.
+3.       Too many graphs and not always clear e.g. Figure 4.
+4.       Was my impression that you did not take into account the order of the hand washing tasks, but I think this is extremely important as  the task cannot be successfully completed if done in the wrong order.
+5.       Change in how the prompts were given in Phase B – need much more explanation. Perhaps a logic flow i.e. if you saw X, you did Y…..  perhaps, this logic flow can form part of your results
+6.       I think you will have to incorporate some qualitative analysis with respect to documenting and reporting challenges, usability issues etc. that you encountered in order to be able to clearly outline specific design recommendations.
+
+Part 2
+1.        It’s not clear if you are simply implementing other people’s code.  You need to define your novel contributions very clearly.
+2.       Need to have some quantification of its accuracy perhaps with a typically developing individual and with the child. I know it didn’t work well for the child, but there needs to be an evaluation of this.
+ 
+You ran into some significant challenges in completing the thesis as you proposed. That’s ok and to be expected, but you will need to add in a strong discussion of these issues, limitations, and suggestions for future work.  You need to identify what your contribution was – it can be different then what you had planned for it to be.  That’s really the nature of research and is to be expected, but still it’s important to communicate how your thesis has incrementally increased the state of knowledge in this field. I think you will need to do some significant revisions, but I do think there is interesting information in your study that contributes to the field.
+
+Kind regards,
+Elaine
