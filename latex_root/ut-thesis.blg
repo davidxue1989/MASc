@@ -19,6 +19,10 @@ Repeated entry---line 1402 of file ./refs/thesis_report_refs.bib
  : @article{van2010comparison
  :                           ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 1570 of file ./refs/thesis_report_refs.bib
+ : @article{constantino2002social
+ :                               ,
+I'm skipping whatever remains of this entry
 Warning--to sort, need author or key in autism2014facts
 Warning--to sort, need author or key in abledata2010alpha
 Warning--to sort, need author or key in 2005team
@@ -29,4 +33,4 @@ Warning--empty author in 1997microsoft
 Warning--empty author in 2005team
 Warning--empty journal in bandura1969principles
 Warning--there's a number but no series in funes2013person
-(There were 3 error messages)
+(There were 4 error messages)

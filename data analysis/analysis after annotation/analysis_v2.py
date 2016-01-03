@@ -466,9 +466,9 @@ def computeMeasures(filename):
     
         
     # for ii, value in enumerate(no_effects_from_prompt_rate_v):
-    #     retDict['Not Affected By Prompt Rate - ' + rowNames[ii]] = value
+    #     retDict['Ignored Prompt Rate - ' + rowNames[ii]] = value
     # for ii, value in enumerate(no_effects_from_prompt_rate_v_SmplSz):
-    #     smplSzDict['Not Affected By Prompt Rate - ' + rowNames[ii]] = value
+    #     smplSzDict['Ignored Prompt Rate - ' + rowNames[ii]] = value
     
     # for ii, value in enumerate(stopped_for_no_reason_rate_v):
     #     retDict['Stopped For No Reason Rate - ' + rowNames[ii]] = value
@@ -481,14 +481,14 @@ def computeMeasures(filename):
     #     smplSzDict['Confused By Prompt Rate - ' + rowNames[ii]] = value
     
     # for ii, value in enumerate(compliance_rate_v):
-    #     retDict['Compliance Rate - ' + rowNames[ii]] = value
+    #     retDict['Complied Prompt Rate - ' + rowNames[ii]] = value
     # for ii, value in enumerate(compliance_rate_v_SmplSz):
-    #     smplSzDict['Compliance Rate - ' + rowNames[ii]] = value
+    #     smplSzDict['Complied Prompt Rate - ' + rowNames[ii]] = value
     
     # for ii, value in enumerate(compliance_hard_rate_v):
-    #     retDict['Hard Compliance Rate - ' + rowNames[ii]] = value
+    #     retDict['Hard Complied Prompt Rate - ' + rowNames[ii]] = value
     # for ii, value in enumerate(compliance_hard_rate_v_SmplSz):
-    #     smplSzDict['Hard Compliance Rate - ' + rowNames[ii]] = value
+    #     smplSzDict['Hard Complied Prompt Rate - ' + rowNames[ii]] = value
     
     responseMatrix_overall = np.sum(responseMatrix, 0)
     
@@ -525,19 +525,19 @@ def computeMeasures(filename):
 
     # print('\n')
 
-    retDict['Not Affected By Prompt Rate - Overall'] = no_effects_from_prompt_rate_overall
-    smplSzDict['Not Affected By Prompt Rate - Overall'] = no_effects_from_prompt_rate_overall_SmplSz
+    retDict['Ignored Prompt Rate - Overall'] = no_effects_from_prompt_rate_overall
+    smplSzDict['Ignored Prompt Rate - Overall'] = no_effects_from_prompt_rate_overall_SmplSz
     retDict['Stopped For No Reason Rate - Overall'] = stopped_for_no_reason_rate_overall
     smplSzDict['Stopped For No Reason Rate - Overall'] = stopped_for_no_reason_rate_overall_SmplSz
     retDict['Confused By Prompt Rate - Overall'] = special_case_rate_overall
     smplSzDict['Confused By Prompt Rate - Overall'] = special_case_rate_overall_SmplSz
-    retDict['Compliance Rate - Overall'] = compliance_rate_overall
-    smplSzDict['Compliance Rate - Overall'] = compliance_rate_overall_SmplSz
-    # retDict['Hard Compliance Rate - Overall'] = compliance_hard_rate_overall    
-    # smplSzDict['Hard Compliance Rate - Overall'] = compliance_hard_rate_overall_SmplSz
+    retDict['Complied Prompt Rate - Overall'] = compliance_rate_overall
+    smplSzDict['Complied Prompt Rate - Overall'] = compliance_rate_overall_SmplSz
+    # retDict['Hard Complied Prompt Rate - Overall'] = compliance_hard_rate_overall    
+    # smplSzDict['Hard Complied Prompt Rate - Overall'] = compliance_hard_rate_overall_SmplSz
     
-    retDict['Compliance Rate - Rinse Step'] = 1. * np.array(nRinsePromptsComplied) / np.array(nRinsePrompts)
-    smplSzDict['Compliance Rate - Rinse Step'] = nRinsePrompts[0]
+    retDict['Complied Prompt Rate - Rinse Step'] = 1. * np.array(nRinsePromptsComplied) / np.array(nRinsePrompts)
+    smplSzDict['Complied Prompt Rate - Rinse Step'] = nRinsePrompts[0]
     
     retDict['Parent Involvement'] = parent_involvement
     smplSzDict['Parent Involvement'] = 1
@@ -650,7 +650,11 @@ for i, key3 in enumerate(resultsDict):
             med = np.median(x)
             plt.plot([timeAxis[indices[0]], timeAxis[indices[-1]]], [med, med], color='k', linestyle='-', linewidth=2.5)
             
-            # plt.text((timeAxis[indices[0]] + timeAxis[indices[-1]])*0.5, med, str(round(med, 2)), fontsize=15) #median values labeled
+            #########################
+            ##median values labeled##
+            #########################
+            # plt.text((timeAxis[indices[0]] + timeAxis[indices[-1]])*0.5, med, str(round(med, 2)), fontsize=15) 
+            
         phaseEndIndx = newPhaseEndIndx
 
 
@@ -687,9 +691,9 @@ for i, key3 in enumerate(resultsDict):
 # plt.rc("font", size=18)
 # colors = ['r', 'k', 'g', 'b']
 # markers = ['^', 's', 'o', 'h']
-# # xconditions = ['Compliance Rate - Overall', 'Compliance Rate - R1Pv0g0']
+# # xconditions = ['Complied Prompt Rate - Overall', 'Complied Prompt Rate - R1Pv0g0']
 # # yconditions = ['Number of Steps Completed - Overall', 'Number of Steps Completed - Without Parent Phys. Intervene']
-# xconditions = ['Compliance Rate - Overall']
+# xconditions = ['Complied Prompt Rate - Overall']
 # yconditions = ['Number of Steps Completed - Overall']
 # legendHandels = []
 # for xcond in xconditions:
@@ -707,7 +711,7 @@ for i, key3 in enumerate(resultsDict):
 #             #label axes
 #             plt.ylim(ymax=6, ymin=-1)
 #             plt.xlim(xmax=1.1, xmin=-0.1)
-#             plt.xlabel('Compliance Rate - Overall')
+#             plt.xlabel('Complied Prompt Rate - Overall')
 #             plt.ylabel('Number of Steps Completed - Overall')
 #             
 #             #legends
