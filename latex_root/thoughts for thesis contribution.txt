@@ -1,0 +1,62 @@
+- covered children who knows steps, future study on children who don't know the steps
+- For our participant, following gaze / point gestures from the parent was not a problem, thus similar gestures from robot were expected to be appropriate, too.  However, studies suggest that, for some children with ASD, such gestures may be not appropriate as they tend to ignore them.  So future studies exploring the robot gestures' effectiveness in this subpopulation would be beneficial, and potentially see better effectiveness of the robot prompts compared to the parent's.
+- maybe some interactions like, finish one step, tap the robot head / hand / chest button, or say "okay, what's next" might be better engaging.  Need to make sure it's not distracting and that the child actually likes it and is able to do it (some child can't say "okay").
+
+The intensity (fequency and length) and extensiveness (total duration) of training needs to be determined for saturating effects.
+
+
+view robot as a human? the perceived role of robot and its impact on compliance
+
+
+Food and iPad time was constantly used as motivator / reward for our participant.  However, the access of them are not consequencial of child's behavior during the trials.
+
+
+? playing favorite music / cartoon sounds -> distraction from task vs. engagement
+
+=========================================================================
+
+X going in with hope of evaluative research and efficacy testing, should have started with explorative validation earlier and to begin with
+
+X view compliance and engagement results in light of further lit review => or maybe future research direction: taking a psychological (rather than technological) approach to addressing engagement and compliance by better plan the prompting / reinforcement schedule AND formalise the training phase!
+
+
+
+due to the vastness of intervention techniques for children with ASD and their varying efficacy depending on the child and his or her current condition, it's difficult for a researcher trained in the engineering discipline alone to navigate the clinical research literatures and design robot behaviors by drawing clinically proven principals.  The practice of drawing clinically proven principals to design robot / device behaviors is not widely adopted in the engineering research community, but should be!
+
+this thesis gives us an idea of what CAN be achieved by robot prompting, and what are some factors important for achieving them.  We see that robot is not the silver bullet that will solve engagement issues, despite having fully intelligent control of its behaviors to make it responsive to child behaviors.  Instead, further enhancement of engagement is needed through means of visual or audio stimuli, such as cartoon noises, fast and vigorous gesture motions, etc.  Attention needs to be paid such that the added motivator for better engagement does not distract the child from the hand-washing activity, thus the end goal is better engagement in the hand-washing, and the mean is better engagement in robot child interactions.
+
+the question is, are we using DTT to train hand-washing or train following the robot or train following the robot to wash hands?  The child knows hand-washing and only need training in the quality of some steps, while following the robot is a novel skill apparently not innat to our participant.  However, because of the novelty of the skill of following robot, we can argue that following the robot for hand-washing also becomes a novelty despite the child's skills in hand-washing.  Thus, the answer is we are training the child to follow the robot in hand-washing, the goals of which are both improvements in hand-washing qualities and compliance to robot!  And we achieved both, to varying extent.  Now the question is, why did we want to train the child to follow robot to wash hands?  Can't we just train him to wash hands well by himself?  The answer is, we might be able to achieve this.  Thus, the generalization studies of our study would be focusing on two things: once the child is trained to follow robot well in washing hands well, can the child generalize in following the robot well in executing another activity (e.g. brushing teeth or putting on clothes)? and can the child generalize in hand-washing without the robot (or any other helps)?
+
+
+A better understandings of children with ASD behavior tendencies and the behavior tendencies of our participant are essential for designing successful robot behaviors.  Should have talked more with parents, professionals such as teachers, therapists, and clinicians, during the designing stage.
+
+
+
+X [ref: The behavior flexibility rating scale-revised (BFRS-R): Factor analysis, internal consistency, inter-rater and intra-rater reliability, and convergent validity]
+behavior flexibility rating scale-revised(BFRS-R) could be used to put the study results into context of the robot / enironment novelty influence on the child's behaviors.  The scales reveal three major areas of flexibility: Flexibility towards objects, Flexibility towards the environment, and Flexibility towards persons).
+
+
+Understanding why the child needed assistance or what the child needs assitance for is crucial in designin robot behaviors.  Having expert opinions on how the robot should help the child is crucial.
+==> having clinician opinions on every child's preferences are expensive.  Need to identify key aspects of modifications a robot can provide, including visual and audio sensory considerations, targetted hand-washing skills, and prompting / reinforcement strategies.
+
+
+Our understanding of the cognitive theories underlying the behaviors of children with ASD are far from sound.  There are three popular hypotheses, the Theory of Mind hypothesis (subjective mental states of oneself and others), deficits in executive functioning (planning, inhibition, organization, cognitive flexibility, working memory, mental representation of tasks and goals), weak central coherence (local or detail-focused processing style, leading to missing more global processing of information in context and for meaning).  These hypotheses are yet to be clinically verified and they do not describe the whole realm of behaviors of children with ASD.  Our understanding of how the mind works are limited for typically behaving people, let alone people with ASD.  However, to guide design principals for robot behaviors, having intuitions of what might work by having personal experiences working / teaching / living with children with ASD would greatly enhance the process.  So the key is to involve with people with such intuitions in our design process.  Or, to provide research tools technology wise for researchers more experienced with children with ASD and better trained in the cognitive science and clinical behaviors to modify the robot based on their intuition of what serves children with ASD best.
+==> counter arguement to this approach is that:
+However, improvements in cognitive tasks (i.e., conceptual measures) do not automatically
+(i.e., without explicit training) reveal improvements in daily life (i.e., adaptive) behaviors (see
+e.g., Begeer et al., 2011; Fisher & Happé, 2005; Ozonoff & Miller, 1995). Conversely, it has
+been found that improvements in adaptive behaviors may not automatically result in
+improvements in cognitive skills (e.g., Chin & Bernard-Opitz, 2000; Teunisse et al., 2007).
+[Ref: Behavioral interventions in adolescents and young adults
+with high-functioning ASD:
+Improvement, generalization, and maintenance of adaptive skills]
+So, this means our cognitive theories may be misleading and gives noise to our design process inputs.  Conversely, finding ways that work best with children with ASD without a foundation of the cognitive mechanisms explaining the success is just as viable.  But the question still remains how do we find design recommendations efficiently.  And I think we still go back to the previous idea that having engineers build technologies whose finetunes are guided by autism experts (caregivers, therapists, clinicians and autism researchers) intuitions, testing frequently with children with ASD, and having the test results reviewed by both the engineer and the experts to iterate the next design would be the best way to go.
+
+
+[ref: Robot-Assisted Therapy for Autism Spectrum Disorders with (Partially) Autonomous Control Challenges and Outlook]
+children with autism were sensitive to non-social contingencies
+normally disregarded by typically developing children.
+-> They focus on some aspects of the agent's behavior (that we don't necessarily focus on as social cues) as clues for feedbacks of his/her own actions and cues for interactions.  Thus, building robot behaviors that are simple, direct, and responsive to child's behaviors give clear and consistent feedback to the child of what's expected and how to interact with the robot.
+==> along this line of thought, having robots that clearly demonstrate it's bad to not follow it (by turning red and make angry / agitated gestures), and having it display happy gestures and turn green when the child follow it, this might be easy to understand to children with ASD and clearly identifying what's expected of their behavior.
+
+Need to ensure the child is engaged / motivated to the robot's best abilities, then shall we proceed in finding ways for the child to listen to the robot.  So a few free play sessions with the robot, exploring different sounds / gestures / visual effects the robot can make and seeing free style responses of the child to them are recommended before designing for the hand-washing prompts.  This freestyle play maybe benefited to have a theme, for example introducing each other, or do some nonserious activity the child might enjoy.

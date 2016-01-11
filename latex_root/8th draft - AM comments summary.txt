@@ -1,37 +1,42 @@
-To promote consistency and eectiveness, the implementations of ATCs for assisting children with ASD
-with daily living tasks should also follow the ABA framework, and model after the DTT steps.
-- confirm and find ref
-
 3. To implement a real-time algorithm for tracking child's VFOA
-- Perhaps re-word this to better reflect that the goal was primarily to develop the algorithms required to do this as opposed to developing and testing a complete system.
+V Perhaps re-word this to better reflect that the goal was primarily to develop the algorithms required to do this as opposed to developing and testing a complete system.
 
 3. Using 3DMM and ALR for estimating head pose and eye pose, and using the Kinect camera, a
-classication rate of more than 80% is achieved for estimating child's VFOA on NAO, monitor
+classifcation rate of more than 80% is achieved for estimating child's VFOA on NAO, monitor
 screen, soap, towel, tap region, hands, and idling.
-- I would remove the hypotheses related to the VFOA as you didn't end up testing anything.
+V I would remove the hypotheses related to the VFOA as you didn't end up testing anything.
 
-- attach SRS results, and post intervention survey, in appendix
-
-
-
-Figure 4.5: Number of Parent Prompts - Physical Intervention
-- Not clear to me why this and the above figure are in this section.  May make better sense to include them below to help explain some of the results, in particular why the mean number of steps completed decreased in phases b and c.
-
-The parent in Phase A never prompted for the wet hands steps,
-and thus it was never completed in Phase A.
-- I am confused by this statement.  The below figure shows only the number of steps completed indepdentnly (i.e. without the parent providing a prompt).  So why is this relevant?
-
-for rst Phase B is 33%, for Phase C
-is 77%, and for second Phase B is 80%
-- Do you break these down by number of prompts from the parent and number from the robot?
 
 4.10.5 Quantitative Analysis and Results - Further
-- I don't think that these data are very useful.  I would remove them from here.  You can use them as needed in the discussion section.
+V I don't think that these data are very useful.  I would remove them from here.  You can use them as needed in the discussion section.
 4.10.6 Qualitative Analysis and Results - Further
-- I would just continue this as part of the same qualitative section above.
+V I would just continue this as part of the same qualitative section above.
+
 
 Thirdly, we did not employ the adequate
 engagement in data collection technique satisfactorily.
-- This doesn't fit here as you are start off talking about the things that you did to ensure internal validity, but here you say that you didn't do this.
+V This doesn't fit here as you are start off talking about the things that you did to ensure internal validity, but here you say that you didn't do this.
 
 
+The parent in Phase A never prompted for the wet hands steps,
+and thus it was never completed in Phase A.
+A: I am confused by this statement.  The below figure shows only the number of steps completed indepdentnly (i.e. without the parent providing a prompt).  So why is this relevant?
+D: The figure Number of Steps Completed - Overall shows both steps completed by the child independently and steps prompted by parent or robot.  I didn't actually have a figure that shows only steps completed independently.
+
+for First Phase B is 33%, for Phase C
+is 77%, and for second Phase B is 80%
+A: Do you break these down by number of prompts from the parent and number from the robot?
+D: I didn't break it down to prompted by parent and prompted by robot, instead I used Phase B1 and B2 as prompted by robot alone, and Phase A as prompted by parent alone.
+
+
+Figure 4.5: Number of Parent Prompts - Physical Intervention
+A: Not clear to me why this and the above figure are in this section.  May make better sense to include them below to help explain some of the results, in particular why the mean number of steps completed decreased in phases b and c.
+D: I meant to put these two figures (Fig4.4 Parent Involvement and Fig4.5 Number of Parent prompts - phys. interv.) in Section 4.10.2 Case and Samples Selected because I thought they described the control variable (the variable of how the parent prompted).  I see how Fig4.5 Number of Parent prompts - phys. interv. can also be considered as one of the response variables, since the fact that the parent physically intervened more may be a reflection of the child's poor performance.  However, because of the way the study was carried out, the parent had the freedom to choose when to physically intervene, so there were many occasions where the parent did not intervene even though the child was skipping steps or the parent was intervening more than she normally would because she was standing right behin the child, etc.  Thus, I thought it might be better to report the parent's involvement as part of the experimental conditions (context for our results) rather than an indicator of child's performance (or the results itself).
+
+
+V attach SRS and post-interventino survey results in appendix
+
+
+To promote consistency and effectiveness, the implementations of ATCs for assisting children with ASD
+with daily living tasks should also follow the ABA framework, and model after the DTT steps.
+- confirm and find ref

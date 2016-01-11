@@ -1,0 +1,96 @@
+
+
+[ref: Promoting question-asking in school aged children with autism spectrum disorders]
+
+First, it appears that a prerecorded
+human voice is preferred over synthetic
+speech [29]
+
+
+=====================================================
+Applied behavior analytic intervention for autism in early childhood: Meta-analysis,
+meta-regression and dose–response meta-analysis of multiple outcomes
+Javier Virués-Ortega
+
+Results suggested that long-term, comprehensive ABA intervention leads to (positive)
+medium to large effects in terms of intellectual functioning, language development, acquisition of daily living skills and social functioning in children with autism. Although favorable effects were apparent across all outcomes, language-related outcomes (IQ, receptive and expressive language, communication) were superior to non-verbal IQ, social functioning and daily living skills, with effect sizes approaching 1.5 for receptive and expressive language and communication skills. Dose-dependant effect sizes were apparent by levels of total treatment hours for language and adaptation composite scores
+
+
+[Fostering Develompent in Young Children with ASD and ID]
+
+DTT: skills are broken down into smaller (sub) skils, and taught in a restricted operant arrangement called a discrete trial.  During a DTT session many learning opportunities (e.g., up to 10 per minute) are provided to the child and te structured teaching format aides the child in isolating the key components of the learning situation by breaking down the complex behavior into units which can be easily discriminated.  The skills learned need to be actively generalized to other persons, materials and situations. Therefore, DTT is usually combined with more naturalistic approaches such as incidental teaching (Harris & Delmolino, 2002; Jensen & Sinclair, 2002; Lovaas, 2003; Smith, 2001).
+
+opposed to typically developing children, eye-tracking studies show that children with ASD
+fixate more on body parts and objects instead of faces (Klin, Jones, Schutlz, Volkmar, & Cohen,
+2002; Speer, Cook, McMahon, & Clark, 2007).
+
+In addition, children with ASD show a strong preference for highly contingent, non-variable
+contingency feedback instead of the imperfect contingent feedback that is characteristic
+for social interactions (Gergely & Watson, 1999).
+
+[A Meta-Analytic Study on the Effectiveness of Comprehensive ABA-based
+Early Intervention Programs for Children with Autism Spectrum Disorders]
+Studies have reported mixed outcomes (Eikeseth, 2009). Several descriptive reviews
+have concluded that, although EIBI generally has meaningful benefits for young children
+with ASD, there were large individual differences in treatment response and most children
+continued to require specialized services (Eikeseth, 2009; Howlin, Magiati, & Charman,
+2009; Matson & Smith, 2008; Rogers & Vismara, 2008; Shea, 2004; Smith, 1999).Two
+meta-analyses (Eldevik et al., 2009; Reichow & Wolery, 2009) found an average medium to
+large effect size for IQ change despite using different effect sizes (standardized mean change
+effect size versus a standardized mean difference effect size) and differences in study selection
+criteria. Eldevik et al. (2009) also found a medium effect size on change of the adaptive
+behavior composite.
+
+Children with ASD participating in EIBI generally outperformed children receiving other
+treatments or treatment as usual on both IQ and adaptive behavior measures. This confirms
+findings from other studies on EIBI (Eikeseth, 2009; Howlin et al., 2009) and two other recent
+meta-analyses (Eldevik et al., 2009; Reichow &Wolery, 2009). The average differences of
+11.09 to 15.21 standardized points in scores between the experimental and control groups
+on IQ, non-verbal IQ and receptive and expressive language and the large effect sizes may be
+considered clinically significant (Hojat & Gang, 2004).
+Consistent with Eldevik et al. (2009), this study found smaller differences on adaptive
+behavior between the experimental and the control group (4.96–10.44 points) suggesting
+that future applied work might focus more intensively to improve child
+adaptive behavior.
+
+
+
+
+
+[ref: Behavioral interventions in adolescents and young adults
+with high-functioning ASD:
+Improvement, generalization, and maintenance of adaptive skills]
+
+In their sample of adults with HFASD, Farley
+et al. (2009) found that among a range of variables including IQ, adaptive behavior measures
+(Vineland Adaptive Behavior Scales – VABS; Sparrow et al., 1984) were the variables most
+closely and positively related to better outcome. Across the adaptive domains the ‘daily living
+skills’ domain was most highly associated with better outcome.
+
+although the difficulties in acquiring daily living skills may be due to deficiencies in cognitive functions given by the three theories, criticisms of using cognitive skills training as interventions are that: it has
+been found that improvements in adaptive behaviors may not automatically result in
+improvements in cognitive skills (e.g., Chin & Bernard-Opitz, 2000; Teunisse et al., 2007).  Thus, instead of targeting the cognitive skills, which might not generalize into adaptive behaviors, we can seek to target the behaviors themselves, hence ABA.
+
+Discrete trial teaching (DTT; e.g.,
+Howard, Sparkman, Cohen, Green, & Stanislaw, 2005), incidental teaching (IT; e.g., McGee,
+Krantz, & McClannahan, 1986), and pivotal response training (PRT; e.g., Koegel, Carter, &
+Koegel, 2003) are interventions effectively used in adaptive skill building in children with
+ASD and are based on ABA methodology.
+
+===>  similar study results to ours, that training phase increased task engagement:
+[ref: Task engagement in young adults with high-functioning autism spectrum
+disorders: Generalization effects of behavioral skills training]
+The
+study demonstrated that a time-limited behavioral skills training package, implemented in a
+therapy room, resulted in a statistically significant decrease in off-task behavior during
+regular job training. Furthermore, results were more or less maintained at 6-week and at 6-
+month follow-up. The significant decrease in ‘off-task behavior’ could neither be attributed to
+an increased presence of the job trainer nor to an increased use of response prompting or
+reinforcement by the job trainer as no significant changes between conditions were found on
+these variables. It can be concluded that the skill of remaining engaged with tasks generalized
+from the therapy room (using unknown tasks, under supervision of the experimenter) to the
+natural job-training setting while performing regular job-tasks under supervision of the
+regular job trainer. The use of self-management, a visual cue (i.e., flowchart), and behavioral
+practice using multiple stimulus- (e.g., verbal and/or visual task instruction on several
+unknown tasks) and response exemplars (i.e., several task engagement responses) may have
+contributed to the generalization effects (see e.g., Koegel et al., 1995; Stokes & Osnes, 1989).

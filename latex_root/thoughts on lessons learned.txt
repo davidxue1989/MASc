@@ -1,0 +1,18 @@
+
+
+motivation issue potential solution: child choice technique.  Thus, we need to give the child a reason to wash hands that he/she agrees with.  For example, create scenarios / just have scenarios where the child needs to eat, or just finished with the toilet, then we start the trial of hand-washing!
+
+rewarding every step was definitely excessive, rewarding for key steps or once every hand-washing trial is better.  Intensity of the reward can be higher than simply a verbal praise.
+
+
+
+============================================
+
+evaluate how our robot behavior compared to the ABA based behavior of CLS: 
+Feedback in CLS was targeted, immediate and leveled. It increased in amount and
+informativeness as the child continued to make an error (less to more prompting). First, a ‘try
+again’ response was given, then the question is repeated and a visual cue is given. After a third
+incorrect response, Cosmo provides the correct answer and a new trial begins. If the child needs
+more than 3 ‘give away’ cues (highest cue), the therapist was encouraged to move on to either
+‘freeplay’ for that module or a new module, or perhaps try a ‘break’ using manipulatives.
+Otherwise, 10-12 trials in each module was attempted

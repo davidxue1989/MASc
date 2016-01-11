@@ -1,0 +1,21 @@
+couldn't find a canadian statistics on asd prevalence
+does Alex know?
+
+I would a more standard definition of AT, such as from Cook and Hussey (Polgar).
+Cook and Hussey's Assistive Technologies: Principles and Practice, 3e
+=> only two papers citing this, ask Alex for the book's definition?
+
+
+
+==================== not gonna do =====================================
+\textbf{report the head pose accuracy and operating range of the best neural network?}
+
+Using face detectors for localization is one solution, but it's operating range is \textbf{BLAH}, bottlenecking the head tracker's operating range [REF].
+
+Are there not standard definitions of these things that you can use and reference?
+
+reread discussion for 
+	limitation:
+	- missing baseline with child alone instead of parent with child
+
+list of abbreviations

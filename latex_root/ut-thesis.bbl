@@ -35,6 +35,11 @@ Brian Amberg, Reinhard Knothe, and Thomas Vetter.
 \newblock In {\em Automatic Face \& Gesture Recognition, 2008. FG'08. 8th IEEE
   International Conference on}, pages 1--6. IEEE, 2008.
 
+\bibitem{ashton2001applications}
+Tamarah~M Ashton.
+\newblock The applications of aba to technology: The discrete trial trainer.
+\newblock {\em Journal of Special Education Technology}, 16(1):41, 2001.
+
 \bibitem{american2013diagnostic}
 American~Psychiatric Association et~al.
 \newblock {\em Diagnostic and Statistical Manual of Mental Disorders
@@ -146,6 +151,13 @@ Jane Case-Smith and Marian Arbesman.
   relevance to occupational therapy.
 \newblock {\em American Journal of Occupational Therapy}, 62(4):416--429, 2008.
 
+\bibitem{chin2000teaching}
+Hsiao~Yun Chin and Vera Bernard-Opitz.
+\newblock Teaching conversational skills to children with autism: Effect on the
+  development of a theory of mind.
+\newblock {\em Journal of Autism and Developmental Disorders}, 30(6):569--583,
+  2000.
+
 \bibitem{cohen2006early}
 Howard Cohen, Mila Amerine-Dickens, and Tristram Smith.
 \newblock Early intensive behavioral treatment: Replication of the ucla model
@@ -189,6 +201,22 @@ Audrey Duquette, Fran{\c{c}}ois Michaud, and Henri Mercier.
 \newblock Exploring the use of a mobile robot as an imitation agent with
   children with low-functioning autism.
 \newblock {\em Autonomous Robots}, 24(2):147--157, 2008.
+
+\bibitem{eldevik2009meta}
+Sigmund Eldevik, Richard~P Hastings, J~Carl Hughes, Erik Jahr, Svein Eikeseth,
+  and Scott Cross.
+\newblock Meta-analysis of early intensive behavioral intervention for children
+  with autism.
+\newblock {\em Journal of Clinical Child \& Adolescent Psychology},
+  38(3):439--450, 2009.
+
+\bibitem{farley2009twenty}
+Megan~A Farley, William~M McMahon, Eric Fombonne, William~R Jenson, Judith
+  Miller, Michael Gardner, Heidi Block, Carmen~B Pingree, Edward~R Ritvo,
+  Riva~Arielle Ritvo, et~al.
+\newblock Twenty-year outcome for individuals with autism and average or
+  near-average cognitive abilities.
+\newblock {\em Autism Research}, 2(2):109--118, 2009.
 
 \bibitem{feil2005defining}
 David Feil-Seifer and Maja~J Mataric.
@@ -328,6 +356,19 @@ Caryl~H Hitchcock, Peter~W Dowrick, and Mary~Anne Prater.
 \newblock Video self-modeling intervention in school-based settings a review.
 \newblock {\em Remedial and Special Education}, 24(1):36--45, 2003.
 
+\bibitem{hojat2004visitor}
+Mohammadreza Hojat and Gang Xu.
+\newblock A visitor's guide to effect sizes--statistical significance versus
+  practical (clinical) importance of research findings.
+\newblock {\em Advances in health sciences education}, 9(3):241--249, 2004.
+
+\bibitem{howard2005comparison}
+Jane~S Howard, Coleen~R Sparkman, Howard~G Cohen, Gina Green, and Harold
+  Stanislaw.
+\newblock A comparison of intensive behavior analytic and eclectic treatments
+  for young children with autism.
+\newblock {\em Research in developmental disabilities}, 26(4):359--383, 2005.
+
 \bibitem{howlin2003outcome}
 Patricia Howlin.
 \newblock Outcome in high-functioning adults with autism with and without early
@@ -357,11 +398,25 @@ Debora~M Kagohara, Larah van~der Meer, Sathiyaprakash Ramdoss, Mark~F
   review.
 \newblock {\em Research in developmental disabilities}, 34(1):147--156, 2013.
 
+\bibitem{keenan2014autism}
+Mickey Keenan, Karola Dillenburger, Hanns~R{\"u}diger R{\"o}ttgers, Katerina
+  Dounavi, Sigr{\'\i}tur~L{\'o}a J{\'o}nsd{\'o}ttir, Paolo Moderato,
+  Jacqueline~JAM Schenk, Javier Viru{\'e}s-Ortega, Lise Roll-Pettersson, and
+  Neil Martin.
+\newblock Autism and aba: The gulf between north america and europe.
+\newblock {\em Review Journal of Autism and Developmental Disorders},
+  2(2):167--183, 2014.
+
 \bibitem{kim2001second}
 Sunyonga Kim and Masakazu Kojima.
 \newblock Second order cone programming relaxation of nonconvex quadratic
   optimization problems.
 \newblock {\em Optimization Methods and Software}, 15(3-4):201--224, 2001.
+
+\bibitem{koegel2003teaching}
+Lynn~Kern Koegel, Cynthia~M Carter, and Robert~L Koegel.
+\newblock Teaching children with autism self-initiations as a pivotal response.
+\newblock {\em Topics in Language Disorders}, 23(2):134--145, 2003.
 
 \bibitem{kozima2005interactive}
 Hideki Kozima, Cocoro Nakagawa, and Yuriko Yasuda.
@@ -381,6 +436,13 @@ Russell Lang, Sathiyaprakash Ramdoss, Tracy Raulston, Amarie Carnet, Jeff
 \newblock Assistive technology for people with autism spectrum disorders.
 \newblock In {\em Assistive Technologies for People with Diverse Abilities},
   pages 157--190. Springer, 2014.
+
+\bibitem{lathan2007using}
+Corinna Lathan, Katharina Boser, Charlotte Safos, Cathy Frentz, and Kaitlin
+  Powers.
+\newblock Using cosmo’s learning system (cls) with children with autism.
+\newblock In {\em Proceedings of the International Conference on
+  Technology-Based Learning with Disabilities}, pages 37--47. Citeseer, 2007.
 
 \bibitem{li2000support}
 Yongmin Li, Shaogang Gong, and Heather Liddell.
@@ -432,6 +494,12 @@ Maja~J Mataric.
   elderly.
 \newblock In {\em AAAI fall symposium on caring machines: AI for the elderly,
   Arlington, VA}, 2005.
+
+\bibitem{mcgee1986extension}
+Gail~G McGee, Patricia~J Krantz, and Lynn~E McClannahan.
+\newblock An extension of incidental teaching procedures to reading instruction
+  for autistic children.
+\newblock {\em Journal of Applied Behavior Analysis}, 19(2):147--157, 1986.
 
 \bibitem{mechling2010computer}
 Linda Mechling and Eileen O'Brien.
@@ -486,6 +554,13 @@ Richard~A Newcombe, Shahram Izadi, Otmar Hilliges, David Molyneaux, David Kim,
 \newblock In {\em Mixed and augmented reality (ISMAR), 2011 10th IEEE
   international symposium on}, pages 127--136. IEEE, 2011.
 
+\bibitem{palmen2013behavioral}
+Anna Maria Josephina~Wilhelmina Palmen.
+\newblock {\em Behavioral interventions in adolescents and young adults with
+  high-functioning ASD: Improvement, generalization, and maintenance of
+  adaptive skills}.
+\newblock UB Nijmegen [Host], 2013.
+
 \bibitem{parsons1993effect}
 Carl~L Parsons and Diane La~Sorte.
 \newblock The effect of computers with synthesized speech and no speech on the
@@ -498,6 +573,20 @@ Pascal Paysan, Reinhard Knothe, Brian Amberg, Sami Romdhani, and Thomas Vetter.
 \newblock A 3d face model for pose and illumination invariant face recognition.
 \newblock In {\em Advanced Video and Signal Based Surveillance, 2009. AVSS'09.
   Sixth IEEE International Conference On}, pages 296--301. IEEE, 2009.
+
+\bibitem{peters2011meta}
+Nienke Peters-Scheffer, Robert Didden, Hubert Korzilius, and Peter Sturmey.
+\newblock A meta-analytic study on the effectiveness of comprehensive aba-based
+  early intervention programs for children with autism spectrum disorders.
+\newblock {\em Research in Autism Spectrum Disorders}, 5(1):60--69, 2011.
+
+\bibitem{picardo2014towards}
+Valerie Picardo, Samuel Metson, Rashina Hoda, Robert Amor, Angela
+  Arnold-Saritepe, Rebecca Sharp, and Denys Brand.
+\newblock Towards designing assistive software applications for discrete trial
+  training.
+\newblock In {\em Companion Proceedings of the 36th International Conference on
+  Software Engineering}, pages 622--623. ACM, 2014.
 
 \bibitem{pierno2008robotic}
 Andrea~C Pierno, Morena Mari, Dean Lusher, and Umberto Castiello.
@@ -516,6 +605,11 @@ Deborah Preston and Mark Carter.
   intervention.
 \newblock {\em Journal of autism and developmental disorders},
   39(10):1471--1486, 2009.
+
+\bibitem{rajendran2007cognitive}
+Gnanathusharan Rajendran and Peter Mitchell.
+\newblock Cognitive theories of autism.
+\newblock {\em Developmental Review}, 27(2):224--260, 2007.
 
 \bibitem{ramdoss2011use}
 Sathiyaprakash Ramdoss, Russell Lang, Austin Mulloy, Jessica Franco, Mark
@@ -557,6 +651,13 @@ Bisser Raytchev, Ikushi Yoda, and Katsuhiko Sakaue.
 \newblock Head pose estimation by nonlinear manifold learning.
 \newblock In {\em Pattern Recognition, 2004. ICPR 2004. Proceedings of the 17th
   International Conference on}, volume~4, pages 462--466. IEEE, 2004.
+
+\bibitem{reichow2009comprehensive}
+Brian Reichow and Mark Wolery.
+\newblock Comprehensive synthesis of early intensive behavioral interventions
+  for young children with autism based on the ucla young autism project model.
+\newblock {\em Journal of autism and developmental disorders}, 39(1):23--41,
+  2009.
 
 \bibitem{reinders1996locating}
 Marcel~JT Reinders, RWC Koch, and Jan~J Gerbrands.
@@ -704,11 +805,11 @@ Leann~E Smith, Matthew~J Maenner, and Marsha~Mailick Seltzer.
 \newblock {\em Journal of the American Academy of Child \& Adolescent
   Psychiatry}, 51(6):622--631, 2012.
 
-\bibitem{smith2001discrete}
-Tristram Smith.
-\newblock Discrete trial training in the treatment of autism.
-\newblock {\em Focus on autism and other developmental disabilities},
-  16(2):86--92, 2001.
+\bibitem{sparrow2005vineland}
+S~Sparrow, D~Cicchetti, and D~Balla.
+\newblock Vineland-ii.
+\newblock {\em Vineland adaptive behavior scales. Survey forms manual.
+  Minneapolis: NCS Pearson Inc}, 2005.
 
 \bibitem{spitzer1980diagnostic}
 Robert~L Spitzer, Kurt~Kroenke Md, and Janet~BW Williams.
@@ -739,6 +840,19 @@ Bridget~A Taylor and Len Levin.
 \newblock Teaching a student with autism to make verbal initiations: Effects of
   a tactile prompt.
 \newblock {\em Journal of Applied Behavior Analysis}, 31(4):651--654, 1998.
+
+\bibitem{teunisse2007cognitieve}
+JP~Teunisse, FTT Krebbers, A~Palmen, A~Van Der~Sijde, FHTM Aerts, MCJ
+  Mommersteeg, and HJC Berger.
+\newblock Cognitieve voorspellers van sociale vooruitgang bij jongeren met een
+  autismespectrumstoornis.
+\newblock {\em Tijdschrift voor Psychiatrie}, 2007.
+
+\bibitem{thill2012robot}
+Serge Thill, Cristina~A Pop, Tony Belpaeme, Tom Ziemke, and Bram Vanderborght.
+\newblock Robot-assisted therapy for autism spectrum disorders with (partially)
+  autonomous control: Challenges and outlook.
+\newblock {\em Paladyn, Journal of Behavioral Robotics}, 3(4):209--217, 2012.
 
 \bibitem{tincani2010quantitative}
 Matt Tincani and Kathryn Devis.
@@ -818,6 +932,14 @@ Cynthia Weitz, Mark Dexter, Jacquelyn Moore, SL~Glennon, and DC~DeCoste.
 \newblock Aac and children with developmental disabilities.
 \newblock {\em Handbook of augmentative and alternative communication}, pages
   395--431, 1997.
+
+\bibitem{whalen2010efficacy}
+Christina Whalen, Debbie Moss, Aaron~B Ilan, Manya Vaupel, Paul Fielding, Kevin
+  Macdonald, Shannon Cernich, and Jennifer Symon.
+\newblock Efficacy of teachtown: Basics computer-assisted intervention for the
+  intensive comprehensive autism program in los angeles unified school
+  district.
+\newblock {\em Autism}, 14(3):179--197, 2010.
 
 \bibitem{wichnick2010effect}
 Alison~M Wichnick, Susan~M Vener, Magdalena Pyrtek, and Claire~L Poulson.
