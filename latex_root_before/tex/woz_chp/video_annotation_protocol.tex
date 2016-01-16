@@ -1,5 +1,5 @@
 \section{Video Annotations}
-To analyze the video data of the hand-washing trials quantitatively, intermediate measures were extracted from the data by the researcher.  This was the process of video annotation (a.k.a. coding).
+To analyze the video data of the hand-washing trials quantitatively, intermediate measures need to be extracted from the data.  This is the process of video annotation.
 %To compare between P and R in terms of:
 %	- visual attention
 %	- prompt compliance rate
@@ -18,11 +18,11 @@ To analyze the video data of the hand-washing trials quantitatively, intermediat
 
 \subsection{Annotation Framework}
 \label{sec:AnnotationFramework}
-Only the scene camera videos were annotated, since this view alone sufficed in informing both the progress of the child in hand-washing steps and the child's response to prompts.
+Only the scene camera videos were annotated, since this view alone suffices in informing both the progress of the child in hand-washing steps and the child's response to prompts.
 
-Each video file usually contained one hand-washing trial, sometimes two.  The annotator needed to scroll through each video until the scene of the child entering the washroom, marking it as the start of a trial.  The child leaving the washroom marked the end of a trial.
+Each video file usually contains one hand-washing trial, sometimes two.  The annotator needs to scroll through each video until the scene of the child entering the washroom, marking it as the start of a trial.  The child leaving the washroom marks the end of a trial.
 
-A trial contained many hand-washing steps, and for each step, the parent and/or the robot might give several prompts.  For consistency and convenience, the annotator divided the video into segments we call ''prompt sections'', and describe each prompt section using a 3-part scheme.  The first part describes the child's actions before any prompts, the second describes the prompting agent's prompts, and the third describes the child's actions after the prompts.  The intermediate measures to be annotated in each part of the prompt section are shown in Table \ref{tab:IntermediateMeasures}.
+A trial contains many hand-washing steps, and for each step, the parent and/or the robot may give several prompts.  For consistency and convenience, the annotator divides the video into segments we call ''prompt sections'', and describe each prompt section using a 3-part scheme.  The first part describes the child's actions before any prompts, the second describes the prompting agent's prompts, and the third describes the child's actions after the prompts.  The intermediate measures to be annotated in each part of the prompt section are shown in Table \ref{tab:IntermediateMeasures}.
 
 \begin{table}[h]
 	\centering
@@ -34,8 +34,8 @@ A trial contained many hand-washing steps, and for each step, the parent and/or 
 	
 		\multicolumn{3}{|c|}{\textbf{Child's Action Before Prompts}} \\	\hline
 	
-		Time Start	&	Ordinal	&	Time stamp for start of the prompt section	\\	\hline
-		Time Stop	&	Ordinal	&	Time stamp for end of the prompt section	\\	\hline
+		Time Start	&	Ordinal	&	Time stamp for start of prompting section	\\	\hline
+		Time Stop	&	Ordinal	&	Time stamp for end of prompting section	\\	\hline
 		Attempted Step Before Prompt	&	Nominal	&		\\	\hline
 		Attempted Step Successfully Executed Before Prompt	&	Ordinal	&	0 incomplete, 1 complete but low quality, 2 complete with high quality	\\	\hline	\hline
 		
@@ -51,17 +51,13 @@ A trial contained many hand-washing steps, and for each step, the parent and/or 
 		
 		\multicolumn{3}{|c|}{\textbf{Child's Action after Prompts}} \\	\hline
 		
-		C Looks at P/R	&	Nominal	&	Child looks at the prompting agent, 0 no looks, 1 looks at parent, 2 looks at robot, 3 looks at both	\\	\hline
+		C Looks At P/R	&	Nominal	&	Child looks at the prompting agent, 0 no looks, 1 looks at parent, 2 looks at robot, 3 looks at both	\\	\hline
 		C Smiles	&	Boolean	&	Does child smile	\\	\hline
 		C Murmurs	&	Boolean	&	Does child make a verbal sound	\\	\hline
-		C Distracted	&	Boolean	&	Child appears distracted, e.g. looking into mirror or camera \\	\hline
 		
 		Attempted Step After Prompt	&	Nominal	&	\\	\hline
 		Attempted Step Successfully Executed After Prompt	&	Ordinal	&	Same coding as Attempted Step Successfully Executed Before Prompt	\\	\hline
 		Attempted Step Is Correct Although Different From Prompt	&	Boolean	&	Is this one of those times that the prompts are wrong or ambiguous and child's actions make sense despite different	\\	\hline
-		Time of First Prompt	&	Time Stamp	&	Time stamp of the first prompt by either the parent or the robot in this prompt section	\\	\hline
-		Time of C Attempting Step	&	Time Stamp	&	Time stamp of when the child attempts the step	\\	\hline
-		Time of C Stopping Step	&	Time Stamp	&	Time stamp of when the child stops the step	\\	\hline
 		Number of Prompts Till C Executes Correct Step - Parent	&	Cardinal	&	Count number of prompts as any distinct actions performed by the parent before child executes the correct step.	\\	\hline
 		Number of Prompts Till C Executes Correct Step - Robot	&	Cardinal	&	Same as above, but counting robot prompts	\\	\hline
 	
@@ -72,14 +68,12 @@ A trial contained many hand-washing steps, and for each step, the parent and/or 
 
 A hand-washing step could have multiple prompt sections.  Take for example the following scenario: The child executes the wrong step before prompts, so the parent prompts the correct step, but the child ignores the prompt and continues the wrong step.  This constitutes one prompt section.  Then the parent prompts again, and the child finally follows the prompt and executes the correct step.  This constitutes then another prompt section.  For this example, because the parent prompts a second time without waiting for the child to stop his/her current action, the second prompt section should have a blank for the Child's Action Before Prompts.
 
-A hand-washing step could also have multiple prompt sections because of the step's nature.  For the ``extended steps'' (i.e. scrubbing, wetting, rinsing, and drying), even when the child is executing the correct step, the prompting agent may deliver more prompts to encourage the child to keep doing the same step for an extended period of time.  This is in contrast to the non-extended steps (e.g. turning on the water), where a single action from the child marks the completion of that step.  An example of an extended step with multiple prompt sections is: The child starts rinsing before prompt, then the parent tells the child to keep rinsing.  The child continues to rinse.  The parent says again ``keep rinsing'', and the child rinses more and then decides to stop.  This constitutes one prompt section.  Then, the parent prompts to rinse more again.  The child follows.  After a while, the parent decides this is enough and prompts for the next step.  This marks the end of the second prompt section.  For the first prompt section, it contains two prompts from the parent.  This is intentional, for the purpose of convenience -- we group any consecutive prompts (can be from either the parent, the robot, or from both) resulting in the same actions from the child as one prompt section.
-
-%This grouping does not affect any of our measures for Prompt Effectiveness or Responses to Prompts, since those measures count the number of steps or prompts, not prompt sections.  However, this grouping does affect the measures in Engagement and Visual Attention, since these measures count the number of prompt sections instead.
+A hand-washing step could also have multiple prompt sections because of the step's nature.  For the ``extended steps'' (i.e. scrubbing, wetting, rinsing, and drying), even when the child is executing the correct step, the prompting agent may deliver more prompts to encourage the child to keep doing the same step for an extended period of time.  This is in contrast to the non-extended steps (e.g. turning on the water), where a single action from the child marks the completion of that step.  An example of an extended step with multiple prompt sections is: The child starts rinsing before prompt, then the parent tells the child to keep rinsing.  The child continues to rinse.  The parent says again ``keep rinsing'', and the child rinses more and then decides to stop.  This constitutes one prompt section.  Then, the parent prompts to rinse more again.  The child follows.  After a while, the parent decides this is enough and prompts for the next step.  This marks the end of the second prompt section.  For the first prompt section, it contains two prompts from the parent.  This is intentional, for the purpose of convenience -- we group any consecutive prompts (can be from either the parent, the robot, or from both) resulting in the same actions from the child as one prompt section.  This grouping does not affect any of our measures for Prompt Effectiveness or Responses to Prompts, since those measures count the number of steps or prompts, not prompt sections.  However, this grouping does affect the measures in Engagement and Visual Attention, since these measures count the number of prompt sections instead.
 
 %Lastly, getting soap is a step similar to the extended steps such that it itself takes an extended period of time to execute.  However, it is different because of the child's tendency to always get more soap than needed.  So after the child starts getting soap, any prompts given are to tell the child to stop the step (as opposed to prolonging the step, as in the other extended steps' cases).  This means the measure, ``child stops step before next prompt'', is marked true if and only if no prompts are given after the child starts getting soap.  In general, ``child stops step before next prompt'' is marked true if the child stops the step before any prompt is given that is either telling him/her to stop (e.g. a verbal reward) or to go on to the next step.
 
 \subsection{Annotation Tools}
-The videos were played back by the software Media Player Classic - Home Cinema (MPC-HC), where timestamps of millisecond resolution can be obtained.  The annotations were recorded onto Microsoft Office Excel spreadsheets, and each sheet exported to comma separated value (CSV) files to be analyzed.
+The videos are played back by the software Media Player Classic - Home Cinema (MPC-HC), where timestamps of millisecond resolution can be obtained.  The annotations are recorded onto Microsoft Office Excel spreadsheets, and each sheet exported to comma separated value (CSV) files to be analyzed.
 
 %\subsection{Annotators and Inter-rater Agreement}
 %- number of annotators

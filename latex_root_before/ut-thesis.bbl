@@ -35,12 +35,6 @@ Brian Amberg, Reinhard Knothe, and Thomas Vetter.
 \newblock In {\em Automatic Face \& Gesture Recognition, 2008. FG'08. 8th IEEE
   International Conference on}, pages 1--6. IEEE, 2008.
 
-\bibitem{american2013diagnostic}
-American~Psychiatric Association et~al.
-\newblock {\em Diagnostic and Statistical Manual of Mental Disorders
-  (DSM-5{\textregistered})}.
-\newblock American Psychiatric Pub, 2013.
-
 \bibitem{ayres2009acquisition}
 Kevin~M Ayres, Amy Maguire, and Desiree McClimon.
 \newblock Acquisition and generalization of chained tasks taught with computer
@@ -57,11 +51,6 @@ Shumeet Baluja and Dean Pomerleau.
 Albert Bandura.
 \newblock Principles of behavior modification.
 \newblock 1969.
-
-\bibitem{baoi2014prevalence}
-J~Baoi.
-\newblock Prevalence of autism spectrum disorder among children aged 8 years.
-\newblock {\em MMWR Morb. Mortal. Wkly. Rep}, 63:1--21, 2014.
 
 \bibitem{belkin2003laplacian}
 Mikhail Belkin and Partha Niyogi.
@@ -139,6 +128,12 @@ Tom Buggey, Kristina Toombs, Pia Gardener, and Michele Cervetti.
   videotaped self-modeling.
 \newblock {\em Journal of Positive Behavior Interventions}, 1(4):205--214,
   1999.
+
+\bibitem{burgess2007quality}
+Audrey~F Burgess and Steven~E Gutstein.
+\newblock Quality of life for people with autism: Raising the standard for
+  evaluating successful outcomes.
+\newblock {\em Child and Adolescent Mental Health}, 12(2):80--86, 2007.
 
 \bibitem{case2008evidence}
 Jane Case-Smith and Marian Arbesman.
@@ -228,6 +223,11 @@ K~Francis.
 Edmund Frank~Lopresti, Alex Mihailidis, and Ned Kirsch.
 \newblock Assistive technology for cognitive rehabilitation: State of the art.
 \newblock {\em Neuropsychological rehabilitation}, 14(1-2):5--39, 2004.
+
+\bibitem{frith2005autism}
+Uta Frith and Francesca Happ{\'e}.
+\newblock Autism spectrum disorder.
+\newblock {\em Current biology}, 15(19):R786--R790, 2005.
 
 \bibitem{funes2012gaze}
 Kenneth~Alberto Funes~Mora and J~Odobez.
@@ -362,6 +362,14 @@ Sunyonga Kim and Masakazu Kojima.
 \newblock Second order cone programming relaxation of nonconvex quadratic
   optimization problems.
 \newblock {\em Optimization Methods and Software}, 15(3-4):201--224, 2001.
+
+\bibitem{kogan2009prevalence}
+Michael~D Kogan, Stephen~J Blumberg, Laura~A Schieve, Coleen~A Boyle, James~M
+  Perrin, Reem~M Ghandour, Gopal~K Singh, Bonnie~B Strickland, Edwin Trevathan,
+  and Peter~C van Dyck.
+\newblock Prevalence of parent-reported diagnosis of autism spectrum disorder
+  among children in the us, 2007.
+\newblock {\em Pediatrics}, 124(5):1395--1403, 2009.
 
 \bibitem{kozima2005interactive}
 Hideki Kozima, Cocoro Nakagawa, and Yuriko Yasuda.
