@@ -1,0 +1,1474 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.2)  16 JAN 2016 15:21
+entering extended mode
+**ut-thesis_diff.tex
+(ut-thesis_diff.tex
+LaTeX2e <2015/01/01> patch level 2
+Babel <3.9m> and hyphenation patterns for 69 languages loaded.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ut-thesis\ut-thesis.cls"
+Document Class: ut-thesis 2012/06/01 v2.0 graduate theses at the University of 
+Toronto
+\@thesisfootnotesep=\skip41
+\@thesismarginparpush=\skip42
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\report.cls"
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size10.clo"
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip43
+\belowcaptionskip=\skip44
+\bibindent=\dimen102
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count88
+\calc@Bcount=\count89
+\calc@Adimen=\dimen103
+\calc@Bdimen=\dimen104
+\calc@Askip=\skip45
+\calc@Bskip=\skip46
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count90
+\calc@Cskip=\skip47
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count91
+\Gm@cntv=\count92
+\c@Gm@tempcnt=\count93
+\Gm@bindingoffset=\dimen105
+\Gm@wd@mp=\dimen106
+\Gm@odd@mp=\dimen107
+\Gm@even@mp=\dimen108
+\Gm@layoutwidth=\dimen109
+\Gm@layoutheight=\dimen110
+\Gm@layouthoffset=\dimen111
+\Gm@layoutvoffset=\dimen112
+\Gm@dimlist=\toks15
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
+Package: setspace 2011/12/19 v6.7a set line spacing
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip48
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen113
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen114
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count94
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count95
+\leftroot@=\count96
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count97
+\DOTSCASE@=\count98
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen115
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count99
+\c@MaxMatrixCols=\count100
+\dotsspace@=\muskip10
+\c@parentequation=\count101
+\dspbrk@lvl=\count102
+\tag@help=\toks17
+\row@=\count103
+\column@=\count104
+\maxfields@=\count105
+\andhelp@=\toks18
+\eqnshift@=\dimen116
+\alignsep@=\dimen117
+\tagshift@=\dimen118
+\tagwidth@=\dimen119
+\totwidth@=\dimen120
+\lineht@=\dimen121
+\@envbody=\toks19
+\multlinegap=\skip49
+\multlinetaggap=\skip50
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count106
+))
+\Gin@req@height=\dimen122
+\Gin@req@width=\dimen123
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption.sty"
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen124
+\captionmargin@=\dimen125
+\captionwidth=\dimen126
+\caption@tempdima=\dimen127
+\caption@indent=\dimen128
+\caption@parindent=\dimen129
+\caption@hangindent=\dimen130
+)
+\c@ContinuedFloat=\count107
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\subcaption.sty"
+Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
+\c@subfigure=\count108
+\c@subtable=\count109
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count110
+\float@exts=\toks21
+\float@box=\box28
+\@float@everytoks=\toks22
+\@floatcapt=\box29
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
+
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package hobsub Info: Skipping package `etexcmds' (already loaded).
+Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
+Package hobsub Info: Skipping package `kvdefinekeys' (already loaded).
+Package hobsub Info: Skipping package `pdftexcmds' (already loaded).
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen131
+\Hy@linkcounter=\count111
+\Hy@pagecounter=\count112
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count113
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count114
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen132
+\Fld@menulength=\count115
+\Field@Width=\dimen133
+\Fld@charsize=\dimen134
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count116
+\c@Item=\count117
+\c@Hfootnote=\count118
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count119
+\c@bookmark@seq@number=\count120
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip51
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+\bigstrutjot=\dimen135
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\appendix\appendix.sty"
+Package: appendix 2009/09/02 v1.2b extra appendix facilities
+\c@@pps=\count121
+\c@@ppsavesec=\count122
+\c@@ppsaveapp=\count123
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\longtable.sty"
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip52
+\LTright=\skip53
+\LTpre=\skip54
+\LTpost=\skip55
+\LTchunksize=\count124
+\LTcapwidth=\dimen136
+\LT@head=\box30
+\LT@firsthead=\box31
+\LT@foot=\box32
+\LT@lastfoot=\box33
+\LT@cols=\count125
+\LT@rows=\count126
+\c@LT@tables=\count127
+\c@LT@chunks=\count128
+\LT@p@ftn=\toks23
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ulem\ulem.sty"
+\UL@box=\box34
+\UL@hyphenbox=\box35
+\UL@skip=\skip56
+\UL@hook=\toks24
+\UL@height=\dimen137
+\UL@pe=\count129
+\UL@pixel=\dimen138
+\ULC@box=\box36
+Package: ulem 2012/05/18
+\ULdepth=\dimen139
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 142.
+)
+(ut-thesis_diff.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(90.3375pt, 451.68752pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=451.68752pt
+* \textheight=650.43001pt
+* \oddsidemargin=18.0675pt
+* \evensidemargin=18.0675pt
+* \topmargin=-36.135pt
+* \headheight=12.0pt
+* \headsep=24.135pt
+* \topskip=10.0pt
+* \footskip=36.135pt
+* \marginparwidth=54.2025pt
+* \marginparsep=9.03374pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count130
+\scratchdimen=\dimen140
+\scratchbox=\box37
+\nofMPsegments=\count131
+\nofMParguments=\count132
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count133
+\MPscratchDim=\dimen141
+\MPnumerator=\count134
+\makeMPintoPDFobject=\count135
+\everyMPtoPDFconversion=\toks26
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\ltcaption.sty"
+Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
+)
+Package caption Info: End \AtBeginDocument code.
+\AtBeginShipoutBox=\box38
+Package hyperref Info: Link coloring OFF on input line 161.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count136
+)
+LaTeX Info: Redefining \ref on input line 161.
+LaTeX Info: Redefining \pageref on input line 161.
+LaTeX Info: Redefining \nameref on input line 161.
+
+(ut-thesis_diff.out) (ut-thesis_diff.out)
+\@outlinefile=\write3
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 168.
+
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 168.
+ [1
+
+{C:/Users/David/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
+Overfull \hbox (14.08998pt too wide) in paragraph at lines 193--195
+\OT1/cmr/m/n/10 I would like to ded-i-cate this the-sis to my fam-ily -- your l
+ove, your pa-tience, and your []|   []   [][]|   []
+ []
+
+[3] (ut-thesis_diff.lof)
+\tf@lof=\write4
+
+Underfull \vbox (badness 3503) has occurred while \output is active []
+
+ [4
+
+]
+[5] (ut-thesis_diff.lot)
+\tf@lot=\write5
+ [6
+
+] (ut-thesis_diff.toc [7
+
+] [8])
+\tf@toc=\write6
+ [9]
+Chapter 1.
+
+LaTeX Warning: Citation `frith2005autism' on page 1 undefined on input line 262
+.
+
+
+LaTeX Warning: Citation `kogan2009prevalence' on page 1 undefined on input line
+ 266.
+
+
+LaTeX Warning: Citation `burgess2007quality' on page 1 undefined on input line 
+273.
+
+[1
+
+
+] [2] [3]
+Chapter 2.
+
+Overfull \hbox (46.21806pt too wide) in paragraph at lines 324--324
+[]\OT1/cmr/bx/n/12 Applied Be-haviour Anal-y-sis and []|   []   |   []   |   []
+   |   []   |   []   |   [][][]|   []
+ []
+
+[4
+
+]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Overfull \hbox (1.59106pt too wide) in paragraph at lines 356--357
+|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [] 
+  |   []   |   []   |   []   |   []
+ []
+
+[5]
+
+LaTeX Warning: Citation `smith2001discrete' on page 6 undefined on input line 3
+71.
+
+[6] [7] [8] [9] [10]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11]
+[12]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [13] [14] [15]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+ [16] [17]
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 576.
+
+<./img/ravindra2009therapeutic.png, id=929, 204.765pt x 163.73672pt>
+File: ./img/ravindra2009therapeutic.png Graphic file (type png)
+
+<use ./img/ravindra2009therapeutic.png>
+Package pdftex.def Info: ./img/ravindra2009therapeutic.png used on input line 5
+81.
+(pdftex.def)             Requested size: 271.01526pt x 216.72775pt.
+
+
+LaTeX Warning: Reference `DTTDiscussion' on page 18 undefined on input line 593
+.
+
+[18 <./img/ravindra2009therapeutic.png>]
+<./img/murphy2009head.png, id=944, 351.56343pt x 442.65375pt>
+File: ./img/murphy2009head.png Graphic file (type png)
+
+<use ./img/murphy2009head.png>
+Package pdftex.def Info: ./img/murphy2009head.png used on input line 602.
+(pdftex.def)             Requested size: 271.01526pt x 341.22942pt.
+ [19 <./img/murphy2009head.png>] [20] [21]
+Underfull \vbox (badness 1502) has occurred while \output is active []
+
+ [22]
+[23]
+Chapter 3.
+<./img/nao_t14_schema.png, id=1025, 489.83pt x 347.2975pt>
+File: ./img/nao_t14_schema.png Graphic file (type png)
+
+<use ./img/nao_t14_schema.png>
+Package pdftex.def Info: ./img/nao_t14_schema.png used on input line 702.
+(pdftex.def)             Requested size: 271.01526pt x 192.15886pt.
+ [24
+
+ <./img/nao_t14_schema.png>] [25]
+Chapter 4.
+[26
+
+] [27] [28] [29]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+ <./img/nao-torso.jpg, id=1086, 426.09187pt x 454.69875pt>
+File: ./img/nao-torso.jpg Graphic file (type jpg)
+
+<use ./img/nao-torso.jpg>
+Package pdftex.def Info: ./img/nao-torso.jpg used on input line 893.
+(pdftex.def)             Requested size: 193.7747pt x 206.78418pt.
+
+Overfull \hbox (17.61685pt too wide) in paragraph at lines 893--894
+[][] 
+ []
+
+File: ./img/nao_t14_schema.png Graphic file (type png)
+<use ./img/nao_t14_schema.png>
+Package pdftex.def Info: ./img/nao_t14_schema.png used on input line 897.
+(pdftex.def)             Requested size: 293.14499pt x 207.85017pt.
+
+Overfull \hbox (26.65102pt too wide) in paragraph at lines 897--898
+[][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[30] <./img/exp_setup_labeled.jpg, id=1094, 614.295pt x 794.97pt>
+File: ./img/exp_setup_labeled.jpg Graphic file (type jpg)
+
+<use ./img/exp_setup_labeled.jpg>
+Package pdftex.def Info: ./img/exp_setup_labeled.jpg used on input line 920.
+(pdftex.def)             Requested size: 329.80219pt x 426.79134pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[31 <./img/nao-torso.jpg>]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [32 <./img/exp_setup_labeled.jpg>] [33]
+<./img/overhead_view.jpg, id=1117, 240.9pt x 180.675pt>
+File: ./img/overhead_view.jpg Graphic file (type jpg)
+
+<use ./img/overhead_view.jpg>
+Package pdftex.def Info: ./img/overhead_view.jpg used on input line 983.
+(pdftex.def)             Requested size: 243.46364pt x 182.60435pt.
+
+Overfull \hbox (22.13428pt too wide) in paragraph at lines 983--984
+[][] 
+ []
+
+<./img/scene_view.jpg, id=1118, 226.665pt x 127.458pt>
+File: ./img/scene_view.jpg Graphic file (type jpg)
+
+<use ./img/scene_view.jpg>
+Package pdftex.def Info: ./img/scene_view.jpg used on input line 990.
+(pdftex.def)             Requested size: 243.46364pt x 136.90767pt.
+
+Overfull \hbox (22.13428pt too wide) in paragraph at lines 990--991
+[][] 
+ []
+
+<./img/kinect_view.jpg, id=1119, 722.7pt x 406.51875pt>
+File: ./img/kinect_view.jpg Graphic file (type jpg)
+
+<use ./img/kinect_view.jpg>
+Package pdftex.def Info: ./img/kinect_view.jpg used on input line 997.
+(pdftex.def)             Requested size: 243.46364pt x 136.94913pt.
+
+Overfull \hbox (22.13428pt too wide) in paragraph at lines 997--998
+[][] 
+ []
+
+
+Underfull \vbox (badness 1092) has occurred while \output is active []
+
+ [34]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [35]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [36 <./img/overhead_view.jpg> <./img/scene_view.jpg> <./img/kinect_view.jpg>] 
+[37]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+
+Underfull \hbox (badness 8038) in paragraph at lines 1064--1064
+[]\OT1/cmr/m/n/10 Let's con-tinue wash-ing
+ []
+
+
+Overfull \hbox (20.5159pt too wide) in paragraph at lines 1046--1068
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+[38] [39] [40] [41]
+
+LaTeX Warning: Float too large for page by 30.94759pt on input line 1182.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[42]
+
+LaTeX Warning: Reference `sec:VideoDataAnalysisAndResults' on page 43 undefined
+ on input line 1247.
+
+[43] [44]
+Package epstopdf Info: Source file: <./img/data_analysis/6ParentInvolvement.eps
+>
+(epstopdf)                    date: 2016-01-03 14:05:30
+(epstopdf)                    size: 23915 bytes
+(epstopdf)             Output file: <./img/data_analysis/6ParentInvolvement-eps
+-converted-to.pdf>
+(epstopdf)                    date: 2016-01-03 14:05:49
+(epstopdf)                    size: 20121 bytes
+(epstopdf)             Command: <epstopdf --outfile=./img/data_analysis/6Parent
+Involvement-eps-converted-to.pdf ./img/data_analysis/6ParentInvolvement.eps>
+(epstopdf)             \includegraphics on input line 1292.
+Package epstopdf Info: Output file is already uptodate.
+
+<./img/data_analysis/6ParentInvolvement-eps-converted-to.pdf, id=1193, 578.16pt
+ x 433.62pt>
+File: ./img/data_analysis/6ParentInvolvement-eps-converted-to.pdf Graphic file 
+(type pdf)
+ <use ./img/data_analysis/6ParentInvolvement-eps-converted-to.pdf>
+Package pdftex.def Info: ./img/data_analysis/6ParentInvolvement-eps-converted-t
+o.pdf used on input line 1292.
+(pdftex.def)             Requested size: 271.01526pt x 203.25887pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package epstopdf Info: Source file: <./img/data_analysis/7NumberofParentPrompts
+-PhysInterv.eps>
+(epstopdf)                    date: 2016-01-03 14:05:30
+(epstopdf)                    size: 29353 bytes
+(epstopdf)             Output file: <./img/data_analysis/7NumberofParentPrompts
+-PhysInterv-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-01-03 14:05:50
+(epstopdf)                    size: 24337 bytes
+(epstopdf)             Command: <epstopdf --outfile=./img/data_analysis/7Number
+ofParentPrompts-PhysInterv-eps-converted-to.pdf ./img/data_analysis/7NumberofPa
+rentPrompts-PhysInterv.eps>
+(epstopdf)             \includegraphics on input line 1300.
+Package epstopdf Info: Output file is already uptodate.
+
+<./img/data_analysis/7NumberofParentPrompts-PhysInterv-eps-converted-to.pdf, id
+=1195, 578.16pt x 433.62pt>
+File: ./img/data_analysis/7NumberofParentPrompts-PhysInterv-eps-converted-to.pd
+f Graphic file (type pdf)
+
+<use ./img/data_analysis/7NumberofParentPrompts-PhysInterv-eps-converted-to.pdf
+>
+Package pdftex.def Info: ./img/data_analysis/7NumberofParentPrompts-PhysInterv-
+eps-converted-to.pdf used on input line 1300.
+(pdftex.def)             Requested size: 271.01526pt x 203.25887pt.
+ [45]pdfTeX warning (ext4): destination with the same identifier (name{subsecti
+on.4.10.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1306 ...Fadd{Quantitative Analysis and Results}}
+                                                   [46 <./img/data_analysis/6Pa
+rentInvolvement-eps-converted-to.pdf> <./img/data_analysis/7NumberofParentPromp
+ts-PhysInterv-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <./img/data_analysis/0NumberofStepsComplete
+d-Overall.eps>
+(epstopdf)                    date: 2016-01-03 14:05:27
+(epstopdf)                    size: 29510 bytes
+(epstopdf)             Output file: <./img/data_analysis/0NumberofStepsComplete
+d-Overall-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-01-03 14:05:50
+(epstopdf)                    size: 23553 bytes
+(epstopdf)             Command: <epstopdf --outfile=./img/data_analysis/0Number
+ofStepsCompleted-Overall-eps-converted-to.pdf ./img/data_analysis/0NumberofStep
+sCompleted-Overall.eps>
+(epstopdf)             \includegraphics on input line 1319.
+Package epstopdf Info: Output file is already uptodate.
+
+<./img/data_analysis/0NumberofStepsCompleted-Overall-eps-converted-to.pdf, id=1
+275, 578.16pt x 433.62pt>
+File: ./img/data_analysis/0NumberofStepsCompleted-Overall-eps-converted-to.pdf 
+Graphic file (type pdf)
+
+<use ./img/data_analysis/0NumberofStepsCompleted-Overall-eps-converted-to.pdf>
+Package pdftex.def Info: ./img/data_analysis/0NumberofStepsCompleted-Overall-ep
+s-converted-to.pdf used on input line 1319.
+(pdftex.def)             Requested size: 271.01526pt x 203.25887pt.
+
+[47 <./img/data_analysis/0NumberofStepsCompleted-Overall-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `fig:4ComplianceRate-Overall' on page 48 undefined on 
+input line 1334.
+
+
+LaTeX Warning: Reference `fig:1NotAffectedByPromptRate-Overall' on page 48 unde
+fined on input line 1337.
+
+Package epstopdf Info: Source file: <./img/data_analysis/4CompliedPromptRate-Ov
+erall.eps>
+(epstopdf)                    date: 2016-01-03 14:05:29
+(epstopdf)                    size: 29143 bytes
+(epstopdf)             Output file: <./img/data_analysis/4CompliedPromptRate-Ov
+erall-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-01-03 14:06:28
+(epstopdf)                    size: 24314 bytes
+(epstopdf)             Command: <epstopdf --outfile=./img/data_analysis/4Compli
+edPromptRate-Overall-eps-converted-to.pdf ./img/data_analysis/4CompliedPromptRa
+te-Overall.eps>
+(epstopdf)             \includegraphics on input line 1339.
+Package epstopdf Info: Output file is already uptodate.
+
+<./img/data_analysis/4CompliedPromptRate-Overall-eps-converted-to.pdf, id=1317,
+ 578.16pt x 433.62pt>
+File: ./img/data_analysis/4CompliedPromptRate-Overall-eps-converted-to.pdf Grap
+hic file (type pdf)
+
+<use ./img/data_analysis/4CompliedPromptRate-Overall-eps-converted-to.pdf>
+Package pdftex.def Info: ./img/data_analysis/4CompliedPromptRate-Overall-eps-co
+nverted-to.pdf used on input line 1339.
+(pdftex.def)             Requested size: 271.01526pt x 203.25887pt.
+Package epstopdf Info: Source file: <./img/data_analysis/1IgnoredPromptRate-Ove
+rall.eps>
+(epstopdf)                    date: 2016-01-03 14:05:28
+(epstopdf)                    size: 30279 bytes
+(epstopdf)             Output file: <./img/data_analysis/1IgnoredPromptRate-Ove
+rall-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-01-03 14:06:28
+(epstopdf)                    size: 25375 bytes
+(epstopdf)             Command: <epstopdf --outfile=./img/data_analysis/1Ignore
+dPromptRate-Overall-eps-converted-to.pdf ./img/data_analysis/1IgnoredPromptRate
+-Overall.eps>
+(epstopdf)             \includegraphics on input line 1345.
+Package epstopdf Info: Output file is already uptodate.
+
+<./img/data_analysis/1IgnoredPromptRate-Overall-eps-converted-to.pdf, id=1318, 
+578.16pt x 433.62pt>
+File: ./img/data_analysis/1IgnoredPromptRate-Overall-eps-converted-to.pdf Graph
+ic file (type pdf)
+
+<use ./img/data_analysis/1IgnoredPromptRate-Overall-eps-converted-to.pdf>
+Package pdftex.def Info: ./img/data_analysis/1IgnoredPromptRate-Overall-eps-con
+verted-to.pdf used on input line 1345.
+(pdftex.def)             Requested size: 271.01526pt x 203.25887pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[48 <./img/data_analysis/4CompliedPromptRate-Overall-eps-converted-to.pdf>]
+[49 <./img/data_analysis/1IgnoredPromptRate-Overall-eps-converted-to.pdf>]
+[50] [51] [52] [53]
+Underfull \vbox (badness 1769) has occurred while \output is active []
+
+ [54]
+[55] [56] [57] [58]pdfTeX warning (ext4): destination with the same identifier 
+(name{subsection.4.10.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1607 ...ction{\DIFdel{Experiment Design Change}}
+                                                   [59]
+
+LaTeX Warning: Reference `fig:TotalNumberOfCompleteSteps' on page 60 undefined 
+on input line 1640.
+
+
+LaTeX Warning: Reference `fig:7TotalNumberofCompleteSteps-WithoutPrompts' on pa
+ge 60 undefined on input line 1640.
+
+
+LaTeX Warning: Reference `fig:6TotalNumberofCompleteSteps-WithRobotPrompts' on 
+page 60 undefined on input line 1640.
+
+
+LaTeX Warning: Reference `fig:4TotalNumberofCompleteSteps-WithRobotAndParentPro
+mpts' on page 60 undefined on input line 1640.
+
+
+LaTeX Warning: Reference `fig:7TotalNumberofCompleteSteps-WithoutPrompts' on pa
+ge 60 undefined on input line 1644.
+
+
+LaTeX Warning: Reference `fig:6TotalNumberofCompleteSteps-WithRobotPrompts' on 
+page 60 undefined on input line 1644.
+
+[60pdfTeX warning (ext4): destination with the same identifier (name{subsection
+.4.11.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1648 
+       ]
+
+LaTeX Warning: Reference `fig:6TotalNumberofCompleteSteps-WithRobotPrompts' on 
+page 61 undefined on input line 1649.
+
+
+LaTeX Warning: Reference `fig:4TotalNumberofCompleteSteps-WithRobotAndParentPro
+mpts' on page 61 undefined on input line 1649.
+
+
+LaTeX Warning: Reference `fig:TotalNumberOfParentPrompts' on page 61 undefined 
+on input line 1714.
+
+
+LaTeX Warning: Reference `fig:25TotalNumberofParentPrompts' on page 61 undefine
+d on input line 1714.
+
+
+LaTeX Warning: Reference `fig:26TotalNumberofParentPrompts-Physical' on page 61
+ undefined on input line 1715.
+
+[61]
+
+LaTeX Warning: Reference `fig:ComplianceRate' on page 62 undefined on input lin
+e 1757.
+
+
+LaTeX Warning: Reference `fig:102ComplianceRate-Overall' on page 62 undefined o
+n input line 1760.
+
+
+LaTeX Warning: Reference `fig:79ComplianceRate-R1Pv0g0' on page 62 undefined on
+ input line 1762.
+
+
+LaTeX Warning: Reference `fig:103HardComplianceRate-Overall' on page 62 undefin
+ed on input line 1762.
+
+
+LaTeX Warning: Reference `fig:92HardComplianceRate-R1Pv0g0' on page 62 undefine
+d on input line 1763.
+
+
+LaTeX Warning: Reference `fig:99NotAffectedByPromptRate-Overall' on page 62 und
+efined on input line 1822.
+
+[62]
+
+LaTeX Warning: Reference `fig:12TotalNumberofTimesChildSmiles' on page 63 undef
+ined on input line 1847.
+
+
+LaTeX Warning: Reference `fig:13TotalNumberofTimesChildMurmurs' on page 63 unde
+fined on input line 1864.
+
+Package epstopdf Info: Source file: <./img/data_analysis/5CompliedPromptRate-Ri
+nseStep.eps>
+(epstopdf)                    date: 2016-01-03 14:05:29
+(epstopdf)                    size: 30345 bytes
+(epstopdf)             Output file: <./img/data_analysis/5CompliedPromptRate-Ri
+nseStep-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-01-03 14:06:52
+(epstopdf)                    size: 24929 bytes
+(epstopdf)             Command: <epstopdf --outfile=./img/data_analysis/5Compli
+edPromptRate-RinseStep-eps-converted-to.pdf ./img/data_analysis/5CompliedPrompt
+Rate-RinseStep.eps>
+(epstopdf)             \includegraphics on input line 1869.
+Package epstopdf Info: Output file is already uptodate.
+
+<./img/data_analysis/5CompliedPromptRate-RinseStep-eps-converted-to.pdf, id=149
+3, 578.16pt x 433.62pt>
+File: ./img/data_analysis/5CompliedPromptRate-RinseStep-eps-converted-to.pdf Gr
+aphic file (type pdf)
+
+<use ./img/data_analysis/5CompliedPromptRate-RinseStep-eps-converted-to.pdf>
+Package pdftex.def Info: ./img/data_analysis/5CompliedPromptRate-RinseStep-eps-
+converted-to.pdf used on input line 1869.
+(pdftex.def)             Requested size: 271.01526pt x 203.25887pt.
+
+
+LaTeX Warning: Reference `fig:LookingAtPromptingAgentDuringPrompts' on page 63 
+undefined on input line 1879.
+
+
+LaTeX Warning: Reference `fig:8LookingatParentRateGivenParentPrompted' on page 
+63 undefined on input line 1879.
+
+
+LaTeX Warning: Reference `fig:92HardComplianceRate-R1Pv0g0' on page 63 undefine
+d on input line 1879.
+
+[63 <./img/data_analysis/5CompliedPromptRate-RinseStep-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <./img/data_analysis/8LongestDurationofRins
+esec.eps>
+(epstopdf)                    date: 2016-01-03 14:05:31
+(epstopdf)                    size: 29459 bytes
+(epstopdf)             Output file: <./img/data_analysis/8LongestDurationofRins
+esec-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-01-03 14:05:51
+(epstopdf)                    size: 25168 bytes
+(epstopdf)             Command: <epstopdf --outfile=./img/data_analysis/8Longes
+tDurationofRinsesec-eps-converted-to.pdf ./img/data_analysis/8LongestDurationof
+Rinsesec.eps>
+(epstopdf)             \includegraphics on input line 1883.
+Package epstopdf Info: Output file is already uptodate.
+
+<./img/data_analysis/8LongestDurationofRinsesec-eps-converted-to.pdf, id=1540, 
+578.16pt x 433.62pt>
+File: ./img/data_analysis/8LongestDurationofRinsesec-eps-converted-to.pdf Graph
+ic file (type pdf)
+
+<use ./img/data_analysis/8LongestDurationofRinsesec-eps-converted-to.pdf>
+Package pdftex.def Info: ./img/data_analysis/8LongestDurationofRinsesec-eps-con
+verted-to.pdf used on input line 1883.
+(pdftex.def)             Requested size: 271.01526pt x 203.25887pt.
+
+
+LaTeX Warning: Reference `fig:10LookingatParentRateGivenBothPrompted' on page 6
+4 undefined on input line 1889.
+
+
+LaTeX Warning: Reference `fig:11LookingatRobotRateGivenBothPrompted' on page 64
+ undefined on input line 1889.
+
+[64 <./img/data_analysis/8LongestDurationofRinsesec-eps-converted-to.pdf>]pdfTe
+X warning (ext4): destination with the same identifier (name{subsection.4.11.1}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1960 \subsection{\DIFdel{Primary Results}}
+                                            
+
+LaTeX Warning: Reference `fig:4NumberofIncompleteSteps' on page 65 undefined on
+ input line 1968.
+
+[65]pdfTeX warning (ext4): destination with the same identifier (name{subsectio
+n.4.11.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1989 ...\DIFadd{Internal and External Validity}}
+                                                   [66]
+
+LaTeX Warning: Reference `fig:107ParentInvolvement' on page 67 undefined on inp
+ut line 2018.
+
+[67]
+
+LaTeX Warning: Reference `fig:ComplianceRate_robotAloneOnly' on page 68 undefin
+ed on input line 2033.
+
+
+LaTeX Warning: Reference `fig:99NotAffectedByPromptRate-Overall_robotAloneOnly'
+ on page 68 undefined on input line 2033.
+
+
+LaTeX Warning: Reference `fig:5ComplianceRate-RinseStep' on page 68 undefined o
+n input line 2033.
+
+
+Underfull \vbox (badness 4193) has occurred while \output is active []
+
+ [68]
+[69]pdfTeX warning (ext4): destination with the same identifier (name{subsectio
+n.4.11.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2120 ...n{\DIFdel{Limitations and Future Works}}
+                                                   [70] [71] [72]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [73]
+Underfull \vbox (badness 4193) has occurred while \output is active []
+
+ [74]
+[75] [76]
+Chapter 5.
+[77
+
+] <./img/bilateral_filtering.jpg, id=1656, 483.8075pt x 279.0425pt>
+File: ./img/bilateral_filtering.jpg Graphic file (type jpg)
+
+<use ./img/bilateral_filtering.jpg>
+Package pdftex.def Info: ./img/bilateral_filtering.jpg used on input line 2224.
+
+(pdftex.def)             Requested size: 271.01526pt x 156.31807pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[78] <./img/resolution_pyramid.jpg, id=1676, 161.09346pt x 141.31006pt>
+File: ./img/resolution_pyramid.jpg Graphic file (type jpg)
+
+<use ./img/resolution_pyramid.jpg>
+Package pdftex.def Info: ./img/resolution_pyramid.jpg used on input line 2241.
+(pdftex.def)             Requested size: 271.01526pt x 237.77661pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./img/point_to_plane_error.jpg, id=1682, 531.48563pt x 320.69812pt>
+File: ./img/point_to_plane_error.jpg Graphic file (type jpg)
+
+<use ./img/point_to_plane_error.jpg>
+Package pdftex.def Info: ./img/point_to_plane_error.jpg used on input line 2255
+.
+(pdftex.def)             Requested size: 271.01526pt x 163.53429pt.
+ [79 <./img/bilateral_filtering.jpg>]
+<./img/TSDF.jpg, id=1692, 332.6599pt x 159.79297pt>
+File: ./img/TSDF.jpg Graphic file (type jpg)
+ <use ./img/TSDF.jpg>
+Package pdftex.def Info: ./img/TSDF.jpg used on input line 2270.
+(pdftex.def)             Requested size: 271.01526pt x 130.18256pt.
+
+[80 <./img/resolution_pyramid.jpg> <./img/point_to_plane_error.jpg>] [81 <./img
+/TSDF.jpg>] <./img/headTrackingResults1.jpg, id=1706, 722.7pt x 406.51875pt>
+File: ./img/headTrackingResults1.jpg Graphic file (type jpg)
+
+<use ./img/headTrackingResults1.jpg>
+Package pdftex.def Info: ./img/headTrackingResults1.jpg used on input line 2343
+.
+(pdftex.def)             Requested size: 451.68752pt x 254.07358pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[82] [83 <./img/headTrackingResults1.jpg>] [84]
+<./img/eyeimages/s1.jpg, id=1730, 702.625pt x 702.625pt>
+File: ./img/eyeimages/s1.jpg Graphic file (type jpg)
+
+<use ./img/eyeimages/s1.jpg>
+Package pdftex.def Info: ./img/eyeimages/s1.jpg used on input line 2388.
+(pdftex.def)             Requested size: 158.9985pt x 158.9951pt.
+
+Overfull \hbox (14.4552pt too wide) in paragraph at lines 2388--2389
+[][] 
+ []
+
+<./img/eyeimages/s2.jpg, id=1731, 702.625pt x 702.625pt>
+File: ./img/eyeimages/s2.jpg Graphic file (type jpg)
+
+<use ./img/eyeimages/s2.jpg>
+Package pdftex.def Info: ./img/eyeimages/s2.jpg used on input line 2391.
+(pdftex.def)             Requested size: 158.9985pt x 158.9951pt.
+
+Overfull \hbox (14.4552pt too wide) in paragraph at lines 2391--2392
+[][] 
+ []
+
+<./img/eyeimages/s3.jpg, id=1732, 702.625pt x 702.625pt>
+File: ./img/eyeimages/s3.jpg Graphic file (type jpg)
+
+<use ./img/eyeimages/s3.jpg>
+Package pdftex.def Info: ./img/eyeimages/s3.jpg used on input line 2394.
+(pdftex.def)             Requested size: 158.9985pt x 158.9951pt.
+
+Overfull \hbox (14.4552pt too wide) in paragraph at lines 2394--2395
+[][] 
+ []
+
+<./img/eyeimages/f1.jpg, id=1733, 702.625pt x 702.625pt>
+File: ./img/eyeimages/f1.jpg Graphic file (type jpg)
+
+<use ./img/eyeimages/f1.jpg>
+Package pdftex.def Info: ./img/eyeimages/f1.jpg used on input line 2398.
+(pdftex.def)             Requested size: 119.24887pt x 119.24097pt.
+
+Overfull \hbox (10.8414pt too wide) in paragraph at lines 2398--2399
+[][] 
+ []
+
+<./img/eyeimages/f2.jpg, id=1734, 702.625pt x 702.625pt>
+File: ./img/eyeimages/f2.jpg Graphic file (type jpg)
+
+<use ./img/eyeimages/f2.jpg>
+Package pdftex.def Info: ./img/eyeimages/f2.jpg used on input line 2401.
+(pdftex.def)             Requested size: 119.24887pt x 119.24097pt.
+
+Overfull \hbox (10.8414pt too wide) in paragraph at lines 2401--2402
+[][] 
+ []
+
+<./img/eyeimages/f3.jpg, id=1735, 702.625pt x 702.625pt>
+File: ./img/eyeimages/f3.jpg Graphic file (type jpg)
+
+<use ./img/eyeimages/f3.jpg>
+Package pdftex.def Info: ./img/eyeimages/f3.jpg used on input line 2404.
+(pdftex.def)             Requested size: 119.24887pt x 119.24097pt.
+
+Overfull \hbox (10.8414pt too wide) in paragraph at lines 2404--2405
+[][] 
+ []
+
+<./img/eyeimages/trackingError.jpg, id=1736, 702.625pt x 702.625pt>
+File: ./img/eyeimages/trackingError.jpg Graphic file (type jpg)
+
+<use ./img/eyeimages/trackingError.jpg>
+Package pdftex.def Info: ./img/eyeimages/trackingError.jpg used on input line 2
+407.
+(pdftex.def)             Requested size: 119.24887pt x 119.24097pt.
+
+Overfull \hbox (10.8414pt too wide) in paragraph at lines 2407--2408
+[][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[85] [86 <./img/eyeimages/s1.jpg> <./img/eyeimages/s2.jpg> <./img/eyeimages/s3.
+jpg> <./img/eyeimages/f1.jpg> <./img/eyeimages/f2.jpg> <./img/eyeimages/f3.jpg>
+ <./img/eyeimages/trackingError.jpg>] [87] [88]
+Package epstopdf Info: Source file: <./img/loc_calib_gauss.eps>
+(epstopdf)                    date: 2015-08-17 00:25:33
+(epstopdf)                    size: 40177 bytes
+(epstopdf)             Output file: <./img/loc_calib_gauss-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2015-08-17 00:25:33
+(epstopdf)                    size: 24645 bytes
+(epstopdf)             Command: <epstopdf --outfile=./img/loc_calib_gauss-eps-c
+onverted-to.pdf ./img/loc_calib_gauss.eps>
+(epstopdf)             \includegraphics on input line 2511.
+Package epstopdf Info: Output file is already uptodate.
+
+<./img/loc_calib_gauss-eps-converted-to.pdf, id=1778, 815.045pt x 639.38875pt>
+File: ./img/loc_calib_gauss-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./img/loc_calib_gauss-eps-converted-to.pdf>
+Package pdftex.def Info: ./img/loc_calib_gauss-eps-converted-to.pdf used on inp
+ut line 2511.
+(pdftex.def)             Requested size: 243.46364pt x 190.98882pt.
+
+Overfull \hbox (22.13428pt too wide) in paragraph at lines 2511--2512
+[][] 
+ []
+
+Package epstopdf Info: Source file: <./img/loc_calib_gauss_cross.eps>
+(epstopdf)                    date: 2015-08-17 00:25:33
+(epstopdf)                    size: 40807 bytes
+(epstopdf)             Output file: <./img/loc_calib_gauss_cross-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2015-08-17 00:25:33
+(epstopdf)                    size: 26261 bytes
+(epstopdf)             Command: <epstopdf --outfile=./img/loc_calib_gauss_cross
+-eps-converted-to.pdf ./img/loc_calib_gauss_cross.eps>
+(epstopdf)             \includegraphics on input line 2515.
+Package epstopdf Info: Output file is already uptodate.
+
+<./img/loc_calib_gauss_cross-eps-converted-to.pdf, id=1779, 815.045pt x 639.388
+75pt>
+File: ./img/loc_calib_gauss_cross-eps-converted-to.pdf Graphic file (type pdf)
+ <use ./img/loc_calib_gauss_cross-eps-converted-to.pdf>
+Package pdftex.def Info: ./img/loc_calib_gauss_cross-eps-converted-to.pdf used 
+on input line 2515.
+(pdftex.def)             Requested size: 243.46364pt x 190.98882pt.
+
+Overfull \hbox (22.13428pt too wide) in paragraph at lines 2515--2516
+[][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[89]
+Underfull \vbox (badness 1389) has occurred while \output is active []
+
+ [90 <./img/loc_calib_gauss-eps-converted-to.pdf> <./img/loc_calib_gauss_cross-
+eps-converted-to.pdf>] [91]
+Chapter 6.
+[92
+
+] [93]
+Underfull \vbox (badness 1769) has occurred while \output is active []
+
+ [94]
+[95] [96
+
+
+]
+Appendix A.
+
+Overfull \hbox (25.05481pt too wide) in alignment at lines 2575--2596
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 2596
+ []
+
+
+Overfull \hbox (25.05481pt too wide) in alignment at lines 2596--2616
+ [] [] 
+ []
+
+
+Overfull \hbox (25.05481pt too wide) in alignment at lines 2616--2636
+ [] [] 
+ []
+
+[97
+
+]
+Overfull \hbox (25.05481pt too wide) in alignment at lines 2636--2645
+ [] [] 
+ []
+
+[98] [99]
+Appendix B.
+
+Overfull \hbox (30.9957pt too wide) in paragraph at lines 2651--2675
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [100
+
+]
+[101]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no î in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 2734.
+
+ [102
+
+] [103] [104] [105]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [106]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [107] [108]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [109] [110]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [111]
+Underfull \hbox (badness 1092) in paragraph at lines 3585--3589
+|   []   |   []   |   []   [] []|   []   |   []   |   []   |   []   |   []   | 
+  []   |   []   |   []   |   []
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[112]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3731.
+ [113]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 3731.
+ (ut-thesis_diff.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3731.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3731.
+
+Package rerunfilecheck Info: File `ut-thesis_diff.out' has not changed.
+(rerunfilecheck)             Checksum: 0389670F23B7550CC4D09F6855A9C902;6810.
+
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3731.
+ ) 
+Here is how much of TeX's memory you used:
+ 8761 strings out of 493673
+ 136959 string characters out of 3141531
+ 364533 words of memory out of 3000000
+ 11442 multiletter control sequences out of 15000+200000
+ 9574 words of font info for 35 fonts, out of 3000000 for 9000
+ 1025 hyphenation exceptions out of 8191
+ 42i,13n,47p,3567b,520s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (
+x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86
+)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
+s/type1/public/amsfonts/latxfont/lasy6.pfb>
+Output written on ut-thesis_diff.pdf (122 pages, 2966610 bytes).
+PDF statistics:
+ 2069 PDF objects out of 2073 (max. 8388607)
+ 520 named destinations out of 1000 (max. 500000)
+ 882 words of extra memory for PDF output out of 10000 (max. 10000000)
+

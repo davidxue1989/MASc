@@ -1,0 +1,180 @@
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Motivation}{1}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Children with ASD and the need for ATCs}{1}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}COACH and its Challenges}{1}{subsection.1.1.2}
+\contentsline {section}{\numberline {1.2}Roadmap}{2}{section.1.2}
+\contentsline {chapter}{\numberline {2}Literature Review}{4}{chapter.2}
+\contentsline {section}{\numberline {2.1}ASD Interventions}{4}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Applied Behaviour Analysis and {\color {red}\sout {Discrete Trial Training for Skill Teaching}}{\color {blue}\uwave {Early Intensive Behavior Intervention}}}{4}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}{\color {blue}\uwave {Daily Living Skill Teaching and the Discrete Trial Training}}}{5}{subsection.2.1.2}
+\contentsline {subsubsection}{Implementation Details of DTT}{6}{section*.7}
+\contentsline {subsection}{\numberline {2.1.3}{\color {red}\sout {Discussion}}}{6}{subsection.2.1.3}
+\contentsline {section}{\numberline {2.2}Assistive Technology for ASD}{7}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Assistive Technology for Communication Skills}{7}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Assistive Technology for Social Skills}{8}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Assistive Technology for Daily Living and Other Adaptive Skills}{10}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}{\color {blue}\uwave {ABA Based ATCs}}}{12}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}Discussion}{13}{subsection.2.2.5}
+\contentsline {section}{\numberline {2.3}Human Robot Interactions (HRI)}{15}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Socially Interactive Robotics (SIR)}{15}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}The Issue of Embodiment}{15}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Socially Assistive Robotics (SAR)}{16}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Discussion}{16}{subsection.2.3.4}
+\contentsline {section}{\numberline {2.4}Robots in ASD Interventions}{17}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}General Response to Robots}{17}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Eliciting Pro-Social Behaviours}{17}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Modeling, Teaching, or Practicing a Skill and Providing Reinforcements}{17}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}Discussion}{17}{subsection.2.4.4}
+\contentsline {section}{\numberline {2.5}Visual Focus of Attention Estimation}{18}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Visual Focus of Attention and Gaze}{19}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Head Pose Estimation}{20}{subsection.2.5.2}
+\contentsline {subsubsection}{Appearance Templates and Detector Arrays Methods}{20}{section*.10}
+\contentsline {subsubsection}{Nonlinear Regression Methods}{20}{section*.11}
+\contentsline {subsubsection}{Manifold Embedding Methods}{20}{section*.12}
+\contentsline {subsubsection}{Geometric Methods}{21}{section*.13}
+\contentsline {subsubsection}{Flexible Model Methods}{21}{section*.14}
+\contentsline {paragraph}{Face Representation}{21}{section*.15}
+\contentsline {paragraph}{Face Fitting}{21}{section*.16}
+\contentsline {subsubsection}{Kinect Fusion}{21}{section*.17}
+\contentsline {subsection}{\numberline {2.5.3}Eye Pose Estimation}{22}{subsection.2.5.3}
+\contentsline {subsubsection}{Shape-Based Methods}{22}{section*.18}
+\contentsline {subsubsection}{Feature-Based Shape Methods}{22}{section*.19}
+\contentsline {subsubsection}{Appearance-Based Methods}{22}{section*.20}
+\contentsline {subsection}{\numberline {2.5.4}Using RGB-D Camera for Gaze Estimation}{23}{subsection.2.5.4}
+\contentsline {subsection}{\numberline {2.5.5}Discussion}{23}{subsection.2.5.5}
+\contentsline {chapter}{\numberline {3}Research Objectives}{24}{chapter.3}
+\contentsline {section}{\numberline {3.1}Overall Goal and Approach}{24}{section.3.1}
+\contentsline {section}{\numberline {3.2}Central Hypothesis}{25}{section.3.2}
+\contentsline {section}{\numberline {3.3}Specific Objectives}{25}{section.3.3}
+\contentsline {paragraph}{Our objectives are:}{25}{section*.22}
+\contentsline {paragraph}{Our hypotheses are:}{25}{section*.23}
+\contentsline {chapter}{\numberline {4}The Wizard of Oz Pilot Case Study}{26}{chapter.4}
+\contentsline {section}{\numberline {4.1}Research Design and Strategy}{26}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Wizard of Oz {\color {red}\sout {Experiment }}{\color {blue}\uwave {Experimental }}Design}{26}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Case Study Format}{27}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Combining Qualitative and Quantitative {\color {red}\sout {Research}}{\color {blue}\uwave {Analyses}}}{27}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Case Selection and Sample Selection}{28}{subsection.4.1.4}
+\contentsline {section}{\numberline {4.2}Recruitment}{29}{section.4.2}
+\contentsline {paragraph}{{\color {red}\sout {The }}\textbf {{\color {red}\sout {inclusion criteria}}} {\color {red}\sout {for enrolling in the study were as follows:}}}{30}{section*.24}
+\contentsline {section}{\numberline {4.3}Humanoid Robot NAO}{30}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Verbal Prompts}{31}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Gesture Prompts}{32}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Wizard of Oz Remote Control}{33}{subsection.4.3.3}
+\contentsline {section}{\numberline {4.4}Surveys}{33}{section.4.4}
+\contentsline {paragraph}{Social Responsiveness Scale Survey and Entrance Survey}{33}{section*.27}
+\contentsline {paragraph}{Post-Intervention Survey}{33}{section*.28}
+\contentsline {section}{\numberline {4.5}{\color {blue}\uwave {Parent Researcher }}Interviews}{33}{section.4.5}
+\contentsline {section}{\numberline {4.6}Study Protocol and Setup}{34}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Conducting Entrance and SRS Surveys}{34}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}Hand-Washing Trials Protocol Overview}{34}{subsection.4.6.2}
+\contentsline {subsection}{\numberline {4.6.3}Experiment Setup}{35}{subsection.4.6.3}
+\contentsline {subsection}{\numberline {4.6.4}Specific Protocol}{37}{subsection.4.6.4}
+\contentsline {paragraph}{Phase A (Baseline Phase)}{37}{section*.30}
+\contentsline {paragraph}{{\color {red}\sout {Phases B }}{\color {blue}\uwave {Phase B1 }}and {\color {red}\sout {C }}{\color {blue}\uwave {B2 }}({\color {blue}\uwave {Robot Only }}Intervention Phases)}{37}{section*.31}
+\contentsline {paragraph}{{\color {blue}\uwave {Phase C (Robot Parent Joint Intervention Phase)}}}{37}{section*.32}
+\contentsline {subsection}{\numberline {4.6.5}Conducting Interviews and the Basis of Sample Selection}{39}{subsection.4.6.5}
+\contentsline {subsection}{\numberline {4.6.6}Conducting Post-intervention Surveys}{39}{subsection.4.6.6}
+\contentsline {subsection}{\numberline {4.6.7}Data Collection}{40}{subsection.4.6.7}
+\contentsline {subsection}{\numberline {4.6.8}Ethics}{40}{subsection.4.6.8}
+\contentsline {paragraph}{Consent and Assent}{40}{section*.34}
+\contentsline {paragraph}{Confidentiality}{40}{section*.35}
+\contentsline {paragraph}{Data Storage}{41}{section*.36}
+\contentsline {section}{\numberline {4.7}Interview Transcription}{41}{section.4.7}
+\contentsline {section}{\numberline {4.8}Video Annotations}{41}{section.4.8}
+\contentsline {subsection}{\numberline {4.8.1}Annotation Framework}{41}{subsection.4.8.1}
+\contentsline {subsection}{\numberline {4.8.2}Annotation Tools}{42}{subsection.4.8.2}
+\contentsline {section}{\numberline {4.9}Video Data Measures}{42}{section.4.9}
+\contentsline {paragraph}{{\color {red}\sout {Prompt Effectiveness}}{\color {blue}\uwave {Task Completion}}}{43}{section*.38}
+\contentsline {paragraph}{{\color {blue}\uwave {Child's }}Responses to Prompts}{43}{section*.39}
+\contentsline {paragraph}{{\color {red}\sout {Engagement and Visual Attention}}}{43}{section*.40}
+\contentsline {paragraph}{}{43}{section*.41}
+\contentsline {section}{\numberline {4.10}Data Analysis and Results}{43}{section.4.10}
+\contentsline {subsection}{\numberline {4.10.1}Participants Recruited}{43}{subsection.4.10.1}
+\contentsline {subsubsection}{Entrance and SRS Survey Results}{44}{section*.42}
+\contentsline {paragraph}{Child's Demographics and Inclusion Criteria Fit}{44}{section*.43}
+\contentsline {paragraph}{Child's Experience with Technologies}{44}{section*.44}
+\contentsline {paragraph}{Child's Personal Preferences}{44}{section*.45}
+\contentsline {paragraph}{Child's Abilities on Hand-washing and on Other ADLs}{44}{section*.46}
+\contentsline {paragraph}{Parent's Expectation and Concerns}{44}{section*.47}
+\contentsline {subsection}{\numberline {4.10.2}Case {\color {blue}\uwave {and Samples }}Selected}{45}{subsection.4.10.2}
+\contentsline {subsection}{\numberline {4.10.3}{\color {red}\sout {Qualitative Data Analysis Method}}}{45}{subsection.4.10.3}
+\contentsline {subsection}{\numberline {4.10.3}{\color {blue}\uwave {Quantitative Analysis and Results}}}{46}{subsection.4.10.3}
+\contentsline {subsubsection}{{\color {blue}\uwave {Quantitative Analysis Method}}}{47}{section*.50}
+\contentsline {subsubsection}{{\color {blue}\uwave {Task Completion}}}{47}{section*.51}
+\contentsline {subsubsection}{{\color {blue}\uwave {Child's Response to Prompts}}}{48}{section*.53}
+\contentsline {subsection}{\numberline {4.10.4}{\color {blue}\uwave {Qualitative Analysis and Results}}}{49}{subsection.4.10.4}
+\contentsline {subsubsection}{{\color {blue}\uwave {Qualitative Analysis Method}}}{49}{section*.56}
+\contentsline {subsection}{\numberline {4.10.5}{\color {red}\sout {Qualitative Data Analysis Results}}}{50}{subsection.4.10.5}
+\contentsline {subsubsection}{Parent Prompts - Phase A}{50}{section*.57}
+\contentsline {subsubsection}{Robot {\color {blue}\uwave {Alone }}Prompts - {\color {red}\sout {First }}Phase {\color {red}\sout {B}}{\color {blue}\uwave {B1}}}{53}{section*.59}
+\contentsline {subsubsection}{Robot {\color {blue}\uwave {Parent Joint }}Prompts - Phase C}{55}{section*.60}
+\contentsline {subsubsection}{Robot {\color {blue}\uwave {Alone }}Prompts - {\color {red}\sout {Second }}Phase {\color {red}\sout {B}}{\color {blue}\uwave {B2}}}{56}{section*.61}
+\contentsline {subsubsection}{{\color {blue}\uwave {Child's Engagement and Visual Attention}}}{56}{section*.62}
+\contentsline {subsubsection}{Causes of Child's Non-Compliances}{57}{section*.63}
+\contentsline {subsubsection}{Causes of Improvements of Child's Compliance}{58}{section*.64}
+\contentsline {subsubsection}{Post-Intervention Survey for Parent}{59}{section*.65}
+\contentsline {subsection}{\numberline {4.10.5}{\color {red}\sout {Experiment Design Change}}}{59}{subsection.4.10.5}
+\contentsline {section}{\numberline {4.11}{\color {blue}\uwave {Discussion}}}{59}{section.4.11}
+\contentsline {subsection}{\numberline {4.11.1}{\color {red}\sout {Video Data Analysis and Results}}}{60}{subsection.4.11.1}
+\contentsline {subsubsection}{{\color {red}\sout {Analysis Method}}}{60}{section*.66}
+\contentsline {subsubsection}{{\color {red}\sout {Prompt Effectiveness}}}{60}{section*.67}
+\contentsline {paragraph}{{\color {red}\sout {Number of Incomplete Steps}}}{60}{section*.68}
+\contentsline {subsection}{\numberline {4.11.1}{\color {blue}\uwave {Summary of Results}}}{60}{subsection.4.11.1}
+\contentsline {subsubsection}{{\color {blue}\uwave {Not Waiting For Turn On Water Prompt Rate}}}{61}{section*.69}
+\contentsline {paragraph}{{\color {red}\sout {Number of Parent Prompts}}}{61}{section*.70}
+\contentsline {subsubsection}{{\color {red}\sout {Child's Response to Prompts}}}{62}{section*.71}
+\contentsline {paragraph}{{\color {red}\sout {Compliance Rate}}}{62}{section*.72}
+\contentsline {subsubsection}{{\color {blue}\uwave {Rinse Step Complied Prompt Rate}}}{62}{section*.73}
+\contentsline {paragraph}{{\color {red}\sout {Not Affected By Prompt Rate}}}{62}{section*.74}
+\contentsline {subsubsection}{{\color {red}\sout {Engagement and Visual Attention}}}{63}{section*.75}
+\contentsline {paragraph}{{\color {red}\sout {Number of Times Child Smiles}}}{63}{section*.76}
+\contentsline {paragraph}{{\color {red}\sout {Number of Times Child Murmurs}}}{63}{section*.77}
+\contentsline {paragraph}{{\color {red}\sout {Looking at Prompting Agent Rate}}}{63}{section*.79}
+\contentsline {subsubsection}{{\color {blue}\uwave {Longest Duration of Rinse Step}}}{64}{section*.80}
+\contentsline {section}{\numberline {4.12}{\color {red}\sout {Discussion}}}{64}{section.4.12}
+\contentsline {subsection}{\numberline {4.11.1}{\color {red}\sout {Primary Results}}}{65}{subsection.4.11.1}
+\contentsline {subsection}{\numberline {4.11.1}{\color {blue}\uwave {Internal and External Validity}}}{66}{subsection.4.11.1}
+\contentsline {subsubsection}{{\color {blue}\uwave {Quantitative Analysis Method}}}{67}{section*.82}
+\contentsline {subsection}{\numberline {4.11.2}{\color {red}\sout {Secondary Results}}}{69}{subsection.4.11.2}
+\contentsline {subsubsection}{{\color {blue}\uwave {Qualitative Analysis Method}}}{69}{section*.83}
+\contentsline {subsection}{\numberline {4.11.2}{\color {red}\sout {Limitations and Future Works}}}{70}{subsection.4.11.2}
+\contentsline {subsubsection}{{\color {blue}\uwave {Confounding Variables}}}{71}{section*.84}
+\contentsline {subsubsection}{{\color {blue}\uwave {Generalizability}}}{72}{section*.85}
+\contentsline {chapter}{\numberline {5}Visual Focus of Attention Estimation}{77}{chapter.5}
+\contentsline {section}{\numberline {5.1}Head Pose Estimation}{77}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}3D Kinect Camera Approach}{77}{subsection.5.1.1}
+\contentsline {subsubsection}{Approach Overview}{77}{section*.86}
+\contentsline {subsubsection}{KinFu Head Modeling}{78}{section*.87}
+\contentsline {paragraph}{How KinFu Works}{78}{section*.88}
+\contentsline {subparagraph}{Preprocessing}{78}{section*.89}
+\contentsline {subparagraph}{Alignment}{79}{section*.92}
+\contentsline {subparagraph}{Surface Reconstruction}{81}{section*.94}
+\contentsline {paragraph}{Using KinFu with Kinect2 Camera}{82}{section*.96}
+\contentsline {paragraph}{Using KinFu for Head Modeling}{82}{section*.97}
+\contentsline {subsubsection}{KinFu Head Pose Tracking}{83}{section*.99}
+\contentsline {subsubsection}{Point Cloud Based Inverse Pose Transformation}{83}{section*.100}
+\contentsline {paragraph}{Colored Point Cloud}{84}{section*.101}
+\contentsline {subparagraph}{Head Model Mesh Projection}{84}{section*.102}
+\contentsline {subparagraph}{3D Coordinate Calculation}{84}{section*.103}
+\contentsline {paragraph}{Inverse Pose Transformation}{85}{section*.104}
+\contentsline {subsubsection}{Projection onto Camera Image Plane}{85}{section*.105}
+\contentsline {subsubsection}{Using the EYEDIAP Dataset}{85}{section*.107}
+\contentsline {subsection}{\numberline {5.1.2}Eye Pose Estimation}{87}{subsection.5.1.2}
+\contentsline {subsubsection}{Eye Image Cropping and Stabilization}{87}{section*.108}
+\contentsline {subsubsection}{Eye Image Descriptor}{87}{section*.109}
+\contentsline {subsubsection}{Adaptive Linear Regression (ALR)}{87}{section*.110}
+\contentsline {subsubsection}{Coupled Eyes Constraints}{88}{section*.111}
+\contentsline {subsubsection}{Solving ALR with Coupled Eyes Constraints}{88}{section*.112}
+\contentsline {subsubsection}{Training Examples Collection and Model Selection}{88}{section*.113}
+\contentsline {section}{\numberline {5.2}Object Identification}{89}{section.5.2}
+\contentsline {section}{\numberline {5.3}Discussion}{89}{section.5.3}
+\contentsline {chapter}{\numberline {6}Conclusion}{92}{chapter.6}
+\contentsline {paragraph}{The humanoid robot, NAO, is able to independently assist child with ASD through hand-washing, and child exhibits greater engagement level, higher prompt compliance{\color {red}\sout {rate}}, and better task completion when prompted by NAO than by parent.}{92}{section*.115}
+\contentsline {paragraph}{Gestural, gaze, and verbal are the essential modes of interactions present in the hand-washing prompting scenario between child with ASD and the prompting agent NAO.}{92}{section*.116}
+\contentsline {paragraph}{Using 3DMM and ALR for estimating head pose and eye pose, and using the Kinect camera, a classification rate of more than 80\% is achieved for estimating child's VFOA on NAO, monitor screen, soap, towel, tap region, hands, and idling.}{93}{section*.117}
+\contentsline {section}{\numberline {6.1}{\color {blue}\uwave {Significance}}}{93}{section.6.1}
+\contentsline {section}{\numberline {6.2}{\color {blue}\uwave {Thesis Process Reflections}}}{93}{section.6.2}
+\contentsline {chapter}{Appendices}{96}{section*.118}
+\contentsline {chapter}{\numberline {A}{\color {blue}\uwave {SRS Survey Result}}}{97}{Appendix.1.A}
+\contentsline {chapter}{\numberline {B}{\color {blue}\uwave {Post-Intervention Survey Result}}}{100}{Appendix.1.B}
+\contentsline {chapter}{Bibliography}{101}{table.caption.119}
