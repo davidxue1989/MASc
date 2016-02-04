@@ -5,7 +5,11 @@ The calibration should be performed by a person whose 3D head model has been lea
 \[ argmin_P \sum_{i}^{} || P_{oi} + [(P - P_{oi})\cdot{U_i}]U_i - P ||^2 \]
 The solution to this is simply:
 \[ P = [ \sum_{i}^{} I - U_i U_i^T ]^{-1}  [ \sum_{i}^{}(I - U_i U_i^T)P_{oi} ]   \]
-The covariance of the Gaussian ellipsoid is given by calculating the covariance of the points \(P_{oi} + [(P - P_{oi})\cdot{U_i}]U_i\).
+The covariance of the Gaussian ellipsoid is given by calculating the covariance of the points
+
+
+ Cov( \(P_{oi} + [(P - P_{oi})\cdot{U_i}]U_i\) )
+ 
 \begin{figure}[h]
 	\centering
 	\begin{subfigure}[b]{0.49\textwidth}
