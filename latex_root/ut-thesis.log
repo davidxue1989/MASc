@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.2)  4 FEB 2016 07:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.2)  18 MAR 2016 18:34
 entering extended mode
 **ut-thesis.tex
 (ut-thesis.tex
@@ -529,7 +529,7 @@ Missing character: There is no ì in font cmr10!
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 25.
 
-<./img/ravindra2009therapeutic.png, id=876, 204.765pt x 163.73672pt>
+<./img/ravindra2009therapeutic.png, id=882, 204.765pt x 163.73672pt>
 File: ./img/ravindra2009therapeutic.png Graphic file (type png)
 
 <use ./img/ravindra2009therapeutic.png>
@@ -541,7 +541,7 @@ Package pdftex.def Info: ./img/ravindra2009therapeutic.png used on input line 3
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) (tex/lit_rev_chp/VFOA.tex [16]
-<./img/murphy2009head.png, id=893, 351.56343pt x 442.65375pt>
+<./img/murphy2009head.png, id=899, 351.56343pt x 442.65375pt>
 File: ./img/murphy2009head.png Graphic file (type png)
 
 <use ./img/murphy2009head.png>
@@ -554,7 +554,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [17 <./img/ravindra2009therapeutic.png>] [18 <./img/murphy2009head.png>]
 [19] [20])) [21] (tex/research_objectives_chp/research_objectives_chp.tex
 Chapter 3.
-<./img/nao_t14_schema.png, id=975, 489.83pt x 347.2975pt>
+<./img/nao_t14_schema.png, id=981, 489.83pt x 347.2975pt>
 File: ./img/nao_t14_schema.png Graphic file (type png)
 
 <use ./img/nao_t14_schema.png>
@@ -579,7 +579,7 @@ Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
 
 [27]) (tex/woz_chp/NAO.tex
-<./img/nao-torso.jpg, id=1036, 426.09187pt x 454.69875pt>
+<./img/nao-torso.jpg, id=1042, 426.09187pt x 454.69875pt>
 File: ./img/nao-torso.jpg Graphic file (type jpg)
 
 <use ./img/nao-torso.jpg>
@@ -600,7 +600,7 @@ Overfull \hbox (26.65102pt too wide) in paragraph at lines 10--11
  []
 
 [28 <./img/nao-torso.jpg>]
-<./img/exp_setup_labeled.jpg, id=1045, 614.295pt x 794.97pt>
+<./img/exp_setup_labeled.jpg, id=1051, 614.295pt x 794.97pt>
 File: ./img/exp_setup_labeled.jpg Graphic file (type jpg)
 
 <use ./img/exp_setup_labeled.jpg>
@@ -615,7 +615,7 @@ Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 ) (tex/woz_chp/surveys.tex [29] [30 <./img/exp_setup_labeled.jpg>])
 (tex/woz_chp/interviews.tex) (tex/woz_chp/protocol_and_setup.tex [31]
-<./img/overhead_view.jpg, id=1067, 240.9pt x 180.675pt>
+<./img/overhead_view.jpg, id=1073, 240.9pt x 180.675pt>
 File: ./img/overhead_view.jpg Graphic file (type jpg)
 
 <use ./img/overhead_view.jpg>
@@ -626,7 +626,7 @@ Overfull \hbox (22.13428pt too wide) in paragraph at lines 24--25
 [][] 
  []
 
-<./img/scene_view.jpg, id=1068, 226.665pt x 127.458pt>
+<./img/scene_view.jpg, id=1074, 226.665pt x 127.458pt>
 File: ./img/scene_view.jpg Graphic file (type jpg)
 
 <use ./img/scene_view.jpg>
@@ -637,7 +637,7 @@ Overfull \hbox (22.13428pt too wide) in paragraph at lines 31--32
 [][] 
  []
 
-<./img/kinect_view.jpg, id=1069, 722.7pt x 406.51875pt>
+<./img/kinect_view.jpg, id=1075, 722.7pt x 406.51875pt>
 File: ./img/kinect_view.jpg Graphic file (type jpg)
 
 <use ./img/kinect_view.jpg>
@@ -726,18 +726,18 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [39] [40]
 Package epstopdf Info: Source file: <./img/data_analysis/6ParentInvolvement.eps
 >
-(epstopdf)                    date: 2016-01-16 15:05:21
+(epstopdf)                    date: 2016-01-03 14:05:30
 (epstopdf)                    size: 23915 bytes
 (epstopdf)             Output file: <./img/data_analysis/6ParentInvolvement-eps
 -converted-to.pdf>
-(epstopdf)                    date: 2016-01-16 15:05:21
+(epstopdf)                    date: 2016-01-03 14:05:49
 (epstopdf)                    size: 20121 bytes
 (epstopdf)             Command: <epstopdf --outfile=./img/data_analysis/6Parent
 Involvement-eps-converted-to.pdf ./img/data_analysis/6ParentInvolvement.eps>
 (epstopdf)             \includegraphics on input line 42.
 Package epstopdf Info: Output file is already uptodate.
 
-<./img/data_analysis/6ParentInvolvement-eps-converted-to.pdf, id=1133, 578.16pt
+<./img/data_analysis/6ParentInvolvement-eps-converted-to.pdf, id=1139, 578.16pt
  x 433.62pt>
 File: ./img/data_analysis/6ParentInvolvement-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -749,11 +749,11 @@ o.pdf used on input line 42.
 [41]
 Package epstopdf Info: Source file: <./img/data_analysis/7NumberofParentPrompts
 -PhysInterv.eps>
-(epstopdf)                    date: 2016-01-16 15:05:21
+(epstopdf)                    date: 2016-01-03 14:05:30
 (epstopdf)                    size: 29353 bytes
 (epstopdf)             Output file: <./img/data_analysis/7NumberofParentPrompts
 -PhysInterv-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-01-16 15:05:21
+(epstopdf)                    date: 2016-01-03 14:05:50
 (epstopdf)                    size: 24337 bytes
 (epstopdf)             Command: <epstopdf --outfile=./img/data_analysis/7Number
 ofParentPrompts-PhysInterv-eps-converted-to.pdf ./img/data_analysis/7NumberofPa
@@ -762,7 +762,7 @@ rentPrompts-PhysInterv.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <./img/data_analysis/7NumberofParentPrompts-PhysInterv-eps-converted-to.pdf, id
-=1140, 578.16pt x 433.62pt>
+=1146, 578.16pt x 433.62pt>
 File: ./img/data_analysis/7NumberofParentPrompts-PhysInterv-eps-converted-to.pd
 f Graphic file (type pdf)
 
@@ -775,11 +775,11 @@ eps-converted-to.pdf used on input line 50.
 analysis/7NumberofParentPrompts-PhysInterv-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./img/data_analysis/0NumberofStepsComplete
 d-Overall.eps>
-(epstopdf)                    date: 2016-01-16 15:05:21
+(epstopdf)                    date: 2016-01-03 14:05:27
 (epstopdf)                    size: 29510 bytes
 (epstopdf)             Output file: <./img/data_analysis/0NumberofStepsComplete
 d-Overall-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-01-16 15:05:21
+(epstopdf)                    date: 2016-01-03 14:05:50
 (epstopdf)                    size: 23553 bytes
 (epstopdf)             Command: <epstopdf --outfile=./img/data_analysis/0Number
 ofStepsCompleted-Overall-eps-converted-to.pdf ./img/data_analysis/0NumberofStep
@@ -788,7 +788,7 @@ sCompleted-Overall.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <./img/data_analysis/0NumberofStepsCompleted-Overall-eps-converted-to.pdf, id=1
-215, 578.16pt x 433.62pt>
+221, 578.16pt x 433.62pt>
 File: ./img/data_analysis/0NumberofStepsCompleted-Overall-eps-converted-to.pdf 
 Graphic file (type pdf)
 
@@ -800,11 +800,11 @@ s-converted-to.pdf used on input line 67.
 [43 <./img/data_analysis/0NumberofStepsCompleted-Overall-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./img/data_analysis/4CompliedPromptRate-Ov
 erall.eps>
-(epstopdf)                    date: 2016-01-16 15:05:21
+(epstopdf)                    date: 2016-01-03 14:05:29
 (epstopdf)                    size: 29143 bytes
 (epstopdf)             Output file: <./img/data_analysis/4CompliedPromptRate-Ov
 erall-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-01-16 15:05:21
+(epstopdf)                    date: 2016-01-03 14:06:28
 (epstopdf)                    size: 24314 bytes
 (epstopdf)             Command: <epstopdf --outfile=./img/data_analysis/4Compli
 edPromptRate-Overall-eps-converted-to.pdf ./img/data_analysis/4CompliedPromptRa
@@ -812,7 +812,7 @@ te-Overall.eps>
 (epstopdf)             \includegraphics on input line 84.
 Package epstopdf Info: Output file is already uptodate.
 
-<./img/data_analysis/4CompliedPromptRate-Overall-eps-converted-to.pdf, id=1259,
+<./img/data_analysis/4CompliedPromptRate-Overall-eps-converted-to.pdf, id=1265,
  578.16pt x 433.62pt>
 File: ./img/data_analysis/4CompliedPromptRate-Overall-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -823,11 +823,11 @@ nverted-to.pdf used on input line 84.
 (pdftex.def)             Requested size: 271.01526pt x 203.25887pt.
 Package epstopdf Info: Source file: <./img/data_analysis/1IgnoredPromptRate-Ove
 rall.eps>
-(epstopdf)                    date: 2016-01-16 15:05:21
+(epstopdf)                    date: 2016-01-03 14:05:28
 (epstopdf)                    size: 30279 bytes
 (epstopdf)             Output file: <./img/data_analysis/1IgnoredPromptRate-Ove
 rall-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-01-16 15:05:21
+(epstopdf)                    date: 2016-01-03 14:06:28
 (epstopdf)                    size: 25375 bytes
 (epstopdf)             Command: <epstopdf --outfile=./img/data_analysis/1Ignore
 dPromptRate-Overall-eps-converted-to.pdf ./img/data_analysis/1IgnoredPromptRate
@@ -835,7 +835,7 @@ dPromptRate-Overall-eps-converted-to.pdf ./img/data_analysis/1IgnoredPromptRate
 (epstopdf)             \includegraphics on input line 90.
 Package epstopdf Info: Output file is already uptodate.
 
-<./img/data_analysis/1IgnoredPromptRate-Overall-eps-converted-to.pdf, id=1260, 
+<./img/data_analysis/1IgnoredPromptRate-Overall-eps-converted-to.pdf, id=1266, 
 578.16pt x 433.62pt>
 File: ./img/data_analysis/1IgnoredPromptRate-Overall-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -871,11 +871,11 @@ Underfull \vbox (badness 7944) has occurred while \output is active []
  [54]
 Package epstopdf Info: Source file: <./img/data_analysis/5CompliedPromptRate-Ri
 nseStep.eps>
-(epstopdf)                    date: 2016-01-16 15:05:21
+(epstopdf)                    date: 2016-01-03 14:05:29
 (epstopdf)                    size: 30345 bytes
 (epstopdf)             Output file: <./img/data_analysis/5CompliedPromptRate-Ri
 nseStep-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-01-16 15:05:21
+(epstopdf)                    date: 2016-01-03 14:06:52
 (epstopdf)                    size: 24929 bytes
 (epstopdf)             Command: <epstopdf --outfile=./img/data_analysis/5Compli
 edPromptRate-RinseStep-eps-converted-to.pdf ./img/data_analysis/5CompliedPrompt
@@ -883,8 +883,8 @@ Rate-RinseStep.eps>
 (epstopdf)             \includegraphics on input line 24.
 Package epstopdf Info: Output file is already uptodate.
 
-<./img/data_analysis/5CompliedPromptRate-RinseStep-eps-converted-to.pdf, id=140
-8, 578.16pt x 433.62pt>
+<./img/data_analysis/5CompliedPromptRate-RinseStep-eps-converted-to.pdf, id=141
+4, 578.16pt x 433.62pt>
 File: ./img/data_analysis/5CompliedPromptRate-RinseStep-eps-converted-to.pdf Gr
 aphic file (type pdf)
 
@@ -896,11 +896,11 @@ converted-to.pdf used on input line 24.
 [55]
 Package epstopdf Info: Source file: <./img/data_analysis/8LongestDurationofRins
 esec.eps>
-(epstopdf)                    date: 2016-01-16 15:05:21
+(epstopdf)                    date: 2016-01-03 14:05:31
 (epstopdf)                    size: 29459 bytes
 (epstopdf)             Output file: <./img/data_analysis/8LongestDurationofRins
 esec-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-01-16 15:05:21
+(epstopdf)                    date: 2016-01-03 14:05:51
 (epstopdf)                    size: 25168 bytes
 (epstopdf)             Command: <epstopdf --outfile=./img/data_analysis/8Longes
 tDurationofRinsesec-eps-converted-to.pdf ./img/data_analysis/8LongestDurationof
@@ -908,7 +908,7 @@ Rinsesec.eps>
 (epstopdf)             \includegraphics on input line 33.
 Package epstopdf Info: Output file is already uptodate.
 
-<./img/data_analysis/8LongestDurationofRinsesec-eps-converted-to.pdf, id=1415, 
+<./img/data_analysis/8LongestDurationofRinsesec-eps-converted-to.pdf, id=1421, 
 578.16pt x 433.62pt>
 File: ./img/data_analysis/8LongestDurationofRinsesec-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -923,16 +923,83 @@ verted-to.pdf used on input line 33.
 [58] [59] [60]
 Underfull \vbox (badness 1769) has occurred while \output is active []
 
- [61]))
-[62] [63] (tex/gaze_tracking_chp/gaze_tracking_chp.tex
+ [61]
+[62]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Underfull \vbox (badness 10000) detected at line 115
+ []
+
+[63]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Underfull \hbox (badness 3989) in paragraph at lines 125--125
+[]\OT1/cmr/m/n/10 More spe-cific in-clu-sion cri-te-
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [64]
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+[]\OT1/cmr/m/n/10 Child does not com-ply to
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+
+Underfull \hbox (badness 8019) in paragraph at lines 141--141
+[]\OT1/cmr/m/n/10 Operator is un-fa-mil-iar with
+ []
+
+))
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [65]
+[66] [67] (tex/gaze_tracking_chp/gaze_tracking_chp.tex
 Chapter 5.
 (tex/gaze_tracking_chp/head_pose_estimation.tex
-(tex/gaze_tracking_chp/3D_kinect_camera_approach.tex [64
+(tex/gaze_tracking_chp/3D_kinect_camera_approach.tex [68
 
 
 
 ]
-<./img/bilateral_filtering.jpg, id=1547, 483.8075pt x 279.0425pt>
+<./img/bilateral_filtering.jpg, id=1576, 483.8075pt x 279.0425pt>
 File: ./img/bilateral_filtering.jpg Graphic file (type jpg)
 
 <use ./img/bilateral_filtering.jpg>
@@ -942,7 +1009,7 @@ Package pdftex.def Info: ./img/bilateral_filtering.jpg used on input line 25.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[65] <./img/resolution_pyramid.jpg, id=1567, 161.09346pt x 141.31006pt>
+[69] <./img/resolution_pyramid.jpg, id=1596, 161.09346pt x 141.31006pt>
 File: ./img/resolution_pyramid.jpg Graphic file (type jpg)
 
 <use ./img/resolution_pyramid.jpg>
@@ -952,21 +1019,21 @@ Package pdftex.def Info: ./img/resolution_pyramid.jpg used on input line 42.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./img/point_to_plane_error.jpg, id=1573, 531.48563pt x 320.69812pt>
+<./img/point_to_plane_error.jpg, id=1602, 531.48563pt x 320.69812pt>
 File: ./img/point_to_plane_error.jpg Graphic file (type jpg)
 
 <use ./img/point_to_plane_error.jpg>
 Package pdftex.def Info: ./img/point_to_plane_error.jpg used on input line 56.
 (pdftex.def)             Requested size: 271.01526pt x 163.53429pt.
- [66 <./img/bilateral_filtering.jpg>]
-<./img/TSDF.jpg, id=1583, 332.6599pt x 159.79297pt>
+ [70 <./img/bilateral_filtering.jpg>]
+<./img/TSDF.jpg, id=1613, 332.6599pt x 159.79297pt>
 File: ./img/TSDF.jpg Graphic file (type jpg)
  <use ./img/TSDF.jpg>
 Package pdftex.def Info: ./img/TSDF.jpg used on input line 71.
 (pdftex.def)             Requested size: 271.01526pt x 130.18256pt.
 
-[67 <./img/resolution_pyramid.jpg> <./img/point_to_plane_error.jpg>] [68 <./img
-/TSDF.jpg>] <./img/headTrackingResults1.jpg, id=1597, 722.7pt x 406.51875pt>
+[71 <./img/resolution_pyramid.jpg> <./img/point_to_plane_error.jpg>] [72 <./img
+/TSDF.jpg>] <./img/headTrackingResults1.jpg, id=1627, 722.7pt x 406.51875pt>
 File: ./img/headTrackingResults1.jpg Graphic file (type jpg)
 
 <use ./img/headTrackingResults1.jpg>
@@ -977,8 +1044,8 @@ Package pdftex.def Info: ./img/headTrackingResults1.jpg used on input line 144.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[69] [70 <./img/headTrackingResults1.jpg>] [71]
-<./img/eyeimages/s1.jpg, id=1621, 702.625pt x 702.625pt>
+[73] [74 <./img/headTrackingResults1.jpg>] [75]
+<./img/eyeimages/s1.jpg, id=1650, 702.625pt x 702.625pt>
 File: ./img/eyeimages/s1.jpg Graphic file (type jpg)
 
 <use ./img/eyeimages/s1.jpg>
@@ -989,7 +1056,7 @@ Overfull \hbox (14.4552pt too wide) in paragraph at lines 188--189
 [][] 
  []
 
-<./img/eyeimages/s2.jpg, id=1622, 702.625pt x 702.625pt>
+<./img/eyeimages/s2.jpg, id=1651, 702.625pt x 702.625pt>
 File: ./img/eyeimages/s2.jpg Graphic file (type jpg)
 
 <use ./img/eyeimages/s2.jpg>
@@ -1000,7 +1067,7 @@ Overfull \hbox (14.4552pt too wide) in paragraph at lines 191--192
 [][] 
  []
 
-<./img/eyeimages/s3.jpg, id=1623, 702.625pt x 702.625pt>
+<./img/eyeimages/s3.jpg, id=1652, 702.625pt x 702.625pt>
 File: ./img/eyeimages/s3.jpg Graphic file (type jpg)
 
 <use ./img/eyeimages/s3.jpg>
@@ -1011,7 +1078,7 @@ Overfull \hbox (14.4552pt too wide) in paragraph at lines 194--195
 [][] 
  []
 
-<./img/eyeimages/f1.jpg, id=1624, 702.625pt x 702.625pt>
+<./img/eyeimages/f1.jpg, id=1653, 702.625pt x 702.625pt>
 File: ./img/eyeimages/f1.jpg Graphic file (type jpg)
 
 <use ./img/eyeimages/f1.jpg>
@@ -1022,7 +1089,7 @@ Overfull \hbox (10.8414pt too wide) in paragraph at lines 198--199
 [][] 
  []
 
-<./img/eyeimages/f2.jpg, id=1625, 702.625pt x 702.625pt>
+<./img/eyeimages/f2.jpg, id=1654, 702.625pt x 702.625pt>
 File: ./img/eyeimages/f2.jpg Graphic file (type jpg)
 
 <use ./img/eyeimages/f2.jpg>
@@ -1033,7 +1100,7 @@ Overfull \hbox (10.8414pt too wide) in paragraph at lines 201--202
 [][] 
  []
 
-<./img/eyeimages/f3.jpg, id=1626, 702.625pt x 702.625pt>
+<./img/eyeimages/f3.jpg, id=1655, 702.625pt x 702.625pt>
 File: ./img/eyeimages/f3.jpg Graphic file (type jpg)
 
 <use ./img/eyeimages/f3.jpg>
@@ -1044,7 +1111,7 @@ Overfull \hbox (10.8414pt too wide) in paragraph at lines 204--205
 [][] 
  []
 
-<./img/eyeimages/trackingError.jpg, id=1627, 702.625pt x 702.625pt>
+<./img/eyeimages/trackingError.jpg, id=1656, 702.625pt x 702.625pt>
 File: ./img/eyeimages/trackingError.jpg Graphic file (type jpg)
 
 <use ./img/eyeimages/trackingError.jpg>
@@ -1059,24 +1126,24 @@ Overfull \hbox (10.8414pt too wide) in paragraph at lines 207--208
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[72] [73 <./img/eyeimages/s1.jpg> <./img/eyeimages/s2.jpg> <./img/eyeimages/s3.
+[76] [77 <./img/eyeimages/s1.jpg> <./img/eyeimages/s2.jpg> <./img/eyeimages/s3.
 jpg> <./img/eyeimages/f1.jpg> <./img/eyeimages/f2.jpg> <./img/eyeimages/f3.jpg>
  <./img/eyeimages/trackingError.jpg>]))
-(tex/gaze_tracking_chp/eye_pose_estimation.tex [74])
-(tex/gaze_tracking_chp/object_identification.tex [75]
+(tex/gaze_tracking_chp/eye_pose_estimation.tex [78])
+(tex/gaze_tracking_chp/object_identification.tex [79]
 Package epstopdf Info: Source file: <./img/loc_calib_gauss.eps>
-(epstopdf)                    date: 2016-01-16 15:05:21
+(epstopdf)                    date: 2015-08-17 00:25:33
 (epstopdf)                    size: 40177 bytes
 (epstopdf)             Output file: <./img/loc_calib_gauss-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2016-01-16 15:05:21
+(epstopdf)                    date: 2015-08-17 00:25:33
 (epstopdf)                    size: 24645 bytes
 (epstopdf)             Command: <epstopdf --outfile=./img/loc_calib_gauss-eps-c
 onverted-to.pdf ./img/loc_calib_gauss.eps>
 (epstopdf)             \includegraphics on input line 16.
 Package epstopdf Info: Output file is already uptodate.
 
-<./img/loc_calib_gauss-eps-converted-to.pdf, id=1668, 815.045pt x 639.38875pt>
+<./img/loc_calib_gauss-eps-converted-to.pdf, id=1698, 815.045pt x 639.38875pt>
 File: ./img/loc_calib_gauss-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./img/loc_calib_gauss-eps-converted-to.pdf>
@@ -1089,18 +1156,18 @@ Overfull \hbox (22.13428pt too wide) in paragraph at lines 16--17
  []
 
 Package epstopdf Info: Source file: <./img/loc_calib_gauss_cross.eps>
-(epstopdf)                    date: 2016-01-16 15:05:21
+(epstopdf)                    date: 2015-08-17 00:25:33
 (epstopdf)                    size: 40807 bytes
 (epstopdf)             Output file: <./img/loc_calib_gauss_cross-eps-converted-
 to.pdf>
-(epstopdf)                    date: 2016-01-16 15:05:21
+(epstopdf)                    date: 2015-08-17 00:25:33
 (epstopdf)                    size: 26261 bytes
 (epstopdf)             Command: <epstopdf --outfile=./img/loc_calib_gauss_cross
 -eps-converted-to.pdf ./img/loc_calib_gauss_cross.eps>
 (epstopdf)             \includegraphics on input line 20.
 Package epstopdf Info: Output file is already uptodate.
 
-<./img/loc_calib_gauss_cross-eps-converted-to.pdf, id=1669, 815.045pt x 639.388
+<./img/loc_calib_gauss_cross-eps-converted-to.pdf, id=1699, 815.045pt x 639.388
 75pt>
 File: ./img/loc_calib_gauss_cross-eps-converted-to.pdf Graphic file (type pdf)
  <use ./img/loc_calib_gauss_cross-eps-converted-to.pdf>
@@ -1112,14 +1179,14 @@ Overfull \hbox (22.13428pt too wide) in paragraph at lines 20--21
 [][] 
  []
 
-) [76 <./img/loc_calib_gauss-eps-converted-to.pdf> <./img/loc_calib_gauss_cross
--eps-converted-to.pdf>]) [77] (tex/conclusion_chp/conclusion_chp.tex
+) [80 <./img/loc_calib_gauss-eps-converted-to.pdf> <./img/loc_calib_gauss_cross
+-eps-converted-to.pdf>]) [81] (tex/conclusion_chp/conclusion_chp.tex
 Chapter 6.
-[78
+[82
 
 
 
-] [79]) [80] (tex/appendices/appendices_chp.tex [81
+] [83]) [84] (tex/appendices/appendices_chp.tex [85
 
 
 
@@ -1145,21 +1212,21 @@ Overfull \hbox (25.05481pt too wide) in alignment at lines 45--65
  [] [] 
  []
 
-[82
+[86
 
 ]
 Overfull \hbox (25.05481pt too wide) in alignment at lines 65--74
  [] [] 
  []
 
-[83] [84]
+[87] [88]
 Appendix B.
 
 Overfull \hbox (27.66237pt too wide) in paragraph at lines 80--104
  [][] 
  []
 
-) [85
+) [89
 
 ] (ut-thesis.bbl
 Missing character: There is no ‚ in font cmr10!
@@ -1173,35 +1240,13 @@ Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 46.
- [86
+ [90
 
 
-] [87] [88] [89]
+] [91] [92] [93]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
- [90]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
- [91]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ì in font cmr10!
- [92]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
- [93]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
@@ -1209,10 +1254,32 @@ Missing character: There is no ô in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
+ [95]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+ [96]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [95]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [97]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [98]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [99]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
@@ -1220,9 +1287,9 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 
-[96])
+[100])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 246.
- [97]
+ [101]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 246.
  (ut-thesis.aux (tex/intro_chp/intro_chp.aux)
 (tex/lit_rev_chp/lit_rev_chp.aux)
@@ -1232,14 +1299,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 246.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 246.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 246.
 Package rerunfilecheck Info: File `ut-thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 080A09CC88FD01E280885BC9271DE454;6307.
+(rerunfilecheck)             Checksum: B7470A1178A827EF24F2CC309D285927;6307.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 246.
  ) 
 Here is how much of TeX's memory you used:
- 8696 strings out of 493673
- 137578 string characters out of 3141531
- 245729 words of memory out of 3000000
- 11288 multiletter control sequences out of 15000+200000
+ 8711 strings out of 493673
+ 137759 string characters out of 3141531
+ 247934 words of memory out of 3000000
+ 11292 multiletter control sequences out of 15000+200000
  9468 words of font info for 34 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  42i,10n,49p,2698b,504s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1259,9 +1326,9 @@ KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiKTeX
 .9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on ut-thesis.pdf (106 pages, 2598755 bytes).
+Output written on ut-thesis.pdf (110 pages, 2612899 bytes).
 PDF statistics:
- 1937 PDF objects out of 2073 (max. 8388607)
- 488 named destinations out of 1000 (max. 500000)
+ 1970 PDF objects out of 2073 (max. 8388607)
+ 499 named destinations out of 1000 (max. 500000)
  810 words of extra memory for PDF output out of 10000 (max. 10000000)
 
