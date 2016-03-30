@@ -93,13 +93,6 @@ Vera Bernard-Opitz, N~Sriram, and Sharul Sapuan.
   speech viewer.
 \newblock {\em Autism}, 3(2):131--147, 1999.
 
-\bibitem{bertalmio2000image}
-Marcelo Bertalmio, Guillermo Sapiro, Vincent Caselles, and Coloma Ballester.
-\newblock Image inpainting.
-\newblock In {\em Proceedings of the 27th annual conference on Computer
-  graphics and interactive techniques}, pages 417--424. ACM
-  Press/Addison-Wesley Publishing Co., 2000.
-
 \bibitem{bhargava2013demonstration}
 Shweta Bhargava, Srinivasan Janarthanam, Helen Hastie, Amol Deshmukh, Ruth
   Aylett, Lee Corrigan, and Ginevra Castellano.
@@ -178,6 +171,11 @@ Carlo Colombo and Alberto Del~Bimbo.
 \newblock Real-time head tracking from the deformation of eye contours using a
   piecewise affine camera.
 \newblock {\em Pattern Recognition Letters}, 20(7):721--730, 1999.
+
+\bibitem{congress1997individuals}
+US~Congress.
+\newblock Individuals with disabilities education act amendments of 1997.
+\newblock In {\em Washington, DC: US Congress}, 1997.
 
 \bibitem{constantino2002social}
 John~N Constantino and Christian~P Gruber.
@@ -324,12 +322,6 @@ Mikael Heimann, Keith~E Nelson, Tomas Tjus, and Christopher Gillberg.
 \newblock {\em Journal of autism and developmental disorders}, 25(5):459--480,
   1995.
 
-\bibitem{herrera2012joint}
-C~Herrera, Juho Kannala, Janne Heikkil{\"a}, et~al.
-\newblock Joint depth and color camera calibration with distortion correction.
-\newblock {\em Pattern Analysis and Machine Intelligence, IEEE Transactions
-  on}, 34(10):2058--2064, 2012.
-
 \bibitem{hetzroni2005logos}
 Orit~E Hetzroni and Uri Shalem.
 \newblock From logos to orthographic symbols: A multilevel fading computer
@@ -407,12 +399,6 @@ Mickey Keenan, Karola Dillenburger, Hanns~R{\"u}diger R{\"o}ttgers, Katerina
 \newblock {\em Review Journal of Autism and Developmental Disorders},
   2(2):167--183, 2014.
 
-\bibitem{kim2001second}
-Sunyonga Kim and Masakazu Kojima.
-\newblock Second order cone programming relaxation of nonconvex quadratic
-  optimization problems.
-\newblock {\em Optimization Methods and Software}, 15(3-4):201--224, 2001.
-
 \bibitem{koegel2003teaching}
 Lynn~Kern Koegel, Cynthia~M Carter, and Robert~L Koegel.
 \newblock Teaching children with autism self-initiations as a pivotal response.
@@ -469,12 +455,6 @@ O~Ivar Lovaas.
 O~Ivar Lovaas, Robert~L Koegel, and Laura Schreibman.
 \newblock Stimulus overselectivity in autism: A review of research.
 \newblock {\em Psychological bulletin}, 86(6):1236, 1979.
-
-\bibitem{low2004linear}
-Kok-Lim Low.
-\newblock Linear least-squares optimization for point-to-plane icp surface
-  registration.
-\newblock {\em Chapel Hill, University of North Carolina}, 2004.
 
 \bibitem{lu2011inferring}
 Feng Lu, Yusuke Sugano, Takahiro Okabe, and Yoichi Sato.
@@ -533,13 +513,6 @@ Monique Moore and Sandra Calvert.
 \newblock {\em Journal of autism and developmental disorders}, 30(4):359--362,
   2000.
 
-\bibitem{mora2014eyediap}
-Kenneth Alberto~Funes Mora, Florent Monay, and Jean-Marc Odobez.
-\newblock Eyediap: a database for the development and evaluation of gaze
-  estimation algorithms from rgb and rgb-d cameras.
-\newblock In {\em Proceedings of the Symposium on Eye Tracking Research and
-  Applications}, pages 255--258. ACM, 2014.
-
 \bibitem{murphy2009head}
 Erik Murphy-Chutorian and Mohan~M Trivedi.
 \newblock Head pose estimation in computer vision: A survey.
@@ -592,12 +565,6 @@ Valerie Picardo, Samuel Metson, Rashina Hoda, Robert Amor, Angela
 Andrea~C Pierno, Morena Mari, Dean Lusher, and Umberto Castiello.
 \newblock Robotic movement elicits visuomotor priming in children with autism.
 \newblock {\em Neuropsychologia}, 46(2):448--454, 2008.
-
-\bibitem{pirovano2011kinfu}
-M.~Pirovano.
-\newblock Kinfu – an open-source implementation of kinect fusion + case
-  study: Implementing a 3d scanner with pcl.
-\newblock {\em 3D Structure from Visual Motion}, 2011/2012.
 
 \bibitem{preston2009review}
 Deborah Preston and Mark Carter.
@@ -702,12 +669,6 @@ Nancy~E Rosenberg, Ilene~S Schwartz, and Carol~A Davis.
 Sam~T Roweis and Lawrence~K Saul.
 \newblock Nonlinear dimensionality reduction by locally linear embedding.
 \newblock {\em Science}, 290(5500):2323--2326, 2000.
-
-\bibitem{rusu20113d}
-Radu~Bogdan Rusu and Steve Cousins.
-\newblock 3d is here: Point cloud library (pcl).
-\newblock In {\em Robotics and Automation (ICRA), 2011 IEEE International
-  Conference on}, pages 1--4. IEEE, 2011.
 
 \bibitem{sallows2005intensive}
 Glen~O Sallows and Tamlynn~D Graupner.
@@ -859,12 +820,6 @@ Matt Tincani and Kathryn Devis.
 \newblock Quantitative synthesis and component analysis of single-participant
   studies on the picture exchange communication system.
 \newblock {\em Remedial and Special Education}, 2010.
-
-\bibitem{tomasi1998bilateral}
-Carlo Tomasi and Roberto Manduchi.
-\newblock Bilateral filtering for gray and color images.
-\newblock In {\em Computer Vision, 1998. Sixth International Conference on},
-  pages 839--846. IEEE, 1998.
 
 \bibitem{torta2012can}
 Elena Torta, Jim van Heumen, Raymond~H Cuijpers, and James~F Juola.
