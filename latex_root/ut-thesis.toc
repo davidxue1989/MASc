@@ -34,7 +34,7 @@
 \contentsline {section}{\numberline {4.1}Research Design and Strategy}{20}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Wizard of Oz Experimental Design}{20}{subsection.4.1.1}
 \contentsline {subsection}{\numberline {4.1.2}Case Study Format}{21}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Combining Qualitative and Quantitative Analyses}{21}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.3}Combining Qualitative and Quantitative Analyses}{22}{subsection.4.1.3}
 \contentsline {subsection}{\numberline {4.1.4}Case Selection and Sample Selection}{22}{subsection.4.1.4}
 \contentsline {section}{\numberline {4.2}Recruitment}{23}{section.4.2}
 \contentsline {section}{\numberline {4.3}Humanoid Robot NAO}{24}{section.4.3}
@@ -88,7 +88,7 @@
 \contentsline {subsubsection}{Robot Parent Joint Prompts - Phase C}{47}{section*.46}
 \contentsline {subsubsection}{Robot Alone Prompts - Phase B2}{48}{section*.47}
 \contentsline {subsubsection}{Child's Engagement and Visual Attention}{48}{section*.48}
-\contentsline {subsubsection}{Causes of Child's Non-Compliances}{48}{section*.49}
+\contentsline {subsubsection}{Causes of Child's Non-Compliances}{49}{section*.49}
 \contentsline {subsubsection}{Causes of Improvements of Child's Compliance}{50}{section*.50}
 \contentsline {subsubsection}{Post-Intervention Survey for Parent}{50}{section*.51}
 \contentsline {section}{\numberline {4.11}Discussion}{51}{section.4.11}

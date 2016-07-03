@@ -29,12 +29,6 @@ Microsoft powerpoint [computer software].
 Team up with timo: Animated learning tutor. [computer software].
 \newblock {\em San Francisco, CA: Animated Speech Corporation}, 2005.
 
-\bibitem{amberg2008expression}
-Brian Amberg, Reinhard Knothe, and Thomas Vetter.
-\newblock Expression invariant 3d face recognition with a morphable model.
-\newblock In {\em Automatic Face \& Gesture Recognition, 2008. FG'08. 8th IEEE
-  International Conference on}, pages 1--6. IEEE, 2008.
-
 \bibitem{ashton2001applications}
 Tamarah~M Ashton.
 \newblock The applications of aba to technology: The discrete trial trainer.
@@ -53,11 +47,6 @@ Kevin~M Ayres, Amy Maguire, and Desiree McClimon.
 \newblock {\em Education and Training in Developmental Disabilities},
   44(4):493, 2009.
 
-\bibitem{baluja1994non}
-Shumeet Baluja and Dean Pomerleau.
-\newblock Non-intrusive gaze tracking using artificial neural networks.
-\newblock Technical report, DTIC Document, 1994.
-
 \bibitem{bandura1969principles}
 Albert Bandura.
 \newblock Principles of behavior modification.
@@ -67,12 +56,6 @@ Albert Bandura.
 J~Baoi.
 \newblock Prevalence of autism spectrum disorder among children aged 8 years.
 \newblock {\em MMWR Morb. Mortal. Wkly. Rep}, 63:1--21, 2014.
-
-\bibitem{belkin2003laplacian}
-Mikhail Belkin and Partha Niyogi.
-\newblock Laplacian eigenmaps for dimensionality reduction and data
-  representation.
-\newblock {\em Neural computation}, 15(6):1373--1396, 2003.
 
 \bibitem{bellini2007meta}
 Scott Bellini and Jennifer Akullian.
@@ -166,12 +149,6 @@ Mari~Beth Coleman-Martin, Kathryn~Wolff Heller, David~F Cihak, and Kathryn~L
 \newblock {\em Focus on Autism and Other Developmental Disabilities},
   20(2):80--90, 2005.
 
-\bibitem{colombo1999real}
-Carlo Colombo and Alberto Del~Bimbo.
-\newblock Real-time head tracking from the deformation of eye contours using a
-  piecewise affine camera.
-\newblock {\em Pattern Recognition Letters}, 20(7):721--730, 1999.
-
 \bibitem{congress1997individuals}
 US~Congress.
 \newblock Individuals with disabilities education act amendments of 1997.
@@ -255,18 +232,6 @@ Edmund Frank~Lopresti, Alex Mihailidis, and Ned Kirsch.
 \newblock Assistive technology for cognitive rehabilitation: State of the art.
 \newblock {\em Neuropsychological rehabilitation}, 14(1-2):5--39, 2004.
 
-\bibitem{funes2012gaze}
-Kenneth~Alberto Funes~Mora and J~Odobez.
-\newblock Gaze estimation from multimodal kinect data.
-\newblock In {\em Computer Vision and Pattern Recognition Workshops (CVPRW),
-  2012 IEEE Computer Society Conference on}, pages 25--30. IEEE, 2012.
-
-\bibitem{funes2013person}
-Kenneth~Alberto Funes~Mora and Jean-Marc Odobez.
-\newblock Person independent 3d gaze estimation from remote rgb-d cameras.
-\newblock In {\em International Conference on Image Processing}, number
-  EPFL-CONF-192423. IEEE, 2013.
-
 \bibitem{ganz2012meta}
 Jennifer~B Ganz, John~L Davis, Emily~M Lund, Fara~D Goodwyn, and Richard~L
   Simpson.
@@ -308,12 +273,6 @@ Janet~E Graetz, Margo~A Mastropieri, and Thomas~E Scruggs.
 \newblock Show time using video self-modeling to decrease inappropriate
   behavior.
 \newblock {\em Teaching exceptional children}, 38(5):43--48, 2006.
-
-\bibitem{hansen2010eye}
-Dan~Witzner Hansen and Qiang Ji.
-\newblock In the eye of the beholder: A survey of models for eyes and gaze.
-\newblock {\em Pattern Analysis and Machine Intelligence, IEEE Transactions
-  on}, 32(3):478--500, 2010.
 
 \bibitem{heimann1995increasing}
 Mikael Heimann, Keith~E Nelson, Tomas Tjus, and Christopher Gillberg.
@@ -411,11 +370,6 @@ Hideki Kozima, Cocoro Nakagawa, and Yuriko Yasuda.
 \newblock In {\em Robot and Human Interactive Communication, 2005. ROMAN 2005.
   IEEE International Workshop on}, pages 341--346. IEEE, 2005.
 
-\bibitem{kruger2002gabor}
-Volker Kr{\"u}ger and Gerald Sommer.
-\newblock Gabor wavelet networks for efficient head pose estimation.
-\newblock {\em Image and vision computing}, 20(9):665--672, 2002.
-
 \bibitem{lang2014assistive}
 Russell Lang, Sathiyaprakash Ramdoss, Tracy Raulston, Amarie Carnet, Jeff
   Sigafoos, Robert Didden, Dennis Moore, and Mark~F O’Reilly.
@@ -429,13 +383,6 @@ Corinna Lathan, Katharina Boser, Charlotte Safos, Cathy Frentz, and Kaitlin
 \newblock Using cosmo’s learning system (cls) with children with autism.
 \newblock In {\em Proceedings of the International Conference on
   Technology-Based Learning with Disabilities}, pages 37--47. Citeseer, 2007.
-
-\bibitem{li2000support}
-Yongmin Li, Shaogang Gong, and Heather Liddell.
-\newblock Support vector regression and classification based multi-view face
-  detection and recognition.
-\newblock In {\em Automatic Face and Gesture Recognition, 2000. Proceedings.
-  Fourth IEEE International Conference on}, pages 300--305. IEEE, 2000.
 
 \bibitem{liss2001predictors}
 Miriam Liss, Brian Harel, Deborah Fein, Doris Allen, Michelle Dunn, Carl
@@ -455,12 +402,6 @@ O~Ivar Lovaas.
 O~Ivar Lovaas, Robert~L Koegel, and Laura Schreibman.
 \newblock Stimulus overselectivity in autism: A review of research.
 \newblock {\em Psychological bulletin}, 86(6):1236, 1979.
-
-\bibitem{lu2011inferring}
-Feng Lu, Yusuke Sugano, Takahiro Okabe, and Yoichi Sato.
-\newblock Inferring human gaze from appearance via adaptive linear regression.
-\newblock In {\em Computer Vision (ICCV), 2011 IEEE International Conference
-  on}, pages 153--160. IEEE, 2011.
 
 \bibitem{massaro2006read}
 Dominic~W Massaro and Alexis Bosseler.
@@ -513,20 +454,6 @@ Monique Moore and Sandra Calvert.
 \newblock {\em Journal of autism and developmental disorders}, 30(4):359--362,
   2000.
 
-\bibitem{murphy2009head}
-Erik Murphy-Chutorian and Mohan~M Trivedi.
-\newblock Head pose estimation in computer vision: A survey.
-\newblock {\em Pattern Analysis and Machine Intelligence, IEEE Transactions
-  on}, 31(4):607--626, 2009.
-
-\bibitem{newcombe2011kinectfusion}
-Richard~A Newcombe, Shahram Izadi, Otmar Hilliges, David Molyneaux, David Kim,
-  Andrew~J Davison, Pushmeet Kohi, Jamie Shotton, Steve Hodges, and Andrew
-  Fitzgibbon.
-\newblock Kinectfusion: Real-time dense surface mapping and tracking.
-\newblock In {\em Mixed and augmented reality (ISMAR), 2011 10th IEEE
-  international symposium on}, pages 127--136. IEEE, 2011.
-
 \bibitem{palmen2013behavioral}
 Anna Maria Josephina~Wilhelmina Palmen.
 \newblock {\em Behavioral interventions in adolescents and young adults with
@@ -540,12 +467,6 @@ Carl~L Parsons and Diane La~Sorte.
   spontaneous communication of children with autism.
 \newblock {\em Australian Journal of Human Communication Disorders},
   21(1):12--31, 1993.
-
-\bibitem{paysan20093d}
-Pascal Paysan, Reinhard Knothe, Brian Amberg, Sami Romdhani, and Thomas Vetter.
-\newblock A 3d face model for pose and illumination invariant face recognition.
-\newblock In {\em Advanced Video and Signal Based Surveillance, 2009. AVSS'09.
-  Sixth IEEE International Conference On}, pages 296--301. IEEE, 2009.
 
 \bibitem{peters2011meta}
 Nienke Peters-Scheffer, Robert Didden, Hubert Korzilius, and Peter Sturmey.
@@ -613,24 +534,12 @@ P~Ravindra, S~De~Silva, Katsunori Tadano, Azusa Saito, Stephen~G Lambacher, and
 \newblock In {\em Intelligent Robots and Systems, 2009. IROS 2009. IEEE/RSJ
   International Conference on}, pages 3561--3567. IEEE, 2009.
 
-\bibitem{raytchev2004head}
-Bisser Raytchev, Ikushi Yoda, and Katsuhiko Sakaue.
-\newblock Head pose estimation by nonlinear manifold learning.
-\newblock In {\em Pattern Recognition, 2004. ICPR 2004. Proceedings of the 17th
-  International Conference on}, volume~4, pages 462--466. IEEE, 2004.
-
 \bibitem{reichow2009comprehensive}
 Brian Reichow and Mark Wolery.
 \newblock Comprehensive synthesis of early intensive behavioral interventions
   for young children with autism based on the ucla young autism project model.
 \newblock {\em Journal of autism and developmental disorders}, 39(1):23--41,
   2009.
-
-\bibitem{reinders1996locating}
-Marcel~JT Reinders, RWC Koch, and Jan~J Gerbrands.
-\newblock Locating facial features in image sequences using neural networks.
-\newblock In {\em Automatic Face and Gesture Recognition, 1996., Proceedings of
-  the Second International Conference on}, pages 230--235. IEEE, 1996.
 
 \bibitem{robins2009isolation}
 Ben Robins, Kerstin Dautenhahn, and Paul Dickerson.
@@ -664,11 +573,6 @@ Nancy~E Rosenberg, Ilene~S Schwartz, and Carol~A Davis.
 \newblock Evaluating the utility of commercial videotapes for teaching hand
   washing to children with autism.
 \newblock {\em Education and Treatment of Children}, 33(3):443--455, 2010.
-
-\bibitem{roweis2000nonlinear}
-Sam~T Roweis and Lawrence~K Saul.
-\newblock Nonlinear dimensionality reduction by locally linear embedding.
-\newblock {\em Science}, 290(5500):2323--2326, 2000.
 
 \bibitem{sallows2005intensive}
 Glen~O Sallows and Tamlynn~D Graupner.
@@ -754,11 +658,6 @@ Amber Simpson, John Langone, and Kevin~M Ayres.
 \newblock {\em Education and Training in Developmental Disabilities}, pages
   240--252, 2004.
 
-\bibitem{sirohey2001eye}
-Saad~A Sirohey and Azriel Rosenfeld.
-\newblock Eye detection in a face image using linear and nonlinear filters.
-\newblock {\em Pattern recognition}, 34(7):1367--1391, 2001.
-
 \bibitem{smith2012developmental}
 Leann~E Smith, Matthew~J Maenner, and Marsha~Mailick Seltzer.
 \newblock Developmental trajectories in adolescents and adults with autism: The
@@ -821,23 +720,6 @@ Matt Tincani and Kathryn Devis.
   studies on the picture exchange communication system.
 \newblock {\em Remedial and Special Education}, 2010.
 
-\bibitem{torta2012can}
-Elena Torta, Jim van Heumen, Raymond~H Cuijpers, and James~F Juola.
-\newblock How can a robot attract the attention of its human partner? a
-  comparative study over different modalities for attracting attention.
-\newblock In {\em Social robotics}, pages 288--297. Springer, 2012.
-
-\bibitem{valenti2008accurate}
-Roberto Valenti and Theo Gevers.
-\newblock Accurate eye center location and tracking using isophote curvature.
-\newblock In {\em Computer Vision and Pattern Recognition, 2008. CVPR 2008.
-  IEEE Conference on}, pages 1--8. IEEE, 2008.
-
-\bibitem{valenti2012combining}
-Roberto Valenti, Nicu Sebe, and Theo Gevers.
-\newblock Combining head pose and eye location information for gaze estimation.
-\newblock {\em Image Processing, IEEE Transactions on}, 21(2):802--815, 2012.
-
 \bibitem{van2011assessing}
 Larah van~der Meer, Jeff Sigafoos, Mark~F O’Reilly, and Giulio~E Lancioni.
 \newblock Assessing preferences for aac options in communication interventions
@@ -858,13 +740,6 @@ Toni Van~Laarhoven, Erika Kraus, Keri Karpman, Rosemary Nizzi, and Joe
 \newblock {\em Focus on Autism and Other Developmental Disabilities},
   25(4):195--208, 2010.
 
-\bibitem{voit2008head}
-Michael Voit, Kai Nickel, and Rainer Stiefelhagen.
-\newblock Head pose estimation in single-and multi-view environments-results on
-  the clear’07 benchmarks.
-\newblock In {\em Multimodal Technologies for Perception of Humans}, pages
-  307--316. Springer, 2008.
-
 \bibitem{volkmar2005handbook}
 Fred~R Volkmar, Rhea Paul, Ami Klin, and Donald~J Cohen.
 \newblock {\em Handbook of Autism and Pervasive Developmental Disorders,
@@ -876,11 +751,6 @@ Joshua Wainer, David~J Feil-Seifer, Dylan~A Shell, and Maja~J Mataric.
 \newblock Embodiment and human-robot interaction: A task-based perspective.
 \newblock In {\em Robot and Human interactive Communication, 2007. RO-MAN 2007.
   The 16th IEEE International Symposium on}, pages 872--877. IEEE, 2007.
-
-\bibitem{wang2007enhancement}
-Jian-Gang Wang and Eric Sung.
-\newblock Em enhancement of 3d head pose estimated by point at infinity.
-\newblock {\em Image and Vision Computing}, 25(12):1864--1874, 2007.
 
 \bibitem{weitz1997aac}
 Cynthia Weitz, Mark Dexter, Jacquelyn Moore, SL~Glennon, and DC~DeCoste.
@@ -901,11 +771,6 @@ Alison~M Wichnick, Susan~M Vener, Magdalena Pyrtek, and Claire~L Poulson.
 \newblock The effect of a script-fading procedure on responses to peer
   initiations among young children with autism.
 \newblock {\em Research in Autism Spectrum Disorders}, 4(2):290--299, 2010.
-
-\bibitem{xiao2004real}
-Jing Xiao, Simon Baker, Iain Matthews, and Takeo Kanade.
-\newblock Real-time combined 2d+ 3d active appearance models.
-\newblock In {\em CVPR (2)}, pages 535--542, 2004.
 
 \bibitem{yin2013case}
 Robert~K Yin.

@@ -1,28 +1,19 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Robot behavior loop used by Ravindra et al. \cite {ravindra2009therapeutic}\relax }}{18}{figure.caption.8}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces DOFs of Head Pose, adapted from \cite {murphy2009head}\relax }}{19}{figure.caption.9}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Robot behavior loop used by Ravindra et al. \cite {ravindra2009therapeutic}\relax }}{17}{figure.caption.8}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces The Half-Body Version of Humanoid Robot NAO\relax }}{24}{figure.caption.21}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces The Half-Body Version of Humanoid Robot NAO\relax }}{18}{figure.caption.9}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces NAO T14 Humanoid Torso\relax }}{31}{figure.caption.25}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Experiment Setup\relax }}{32}{figure.caption.26}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces The views of the three cameras used in the WoZ study.\relax }}{36}{figure.caption.29}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces {\color {blue}\uwave {Parent Involvement}}\relax }}{46}{figure.caption.48}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces {\color {blue}\uwave {Number of Parent Prompts - Physical Intervention}}\relax }}{46}{figure.caption.49}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces {\color {blue}\uwave {Number of Steps Completed - Overall}}\relax }}{47}{figure.caption.52}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces {\color {blue}\uwave {Complied Prompt Rate - Overall}}\relax }}{48}{figure.caption.54}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces {\color {blue}\uwave {Ignored Prompt Rate - Overall}}\relax }}{49}{figure.caption.55}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces {\color {red}\sout {Total Number of Times Child Murmurs}}{\color {blue}\uwave {Rinse Step Complied Prompt Rate}}\relax }}{63}{figure.caption.78}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces {\color {blue}\uwave {Longest Duration of Rinse Step}}\relax }}{64}{figure.caption.81}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces A bilateral filter applied to a 2D color image. The left is the original, while the right is filtered, resulting in removal of noise, figure adapted from \cite {pirovano2011kinfu}\relax }}{79}{figure.caption.90}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces A 3-level multi-resolution pyramid, figure adapted from \cite {pirovano2011kinfu}\relax }}{80}{figure.caption.91}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Point-to-plane error between two surfaces, figure adapted from \cite {low2004linear}\relax }}{80}{figure.caption.93}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces A illustration of creating an 1D TSDF, figure adapted from \cite {pirovano2011kinfu}\relax }}{81}{figure.caption.95}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces The 3D Kinect Camera Approach Results: we start by grabbing a frame from the Kinect depth camera (a), then we fit the 3D head model to the depth frame (b), after which we project the head model mesh onto the color camera image plane (c), so as to associate the color pixels with the head model mesh (d), and lastly forming the 3D color point cloud (e).\relax }}{83}{figure.caption.98}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Inverse Pose Transformed Color Images of an Example Head: The top row displays images of the head for moderate range of poses, showing little distortion and blank spots; the bottom row displays failure cases, the first three shows extreme head poses resulting in some distortions and huge blank spots due to occlusion, the last image shows a failure case due to head tracking error, resulting in large distortions.\relax }}{86}{figure.caption.106}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces The Gaussian ellipsoid formed by finding the point of minimal sum of squared distances from all gaze lines. Shown in red is the calculated point, shown in green are the closest point on each gaze line, shown in blue are the gaze lines. In the left figure, the person doing the object location calibration is standing on the right, looking to the left. The figure on the right shows the same plot rotated so the spread of the ellipsoid is seen more clearly.\relax }}{90}{figure.caption.114}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces NAO T14 Humanoid Torso\relax }}{25}{figure.caption.12}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Experiment Setup\relax }}{26}{figure.caption.13}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces The views of the three cameras used in the WoZ study.\relax }}{29}{figure.caption.16}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Parent Involvement\relax }}{38}{figure.caption.34}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Number of Parent Prompts - Physical Intervention\relax }}{38}{figure.caption.35}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Number of Steps Completed - Overall\relax }}{39}{figure.caption.38}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Complied Prompt Rate - Overall\relax }}{41}{figure.caption.40}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Ignored Prompt Rate - Overall\relax }}{42}{figure.caption.41}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Rinse Step Complied Prompt Rate\relax }}{52}{figure.caption.54}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Longest Duration of Rinse Step\relax }}{53}{figure.caption.56}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

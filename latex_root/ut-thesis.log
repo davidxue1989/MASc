@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.2)  4 JUN 2016 13:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.2)  28 JUN 2016 21:03
 entering extended mode
 **ut-thesis.tex
 (ut-thesis.tex
@@ -526,7 +526,7 @@ Missing character: There is no “ in font cmr10!
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 25.
 
-<./img/ravindra2009therapeutic.png, id=835, 204.765pt x 163.73672pt>
+<./img/ravindra2009therapeutic.png, id=788, 204.765pt x 163.73672pt>
 File: ./img/ravindra2009therapeutic.png Graphic file (type png)
 
 <use ./img/ravindra2009therapeutic.png>
@@ -540,7 +540,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [17 <./img/ravindra2009therapeutic.png>]
 (tex/research_objectives_chp/research_objectives_chp.tex
 Chapter 3.
-<./img/nao_t14_schema.png, id=855, 489.83pt x 347.2975pt>
+<./img/nao_t14_schema.png, id=808, 489.83pt x 347.2975pt>
 File: ./img/nao_t14_schema.png Graphic file (type png)
 
 <use ./img/nao_t14_schema.png>
@@ -557,13 +557,16 @@ Chapter 4.
 
 
 
-] [21] [22]) (tex/woz_chp/recruitment.tex
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21]
+[22]) (tex/woz_chp/recruitment.tex
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
-
-[23]) (tex/woz_chp/NAO.tex
-<./img/nao-torso.jpg, id=913, 426.09187pt x 454.69875pt>
+ [23]) (tex/woz_chp/NAO.tex
+<./img/nao-torso.jpg, id=866, 426.09187pt x 454.69875pt>
 File: ./img/nao-torso.jpg Graphic file (type jpg)
 
 <use ./img/nao-torso.jpg>
@@ -583,8 +586,10 @@ Overfull \hbox (26.65102pt too wide) in paragraph at lines 10--11
 [][] 
  []
 
-[24 <./img/nao-torso.jpg>]
-<./img/exp_setup_labeled.jpg, id=921, 614.295pt x 794.97pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./img/exp_setup_labeled.jpg, id=868, 614.295pt x 794.97pt>
 File: ./img/exp_setup_labeled.jpg Graphic file (type jpg)
 
 <use ./img/exp_setup_labeled.jpg>
@@ -594,12 +599,13 @@ Package pdftex.def Info: ./img/exp_setup_labeled.jpg used on input line 29.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+[24]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-) (tex/woz_chp/surveys.tex [25] [26 <./img/exp_setup_labeled.jpg>])
-(tex/woz_chp/interviews.tex) (tex/woz_chp/protocol_and_setup.tex [27]
-<./img/overhead_view.jpg, id=943, 240.9pt x 180.675pt>
+) (tex/woz_chp/surveys.tex [25 <./img/nao-torso.jpg>] [26 <./img/exp_setup_labe
+led.jpg>]) (tex/woz_chp/interviews.tex) (tex/woz_chp/protocol_and_setup.tex [27
+] <./img/overhead_view.jpg, id=896, 240.9pt x 180.675pt>
 File: ./img/overhead_view.jpg Graphic file (type jpg)
 
 <use ./img/overhead_view.jpg>
@@ -610,7 +616,7 @@ Overfull \hbox (22.13428pt too wide) in paragraph at lines 24--25
 [][] 
  []
 
-<./img/scene_view.jpg, id=944, 226.665pt x 127.458pt>
+<./img/scene_view.jpg, id=897, 226.665pt x 127.458pt>
 File: ./img/scene_view.jpg Graphic file (type jpg)
 
 <use ./img/scene_view.jpg>
@@ -621,7 +627,7 @@ Overfull \hbox (22.13428pt too wide) in paragraph at lines 31--32
 [][] 
  []
 
-<./img/kinect_view.jpg, id=945, 722.7pt x 406.51875pt>
+<./img/kinect_view.jpg, id=898, 722.7pt x 406.51875pt>
 File: ./img/kinect_view.jpg Graphic file (type jpg)
 
 <use ./img/kinect_view.jpg>
@@ -710,19 +716,19 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [35] [36]
 Package epstopdf Info: Source file: <./img/data_analysis/6ParentInvolvement.eps
 >
-(epstopdf)                    date: 2016-01-16 15:05:21
+(epstopdf)                    date: 2016-03-30 15:13:12
 (epstopdf)                    size: 23915 bytes
 (epstopdf)             Output file: <./img/data_analysis/6ParentInvolvement-eps
 -converted-to.pdf>
-(epstopdf)                    date: 2016-01-16 15:05:21
+(epstopdf)                    date: 2016-03-30 15:13:12
 (epstopdf)                    size: 20121 bytes
 (epstopdf)             Command: <epstopdf --outfile=./img/data_analysis/6Parent
 Involvement-eps-converted-to.pdf ./img/data_analysis/6ParentInvolvement.eps>
 (epstopdf)             \includegraphics on input line 43.
 Package epstopdf Info: Output file is already uptodate.
 
-<./img/data_analysis/6ParentInvolvement-eps-converted-to.pdf, id=1009, 578.16pt
- x 433.62pt>
+<./img/data_analysis/6ParentInvolvement-eps-converted-to.pdf, id=962, 578.16pt 
+x 433.62pt>
 File: ./img/data_analysis/6ParentInvolvement-eps-converted-to.pdf Graphic file 
 (type pdf)
  <use ./img/data_analysis/6ParentInvolvement-eps-converted-to.pdf>
@@ -733,11 +739,11 @@ o.pdf used on input line 43.
 [37]
 Package epstopdf Info: Source file: <./img/data_analysis/7NumberofParentPrompts
 -PhysInterv.eps>
-(epstopdf)                    date: 2016-01-16 15:05:21
+(epstopdf)                    date: 2016-03-30 15:13:12
 (epstopdf)                    size: 29353 bytes
 (epstopdf)             Output file: <./img/data_analysis/7NumberofParentPrompts
 -PhysInterv-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-01-16 15:05:21
+(epstopdf)                    date: 2016-03-30 15:13:12
 (epstopdf)                    size: 24337 bytes
 (epstopdf)             Command: <epstopdf --outfile=./img/data_analysis/7Number
 ofParentPrompts-PhysInterv-eps-converted-to.pdf ./img/data_analysis/7NumberofPa
@@ -746,7 +752,7 @@ rentPrompts-PhysInterv.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <./img/data_analysis/7NumberofParentPrompts-PhysInterv-eps-converted-to.pdf, id
-=1016, 578.16pt x 433.62pt>
+=969, 578.16pt x 433.62pt>
 File: ./img/data_analysis/7NumberofParentPrompts-PhysInterv-eps-converted-to.pd
 f Graphic file (type pdf)
 
@@ -759,11 +765,11 @@ eps-converted-to.pdf used on input line 51.
 analysis/7NumberofParentPrompts-PhysInterv-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./img/data_analysis/0NumberofStepsComplete
 d-Overall.eps>
-(epstopdf)                    date: 2016-01-16 15:05:21
+(epstopdf)                    date: 2016-03-30 15:13:12
 (epstopdf)                    size: 29510 bytes
 (epstopdf)             Output file: <./img/data_analysis/0NumberofStepsComplete
 d-Overall-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-01-16 15:05:21
+(epstopdf)                    date: 2016-03-30 15:13:12
 (epstopdf)                    size: 23553 bytes
 (epstopdf)             Command: <epstopdf --outfile=./img/data_analysis/0Number
 ofStepsCompleted-Overall-eps-converted-to.pdf ./img/data_analysis/0NumberofStep
@@ -772,7 +778,7 @@ sCompleted-Overall.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <./img/data_analysis/0NumberofStepsCompleted-Overall-eps-converted-to.pdf, id=1
-091, 578.16pt x 433.62pt>
+044, 578.16pt x 433.62pt>
 File: ./img/data_analysis/0NumberofStepsCompleted-Overall-eps-converted-to.pdf 
 Graphic file (type pdf)
 
@@ -784,11 +790,11 @@ s-converted-to.pdf used on input line 68.
 [39 <./img/data_analysis/0NumberofStepsCompleted-Overall-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./img/data_analysis/4CompliedPromptRate-Ov
 erall.eps>
-(epstopdf)                    date: 2016-01-16 15:05:21
+(epstopdf)                    date: 2016-03-30 15:13:12
 (epstopdf)                    size: 29143 bytes
 (epstopdf)             Output file: <./img/data_analysis/4CompliedPromptRate-Ov
 erall-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-01-16 15:05:21
+(epstopdf)                    date: 2016-03-30 15:13:12
 (epstopdf)                    size: 24314 bytes
 (epstopdf)             Command: <epstopdf --outfile=./img/data_analysis/4Compli
 edPromptRate-Overall-eps-converted-to.pdf ./img/data_analysis/4CompliedPromptRa
@@ -796,7 +802,7 @@ te-Overall.eps>
 (epstopdf)             \includegraphics on input line 85.
 Package epstopdf Info: Output file is already uptodate.
 
-<./img/data_analysis/4CompliedPromptRate-Overall-eps-converted-to.pdf, id=1135,
+<./img/data_analysis/4CompliedPromptRate-Overall-eps-converted-to.pdf, id=1088,
  578.16pt x 433.62pt>
 File: ./img/data_analysis/4CompliedPromptRate-Overall-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -807,11 +813,11 @@ nverted-to.pdf used on input line 85.
 (pdftex.def)             Requested size: 271.01526pt x 203.25887pt.
 Package epstopdf Info: Source file: <./img/data_analysis/1IgnoredPromptRate-Ove
 rall.eps>
-(epstopdf)                    date: 2016-01-16 15:05:21
+(epstopdf)                    date: 2016-03-30 15:13:12
 (epstopdf)                    size: 30279 bytes
 (epstopdf)             Output file: <./img/data_analysis/1IgnoredPromptRate-Ove
 rall-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-01-16 15:05:21
+(epstopdf)                    date: 2016-03-30 15:13:12
 (epstopdf)                    size: 25375 bytes
 (epstopdf)             Command: <epstopdf --outfile=./img/data_analysis/1Ignore
 dPromptRate-Overall-eps-converted-to.pdf ./img/data_analysis/1IgnoredPromptRate
@@ -819,7 +825,7 @@ dPromptRate-Overall-eps-converted-to.pdf ./img/data_analysis/1IgnoredPromptRate
 (epstopdf)             \includegraphics on input line 91.
 Package epstopdf Info: Output file is already uptodate.
 
-<./img/data_analysis/1IgnoredPromptRate-Overall-eps-converted-to.pdf, id=1136, 
+<./img/data_analysis/1IgnoredPromptRate-Overall-eps-converted-to.pdf, id=1089, 
 578.16pt x 433.62pt>
 File: ./img/data_analysis/1IgnoredPromptRate-Overall-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -848,22 +854,18 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [46]
-[47] [48]
-Underfull \vbox (badness 1769) has occurred while \output is active []
+[47]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [49])
-(tex/woz_chp/discussion.tex
-Underfull \vbox (badness 7944) has occurred while \output is active []
-
- [50]
-[51]
+ [48]
+[49]) (tex/woz_chp/discussion.tex [50] [51]
 Package epstopdf Info: Source file: <./img/data_analysis/5CompliedPromptRate-Ri
 nseStep.eps>
-(epstopdf)                    date: 2016-01-16 15:05:21
+(epstopdf)                    date: 2016-03-30 15:13:12
 (epstopdf)                    size: 30345 bytes
 (epstopdf)             Output file: <./img/data_analysis/5CompliedPromptRate-Ri
 nseStep-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-01-16 15:05:21
+(epstopdf)                    date: 2016-03-30 15:13:12
 (epstopdf)                    size: 24929 bytes
 (epstopdf)             Command: <epstopdf --outfile=./img/data_analysis/5Compli
 edPromptRate-RinseStep-eps-converted-to.pdf ./img/data_analysis/5CompliedPrompt
@@ -871,8 +873,8 @@ Rate-RinseStep.eps>
 (epstopdf)             \includegraphics on input line 33.
 Package epstopdf Info: Output file is already uptodate.
 
-<./img/data_analysis/5CompliedPromptRate-RinseStep-eps-converted-to.pdf, id=128
-8, 578.16pt x 433.62pt>
+<./img/data_analysis/5CompliedPromptRate-RinseStep-eps-converted-to.pdf, id=124
+1, 578.16pt x 433.62pt>
 File: ./img/data_analysis/5CompliedPromptRate-RinseStep-eps-converted-to.pdf Gr
 aphic file (type pdf)
 
@@ -882,11 +884,11 @@ converted-to.pdf used on input line 33.
 (pdftex.def)             Requested size: 271.01526pt x 203.25887pt.
 Package epstopdf Info: Source file: <./img/data_analysis/8LongestDurationofRins
 esec.eps>
-(epstopdf)                    date: 2016-01-16 15:05:21
+(epstopdf)                    date: 2016-03-30 15:13:12
 (epstopdf)                    size: 29459 bytes
 (epstopdf)             Output file: <./img/data_analysis/8LongestDurationofRins
 esec-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-01-16 15:05:21
+(epstopdf)                    date: 2016-03-30 15:13:12
 (epstopdf)                    size: 25168 bytes
 (epstopdf)             Command: <epstopdf --outfile=./img/data_analysis/8Longes
 tDurationofRinsesec-eps-converted-to.pdf ./img/data_analysis/8LongestDurationof
@@ -894,7 +896,7 @@ Rinsesec.eps>
 (epstopdf)             \includegraphics on input line 42.
 Package epstopdf Info: Output file is already uptodate.
 
-<./img/data_analysis/8LongestDurationofRinsesec-eps-converted-to.pdf, id=1290, 
+<./img/data_analysis/8LongestDurationofRinsesec-eps-converted-to.pdf, id=1243, 
 578.16pt x 433.62pt>
 File: ./img/data_analysis/8LongestDurationofRinsesec-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -943,10 +945,10 @@ Underfull \hbox (badness 8019) in paragraph at lines 150--150
 []\OT1/cmr/m/n/10 Operator is un-fa-mil-iar with
  []
 
-))
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [61]
+ [61]))
 [62] [63] (tex/conclusion_chp/conclusion_chp.tex
 Chapter 5.
 [64
@@ -1061,80 +1063,31 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 246.
 (tex/appendices/appendices_chp.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 246.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 246.
-
-
-Package rerunfilecheck Warning: File `ut-thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `ut-thesis.out':
-(rerunfilecheck)             Before: 080A09CC88FD01E280885BC9271DE454;6307
-(rerunfilecheck)             After:  B912D649CF5995C36AA918A7AA43999C;5488.
+Package rerunfilecheck Info: File `ut-thesis.out' has not changed.
+(rerunfilecheck)             Checksum: B912D649CF5995C36AA918A7AA43999C;5488.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 246.
  ) 
 Here is how much of TeX's memory you used:
- 8519 strings out of 493673
- 133612 string characters out of 3141531
+ 8494 strings out of 493673
+ 133246 string characters out of 3141531
  245230 words of memory out of 3000000
- 11213 multiletter control sequences out of 15000+200000
+ 11202 multiletter control sequences out of 15000+200000
  8849 words of font info for 32 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 42i,10n,49p,2698b,504s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{table.caption.106} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.105} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.6.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.6.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.6} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{section.5.3} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.1.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.1.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.5.5} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.5.4} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.5.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.5.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.5.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.2.5} has been referenced but does not exist
-, replaced by a fixed one
-
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Prog
-ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program
- Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (
-x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x8
-6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on ut-thesis.pdf (90 pages, 1419108 bytes).
+ 42i,10n,49p,2854b,504s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Progr
+am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (
+x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x8
+6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on ut-thesis.pdf (90 pages, 1415084 bytes).
 PDF statistics:
- 1670 PDF objects out of 1728 (max. 8388607)
- 428 named destinations out of 1000 (max. 500000)
- 735 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1620 PDF objects out of 1728 (max. 8388607)
+ 414 named destinations out of 1000 (max. 500000)
+ 647 words of extra memory for PDF output out of 10000 (max. 10000000)
 

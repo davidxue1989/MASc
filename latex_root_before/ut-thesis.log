@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.2)  4 APR 2016 11:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.2)  28 JUN 2016 21:04
 entering extended mode
 **ut-thesis.tex
 (ut-thesis.tex
 LaTeX2e <2015/01/01> patch level 2
 Babel <3.9m> and hyphenation patterns for 69 languages loaded.
-(ut-thesis.cls
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ut-thesis\ut-thesis.cls"
 Document Class: ut-thesis 2012/06/01 v2.0 graduate theses at the University of 
 Toronto
 \@thesisfootnotesep=\skip41
@@ -710,11 +710,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [35] [36]
 Package epstopdf Info: Source file: <./img/data_analysis/6ParentInvolvement.eps
 >
-(epstopdf)                    date: 2016-03-30 15:13:12
+(epstopdf)                    date: 2016-06-25 12:12:18
 (epstopdf)                    size: 23915 bytes
 (epstopdf)             Output file: <./img/data_analysis/6ParentInvolvement-eps
 -converted-to.pdf>
-(epstopdf)                    date: 2016-03-30 15:13:12
+(epstopdf)                    date: 2016-06-25 12:12:18
 (epstopdf)                    size: 20121 bytes
 (epstopdf)             Command: <epstopdf --outfile=./img/data_analysis/6Parent
 Involvement-eps-converted-to.pdf ./img/data_analysis/6ParentInvolvement.eps>
@@ -733,11 +733,11 @@ o.pdf used on input line 43.
 [37]
 Package epstopdf Info: Source file: <./img/data_analysis/7NumberofParentPrompts
 -PhysInterv.eps>
-(epstopdf)                    date: 2016-03-30 15:13:12
+(epstopdf)                    date: 2016-06-25 12:12:18
 (epstopdf)                    size: 29353 bytes
 (epstopdf)             Output file: <./img/data_analysis/7NumberofParentPrompts
 -PhysInterv-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-03-30 15:13:12
+(epstopdf)                    date: 2016-06-25 12:12:18
 (epstopdf)                    size: 24337 bytes
 (epstopdf)             Command: <epstopdf --outfile=./img/data_analysis/7Number
 ofParentPrompts-PhysInterv-eps-converted-to.pdf ./img/data_analysis/7NumberofPa
@@ -759,11 +759,11 @@ eps-converted-to.pdf used on input line 51.
 analysis/7NumberofParentPrompts-PhysInterv-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./img/data_analysis/0NumberofStepsComplete
 d-Overall.eps>
-(epstopdf)                    date: 2016-03-30 15:13:12
+(epstopdf)                    date: 2016-06-25 12:12:18
 (epstopdf)                    size: 29510 bytes
 (epstopdf)             Output file: <./img/data_analysis/0NumberofStepsComplete
 d-Overall-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-03-30 15:13:12
+(epstopdf)                    date: 2016-06-25 12:12:18
 (epstopdf)                    size: 23553 bytes
 (epstopdf)             Command: <epstopdf --outfile=./img/data_analysis/0Number
 ofStepsCompleted-Overall-eps-converted-to.pdf ./img/data_analysis/0NumberofStep
@@ -784,11 +784,11 @@ s-converted-to.pdf used on input line 68.
 [39 <./img/data_analysis/0NumberofStepsCompleted-Overall-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./img/data_analysis/4CompliedPromptRate-Ov
 erall.eps>
-(epstopdf)                    date: 2016-03-30 15:13:12
+(epstopdf)                    date: 2016-06-25 12:12:18
 (epstopdf)                    size: 29143 bytes
 (epstopdf)             Output file: <./img/data_analysis/4CompliedPromptRate-Ov
 erall-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-03-30 15:13:12
+(epstopdf)                    date: 2016-06-25 12:12:18
 (epstopdf)                    size: 24314 bytes
 (epstopdf)             Command: <epstopdf --outfile=./img/data_analysis/4Compli
 edPromptRate-Overall-eps-converted-to.pdf ./img/data_analysis/4CompliedPromptRa
@@ -807,11 +807,11 @@ nverted-to.pdf used on input line 85.
 (pdftex.def)             Requested size: 271.01526pt x 203.25887pt.
 Package epstopdf Info: Source file: <./img/data_analysis/1IgnoredPromptRate-Ove
 rall.eps>
-(epstopdf)                    date: 2016-03-30 15:13:12
+(epstopdf)                    date: 2016-06-25 12:12:18
 (epstopdf)                    size: 30279 bytes
 (epstopdf)             Output file: <./img/data_analysis/1IgnoredPromptRate-Ove
 rall-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-03-30 15:13:12
+(epstopdf)                    date: 2016-06-25 12:12:18
 (epstopdf)                    size: 25375 bytes
 (epstopdf)             Command: <epstopdf --outfile=./img/data_analysis/1Ignore
 dPromptRate-Overall-eps-converted-to.pdf ./img/data_analysis/1IgnoredPromptRate
@@ -859,11 +859,11 @@ Underfull \vbox (badness 7944) has occurred while \output is active []
 [51]
 Package epstopdf Info: Source file: <./img/data_analysis/5CompliedPromptRate-Ri
 nseStep.eps>
-(epstopdf)                    date: 2016-03-30 15:13:12
+(epstopdf)                    date: 2016-06-25 12:12:18
 (epstopdf)                    size: 30345 bytes
 (epstopdf)             Output file: <./img/data_analysis/5CompliedPromptRate-Ri
 nseStep-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-03-30 15:13:12
+(epstopdf)                    date: 2016-06-25 12:12:18
 (epstopdf)                    size: 24929 bytes
 (epstopdf)             Command: <epstopdf --outfile=./img/data_analysis/5Compli
 edPromptRate-RinseStep-eps-converted-to.pdf ./img/data_analysis/5CompliedPrompt
@@ -882,11 +882,11 @@ converted-to.pdf used on input line 33.
 (pdftex.def)             Requested size: 271.01526pt x 203.25887pt.
 Package epstopdf Info: Source file: <./img/data_analysis/8LongestDurationofRins
 esec.eps>
-(epstopdf)                    date: 2016-03-30 15:13:12
+(epstopdf)                    date: 2016-06-25 12:12:18
 (epstopdf)                    size: 29459 bytes
 (epstopdf)             Output file: <./img/data_analysis/8LongestDurationofRins
 esec-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-03-30 15:13:12
+(epstopdf)                    date: 2016-06-25 12:12:18
 (epstopdf)                    size: 25168 bytes
 (epstopdf)             Command: <epstopdf --outfile=./img/data_analysis/8Longes
 tDurationofRinsesec-eps-converted-to.pdf ./img/data_analysis/8LongestDurationof
@@ -1006,24 +1006,29 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 46.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 40.
  [72
 
 
-] [73] [74] [75]
+] [73] [74]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+ [75]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
+ [76]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
- [76] [77]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
+ [77]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
@@ -1031,31 +1036,22 @@ Missing character: There is no ™ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
  [79]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
- [80]
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
- [81]
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
-)
+ [80])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 246.
-
-[82]
+ [81]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 246.
- (ut-thesis.aux (tex/intro_chp/intro_chp.aux)
-(tex/lit_rev_chp/lit_rev_chp.aux)
+
+(ut-thesis.aux (tex/intro_chp/intro_chp.aux) (tex/lit_rev_chp/lit_rev_chp.aux)
 (tex/research_objectives_chp/research_objectives_chp.aux)
 (tex/woz_chp/woz_chp.aux) (tex/conclusion_chp/conclusion_chp.aux)
 (tex/appendices/appendices_chp.aux))
@@ -1066,10 +1062,10 @@ Package rerunfilecheck Info: File `ut-thesis.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 246.
  ) 
 Here is how much of TeX's memory you used:
- 8494 strings out of 493673
- 133246 string characters out of 3141531
- 245230 words of memory out of 3000000
- 11202 multiletter control sequences out of 15000+200000
+ 8448 strings out of 493673
+ 132514 string characters out of 3141531
+ 244303 words of memory out of 3000000
+ 11179 multiletter control sequences out of 15000+200000
  8849 words of font info for 32 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  42i,10n,49p,2698b,504s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1083,9 +1079,9 @@ iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files
  (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (
 x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x8
 6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on ut-thesis.pdf (90 pages, 1414822 bytes).
+Output written on ut-thesis.pdf (89 pages, 1405688 bytes).
 PDF statistics:
- 1620 PDF objects out of 1728 (max. 8388607)
- 414 named destinations out of 1000 (max. 500000)
+ 1588 PDF objects out of 1728 (max. 8388607)
+ 390 named destinations out of 1000 (max. 500000)
  647 words of extra memory for PDF output out of 10000 (max. 10000000)
 
