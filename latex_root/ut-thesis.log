@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.2)  28 JUN 2016 21:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.2)  10 JUL 2016 16:53
 entering extended mode
 **ut-thesis.tex
 (ut-thesis.tex
@@ -460,20 +460,20 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
  [1
 
 {C:/Users/David/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3] (ut
--thesis.lof)
-\tf@lof=\write4
-
+-thesis.toc
 [4
 
-] (ut-thesis.lot)
+] [5])
+\tf@toc=\write4
+ [6] (ut-thesis.lot)
 \tf@lot=\write5
- [5
+ [7
 
-] (ut-thesis.toc [6
+] (ut-thesis.lof)
+\tf@lof=\write6
+ [8
 
-] [7])
-\tf@toc=\write6
- [8]
+]
 (tex/intro_chp/intro_chp.tex
 Chapter 1.
 (tex/intro_chp/motivation.tex [1
@@ -1052,20 +1052,20 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 246.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 242.
 
 [82]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 246.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 242.
  (ut-thesis.aux (tex/intro_chp/intro_chp.aux)
 (tex/lit_rev_chp/lit_rev_chp.aux)
 (tex/research_objectives_chp/research_objectives_chp.aux)
 (tex/woz_chp/woz_chp.aux) (tex/conclusion_chp/conclusion_chp.aux)
 (tex/appendices/appendices_chp.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 246.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 246.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 242.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 242.
 Package rerunfilecheck Info: File `ut-thesis.out' has not changed.
 (rerunfilecheck)             Checksum: B912D649CF5995C36AA918A7AA43999C;5488.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 246.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 242.
  ) 
 Here is how much of TeX's memory you used:
  8494 strings out of 493673
@@ -1085,7 +1085,7 @@ iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files
  (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (
 x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x8
 6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on ut-thesis.pdf (90 pages, 1415084 bytes).
+Output written on ut-thesis.pdf (90 pages, 1415043 bytes).
 PDF statistics:
  1620 PDF objects out of 1728 (max. 8388607)
  414 named destinations out of 1000 (max. 500000)
